@@ -1,0 +1,78 @@
+Jordan	NNP	N[nam]	jordan	I-PER
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+announced	VBN	S[pt]\NP/S[em]	announce	O
+that	IN	S[em]/S[dcl]	that	O
+parliamentary	JJ	N[nom]/N[nom]	parliamentary	O
+elections	NNS	N[nom]	election	O
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+held	VBN	S[pss]\NP	hold	O
+on	IN	S[pss]\NP\S[pss]\NP/NP	on	O
+November	NNP	N[nam]	november	I-DAT
+9	CD	N[nam]\N[nam]	9	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+date	NN	N[nom]	date	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+set	VBN	S[pss]\NP	set	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+a	DT	NP/N[nom]	a	O
+Cabinet	NNP	N[nom]/N[nom]	cabinet	O
+meeting	NN	N[nom]	meeting	O
+Tuesday	NNP	S[pss]\NP\S[pss]\NP	tuesday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+comes	VBZ	S[dcl]\NP	come	O
+nearly	RB	NP/NP	nearly	O
+a	DT	NP/N[nom]	a	O
+month	NN	N[nom]	month	O
+after	IN	S[dcl]\NP\S[dcl]\NP\NP/S[dcl]	after	O
+the	DT	NP/N[nom]	the	O
+government	NN	N[nom]	government	O
+enacted	VBD	S[dcl]\NP/NP	enact	O
+a	DT	NP/N[nom]	a	O
+new	JJ	N[nom]/N[nom]	new	O
+election	NN	N[nom]/N[nom]	election	O
+law	NN	N[nom]	law	O
+increasing	VBG	S[ng]\NP/NP	increase	O
+the	DT	NP/N[nom]	the	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+seats	NNS	N[nom]	seat	O
+from	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP\S[ng]\NP/NP	from	O
+110	CD	N[num]	110	O
+to	TO	S[ng]\NP\S[ng]\NP/NP	to	O
+120	CD	N[num]	120	O
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+also	RB	S[dcl]\NP/S[dcl]\NP	also	O
+doubled	VBD	S[dcl]\NP/NP	double	O
+the	DT	NP/N[nom]	the	O
+quota	NN	N[nom]	quota	O
+of	IN	NP\NP/NP	of	O
+women	NNS	N[nom]/N[nom]	woman	O
+lawmakers	NNS	N[nom]	lawmaker	O
+to	TO	S[dcl]\NP\S[dcl]\NP/NP	to	O
+12	CD	N[num]	12	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Jordan	NNP	N[nam]	jordan	I-PER
+'s	POS	NP/N[nam]\NP	's	O
+King	NNP	N[nam]/N[nam]	king	I-PER
+Abdullah	NNP	N[nam]	abdullah	I-PER
+dissolved	VBD	S[dcl]\NP/NP	dissolve	O
+parliament	NN	N[nom]	parliament	O
+last	JJ	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	last	I-DAT
+year	NN	S[dcl]\NP\S[dcl]\NP	year	I-DAT
+after	IN	S[dcl]\NP\S[dcl]\NP/S[ng]\NP	after	O
+accusing	VBG	S[ng]\NP/PP/NP	accuse	O
+lawmakers	NNS	N[nom]	lawmaker	O
+of	IN	PP/NP	of	O
+ineffectiveness	NN	N[nom]	ineffectiveness	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

@@ -1,0 +1,85 @@
+Riots	NNS	N[nom]	riot	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+broken	VBN	S[pt]\NP/S[adj]\NP	break	O
+out	RP	S[adj]\NP	out	O
+in	IN	S[pt]\NP\S[pt]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+capital	NN	N[nom]	capital	O
+of	IN	NP\NP/NP	of	O
+Algeria	NNP	N[nam]	algerium	I-LOC
+because	IN	S[pt]\NP\S[pt]\NP/PP	because	O
+of	IN	PP/NP	of	O
+soaring	VBG	N[nom]/N[nom]	soar	O
+food	NN	N[nom]/N[nom]	food	O
+prices	NNS	N[nom]	price	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Protesters	NNS	N[nom]	protester	O
+set	VBD	S[dcl]\NP/NP	set	O
+fires	NNS	N[nom]	fire	O
+and	CC	CONJ	and	O
+hurled	VBD	S[dcl]\NP/NP	hurl	O
+stones	NNS	N[nom]	stone	O
+at	IN	S[dcl]\NP\S[dcl]\NP/NP	at	O
+police	NN	N[nom]	police	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Algiers	NNP	N[nam]	algier	I-LOC
+late	JJ	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	late	I-DAT
+Wednesday	NNP	S[dcl]\NP\S[dcl]\NP	wednesday	I-DAT
+and	CC	CONJ	and	I-DAT
+Thursday	NNP	S[dcl]\NP\S[dcl]\NP	thursday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Security	NNP	N[nom]/N[nom]	security	O
+officers	NNS	N[nom]	officer	O
+responded	VBD	S[dcl]\NP/PP	respond	O
+with	IN	PP/NP	with	O
+tear	JJ	N[nom]/N[nom]	tear	O
+gas	NN	N[nom]	gas	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Tensions	NNS	N[nom]	tension	O
+remained	VBD	S[dcl]\NP/S[adj]\NP	remain	O
+high	JJ	S[adj]\NP	high	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+capital	NN	N[nom]	capital	O
+'s	POS	NP/N[nom]\NP	's	O
+neighborhood	NN	N[nom]	neighborhood	O
+of	IN	NP\NP/NP	of	O
+Bab	NNP	N[nam]/N[nam]	bab	I-LOC
+el-Oued	NNP	N[nam]	el-oued	I-LOC
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+Thursday	NNP	N[nam]	thursday	I-DAT
+,	,	NP\NP	,	O
+where	WRB	NP\NP/S[dcl]	where	O
+security	NN	N[nom]/N[nom]	security	O
+officers	NNS	N[nom]	officer	O
+patrolled	VBD	S[dcl]\NP/NP	patrol	O
+the	DT	NP/N[nom]	the	O
+streets	NNS	N[nom]	street	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+violence	NN	N[nom]	violence	O
+erupted	VBD	S[dcl]\NP	erupt	O
+after	IN	S[dcl]\NP\S[dcl]\NP/S[dcl]	after	O
+price	NN	N[nom]/N[nom]	price	O
+hikes	NNS	N[nom]	hike	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+enacted	VBN	S[pss]\NP	enact	O
+for	IN	S[pss]\NP\S[pss]\NP/NP	for	O
+basic	JJ	N[nom]/N[nom]	basic	O
+items	NNS	N[nom]	item	O
+,	,	NP\NP	,	O
+such	JJ	NP\NP/NP\NP	such	O
+as	IN	NP\NP/NP	as	O
+sugar	NN	N[nom]	sugar	O
+,	,	CONJ[app]	,	O
+flour	NN	N[nom]	flour	O
+and	CC	CONJ	and	O
+oil	NN	N[nom]	oil	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

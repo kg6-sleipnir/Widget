@@ -1,0 +1,75 @@
+Resistance	NN	N[nom]	resistance	O
+by	IN	NP\NP/NP	by	O
+native	JJ	N[nom]/N[nom]	native	O
+Caribs	NNS	N[nom]	carib	O
+prevented	VBD	S[dcl]\NP/NP	prevent	O
+colonization	NN	N[nom]	colonization	O
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+Saint	NNP	N[nam]/N[nam]	saint	I-PER
+Vincent	NNP	N[nam]	vincent	I-PER
+until	IN	S[dcl]\NP\S[dcl]\NP/NP	until	O
+1719	CD	N[num]	1719	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Disputed	VBN	S[pss]\NP	dispute	O
+between	IN	S[pss]\NP\S[pss]\NP/NP	between	O
+France	NNP	N[nam]	france	I-LOC
+and	CC	CONJ	and	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-ORG
+Kingdom	NNP	N[nam]	kingdom	I-ORG
+for	IN	S[pss]\NP\S[pss]\NP/NP	for	O
+most	JJS	N[nom]	most	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	I-DAT
+18th	JJ	N[nom]/N[nom]	18th	I-DAT
+century	NN	N[nom]	century	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+the	DT	NP/N[nom]	the	O
+island	NN	N[nom]	island	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+ceded	VBN	S[pss]\NP/PP	cede	O
+to	TO	PP/NP	to	O
+the	DT	NP/N[nom]	the	O
+latter	NN	N[nom]	latter	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1783	CD	N[num]	1783	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Between	IN	S[dcl]/S[dcl]/NP	between	I-DAT
+1960	CD	N[num]	1960	I-DAT
+and	CC	CONJ	and	I-DAT
+1962	CD	N[num]	1962	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+Saint	NNP	N[nam]/N[nam]	saint	I-PER
+Vincent	NNP	N[nam]	vincent	I-PER
+and	CC	CONJ	and	O
+the	DT	NP/N[nam]	the	O
+Grenadines	NNP	N[nam]	grenadine	I-ORG
+was	VBD	S[dcl]\NP/NP	be	O
+a	DT	NP/N[nom]	a	O
+separate	JJ	N[nom]/N[nom]	separate	O
+administrative	JJ	N[nom]/N[nom]	administrative	O
+unit	NN	N[nom]	unit	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nam]	the	O
+Federation	NNP	N[nam]	federation	I-ORG
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nam]	the	O
+West	NNP	N[nam]/N[nam]	west	I-LOC
+Indies	NNPS	N[nam]	indy	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+Autonomy	NNP	N[nam]	autonomy	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+granted	VBN	S[pss]\NP	grant	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1969	CD	N[num]	1969	I-DAT
+and	CC	CONJ	and	O
+independence	NN	N[nom]	independence	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1979	CD	N[num]	1979	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

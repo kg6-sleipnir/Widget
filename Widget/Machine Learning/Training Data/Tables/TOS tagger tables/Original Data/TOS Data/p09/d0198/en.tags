@@ -1,0 +1,64 @@
+The	DT	NP/N[nom]	the	O
+boom	NN	N[nom]	boom	O
+in	IN	NP\NP/NP	in	O
+wind	NN	N[nom]/N[nom]	wind	O
+power	NN	N[nom]	power	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+creating	VBG	S[ng]\NP/NP	create	O
+opportunities	NNS	N[nom]	opportunity	O
+in	IN	S[ng]\NP\S[ng]\NP/NP	in	O
+some	DT	NP/N[nom]	some	O
+economically	RB	N[nom]/N[nom]/N[nom]/N[nom]	economically	O
+depressed	JJ	N[nom]/N[nom]	depressed	O
+areas	NNS	N[nom]	area	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]	state	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+In	IN	S[dcl]/S[dcl]/NP	in	O
+the	DT	NP/N[nom]	the	O
+Great	NNP	N[nom]/N[nom]	great	I-ORG
+Plains	NNPS	N[nom]/N[nom]	plain	I-ORG
+states	NNS	N[nom]	state	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+country	NN	N[nom]	country	O
+,	,	NP\NP	,	O
+where	WRB	NP\NP/S[dcl]	where	O
+wind	NN	N[nom]	wind	O
+is	VBZ	S[dcl]\NP/PP	be	O
+in	IN	PP/NP	in	O
+plentiful	JJ	N[nom]/N[nom]	plentiful	O
+supply	NN	N[nom]	supply	O
+,	,	S[dcl]/S[dcl]	,	O
+the	DT	NP/N[nom]	the	O
+growing	VBG	N[nom]/N[nom]	grow	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+wind	NN	N[nom]/N[nom]	wind	O
+energy	NN	N[nom]/N[nom]	energy	O
+projects	NNS	N[nom]	project	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+helping	VBG	S[ng]\NP/S[to]\NP	help	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+supplement	VB	S[b]\NP/NP	supplement	O
+declining	VBG	N[nom]/N[nom]	decline	O
+farm	NN	N[nom]/N[nom]	farm	O
+incomes	NNS	N[nom]	income	O
+and	CC	CONJ	and	O
+creating	VBG	S[ng]\NP/NP	create	O
+new	JJ	N[nom]/N[nom]	new	O
+jobs	NNS	N[nom]	job	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Mil	NNP	N[nam]/N[nam]	mil	I-PER
+Arcega	NNP	N[nam]	arcega	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

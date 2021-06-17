@@ -1,0 +1,67 @@
+U.S.	NNP	N[nam]/N[nam]	u.s.	I-ORG
+Secretary	NNP	N[nam]/N[nam]	secretary	O
+of	IN	N[nam]/N[nam]\N[nam]/N[nam]/NP	of	O
+State	NNP	N[nam]	state	I-ORG
+Condoleezza	NNP	N[nam]/N[nam]	condoleezza	I-ORG
+Rice	NNP	N[nam]	rice	I-ORG
+is	VBZ	S[dcl]\NP/S[to]\NP	be	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+travel	VB	S[b]\NP	travel	O
+to	TO	S[b]\NP\S[b]\NP/NP	to	O
+Britain	NNP	N[nam]	britain	I-LOC
+next	JJ	S[b]\NP\S[b]\NP/S[b]\NP\S[b]\NP	next	I-DAT
+week	NN	S[b]\NP\S[b]\NP	week	I-DAT
+for	IN	S[b]\NP\S[b]\NP/NP	for	O
+talks	NNS	N[nom]	talk	O
+on	IN	NP\NP/NP	on	O
+Afghanistan	NNP	N[nam]	afghanistan	I-LOC
+,	,	CONJ[app]	,	O
+Iraq	NNP	N[nam]	iraq	I-LOC
+,	,	CONJ[app]	,	O
+Iran	NNP	N[nam]	iran	I-LOC
+,	,	CONJ[app]	,	O
+Kenya	NNP	N[nam]	kenya	I-LOC
+and	CC	CONJ	and	O
+other	JJ	N[nom]/N[nom]	other	O
+issues	NNS	N[nom]	issue	O
+.	.	S[dcl]\S[dcl]	.	O
+
+State	NNP	N[nam]/N[nam]	state	I-ORG
+Department	NNP	N[nam]/N[nam]	department	I-ORG
+spokesman	NN	N[nam]/N[nam]	spokesman	O
+Sean	NNP	N[nam]/N[nam]	sean	I-PER
+McCormack	NNP	N[nam]	mccormack	I-PER
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+Rice	NNP	N[nam]	rice	I-ORG
+is	VBZ	S[dcl]\NP/S[to]\NP	be	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+meet	VB	S[b]\NP/PP	meet	O
+with	IN	PP/NP	with	O
+British	JJ	N[nam]/N[nam]	british	O
+Prime	NNP	N[nam]/N[nam]	prime	O
+Minister	NNP	N[nam]/N[nam]	minister	O
+Gordon	NNP	N[nam]/N[nam]	gordon	I-PER
+Brown	NNP	N[nam]	brown	I-PER
+and	CC	CONJ	and	O
+British	NNP	N[nam]/N[nam]	british	I-ORG
+Foreign	NNP	N[nam]/N[nam]	foreign	I-ORG
+Secretary	NNP	N[nam]/N[nam]	secretary	O
+David	NNP	N[nam]/N[nam]	david	I-PER
+Miliband	NNP	N[nam]	miliband	I-PER
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+spokesman	NN	N[nom]	spokesman	O
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+Rice	NNP	N[nam]	rice	I-ORG
+is	VBZ	S[dcl]\NP/S[to]\NP	be	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+depart	VB	S[b]\NP	depart	O
+for	IN	S[b]\NP\S[b]\NP/NP	for	O
+the	DT	NP/N[nom]	the	O
+trip	NN	N[nom]	trip	O
+Tuesday	NNP	S[b]\NP\S[b]\NP	tuesday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

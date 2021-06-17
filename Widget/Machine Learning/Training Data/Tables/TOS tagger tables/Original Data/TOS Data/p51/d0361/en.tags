@@ -1,0 +1,84 @@
+Jane	NNP	N[nam]/N[nam]	jane	I-PER
+Fonda	NNP	N[nam]	fonda	I-PER
+reportedly	RB	S[dcl]\NP/S[dcl]\NP	reportedly	O
+scolded	VBD	S[dcl]\NP/PP/NP	scold	O
+her	PRP$	NP/N[nam]	her	O
+co-star	NN	N[nam]/N[nam]	co-star	O
+Lindsay	NNP	N[nam]/N[nam]	lindsay	I-PER
+Lohan	NNP	N[nam]	lohan	I-PER
+about	IN	PP/NP	about	O
+her	PRP$	NP/N[nom]	her	O
+antics	NNS	N[nom]	antic	O
+on	IN	NP\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+set	NN	N[nom]	set	O
+of	IN	NP\NP/NP	of	O
+their	PRP$	NP/N[nam]	their	O
+film	NN	N[nam]/N[nam]	film	O
+Georgia	NNP	N[nam]/N[nam]	georgium	I-ORG
+Rules	NNP	N[nam]	rule	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+veteran	NN	N[nom]/N[nom]	veteran	O
+star	NN	N[nom]	star	O
+is	VBZ	S[dcl]\NP/S[pss]\NP	be	O
+said	VBN	S[pss]\NP/S[to]\NP	say	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+have	VB	S[b]\NP/S[pt]\NP	have	O
+sent	VBN	S[pt]\NP/NP/NP	send	O
+Lohan	NNP	N[nam]	lohan	I-PER
+a	DT	NP/N[nom]	a	O
+note	NN	N[nom]	note	O
+taking	VBG	S[ng]\NP/PP/NP	take	O
+her	PRP$	N[nom]	her	O
+to	TO	PP/NP	to	O
+task	NN	N[nom]	task	O
+for	IN	NP\NP/NP	for	O
+widely-publicized	JJ	N[nom]/N[nom]	widely-publicized	O
+bad	JJ	N[nom]/N[nom]	bad	O
+behavior	NN	N[nom]	behavior	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Fonda	NNP	N[nam]	fonda	I-PER
+'s	POS	NP/N[nom]\NP	's	O
+publicist	NN	N[nom]	publicist	O
+denies	VBZ	S[dcl]\NP/NP	deny	O
+reports	NNS	N[nom]/S[em]	report	O
+that	IN	S[em]/S[dcl]	that	O
+Lindsay	NNP	N[nam]/N[nam]	lindsay	I-PER
+Lohan	NNP	N[nam]	lohan	I-PER
+is	VBZ	S[dcl]\NP/S[adj]\NP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+welcome	JJ	S[adj]\NP	welcome	O
+at	IN	S[dcl]\NP\S[dcl]\NP/NP	at	O
+the	DT	NP/N[nom]	the	O
+film	NN	N[nom]	film	O
+'s	POS	NP/N[nom]\NP	's	O
+May	NNP	N[nom]/N[nom]	may	I-DAT
+7	CD	N[nom]/N[nom]	7	I-DAT
+premiere	NN	N[nom]	premiere	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Held	NNP		held	O
+in	IN		in	O
+Atlanta	NNP		atlanta	I-LOC
+,	,		,	O
+Georgia	NNP		georgium	I-LOC
+,	,		,	O
+it	PRP		it	O
+will	MD		will	O
+benefit	VB		benefit	O
+the	DT		the	O
+non-profit	JJ		non-profit	O
+organization	NN		organization	O
+G-CAPP	NNP		g-capp	O
+,	,		,	O
+which	WDT		which	O
+Jane	NNP		jane	I-PER
+Fonda	NNP		fonda	I-PER
+co-chairs	NNS		co-chair	I-PER
+.	.		.	O
+
+
+

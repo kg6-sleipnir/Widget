@@ -1,0 +1,52 @@
+Scientists	NNS	N[nom]	scientist	O
+at	IN	NP\NP/NP	at	O
+the	DT	NP/N[nam]	the	O
+National	NNP	N[nam]/N[nam]	national	I-ORG
+Geographic	NNP	N[nam]/N[nam]	geographic	I-ORG
+Society	NNP	N[nam]	society	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+headquarters	NN	N[nom]	headquarters	O
+in	IN	NP\NP/NP	in	O
+Washington	NNP	N[nam]	washington	I-LOC
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+revealed	VBN	S[pt]\NP/NP	reveal	O
+early	JJ	N[nom]/N[nom]	early	O
+details	NNS	N[nom]	detail	O
+of	IN	NP\NP/NP	of	O
+an	DT	NP/N[nom]	an	O
+extraordinary	JJ	N[nom]/N[nom]	extraordinary	O
+archaeological	NN	N[nom]	archaeological	O
+find	VBP	S[dcl]\NP/NP	find	O
+.	.	S[dcl]/NP\S[dcl]/NP	.	O
+
+Two	CD	N[nom]/N[nom]	two	O
+graveyards	NNS	N[nom]	graveyard	O
+discovered	VBN	S[pss]\NP	discover	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+Northern	NNP	N[nam]/N[nam]	northern	I-LOC
+Niger	NNP	N[nam]	niger	I-LOC
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+providing	VBG	S[ng]\NP/PP/NP	provide	O
+important	JJ	N[nom]/N[nom]	important	O
+insight	NN	N[nom]	insight	O
+into	IN	PP/NP	into	O
+life	NN	N[nom]	life	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+African	JJ	N[nam]/N[nam]	african	O
+Sahara	NNP	N[nam]	sahara	I-LOC
+when	WRB	S[dcl]\NP\S[dcl]\NP/S[dcl]	when	O
+it	PRP	NP	it	O
+was	VBD	S[dcl]\NP/S[adj]\NP	be	O
+green	JJ	S[adj]\NP	green	O
+and	CC	CONJ	and	O
+lush	JJ	S[adj]\NP	lush	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Paul	NNP	N[nam]/N[nam]	paul	I-PER
+Sisco	NNP	N[nam]	sisco	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

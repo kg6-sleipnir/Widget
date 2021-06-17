@@ -1,0 +1,57 @@
+Childhood	NNP	N[nom]/N[nom]	childhood	O
+obesity	NN	N[nom]	obesity	O
+affects	VBZ	S[dcl]\NP/NP	affect	O
+children	NNS	N[nom]	child	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+most	JJS	N[nom]/N[nom]	most	O
+countries	NNS	N[nom]	country	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+world	NN	N[nom]	world	O
+according	VBG	S[dcl]\NP\S[dcl]\NP/PP	accord	O
+to	TO	PP/NP	to	O
+the	DT	NP/N[nam]	the	O
+International	NNP	N[nam]/N[nam]	international	I-ORG
+Obesity	NNP	N[nam]/N[nam]	obesity	I-ORG
+Task	NNP	N[nam]/N[nam]	task	I-ORG
+Force	NNP	N[nam]	force	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+Now	RB	S[dcl]/S[dcl]	now	O
+,	,	S[dcl]/S[dcl]	,	O
+a	DT	NP/N[nom]	a	O
+new	JJ	N[nom]/N[nom]	new	O
+study	NN	N[nom]	study	O
+shows	VBZ	S[dcl]\NP/S[em]	show	O
+that	IN	S[em]/S[dcl]	that	O
+one	CD	N[num]	one	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+most	RBS	N[nom]/N[nom]/N[nom]/N[nom]	most	O
+effective	JJ	N[nom]/N[nom]	effective	O
+ways	NNS	N[nom]	way	O
+of	IN	NP\NP/S[ng]\NP	of	O
+preventing	VBG	S[ng]\NP/NP	prevent	O
+obesity	NN	N[nom]	obesity	O
+--	:	NP\NP/NP	--	O
+exercise	NN	N[nom]	exercise	O
+--	:	NP\NP\NP\NP	--	O
+is	VBZ	S[dcl]\NP/NP	be	O
+something	DT	NP	something	O
+children	NNS	N[nom]	child	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+getting	VBG	S[ng]\NP/S[adj]\NP	get	O
+enough	RB	S[adj]\NP/PP	enough	O
+of	IN	PP/NP	of	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Carol	NNP	N[nam]/N[nam]	carol	I-PER
+Pearson	NNP	N[nam]	pearson	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

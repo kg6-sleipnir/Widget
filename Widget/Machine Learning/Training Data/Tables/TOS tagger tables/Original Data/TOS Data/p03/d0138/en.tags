@@ -1,0 +1,53 @@
+Iraqi	NNP	N[nom]/N[nom]	iraqus	O
+authorities	NNS	N[nom]	authority	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+roadside	NN	N[nom]/N[nom]	roadside	O
+bomb	NN	N[nom]	bomb	O
+struck	VBD	S[dcl]\NP/NP	strike	O
+a	DT	NP/N[nom]	a	O
+police	NN	N[nom]/N[nom]	police	O
+patrol	NN	N[nom]/N[nom]	patrol	O
+northeast	NN	N[nom]	northeast	O
+of	IN	NP\NP/NP	of	O
+Baghdad	NNP	N[nam]	baghdad	I-LOC
+late	JJ	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	late	I-DAT
+Wednesday	NNP	S[dcl]\NP\S[dcl]\NP	wednesday	I-DAT
+,	,	S[dcl]\NP\S[dcl]\NP	,	O
+killing	VBG	S[ng]\NP/NP	kill	O
+at	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP\S[ng]\NP/S[ng]\NP\S[ng]\NP/S[ng]\NP\S[ng]\NP/S[asup]\NP	at	O
+least	JJS	S[asup]\NP	least	O
+two	CD	S[ng]\NP\S[ng]\NP/S[ng]\NP\S[ng]\NP	two	O
+police	NNS	S[ng]\NP\S[ng]\NP	police	O
+officers	NNS	N[nom]	officer	O
+and	CC	CONJ	and	O
+wounding	VBG	S[ng]\NP/NP	wound	O
+four	CD	N[nom]/N[nom]	four	O
+others	NNS	N[nom]	other	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+explosion	NN	N[nom]	explosion	O
+occurred	VBD	S[dcl]\NP	occur	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+town	NN	N[nom]	town	O
+of	IN	NP\NP/NP	of	O
+Jalawla	NNP	N[nam]	jalawlum	I-LOC
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Diyala	NNP	N[nom]/N[nom]	diyalum	I-LOC
+province	NN	N[nom]	province	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Insurgents	NNS	N[nom]	insurgent	O
+frequently	RB	S[dcl]\NP/S[dcl]\NP	frequently	O
+target	VBP	S[dcl]\NP/NP	target	O
+local	JJ	N[nom]/N[nom]	local	O
+and	CC	CONJ	and	O
+international	JJ	N[nom]/N[nom]	international	O
+security	NN	N[nom]/N[nom]	security	O
+forces	NNS	N[nom]	force	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

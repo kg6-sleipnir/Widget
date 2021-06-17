@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- With the U.S. economy in recession , some Americans are finding ways to be thrifty this holiday season : spending time and money on handmade gifts . Making , rather than buying , holiday gifts is growing in popularity . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">With</word>
+  <word xml:id="i1002">the</word>
+  <word xml:id="i1003">U.S.</word>
+  <word xml:id="i1004">economy</word>
+  <word xml:id="i1005">in</word>
+  <word xml:id="i1006">recession</word>
+  <word xml:id="i1007">,</word>
+  <word xml:id="i1008">some</word>
+  <word xml:id="i1009">Americans</word>
+  <word xml:id="i1010">are</word>
+  <word xml:id="i1011">finding</word>
+  <word xml:id="i1012">ways</word>
+  <word xml:id="i1013">to</word>
+  <word xml:id="i1014">be</word>
+  <word xml:id="i1015">thrifty</word>
+  <word xml:id="i1016">this</word>
+  <word xml:id="i1017">holiday</word>
+  <word xml:id="i1018">season</word>
+  <word xml:id="i1019">:</word>
+  <word xml:id="i1020">spending</word>
+  <word xml:id="i1021">time</word>
+  <word xml:id="i1022">and</word>
+  <word xml:id="i1023">money</word>
+  <word xml:id="i1024">on</word>
+  <word xml:id="i1025">handmade</word>
+  <word xml:id="i1026">gifts</word>
+  <word xml:id="i1027">.</word>
+  <word xml:id="i2001">Making</word>
+  <word xml:id="i2002">,</word>
+  <word xml:id="i2003">rather</word>
+  <word xml:id="i2004">than</word>
+  <word xml:id="i2005">buying</word>
+  <word xml:id="i2006">,</word>
+  <word xml:id="i2007">holiday</word>
+  <word xml:id="i2008">gifts</word>
+  <word xml:id="i2009">is</word>
+  <word xml:id="i2010">growing</word>
+  <word xml:id="i2011">in</word>
+  <word xml:id="i2012">popularity</word>
+  <word xml:id="i2013">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">IN</tag>
+  <tag type="pos" index="i1002">DT</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">NN</tag>
+  <tag type="pos" index="i1005">IN</tag>
+  <tag type="pos" index="i1006">NN</tag>
+  <tag type="pos" index="i1007">,</tag>
+  <tag type="pos" index="i1008">DT</tag>
+  <tag type="pos" index="i1009">NNS</tag>
+  <tag type="pos" index="i1010">VBP</tag>
+  <tag type="pos" index="i1011">VBG</tag>
+  <tag type="pos" index="i1012">NNS</tag>
+  <tag type="pos" index="i1013">TO</tag>
+  <tag type="pos" index="i1014">VB</tag>
+  <tag type="pos" index="i1015">JJ</tag>
+  <tag type="pos" index="i1016">DT</tag>
+  <tag type="pos" index="i1017">NN</tag>
+  <tag type="pos" index="i1018">NN</tag>
+  <tag type="pos" index="i1019">IN</tag>
+  <tag type="pos" index="i1020">NN</tag>
+  <tag type="pos" index="i1021">NN</tag>
+  <tag type="pos" index="i1022">CC</tag>
+  <tag type="pos" index="i1023">NN</tag>
+  <tag type="pos" index="i1024">IN</tag>
+  <tag type="pos" index="i1025">JJ</tag>
+  <tag type="pos" index="i1026">NNS</tag>
+  <tag type="pos" index="i1027">.</tag>
+  <tag type="pos" index="i2001">VBG</tag>
+  <tag type="pos" index="i2002">,</tag>
+  <tag type="pos" index="i2003">RB</tag>
+  <tag type="pos" index="i2004">IN</tag>
+  <tag type="pos" index="i2005">NN</tag>
+  <tag type="pos" index="i2006">,</tag>
+  <tag type="pos" index="i2007">NN</tag>
+  <tag type="pos" index="i2008">NNS</tag>
+  <tag type="pos" index="i2009">VBZ</tag>
+  <tag type="pos" index="i2010">VBG</tag>
+  <tag type="pos" index="i2011">IN</tag>
+  <tag type="pos" index="i2012">NN</tag>
+  <tag type="pos" index="i2013">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1003">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>the</token>
+    <token>U.S.</token>
+    <token>economy</token>
+    <token>this</token>
+    <token>holiday</token>
+    <token>season</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </dr>
+    <dr name="t3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t3" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x1" symbol="holiday" type="n" sense="0">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x1" arg2="x2" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x2" symbol="season" type="n" sense="0">
+    <indexlist>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </pred>
+    <named arg="x4" symbol="u.s." type="loc">
+    <indexlist>
+    <index pos="3">i1003</index>
+    </indexlist>
+    </named>
+    <rel arg1="x4" arg2="x5" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x5" symbol="economy" type="n" sense="0">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k6">
+  <sdrs>
+   <constituents>
+   <constituent label="k7">
+   <drs type="sentence">
+    <tokens>
+     <token>With</token>
+     <token>in</token>
+     <token>recession</token>
+     <token>some</token>
+     <token>Americans</token>
+     <token>finding</token>
+     <token>ways</token>
+     <token>be</token>
+     <token>thrifty</token>
+     <token>:</token>
+     <token>spending</token>
+     <token>time</token>
+     <token>money</token>
+     <token>on</token>
+     <token>handmade</token>
+     <token>gifts</token>
+    </tokens>
+    <dom>
+     <dr name="x8">
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+     </dr>
+     <dr name="x9">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p10">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x14">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e11" symbol="find" type="v" sense="13051000">
+     <indexlist>
+     <index pos="11">i1011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x8" symbol="american" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </pred>
+     <pred arg="x9" symbol="way" type="n" sense="0">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </pred>
+     <prop argument="p10">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x15">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x16">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x17">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x15" symbol="spending" type="n" sense="0">
+        <indexlist>
+        <index pos="20">i1020</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x15" arg2="x16" symbol="nn" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x16" symbol="time" type="n" sense="0">
+        <indexlist>
+        <index pos="21">i1021</index>
+        </indexlist>
+        </pred>
+        <pred arg="x16" symbol="money" type="n" sense="0">
+        <indexlist>
+        <index pos="23">i1023</index>
+        </indexlist>
+        </pred>
+        <pred arg="x17" symbol="gift" type="n" sense="0">
+        <indexlist>
+        <index pos="26">i1026</index>
+        </indexlist>
+        </pred>
+        <pred arg="x2" symbol="thrifty" type="a" sense="0">
+        <indexlist>
+        <index pos="15">i1015</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x2" arg2="x16" symbol=":" sense="0">
+        <indexlist>
+        <index pos="19">i1019</index>
+        </indexlist>
+        </rel>
+        <pred arg="x17" symbol="handmade" type="a" sense="0">
+        <indexlist>
+        <index pos="25">i1025</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x2" arg2="x17" symbol="on" sense="0">
+        <indexlist>
+        <index pos="24">i1024</index>
+        </indexlist>
+        </rel>
+        <eq arg1="x9" arg2="x2">
+        <indexlist>
+        <index pos="14">i1014</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e11" arg2="x8" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e11" arg2="x9" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t12" arg2="t3">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="e13" arg2="t12" symbol="temp_overlap" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e13" arg2="e11" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x14" symbol="recession" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x5" arg2="x14" symbol="in" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e13" arg2="x5" symbol="with" sense="0">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k18">
+   <drs type="sentence">
+    <tokens>
+     <token>Making</token>
+     <token>rather</token>
+     <token>than</token>
+     <token>buying</token>
+     <token>,</token>
+     <token>holiday</token>
+     <token>gifts</token>
+     <token>growing</token>
+     <token>in</token>
+     <token>popularity</token>
+    </tokens>
+    <dom>
+     <dr name="x19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e21">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x22">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e27">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e21" symbol="make" type="v" sense="26010100">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <pred arg="e24" symbol="grow" type="v" sense="45060100">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </pred>
+     <pred arg="x20" symbol="thing" type="n" sense="12">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <pred arg="x22" symbol="buying" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x19" symbol="holiday" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x19" arg2="x23" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x23" symbol="gift" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <pred arg="e21" symbol="rather" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x25" symbol="popularity" type="n" sense="0">
+     <indexlist>
+     <index pos="12">i2012</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e21" arg2="x20" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="x22" arg2="x23" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e21" arg2="x22" symbol="than" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e24" arg2="e21" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e24" arg2="x25" symbol="Attribute" sense="0">
+     <indexlist>
+     <index pos="11">i2011</index>
+     </indexlist>
+     </rel>
+     <eq arg1="t26" arg2="t3">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="e27" arg2="t26" symbol="temp_overlap" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="e24" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k7" arg2="k18" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k6" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

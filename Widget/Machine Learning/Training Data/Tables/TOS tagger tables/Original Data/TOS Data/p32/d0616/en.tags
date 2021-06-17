@@ -1,0 +1,65 @@
+A	DT	NP/N[nom]	a	O
+growing	VBG	N[nom]/N[nom]	grow	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+Americans	NNS	N[nom]	american	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+finding	VBG	S[ng]\NP/NP	find	O
+the	DT	NP/N[nom]	the	O
+best	JJS	N[nom]/N[nom]	best	O
+way	NN	N[nom]	way	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+stretch	VB	S[b]\NP/NP	stretch	O
+a	DT	NP/N[nom]	a	O
+dollar	NN	N[nom]	dollar	O
+is	VBZ	S[dcl]\NP/S[to]\NP	be	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+use	VB	S[b]\NP/NP	use	O
+it	PRP	NP	it	O
+sparingly	RB	S[b]\NP\S[b]\NP	sparingly	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Many	NN	N[nom]	many	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+turning	VBG	S[ng]\NP	turn	O
+to	TO	S[ng]\NP\S[ng]\NP/NP	to	O
+the	DT	NP/N[nom]	the	O
+practice	NN	N[nom]	practice	O
+of	IN	NP\NP/NP	of	O
+bartering	VBG	N[nom]	barter	O
+-	:	NP\NP/NP\NP	-	O
+or	CC	CONJ	or	O
+trading	VBG	S[ng]\NP/NP	trade	O
+goods	NNS	N[nom]	goods	O
+and	CC	CONJ	and	O
+services	NNS	N[nom]	service	O
+without	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP	without	O
+exchanging	VBG	S[ng]\NP/NP	exchange	O
+money	NN	N[nom]	money	O
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+'s	VBZ	S[dcl]\NP/NP	be	O
+a	DT	NP/N[nom]	a	O
+practice	NN	N[nom]	practice	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+'s	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+quickly	RB	S[dcl]\NP\S[dcl]\NP	quickly	O
+catching	VBG	S[ng]\NP	catch	O
+on	RP	S[ng]\NP\S[ng]\NP	on	O
+during	IN	S[ng]\NP\S[ng]\NP/NP	during	O
+these	DT	NP/N[nom]	these	O
+tough	JJ	N[nom]/N[nom]	tough	O
+economic	JJ	N[nom]/N[nom]	economic	O
+times	NNS	N[nom]	time	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Mil	NNP	N[nam]/N[nam]	mil	I-PER
+Arcega	NNP	N[nam]	arcega	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

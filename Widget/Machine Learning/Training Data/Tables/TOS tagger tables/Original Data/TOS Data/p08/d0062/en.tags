@@ -1,0 +1,40 @@
+An	DT	NP/N[nom]	an	O
+electric	JJ	N[nom]/N[nom]	electric	O
+company	NN	N[nom]	company	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+sunny	JJ	N[nom]/N[nom]	sunny	O
+western	JJ	N[nom]/N[nom]	western	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+state	NN	N[nom]	state	O
+of	IN	NP\NP/NP	of	O
+California	NNP	N[nom]/N[nom]	californium	I-LOC
+plans	NNS	N[nom]	plan	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+begin	VB	S[b]\NP/S[ng]\NP	begin	O
+installing	VBG	S[ng]\NP/NP	install	O
+solar	JJ	N[nom]/N[nom]	solar	O
+panels	NNS	N[nom]	panel	O
+on	IN	NP\NP/NP	on	O
+rooftops	NNS	N[nom]	rooftop	O
+of	IN	NP\NP/NP	of	O
+commercial	JJ	N[nom]/N[nom]	commercial	O
+buildings	NNS	N[nom]	building	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+produce	VB	S[b]\NP/NP	produce	O
+environmentally	RB	N[nom]/N[nom]/N[nom]/N[nom]	environmentally	O
+friendly	JJ	N[nom]/N[nom]	friendly	O
+energy	NN	N[nom]	energy	O
+.	.	NP\NP	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Paul	NNP	N[nam]/N[nam]	paul	I-PER
+Sisco	NNP	N[nam]	sisco	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+the	DT	NP/N[nom]	the	O
+story	NN	N[nom]	story	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

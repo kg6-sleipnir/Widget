@@ -1,0 +1,63 @@
+The	DT	NP/N[nom]	the	O
+price	NN	N[nom]	price	O
+of	IN	NP\NP/NP	of	O
+oil	NN	N[nom]	oil	O
+hit	VBD	S[dcl]\NP/NP	hit	O
+another	DT	NP/N[nom]	another	O
+new	JJ	N[nom]/N[nom]	new	O
+record	NN	N[nom]	record	O
+Friday	NNP	S[dcl]\NP\S[dcl]\NP	friday	I-DAT
+-	IN	S[dcl]\NP\S[dcl]\NP/NP	-	I-DAT
+$	$	N[num]/N[num]	$	I-MON
+147	CD	N[num]	147	I-MON
+a	DT	NP\NP/N[nom]	a	O
+barrel	NN	N[nom]	barrel	O
+.	.	S[dcl]\S[dcl]	.	O
+
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+airlines	NNS	N[nom]	airline	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+lightening	VBG	S[ng]\NP/NP	lighten	O
+their	PRP$	NP/N[nom]	their	O
+loads	NNS	N[nom]	load	O
+by	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP	by	O
+cutting	VBG	S[ng]\NP/PP	cut	O
+back	RP	S[ng]\NP\S[ng]\NP	back	O
+on	IN	PP/NP	on	O
+luxuries	NNS	N[nom]	luxury	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+weigh	VBP	S[dcl]\NP/NP	weigh	O
+down	RP	S[dcl]\NP\S[dcl]\NP	down	O
+airplanes	NNS	N[nom]	airplane	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Meanwhile	RB	S[dcl]/S[dcl]	meanwhile	O
+,	,	S[dcl]/S[dcl]	,	O
+the	DT	NP/N[nam]	the	O
+U.S.	NNP	N[nam]/N[nam]	u.s.	I-ORG
+Congress	NNP	N[nam]	congress	I-ORG
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+considering	VBG	S[ng]\NP/NP	consider	O
+proposed	VBN	N[nom]/N[nom]	propose	O
+laws	NNS	N[nom]	law	O
+that	IN	NP\NP/S[dcl]/NP	that	O
+some	DT	NP	some	O
+say	VBP	S[dcl]\NP/NP/S[dcl]\NP	say	O
+would	MD	S[dcl]\NP/S[b]\NP	would	O
+help	VB	S[b]\NP/S[b]\NP	help	O
+stabilize	VB	S[b]\NP/NP	stabilize	O
+the	DT	NP/N[nom]	the	O
+price	NN	N[nom]	price	O
+of	IN	NP\NP/NP	of	O
+oil	NN	N[nom]	oil	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Carolyn	NNP	N[nam]/N[nam]	carolyn	I-PER
+Presutti	NNP	N[nam]	presuttus	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

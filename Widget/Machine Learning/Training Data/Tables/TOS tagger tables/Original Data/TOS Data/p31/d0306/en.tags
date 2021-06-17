@@ -1,0 +1,59 @@
+Prince	NNP	N[nam]/N[nam]	prince	I-LOC
+William	NNP	N[nam]/N[nam]	william	I-LOC
+County	NNP	N[nam]	county	I-LOC
+,	,	NP\NP	,	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nom]	the	I-LOC
+Virginia	NNP	N[nom]/N[nom]	virginium	I-LOC
+suburbs	NNS	N[nom]	suburb	O
+outside	IN	NP\NP/PP	outside	O
+of	IN	PP/NP	of	I-LOC
+Washington	NNP	N[nam]	washington	I-LOC
+,	,	NP\NP	,	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+drawing	VBG	S[ng]\NP/NP	draw	O
+attention	NN	N[nom]	attention	O
+across	IN	S[ng]\NP\S[ng]\NP/NP	across	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]	state	I-LOC
+by	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP	by	O
+enforcing	VBG	S[ng]\NP/NP	enforce	O
+local	JJ	N[nom]/N[nom]	local	O
+laws	NNS	N[nom]	law	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+lead	VBP	S[dcl]\NP/PP	lead	O
+to	TO	PP/NP	to	O
+the	DT	NP/N[nom]	the	O
+deportation	NN	N[nom]	deportation	O
+of	IN	NP\NP/NP	of	O
+hundreds	NNS	N[nom]	hundred	O
+of	IN	NP\NP/NP	of	O
+illegal	JJ	N[nom]/N[nom]	illegal	O
+immigrants	NNS	N[nom]	immigrant	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Community	NNP	N[nom]/N[nom]	community	O
+activists	NNS	N[nom]	activist	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+it	PRP	NP	it	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+created	VBN	S[pt]\NP/NP	create	O
+a	DT	NP/N[nom]	a	O
+hostile	JJ	N[nom]/N[nom]	hostile	O
+environment	NN	N[nom]	environment	O
+toward	IN	S[pt]\NP\S[pt]\NP/NP	toward	O
+all	DT	NP/N[nom]	all	O
+immigrants	NNS	N[nom]	immigrant	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Producer	NNP	N[nam]/N[nam]	producer	O
+Zulima	NNP	N[nam]/N[nam]	zulima	I-PER
+Palacio	NNP	N[nam]	palacio	I-PER
+prepared	VBD	S[pt]\NP/NP	prepare	O
+the	DT	NP/N[nom]	the	O
+story	NN	N[nom]	story	O
+.	.	S[pt]\S[pt]	.	O
+
+
+

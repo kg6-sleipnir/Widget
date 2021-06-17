@@ -1,0 +1,49 @@
+Australia	NNP	N[nam]	australium	I-LOC
+is	VBZ	S[dcl]\NP/S[pss]\NP	be	O
+scheduled	VBN	S[pss]\NP/S[to]\NP	schedule	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+host	VB	S[b]\NP/NP	host	O
+the	DT	NP/N[nam]	the	O
+sixth	JJ	N[nam]/N[nam]	sixth	O
+annual	JJ	N[nam]/N[nam]	annual	O
+Homeless	JJ	N[nam]/N[nam]	homeless	O
+World	NNP	N[nam]/N[nam]	world	O
+Cup	NNP	N[nam]	cup	O
+later	RB	S[b]\NP\S[b]\NP/S[b]\NP\S[b]\NP	later	O
+this	DT	S[b]\NP\S[b]\NP/N[nom]	this	I-DAT
+year	NN	N[nom]	year	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+event	NN	N[nom]	event	O
+brings	VBZ	S[dcl]\NP/NP/S[adj]\NP	bring	O
+together	RB	S[adj]\NP	together	O
+hundreds	NNS	N[nom]	hundred	O
+of	IN	NP\NP/NP	of	O
+homeless	JJ	N[nom]/N[nom]	homeless	O
+players	NNS	N[nom]	player	O
+from	IN	NP\NP/NP	from	O
+48	CD	N[nom]/N[nom]	48	O
+countries	NNS	N[nom]	country	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+compete	VB	S[b]\NP	compete	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Sean	NNP	N[nam]/N[nam]	sean	I-PER
+Maroney	NNP	N[nam]	maroney	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+more	RBR	N[nom]	more	O
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+the	DT	NP/N[nam]	the	O
+recent	JJ	N[nam]/N[nam]	recent	O
+Homeless	NNP	N[nam]/N[nam]	homeless	O
+USA	NNP	N[nam]/N[nam]	usa	O
+Cup	NNP	N[nam]	cup	O
+in	IN	NP\NP/NP	in	O
+Washington	NNP	N[nam]	washington	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

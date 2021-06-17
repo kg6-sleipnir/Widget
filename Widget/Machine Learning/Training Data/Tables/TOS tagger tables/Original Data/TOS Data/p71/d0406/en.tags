@@ -1,0 +1,60 @@
+A	DT	NP/N[nom]	a	O
+major	JJ	N[nom]/N[nom]	major	O
+earthquake	NN	N[nom]	earthquake	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+South	NNP	N[nam]/N[nam]	south	I-LOC
+Pacific	NNP	N[nam]/N[nam]	pacific	I-LOC
+Ocean	NNP	N[nam]	ocean	I-LOC
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+triggered	VBN	S[pt]\NP/NP	trigger	O
+a	DT	NP/N[nom]	a	O
+tsunami	NN	N[nom]/N[nom]	tsunami	O
+warning	NN	N[nom]	warning	O
+for	IN	NP\NP/NP	for	O
+several	JJ	N[nom]/N[nom]	several	O
+island	NN	N[nom]/N[nom]	island	O
+nations	NNS	N[nom]	nation	O
+and	CC	CONJ	and	O
+territories	NNS	N[nom]	territory	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nam]	the	O
+U.S.	NNP	N[nam]/N[nam]	u.s.	I-ORG
+Pacific	NNP	N[nam]/N[nam]	pacific	I-ORG
+Tsunami	NNP	N[nam]/N[nam]	tsunami	I-ORG
+Warning	NNP	N[nam]/N[nam]	warning	I-ORG
+Center	NNP	N[nam]	center	I-ORG
+told	VBD	S[dcl]\NP/S[dcl]/NP	tell	O
+VOA	NNP	N[nam]	voa	I-ORG
+a	DT	NP/N[nom]	a	O
+tsunami	NN	N[nom]/N[nom]	tsunami	O
+warning	NN	N[nom]	warning	O
+is	VBZ	S[dcl]\NP/PP	be	O
+in	IN	PP/NP	in	O
+effect	NN	N[nom]	effect	O
+for	IN	S[dcl]\NP\S[dcl]\NP/NP	for	O
+Vanuatu	NNP	N[nam]	vanuatu	I-LOC
+,	,	CONJ[app]	,	O
+the	DT	NP/N[nam]	the	O
+Solomon	NNP	N[nam]/N[nam]	solomon	I-LOC
+Islands	NNP	N[nam]	island	I-LOC
+and	CC	CONJ	and	O
+the	DT	NP/N[nom]	the	O
+French	JJ	N[nom]/N[nom]	french	O
+territory	NN	N[nom]	territory	O
+of	IN	NP\NP/NP	of	O
+New	NNP	N[nam]/N[nam]	new	I-ORG
+Caledonia	NNP	N[nam]	caledonium	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+No	DT	NP/N[nom]	no	O
+other	JJ	N[nom]/N[nom]	other	O
+details	NNS	N[nom]	detail	O
+were	VBD	S[dcl]\NP/S[adj]\NP	be	O
+immediately	RB	S[adj]\NP/S[adj]\NP	immediately	O
+available	JJ	S[adj]\NP	available	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

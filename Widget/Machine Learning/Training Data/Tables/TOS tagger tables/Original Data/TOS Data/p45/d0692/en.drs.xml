@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Scattered over more than three-quarters of a million square kilometers of ocean , the Coral Sea Islands were declared a territory of Australia in 1969 . They are uninhabited except for a small meteorological staff on the Willis Islets . Automated weather stations , beacons , and a lighthouse occupy many other islands and reefs . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Scattered</word>
+  <word xml:id="i1002">over</word>
+  <word xml:id="i1003">more</word>
+  <word xml:id="i1004">than</word>
+  <word xml:id="i1005">three-quarters</word>
+  <word xml:id="i1006">of</word>
+  <word xml:id="i1007">a</word>
+  <word xml:id="i1008">million</word>
+  <word xml:id="i1009">square</word>
+  <word xml:id="i1010">kilometers</word>
+  <word xml:id="i1011">of</word>
+  <word xml:id="i1012">ocean</word>
+  <word xml:id="i1013">,</word>
+  <word xml:id="i1014">the</word>
+  <word xml:id="i1015">Coral</word>
+  <word xml:id="i1016">Sea</word>
+  <word xml:id="i1017">Islands</word>
+  <word xml:id="i1018">were</word>
+  <word xml:id="i1019">declared</word>
+  <word xml:id="i1020">a</word>
+  <word xml:id="i1021">territory</word>
+  <word xml:id="i1022">of</word>
+  <word xml:id="i1023">Australia</word>
+  <word xml:id="i1024">in</word>
+  <word xml:id="i1025">1969</word>
+  <word xml:id="i1026">.</word>
+  <word xml:id="i2001">They</word>
+  <word xml:id="i2002">are</word>
+  <word xml:id="i2003">uninhabited</word>
+  <word xml:id="i2004">except</word>
+  <word xml:id="i2005">for</word>
+  <word xml:id="i2006">a</word>
+  <word xml:id="i2007">small</word>
+  <word xml:id="i2008">meteorological</word>
+  <word xml:id="i2009">staff</word>
+  <word xml:id="i2010">on</word>
+  <word xml:id="i2011">the</word>
+  <word xml:id="i2012">Willis</word>
+  <word xml:id="i2013">Islets</word>
+  <word xml:id="i2014">.</word>
+  <word xml:id="i3001">Automated</word>
+  <word xml:id="i3002">weather</word>
+  <word xml:id="i3003">stations</word>
+  <word xml:id="i3004">,</word>
+  <word xml:id="i3005">beacons</word>
+  <word xml:id="i3006">,</word>
+  <word xml:id="i3007">and</word>
+  <word xml:id="i3008">a</word>
+  <word xml:id="i3009">lighthouse</word>
+  <word xml:id="i3010">occupy</word>
+  <word xml:id="i3011">many</word>
+  <word xml:id="i3012">other</word>
+  <word xml:id="i3013">islands</word>
+  <word xml:id="i3014">and</word>
+  <word xml:id="i3015">reefs</word>
+  <word xml:id="i3016">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">VBN</tag>
+  <tag type="pos" index="i1002">IN</tag>
+  <tag type="pos" index="i1003">JJR</tag>
+  <tag type="pos" index="i1004">IN</tag>
+  <tag type="pos" index="i1005">NNS</tag>
+  <tag type="pos" index="i1006">IN</tag>
+  <tag type="pos" index="i1007">DT</tag>
+  <tag type="pos" index="i1008">CD</tag>
+  <tag type="pos" index="i1009">JJ</tag>
+  <tag type="pos" index="i1010">NNS</tag>
+  <tag type="pos" index="i1011">IN</tag>
+  <tag type="pos" index="i1012">NN</tag>
+  <tag type="pos" index="i1013">,</tag>
+  <tag type="pos" index="i1014">DT</tag>
+  <tag type="pos" index="i1015">NNP</tag>
+  <tag type="pos" index="i1016">NNP</tag>
+  <tag type="pos" index="i1017">NNP</tag>
+  <tag type="pos" index="i1018">VBD</tag>
+  <tag type="pos" index="i1019">VBN</tag>
+  <tag type="pos" index="i1020">DT</tag>
+  <tag type="pos" index="i1021">NN</tag>
+  <tag type="pos" index="i1022">IN</tag>
+  <tag type="pos" index="i1023">NNP</tag>
+  <tag type="pos" index="i1024">IN</tag>
+  <tag type="pos" index="i1025">CD</tag>
+  <tag type="pos" index="i1026">.</tag>
+  <tag type="pos" index="i2001">PRP</tag>
+  <tag type="pos" index="i2002">VBP</tag>
+  <tag type="pos" index="i2003">JJ</tag>
+  <tag type="pos" index="i2004">IN</tag>
+  <tag type="pos" index="i2005">IN</tag>
+  <tag type="pos" index="i2006">DT</tag>
+  <tag type="pos" index="i2007">JJ</tag>
+  <tag type="pos" index="i2008">JJ</tag>
+  <tag type="pos" index="i2009">NN</tag>
+  <tag type="pos" index="i2010">IN</tag>
+  <tag type="pos" index="i2011">DT</tag>
+  <tag type="pos" index="i2012">NNP</tag>
+  <tag type="pos" index="i2013">NNPS</tag>
+  <tag type="pos" index="i2014">.</tag>
+  <tag type="pos" index="i3001">NNP</tag>
+  <tag type="pos" index="i3002">NN</tag>
+  <tag type="pos" index="i3003">NNS</tag>
+  <tag type="pos" index="i3004">,</tag>
+  <tag type="pos" index="i3005">NNS</tag>
+  <tag type="pos" index="i3006">,</tag>
+  <tag type="pos" index="i3007">CC</tag>
+  <tag type="pos" index="i3008">DT</tag>
+  <tag type="pos" index="i3009">NN</tag>
+  <tag type="pos" index="i3010">JJ</tag>
+  <tag type="pos" index="i3011">JJ</tag>
+  <tag type="pos" index="i3012">JJ</tag>
+  <tag type="pos" index="i3013">NNS</tag>
+  <tag type="pos" index="i3014">CC</tag>
+  <tag type="pos" index="i3015">NNS</tag>
+  <tag type="pos" index="i3016">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1015">I-ORG</tag>
+  <tag type="ne" index="i1016">I-ORG</tag>
+  <tag type="ne" index="i1017">I-ORG</tag>
+  <tag type="ne" index="i1023">I-LOC</tag>
+  <tag type="ne" index="i1025">I-DAT</tag>
+  <tag type="ne" index="i2012">I-ORG</tag>
+  <tag type="ne" index="i2013">I-ORG</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>the</token>
+    <token>Coral</token>
+    <token>Sea</token>
+    <token>Islands</token>
+    <token>Australia</token>
+    <token>They</token>
+    <token>the</token>
+    <token>Willis</token>
+    <token>Islets</token>
+    <token>islands</token>
+    <token>reefs</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="11">i2011</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="coral_sea_islands" type="org">
+    <indexlist>
+    <index pos="15">i1015</index>
+    <index pos="16">i1016</index>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="australia" type="loc">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </named>
+    <pred arg="x4" symbol="thing" type="n" sense="12">
+    <indexlist>
+    <index pos="1">i2001</index>
+    </indexlist>
+    </pred>
+    <named arg="x5" symbol="willis_islets" type="org">
+    <indexlist>
+    <index pos="12">i2012</index>
+    <index pos="13">i2013</index>
+    </indexlist>
+    </named>
+    <pred arg="x6" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="13">i3013</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="reef" type="n" sense="0">
+    <indexlist>
+    <index pos="15">i3015</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k7">
+  <sdrs>
+   <constituents>
+   <constituent label="k8">
+   <drs type="sentence">
+    <tokens>
+     <token>Scattered</token>
+     <token>over</token>
+     <token>more</token>
+     <token>than</token>
+     <token>three-quarters</token>
+     <token>of</token>
+     <token>a</token>
+     <token>million</token>
+     <token>square</token>
+     <token>kilometers</token>
+     <token>of</token>
+     <token>ocean</token>
+     <token>declared</token>
+     <token>a</token>
+     <token>territory</token>
+     <token>of</token>
+     <token>in</token>
+     <token>1969</token>
+    </tokens>
+    <dom>
+     <dr name="x9">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e10">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x13">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </dr>
+     <dr name="x14">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x15">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </dr>
+     <dr name="e16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t18">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e10" symbol="scatter" type="v" sense="9070100">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x11" symbol="more" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x12" symbol="three-quarter" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x13" symbol="kilometer" type="n" sense="0">
+     <indexlist>
+     <index pos="10">i1010</index>
+     </indexlist>
+     </pred>
+     <pred arg="x14" symbol="ocean" type="n" sense="0">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e10" arg2="x9" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x13" value="1000000" type="eq">
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+     </card>
+     <pred arg="x13" symbol="square" type="a" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x13" arg2="x14" symbol="of" sense="0">
+     <indexlist>
+     <index pos="11">i1011</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x12" arg2="x13" symbol="of" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x12" symbol="than" sense="0">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e10" arg2="x11" symbol="Destination" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </rel>
+     <pred arg="x15" symbol="territory" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <pred arg="e16" symbol="declare" type="v" sense="29040111">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </pred>
+     <timex arg="x17">
+     <indexlist>
+     <index pos="25">i1025</index>
+     </indexlist>
+     <date>+1969XXXX</date>
+     </timex>
+     <rel arg1="x15" arg2="x3" symbol="of" sense="0">
+     <indexlist>
+     <index pos="22">i1022</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e16" arg2="x2" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e16" arg2="x15" symbol="Predicate" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e16" arg2="x17" symbol="in" sense="0">
+     <indexlist>
+     <index pos="24">i1024</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e16" arg2="t18" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t18" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k19">
+   <drs type="sentence">
+    <tokens>
+     <token>uninhabited</token>
+     <token>for</token>
+     <token>a</token>
+     <token>small</token>
+     <token>meteorological</token>
+     <token>staff</token>
+     <token>on</token>
+    </tokens>
+    <dom>
+     <dr name="p20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t21">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x22">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x22" symbol="staff" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </pred>
+     <prop argument="p20">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <pred arg="x4" symbol="uninhabited" type="a" sense="0">
+        <indexlist>
+        <index pos="3">i2003</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p20" arg2="t21" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t21" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <pred arg="x22" symbol="small" type="a" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x22" symbol="meteorological" type="a" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x22" arg2="x5" symbol="on" sense="0">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </rel>
+     <rel arg1="p20" arg2="x22" symbol="for" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k23">
+   <drs type="sentence">
+    <tokens>
+     <token>Automated</token>
+     <token>weather</token>
+     <token>stations</token>
+     <token>beacons</token>
+     <token>a</token>
+     <token>lighthouse</token>
+     <token>occupy</token>
+     <token>many</token>
+     <token>other</token>
+     <token>islands</token>
+     <token>reefs</token>
+    </tokens>
+    <dom>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x28">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <named arg="x24" symbol="automated" type="nam">
+     <indexlist>
+     <index pos="1">i3001</index>
+     </indexlist>
+     </named>
+     <rel arg1="x24" arg2="x26" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x25" symbol="weather" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i3002</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x25" arg2="x26" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x26" symbol="station" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x27" symbol="beacon" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i3005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="quantity" type="n" sense="1">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="island" type="n" sense="0">
+     <indexlist>
+     <index pos="13">i3013</index>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="reef" type="n" sense="0">
+     <indexlist>
+     <index pos="15">i3015</index>
+     </indexlist>
+     </pred>
+     <pred arg="x26" symbol="topic" type="a" sense="1">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <pred arg="x27" symbol="topic" type="a" sense="1">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="lighthouse" type="a" sense="0">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="occupy" type="a" sense="0">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </pred>
+     <not>
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x28" arg2="x6">
+        <indexlist>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </not>
+     <pred arg="x28" symbol="topic" type="a" sense="1">
+     <indexlist>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k19" arg2="k23" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k8" arg2="k19" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k7" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

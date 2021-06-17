@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Latvia 's President Vaira Vike-Freiberga Latvia 's parliament has extended the stay of the country 's troops serving in Iraq until the end of the year . Sixty seven of the 100 lawmakers Thursday in Riga voted in favor of extending the mission by six months . Latvia , which joined NATO last year , has more than 100 troops in Iraq supporting the U.S efforts there . Latvia has also contributed troops to multinational forces in Afghanistan and the Balkans . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Latvia</word>
+  <word xml:id="i1002">'s</word>
+  <word xml:id="i1003">President</word>
+  <word xml:id="i1004">Vaira</word>
+  <word xml:id="i1005">Vike-Freiberga</word>
+  <word xml:id="i1006">Latvia</word>
+  <word xml:id="i1007">'s</word>
+  <word xml:id="i1008">parliament</word>
+  <word xml:id="i1009">has</word>
+  <word xml:id="i1010">extended</word>
+  <word xml:id="i1011">the</word>
+  <word xml:id="i1012">stay</word>
+  <word xml:id="i1013">of</word>
+  <word xml:id="i1014">the</word>
+  <word xml:id="i1015">country</word>
+  <word xml:id="i1016">'s</word>
+  <word xml:id="i1017">troops</word>
+  <word xml:id="i1018">serving</word>
+  <word xml:id="i1019">in</word>
+  <word xml:id="i1020">Iraq</word>
+  <word xml:id="i1021">until</word>
+  <word xml:id="i1022">the</word>
+  <word xml:id="i1023">end</word>
+  <word xml:id="i1024">of</word>
+  <word xml:id="i1025">the</word>
+  <word xml:id="i1026">year</word>
+  <word xml:id="i1027">.</word>
+  <word xml:id="i2001">Sixty</word>
+  <word xml:id="i2002">seven</word>
+  <word xml:id="i2003">of</word>
+  <word xml:id="i2004">the</word>
+  <word xml:id="i2005">100</word>
+  <word xml:id="i2006">lawmakers</word>
+  <word xml:id="i2007">Thursday</word>
+  <word xml:id="i2008">in</word>
+  <word xml:id="i2009">Riga</word>
+  <word xml:id="i2010">voted</word>
+  <word xml:id="i2011">in</word>
+  <word xml:id="i2012">favor</word>
+  <word xml:id="i2013">of</word>
+  <word xml:id="i2014">extending</word>
+  <word xml:id="i2015">the</word>
+  <word xml:id="i2016">mission</word>
+  <word xml:id="i2017">by</word>
+  <word xml:id="i2018">six</word>
+  <word xml:id="i2019">months</word>
+  <word xml:id="i2020">.</word>
+  <word xml:id="i3001">Latvia</word>
+  <word xml:id="i3002">,</word>
+  <word xml:id="i3003">which</word>
+  <word xml:id="i3004">joined</word>
+  <word xml:id="i3005">NATO</word>
+  <word xml:id="i3006">last</word>
+  <word xml:id="i3007">year</word>
+  <word xml:id="i3008">,</word>
+  <word xml:id="i3009">has</word>
+  <word xml:id="i3010">more</word>
+  <word xml:id="i3011">than</word>
+  <word xml:id="i3012">100</word>
+  <word xml:id="i3013">troops</word>
+  <word xml:id="i3014">in</word>
+  <word xml:id="i3015">Iraq</word>
+  <word xml:id="i3016">supporting</word>
+  <word xml:id="i3017">the</word>
+  <word xml:id="i3018">U.S</word>
+  <word xml:id="i3019">efforts</word>
+  <word xml:id="i3020">there</word>
+  <word xml:id="i3021">.</word>
+  <word xml:id="i4001">Latvia</word>
+  <word xml:id="i4002">has</word>
+  <word xml:id="i4003">also</word>
+  <word xml:id="i4004">contributed</word>
+  <word xml:id="i4005">troops</word>
+  <word xml:id="i4006">to</word>
+  <word xml:id="i4007">multinational</word>
+  <word xml:id="i4008">forces</word>
+  <word xml:id="i4009">in</word>
+  <word xml:id="i4010">Afghanistan</word>
+  <word xml:id="i4011">and</word>
+  <word xml:id="i4012">the</word>
+  <word xml:id="i4013">Balkans</word>
+  <word xml:id="i4014">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNP</tag>
+  <tag type="pos" index="i1002">POS</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">NNP</tag>
+  <tag type="pos" index="i1005">NNP</tag>
+  <tag type="pos" index="i1006">NNP</tag>
+  <tag type="pos" index="i1007">POS</tag>
+  <tag type="pos" index="i1008">NN</tag>
+  <tag type="pos" index="i1009">VBZ</tag>
+  <tag type="pos" index="i1010">VBN</tag>
+  <tag type="pos" index="i1011">DT</tag>
+  <tag type="pos" index="i1012">NN</tag>
+  <tag type="pos" index="i1013">IN</tag>
+  <tag type="pos" index="i1014">DT</tag>
+  <tag type="pos" index="i1015">NN</tag>
+  <tag type="pos" index="i1016">POS</tag>
+  <tag type="pos" index="i1017">NNS</tag>
+  <tag type="pos" index="i1018">VBG</tag>
+  <tag type="pos" index="i1019">IN</tag>
+  <tag type="pos" index="i1020">NNP</tag>
+  <tag type="pos" index="i1021">IN</tag>
+  <tag type="pos" index="i1022">DT</tag>
+  <tag type="pos" index="i1023">NN</tag>
+  <tag type="pos" index="i1024">IN</tag>
+  <tag type="pos" index="i1025">DT</tag>
+  <tag type="pos" index="i1026">NN</tag>
+  <tag type="pos" index="i1027">.</tag>
+  <tag type="pos" index="i2001">NNP</tag>
+  <tag type="pos" index="i2002">CD</tag>
+  <tag type="pos" index="i2003">IN</tag>
+  <tag type="pos" index="i2004">DT</tag>
+  <tag type="pos" index="i2005">CD</tag>
+  <tag type="pos" index="i2006">NNS</tag>
+  <tag type="pos" index="i2007">NNP</tag>
+  <tag type="pos" index="i2008">IN</tag>
+  <tag type="pos" index="i2009">NNP</tag>
+  <tag type="pos" index="i2010">VBD</tag>
+  <tag type="pos" index="i2011">IN</tag>
+  <tag type="pos" index="i2012">NN</tag>
+  <tag type="pos" index="i2013">IN</tag>
+  <tag type="pos" index="i2014">VBG</tag>
+  <tag type="pos" index="i2015">DT</tag>
+  <tag type="pos" index="i2016">NN</tag>
+  <tag type="pos" index="i2017">IN</tag>
+  <tag type="pos" index="i2018">CD</tag>
+  <tag type="pos" index="i2019">NNS</tag>
+  <tag type="pos" index="i2020">.</tag>
+  <tag type="pos" index="i3001">NNP</tag>
+  <tag type="pos" index="i3002">,</tag>
+  <tag type="pos" index="i3003">WDT</tag>
+  <tag type="pos" index="i3004">VBD</tag>
+  <tag type="pos" index="i3005">NNP</tag>
+  <tag type="pos" index="i3006">JJ</tag>
+  <tag type="pos" index="i3007">NN</tag>
+  <tag type="pos" index="i3008">,</tag>
+  <tag type="pos" index="i3009">VBZ</tag>
+  <tag type="pos" index="i3010">JJR</tag>
+  <tag type="pos" index="i3011">IN</tag>
+  <tag type="pos" index="i3012">CD</tag>
+  <tag type="pos" index="i3013">NNS</tag>
+  <tag type="pos" index="i3014">IN</tag>
+  <tag type="pos" index="i3015">NNP</tag>
+  <tag type="pos" index="i3016">VBG</tag>
+  <tag type="pos" index="i3017">DT</tag>
+  <tag type="pos" index="i3018">NNP</tag>
+  <tag type="pos" index="i3019">NNS</tag>
+  <tag type="pos" index="i3020">RB</tag>
+  <tag type="pos" index="i3021">.</tag>
+  <tag type="pos" index="i4001">NNP</tag>
+  <tag type="pos" index="i4002">VBZ</tag>
+  <tag type="pos" index="i4003">RB</tag>
+  <tag type="pos" index="i4004">VBN</tag>
+  <tag type="pos" index="i4005">NNS</tag>
+  <tag type="pos" index="i4006">TO</tag>
+  <tag type="pos" index="i4007">JJ</tag>
+  <tag type="pos" index="i4008">NNS</tag>
+  <tag type="pos" index="i4009">IN</tag>
+  <tag type="pos" index="i4010">NNP</tag>
+  <tag type="pos" index="i4011">CC</tag>
+  <tag type="pos" index="i4012">DT</tag>
+  <tag type="pos" index="i4013">NNPS</tag>
+  <tag type="pos" index="i4014">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1001">I-LOC</tag>
+  <tag type="ne" index="i1004">I-PER</tag>
+  <tag type="ne" index="i1005">I-PER</tag>
+  <tag type="ne" index="i1006">I-PER</tag>
+  <tag type="ne" index="i1020">I-LOC</tag>
+  <tag type="ne" index="i1022">I-DAT</tag>
+  <tag type="ne" index="i1023">I-DAT</tag>
+  <tag type="ne" index="i1024">I-DAT</tag>
+  <tag type="ne" index="i1025">I-DAT</tag>
+  <tag type="ne" index="i1026">I-DAT</tag>
+  <tag type="ne" index="i2007">I-DAT</tag>
+  <tag type="ne" index="i2009">I-LOC</tag>
+  <tag type="ne" index="i2018">I-DAT</tag>
+  <tag type="ne" index="i2019">I-DAT</tag>
+  <tag type="ne" index="i3001">I-LOC</tag>
+  <tag type="ne" index="i3005">I-ORG</tag>
+  <tag type="ne" index="i3006">I-DAT</tag>
+  <tag type="ne" index="i3007">I-DAT</tag>
+  <tag type="ne" index="i3015">I-LOC</tag>
+  <tag type="ne" index="i3018">I-ORG</tag>
+  <tag type="ne" index="i4001">I-LOC</tag>
+  <tag type="ne" index="i4010">I-LOC</tag>
+  <tag type="ne" index="i4013">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>Latvia</token>
+    <token>'s</token>
+    <token>President</token>
+    <token>Vaira</token>
+    <token>Vike-Freiberga</token>
+    <token>Latvia</token>
+    <token>'s</token>
+    <token>parliament</token>
+    <token>the</token>
+    <token>stay</token>
+    <token>the</token>
+    <token>country</token>
+    <token>'s</token>
+    <token>troops</token>
+    <token>Iraq</token>
+    <token>the</token>
+    <token>end</token>
+    <token>the</token>
+    <token>year</token>
+    <token>Sixty</token>
+    <token>seven</token>
+    <token>the</token>
+    <token>100</token>
+    <token>lawmakers</token>
+    <token>Riga</token>
+    <token>the</token>
+    <token>mission</token>
+    <token>NATO</token>
+    <token>the</token>
+    <token>U.S</token>
+    <token>efforts</token>
+    <token>Afghanistan</token>
+    <token>the</token>
+    <token>Balkans</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    <index pos="22">i1022</index>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    <index pos="25">i1025</index>
+    </indexlist>
+    </dr>
+    <dr name="t10">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    <index pos="4">i2004</index>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x14">
+    <indexlist>
+    <index pos="15">i2015</index>
+    </indexlist>
+    </dr>
+    <dr name="x15">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x16">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x17">
+    <indexlist>
+    <index pos="17">i3017</index>
+    </indexlist>
+    </dr>
+    <dr name="x18">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x19">
+    <indexlist>
+    <index pos="12">i4012</index>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t10" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x1" symbol="latvia" type="loc">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </named>
+    <named arg="x7" symbol="iraq" type="loc">
+    <indexlist>
+    <index pos="20">i1020</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="president" type="ttl">
+    <indexlist>
+    <index pos="3">i1003</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="vaira" type="per">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="vike-freiberga" type="per">
+    <indexlist>
+    <index pos="5">i1005</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="latvia" type="per">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </named>
+    <rel arg1="x2" arg2="x1" symbol="of" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </rel>
+    <pred arg="x3" symbol="parliament" type="n" sense="0">
+    <indexlist>
+    <index pos="8">i1008</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x3" arg2="x2" symbol="of" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </rel>
+    <pred arg="x4" symbol="stay" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="country" type="n" sense="0">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="troops" type="n" sense="0">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x6" arg2="x5" symbol="of" sense="0">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </rel>
+    <pred arg="x8" symbol="end" type="n" sense="0">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </pred>
+    <pred arg="x9" symbol="year" type="n" sense="0">
+    <indexlist>
+    <index pos="26">i1026</index>
+    </indexlist>
+    </pred>
+    <named arg="x11" symbol="sixty" type="nam">
+    <indexlist>
+    <index pos="1">i2001</index>
+    </indexlist>
+    </named>
+    <card arg="x11" value="7" type="eq">
+    <indexlist>
+    <index pos="2">i2002</index>
+    </indexlist>
+    </card>
+    <pred arg="x12" symbol="lawmaker" type="n" sense="0">
+    <indexlist>
+    <index pos="6">i2006</index>
+    </indexlist>
+    </pred>
+    <card arg="x12" value="100" type="eq">
+    <indexlist>
+    <index pos="5">i2005</index>
+    </indexlist>
+    </card>
+    <named arg="x13" symbol="riga" type="loc">
+    <indexlist>
+    <index pos="9">i2009</index>
+    </indexlist>
+    </named>
+    <pred arg="x14" symbol="mission" type="n" sense="0">
+    <indexlist>
+    <index pos="16">i2016</index>
+    </indexlist>
+    </pred>
+    <named arg="x15" symbol="nato" type="org">
+    <indexlist>
+    <index pos="5">i3005</index>
+    </indexlist>
+    </named>
+    <named arg="x16" symbol="u.s" type="org">
+    <indexlist>
+    <index pos="18">i3018</index>
+    </indexlist>
+    </named>
+    <rel arg1="x16" arg2="x17" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x17" symbol="effort" type="n" sense="0">
+    <indexlist>
+    <index pos="19">i3019</index>
+    </indexlist>
+    </pred>
+    <named arg="x18" symbol="afghanistan" type="loc">
+    <indexlist>
+    <index pos="10">i4010</index>
+    </indexlist>
+    </named>
+    <named arg="x19" symbol="balkans" type="loc">
+    <indexlist>
+    <index pos="13">i4013</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k20">
+  <sdrs>
+   <constituents>
+   <constituent label="k21">
+   <drs type="sentence">
+    <tokens>
+     <token>extended</token>
+     <token>of</token>
+     <token>serving</token>
+     <token>in</token>
+     <token>until</token>
+     <token>of</token>
+    </tokens>
+    <dom>
+     <dr name="e22">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t25">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e22" symbol="serve" type="v" sense="29060200">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e22" arg2="x6" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e22" arg2="x7" symbol="Predicate" sense="0">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </rel>
+     <pred arg="e23" symbol="extend" type="v" sense="13030000">
+     <indexlist>
+     <index pos="10">i1010</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x8" arg2="x9" symbol="of" sense="0">
+     <indexlist>
+     <index pos="24">i1024</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e22" arg2="x8" symbol="until" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x4" arg2="x6" symbol="of" sense="0">
+     <indexlist>
+     <index pos="13">i1013</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e23" arg2="x3" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e23" arg2="x4" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="x24" arg2="t10">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="x24" arg2="t25" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e23" arg2="t25" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k26">
+   <drs type="sentence">
+    <tokens>
+     <token>of</token>
+     <token>Thursday</token>
+     <token>in</token>
+     <token>voted</token>
+     <token>in</token>
+     <token>favor</token>
+     <token>extending</token>
+     <token>by</token>
+     <token>six</token>
+     <token>months</token>
+    </tokens>
+    <dom>
+     <dr name="e27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x29">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <named arg="x12" symbol="thursday" type="nam">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </named>
+     <pred arg="e27" symbol="vote" type="v" sense="13051000">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </pred>
+     <pred arg="x29" symbol="favor" type="n" sense="0">
+     <indexlist>
+     <index pos="12">i2012</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x12" arg2="x13" symbol="in" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x12" symbol="of" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="x11" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="t28" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t28" arg2="t10" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e30" symbol="extend" type="v" sense="13030000">
+     <indexlist>
+     <index pos="14">i2014</index>
+     </indexlist>
+     </pred>
+     <pred arg="x31" symbol="month" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i2019</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e30" arg2="x29" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e30" arg2="x14" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x31" value="6" type="eq">
+     <indexlist>
+     <index pos="18">i2018</index>
+     </indexlist>
+     </card>
+     <rel arg1="e30" arg2="x31" symbol="by" sense="0">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="x29" symbol="in" sense="0">
+     <indexlist>
+     <index pos="11">i2011</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k32">
+   <drs type="sentence">
+    <tokens>
+     <token>joined</token>
+     <token>last</token>
+     <token>year</token>
+     <token>has</token>
+     <token>more</token>
+     <token>than</token>
+     <token>100</token>
+     <token>troops</token>
+     <token>in</token>
+     <token>supporting</token>
+    </tokens>
+    <dom>
+     <dr name="e33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t34">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x35">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x36">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t39">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e33" symbol="join" type="v" sense="22010210">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x35" symbol="year" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x36" symbol="troops" type="n" sense="0">
+     <indexlist>
+     <index pos="13">i3013</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e33" arg2="x1" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e33" arg2="x15" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e33" arg2="t34" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t34" arg2="t10" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e33" arg2="x35" symbol="rel" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e33" symbol="last" type="a" sense="0">
+     <indexlist>
+     <index pos="6">i3006</index>
+     </indexlist>
+     </pred>
+     <card arg="x36" value="100" type="eq">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </card>
+     <pred arg="x36" symbol="than" type="a" sense="0">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x36" symbol="more" type="a" sense="0">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x36" arg2="x7" symbol="in" sense="0">
+     <indexlist>
+     <index pos="14">i3014</index>
+     </indexlist>
+     </rel>
+     <pred arg="e37" symbol="support" type="v" sense="72000000">
+     <indexlist>
+     <index pos="16">i3016</index>
+     </indexlist>
+     </pred>
+     <pred arg="e38" symbol="have" type="v" sense="39040100">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e37" arg2="x36" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e37" arg2="x17" symbol="Beneficiary" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="x1" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="x36" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="t39" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t39" arg2="t10">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k40">
+   <drs type="sentence">
+    <tokens>
+     <token>also</token>
+     <token>contributed</token>
+     <token>troops</token>
+     <token>to</token>
+     <token>multinational</token>
+     <token>forces</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x41">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e42">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x43">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x44">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t45">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e42" symbol="contribute" type="v" sense="13020111">
+     <indexlist>
+     <index pos="4">i4004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x41" symbol="troops" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i4005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="force" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i4008</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e42" arg2="x1" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e42" arg2="x41" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x43" symbol="multinational" type="a" sense="0">
+     <indexlist>
+     <index pos="7">i4007</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x43" arg2="x18" symbol="in" sense="0">
+     <indexlist>
+     <index pos="9">i4009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e42" arg2="x43" symbol="to" sense="0">
+     <indexlist>
+     <index pos="6">i4006</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x43" arg2="x19" symbol="in" sense="0">
+     <indexlist>
+     <index pos="9">i4009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e42" arg2="x43" symbol="Recipient" sense="0">
+     <indexlist>
+     <index pos="6">i4006</index>
+     </indexlist>
+     </rel>
+     <eq arg1="x44" arg2="t10">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="x44" arg2="t45" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e42" arg2="t45" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="t45" symbol="also" type="a" sense="0">
+     <indexlist>
+     <index pos="3">i4003</index>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k32" arg2="k40" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k26" arg2="k32" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k21" arg2="k26" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k20" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

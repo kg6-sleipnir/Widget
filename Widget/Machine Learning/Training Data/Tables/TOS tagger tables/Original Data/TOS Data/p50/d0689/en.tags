@@ -1,0 +1,52 @@
+Guam	NNP	N[nam]	guam	I-PER
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+ceded	VBN	S[pss]\NP/PP	cede	O
+to	TO	PP/NP	to	O
+the	DT	NP/N[nam]	the	O
+US	NNP	N[nam]	us	I-ORG
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+Spain	NNP	N[nam]	spain	I-ORG
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1898	CD	N[num]	1898	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Captured	VBN	S[pss]\NP	capture	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+the	DT	NP/N[nom]	the	O
+Japanese	JJ	N[nom]	japanese	O
+in	IN	NP\NP/NP	in	O
+1941	CD	N[num]	1941	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+it	PRP	NP	it	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+retaken	VBN	S[pss]\NP	retake	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+the	DT	NP/N[nam]	the	O
+US	NNP	N[nam]	us	I-ORG
+three	CD	N[nom]/N[nom]	three	I-DAT
+years	NNS	N[nom]	year	I-DAT
+later	RB	S[pss]\NP\S[pss]\NP\NP	later	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+military	JJ	N[nom]/N[nom]	military	O
+installation	NN	N[nom]	installation	O
+on	IN	NP\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+island	NN	N[nom]	island	O
+is	VBZ	S[dcl]\NP/NP	be	O
+one	CD	N[num]	one	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+most	RBS	N[nom]/N[nom]/N[nom]/N[nom]	most	O
+strategically	RB	N[nom]/N[nom]/N[nom]/N[nom]	strategically	O
+important	JJ	N[nom]/N[nom]	important	O
+US	NNP	N[nom]/N[nom]	us	I-ORG
+bases	NNS	N[nom]	basis	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+Pacific	NNP	N[nam]	pacific	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

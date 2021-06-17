@@ -1,0 +1,86 @@
+When	WRB	S[dcl]/S[dcl]/S[dcl]	when	O
+people	NNS	N[nom]	people	O
+think	VBP	S[dcl]\NP/PP	think	O
+of	IN	PP/NP	of	O
+the	DT	NP/N[nom]	the	O
+capital	NN	N[nom]	capital	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]	state	I-LOC
+,	,	NP\NP	,	O
+Washington	NNP	NP\NP	washington	I-LOC
+,	,	S[dcl]/S[dcl]	,	O
+D.C.	NNP	N[nam]	d.c.	I-LOC
+-	IN	NP\NP/NP	-	O
+they	PRP	NP	they	O
+usually	RB	S[dcl]\NP/S[dcl]\NP	usually	O
+think	VBP	S[dcl]\NP/PP	think	O
+of	IN	PP/NP	of	O
+monuments	NNS	N[nom]	monument	O
+,	,	COMMA	,	O
+museums	NNS	N[nom]	museum	O
+and	CC	CONJ	and	O
+the	DT	NP/N[nam]	the	O
+White	NNP	N[nam]/N[nam]	white	I-ORG
+House	NNP	N[nam]	house	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+for	IN	S[dcl]/S[dcl]/NP	for	O
+some	DT	NP	some	O
+,	,	S[dcl]/S[dcl]	,	O
+a	DT	NP/N[nom]	a	O
+small	JJ	N[nom]/N[nom]	small	O
+family	NN	N[nom]/N[nom]	family	O
+restaurant	NN	N[nom]	restaurant	O
+comes	VBZ	S[dcl]\NP	come	O
+to	TO	S[dcl]\NP\S[dcl]\NP/S[b]\NP	to	O
+mind	VB	S[b]\NP	mind	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Ben	NNP	N[nam]	ben	I-ORG
+'s	POS	NP/N[nam]\NP	's	I-ORG
+Chili	NNP	N[nam]/N[nam]	chili	I-ORG
+Bowl	NNP	N[nam]	bowl	I-ORG
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[adj]\NP	be	O
+open	JJ	S[adj]\NP	open	O
+for	IN	S[pt]\NP\S[pt]\NP/NP	for	O
+50	CD	N[nom]/N[nom]	50	I-DAT
+years	NNS	N[nom]	year	I-DAT
+and	CC	CONJ	and	O
+is	VBZ	S[dcl]\NP/NP	be	O
+one	CD	N[num]	one	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+city	NN	N[nom]	city	O
+'s	POS	NP/N[nom]\NP	's	O
+most	RBS	N[nom]/N[nom]/N[nom]/N[nom]	most	O
+enduring	JJ	N[nom]/N[nom]	enduring	O
+landmarks	NNS	N[nom]	landmark	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	I-ORG
+Ana	NNP	N[nam]/N[nam]	ana	I-ORG
+Ward	NNP	N[nam]	ward	I-ORG
+recently	RB	S[dcl]\NP/S[dcl]\NP	recently	O
+spent	VBD	S[dcl]\NP/NP	spend	O
+an	DT	NP/N[nom]	an	O
+afternoon	NN	N[nom]	afternoon	I-TIM
+at	IN	S[dcl]\NP\S[dcl]\NP/NP	at	O
+the	DT	NP/N[nom]	the	O
+renowned	JJ	N[nom]/N[nom]	renowned	O
+restaurant	NN	N[nom]	restaurant	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	I-ORG
+Sean	NNP	N[nam]/N[nam]	sean	I-ORG
+Maroney	NNP	N[nam]	maroney	I-ORG
+narrates	VBZ	S[dcl]\NP	narrate	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

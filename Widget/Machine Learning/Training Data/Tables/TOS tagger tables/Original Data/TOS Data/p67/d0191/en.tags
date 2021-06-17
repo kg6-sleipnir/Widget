@@ -1,0 +1,49 @@
+Last	JJ	N[nom]/N[nom]	last	O
+minute	NN	N[nom]/N[nom]	minute	O
+holiday	NN	N[nom]/N[nom]	holiday	O
+shoppers	NNS	N[nom]	shopper	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+taking	VBG	S[ng]\NP/PP/NP	take	O
+advantage	NN	N[nom]	advantage	O
+of	IN	NP\NP/NP	of	O
+massive	JJ	N[nom]/N[nom]	massive	O
+discounts	NNS	N[nom]	discount	O
+as	IN	PP/NP	as	O
+retailers	NNS	N[nom]	retailer	O
+launch	VB	S[b]\NP/NP	launch	O
+a	DT	NP/N[nom]	a	O
+last	JJ	N[nom]/N[nom]	last	O
+desperate	JJ	N[nom]/N[nom]	desperate	O
+attempt	NN	N[nom]	attempt	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+generate	VB	S[b]\NP/NP	generate	O
+revenue	NN	N[nom]	revenue	O
+.	.	S[b]\S[b]	.	O
+
+With	IN	S[dcl]/S[dcl]/S[ng]\NP/NP	with	O
+holiday	NN	N[nom]/N[nom]	holiday	O
+sales	NNS	N[nom]	sale	O
+shaping	VBG	S[ng]\NP	shape	O
+up	RP	S[ng]\NP\S[ng]\NP	up	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+be	VB	S[b]\NP/NP	be	O
+the	DT	NP/N[nom]	the	O
+weakest	JJS	N[nom]	weakest	O
+in	IN	NP\NP/NP	in	O
+years	NNS	N[nom]	year	O
+,	,	S[dcl]/S[dcl]	,	O
+retailers	NNS	N[nom]	retailer	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+scrambling	VBG	S[ng]\NP/S[to]\NP	scramble	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+stay	VB	S[b]\NP/S[adj]\NP	stay	O
+ahead	RB	S[adj]\NP/PP	ahead	O
+of	IN	PP/NP	of	O
+the	DT	NP/N[nom]	the	O
+struggling	VBG	N[nom]/N[nom]	struggle	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+economy	NN	N[nom]	economy	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

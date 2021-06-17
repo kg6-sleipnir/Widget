@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Saint Helena is a British Overseas Territory consisting of Saint Helena and Ascension Islands , and the island group of Tristan da Cunha . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Saint</word>
+  <word xml:id="i1002">Helena</word>
+  <word xml:id="i1003">is</word>
+  <word xml:id="i1004">a</word>
+  <word xml:id="i1005">British</word>
+  <word xml:id="i1006">Overseas</word>
+  <word xml:id="i1007">Territory</word>
+  <word xml:id="i1008">consisting</word>
+  <word xml:id="i1009">of</word>
+  <word xml:id="i1010">Saint</word>
+  <word xml:id="i1011">Helena</word>
+  <word xml:id="i1012">and</word>
+  <word xml:id="i1013">Ascension</word>
+  <word xml:id="i1014">Islands</word>
+  <word xml:id="i1015">,</word>
+  <word xml:id="i1016">and</word>
+  <word xml:id="i1017">the</word>
+  <word xml:id="i1018">island</word>
+  <word xml:id="i1019">group</word>
+  <word xml:id="i1020">of</word>
+  <word xml:id="i1021">Tristan</word>
+  <word xml:id="i1022">da</word>
+  <word xml:id="i1023">Cunha</word>
+  <word xml:id="i1024">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNP</tag>
+  <tag type="pos" index="i1002">NNP</tag>
+  <tag type="pos" index="i1003">VBZ</tag>
+  <tag type="pos" index="i1004">DT</tag>
+  <tag type="pos" index="i1005">JJ</tag>
+  <tag type="pos" index="i1006">JJ</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">VBG</tag>
+  <tag type="pos" index="i1009">IN</tag>
+  <tag type="pos" index="i1010">NNP</tag>
+  <tag type="pos" index="i1011">NNP</tag>
+  <tag type="pos" index="i1012">CC</tag>
+  <tag type="pos" index="i1013">NNP</tag>
+  <tag type="pos" index="i1014">NNP</tag>
+  <tag type="pos" index="i1015">,</tag>
+  <tag type="pos" index="i1016">CC</tag>
+  <tag type="pos" index="i1017">DT</tag>
+  <tag type="pos" index="i1018">NN</tag>
+  <tag type="pos" index="i1019">NN</tag>
+  <tag type="pos" index="i1020">IN</tag>
+  <tag type="pos" index="i1021">NNP</tag>
+  <tag type="pos" index="i1022">NNP</tag>
+  <tag type="pos" index="i1023">NNP</tag>
+  <tag type="pos" index="i1024">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1001">I-LOC</tag>
+  <tag type="ne" index="i1002">I-LOC</tag>
+  <tag type="ne" index="i1005">I-ORG</tag>
+  <tag type="ne" index="i1006">I-ORG</tag>
+  <tag type="ne" index="i1007">I-ORG</tag>
+  <tag type="ne" index="i1009">I-ORG</tag>
+  <tag type="ne" index="i1010">I-LOC</tag>
+  <tag type="ne" index="i1011">I-LOC</tag>
+  <tag type="ne" index="i1012">I-ORG</tag>
+  <tag type="ne" index="i1013">I-LOC</tag>
+  <tag type="ne" index="i1014">I-LOC</tag>
+  <tag type="ne" index="i1021">I-LOC</tag>
+  <tag type="ne" index="i1022">I-LOC</tag>
+  <tag type="ne" index="i1023">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>Saint</token>
+    <token>Helena</token>
+    <token>Ascension</token>
+    <token>Islands</token>
+    <token>the</token>
+    <token>island</token>
+    <token>group</token>
+    <token>Tristan</token>
+    <token>da</token>
+    <token>Cunha</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <named arg="x2" symbol="helena" type="per">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="saint" type="ttl">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </named>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x3" symbol="ascension_islands" type="loc">
+    <indexlist>
+    <index pos="13">i1013</index>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </named>
+    <pred arg="x4" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x4" arg2="x5" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x5" symbol="group" type="n" sense="0">
+    <indexlist>
+    <index pos="19">i1019</index>
+    </indexlist>
+    </pred>
+    <named arg="x6" symbol="tristan_da_cunha" type="loc">
+    <indexlist>
+    <index pos="21">i1021</index>
+    <index pos="22">i1022</index>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k7">
+  <drs type="sentence">
+   <tokens>
+    <token>is</token>
+    <token>a</token>
+    <token>British</token>
+    <token>Overseas</token>
+    <token>Territory</token>
+    <token>consisting</token>
+    <token>of</token>
+    <token>of</token>
+   </tokens>
+   <dom>
+    <dr name="p8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t9">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <prop argument="p8">
+    <indexlist>
+    </indexlist>
+     <drs type="normal">
+      <dom>
+       <dr name="x10">
+       <indexlist>
+       <index pos="4">i1004</index>
+       </indexlist>
+       </dr>
+       <dr name="e11">
+       <indexlist>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="e11" symbol="consist" type="v" sense="0">
+       <indexlist>
+       <index pos="8">i1008</index>
+       </indexlist>
+       </pred>
+       <pred arg="x10" symbol="territory" type="n" sense="0">
+       <indexlist>
+       <index pos="7">i1007</index>
+       </indexlist>
+       </pred>
+       <pred arg="x10" symbol="british" type="a" sense="0">
+       <indexlist>
+       <index pos="5">i1005</index>
+       </indexlist>
+       </pred>
+       <pred arg="x10" symbol="overseas" type="a" sense="0">
+       <indexlist>
+       <index pos="6">i1006</index>
+       </indexlist>
+       </pred>
+       <rel arg1="e11" arg2="x10" symbol="agent" sense="0">
+       <indexlist>
+       </indexlist>
+       </rel>
+       <rel arg1="e11" arg2="x2" symbol="of" sense="0">
+       <indexlist>
+       <index pos="9">i1009</index>
+       </indexlist>
+       </rel>
+       <rel arg1="e11" arg2="x3" symbol="of" sense="0">
+       <indexlist>
+       <index pos="9">i1009</index>
+       </indexlist>
+       </rel>
+       <rel arg1="x5" arg2="x6" symbol="of" sense="0">
+       <indexlist>
+       <index pos="20">i1020</index>
+       </indexlist>
+       </rel>
+       <rel arg1="e11" arg2="x5" symbol="of" sense="0">
+       <indexlist>
+       <index pos="9">i1009</index>
+       </indexlist>
+       </rel>
+       <eq arg1="x2" arg2="x10">
+       <indexlist>
+       <index pos="3">i1003</index>
+       </indexlist>
+       </eq>
+      </con>
+     </drs>
+    </prop>
+    <rel arg1="p8" arg2="t9" symbol="temp_included" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <eq arg1="t9" arg2="t1">
+    <indexlist>
+    </indexlist>
+    </eq>
+   </con>
+  </drs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k7" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- VOA 's Ray Kouguell interviewed Professor of Architecture , Mary Comerio , University of California , Berkeley about Haiti earthquake rehabilitation in the months ahead . Professor Comerio talks about the scope of re-building , the long-range outlook for recovery and how Haiti 's devastation compares with other similar earthquake disasters . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">VOA</word>
+  <word xml:id="i1002">'s</word>
+  <word xml:id="i1003">Ray</word>
+  <word xml:id="i1004">Kouguell</word>
+  <word xml:id="i1005">interviewed</word>
+  <word xml:id="i1006">Professor</word>
+  <word xml:id="i1007">of</word>
+  <word xml:id="i1008">Architecture</word>
+  <word xml:id="i1009">,</word>
+  <word xml:id="i1010">Mary</word>
+  <word xml:id="i1011">Comerio</word>
+  <word xml:id="i1012">,</word>
+  <word xml:id="i1013">University</word>
+  <word xml:id="i1014">of</word>
+  <word xml:id="i1015">California</word>
+  <word xml:id="i1016">,</word>
+  <word xml:id="i1017">Berkeley</word>
+  <word xml:id="i1018">about</word>
+  <word xml:id="i1019">Haiti</word>
+  <word xml:id="i1020">earthquake</word>
+  <word xml:id="i1021">rehabilitation</word>
+  <word xml:id="i1022">in</word>
+  <word xml:id="i1023">the</word>
+  <word xml:id="i1024">months</word>
+  <word xml:id="i1025">ahead</word>
+  <word xml:id="i1026">.</word>
+  <word xml:id="i2001">Professor</word>
+  <word xml:id="i2002">Comerio</word>
+  <word xml:id="i2003">talks</word>
+  <word xml:id="i2004">about</word>
+  <word xml:id="i2005">the</word>
+  <word xml:id="i2006">scope</word>
+  <word xml:id="i2007">of</word>
+  <word xml:id="i2008">re-building</word>
+  <word xml:id="i2009">,</word>
+  <word xml:id="i2010">the</word>
+  <word xml:id="i2011">long-range</word>
+  <word xml:id="i2012">outlook</word>
+  <word xml:id="i2013">for</word>
+  <word xml:id="i2014">recovery</word>
+  <word xml:id="i2015">and</word>
+  <word xml:id="i2016">how</word>
+  <word xml:id="i2017">Haiti</word>
+  <word xml:id="i2018">'s</word>
+  <word xml:id="i2019">devastation</word>
+  <word xml:id="i2020">compares</word>
+  <word xml:id="i2021">with</word>
+  <word xml:id="i2022">other</word>
+  <word xml:id="i2023">similar</word>
+  <word xml:id="i2024">earthquake</word>
+  <word xml:id="i2025">disasters</word>
+  <word xml:id="i2026">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNP</tag>
+  <tag type="pos" index="i1002">POS</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">NNP</tag>
+  <tag type="pos" index="i1005">VBD</tag>
+  <tag type="pos" index="i1006">NNP</tag>
+  <tag type="pos" index="i1007">IN</tag>
+  <tag type="pos" index="i1008">NNP</tag>
+  <tag type="pos" index="i1009">,</tag>
+  <tag type="pos" index="i1010">NNP</tag>
+  <tag type="pos" index="i1011">NNP</tag>
+  <tag type="pos" index="i1012">,</tag>
+  <tag type="pos" index="i1013">NNP</tag>
+  <tag type="pos" index="i1014">IN</tag>
+  <tag type="pos" index="i1015">NNP</tag>
+  <tag type="pos" index="i1016">,</tag>
+  <tag type="pos" index="i1017">NNP</tag>
+  <tag type="pos" index="i1018">IN</tag>
+  <tag type="pos" index="i1019">NNP</tag>
+  <tag type="pos" index="i1020">NN</tag>
+  <tag type="pos" index="i1021">NN</tag>
+  <tag type="pos" index="i1022">IN</tag>
+  <tag type="pos" index="i1023">DT</tag>
+  <tag type="pos" index="i1024">NNS</tag>
+  <tag type="pos" index="i1025">RB</tag>
+  <tag type="pos" index="i1026">.</tag>
+  <tag type="pos" index="i2001">NNP</tag>
+  <tag type="pos" index="i2002">NNP</tag>
+  <tag type="pos" index="i2003">VBZ</tag>
+  <tag type="pos" index="i2004">IN</tag>
+  <tag type="pos" index="i2005">DT</tag>
+  <tag type="pos" index="i2006">NN</tag>
+  <tag type="pos" index="i2007">IN</tag>
+  <tag type="pos" index="i2008">VBG</tag>
+  <tag type="pos" index="i2009">,</tag>
+  <tag type="pos" index="i2010">DT</tag>
+  <tag type="pos" index="i2011">JJ</tag>
+  <tag type="pos" index="i2012">NN</tag>
+  <tag type="pos" index="i2013">IN</tag>
+  <tag type="pos" index="i2014">NN</tag>
+  <tag type="pos" index="i2015">CC</tag>
+  <tag type="pos" index="i2016">WRB</tag>
+  <tag type="pos" index="i2017">NNP</tag>
+  <tag type="pos" index="i2018">POS</tag>
+  <tag type="pos" index="i2019">NN</tag>
+  <tag type="pos" index="i2020">VBZ</tag>
+  <tag type="pos" index="i2021">IN</tag>
+  <tag type="pos" index="i2022">JJ</tag>
+  <tag type="pos" index="i2023">JJ</tag>
+  <tag type="pos" index="i2024">NN</tag>
+  <tag type="pos" index="i2025">NNS</tag>
+  <tag type="pos" index="i2026">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1001">I-ORG</tag>
+  <tag type="ne" index="i1003">I-PER</tag>
+  <tag type="ne" index="i1004">I-PER</tag>
+  <tag type="ne" index="i1008">I-ORG</tag>
+  <tag type="ne" index="i1009">I-ORG</tag>
+  <tag type="ne" index="i1010">I-PER</tag>
+  <tag type="ne" index="i1011">I-PER</tag>
+  <tag type="ne" index="i1013">I-ORG</tag>
+  <tag type="ne" index="i1014">I-ORG</tag>
+  <tag type="ne" index="i1015">I-ORG</tag>
+  <tag type="ne" index="i1017">I-LOC</tag>
+  <tag type="ne" index="i1019">I-LOC</tag>
+  <tag type="ne" index="i2001">I-TTL</tag>
+  <tag type="ne" index="i2002">I-PER</tag>
+  <tag type="ne" index="i2017">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>VOA</token>
+    <token>'s</token>
+    <token>Ray</token>
+    <token>Kouguell</token>
+    <token>Professor</token>
+    <token>Architecture</token>
+    <token>Mary</token>
+    <token>Comerio</token>
+    <token>University</token>
+    <token>California</token>
+    <token>Berkeley</token>
+    <token>the</token>
+    <token>months</token>
+    <token>ahead</token>
+    <token>the</token>
+    <token>scope</token>
+    <token>the</token>
+    <token>long-range</token>
+    <token>outlook</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    <index pos="5">i2005</index>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    <index pos="10">i2010</index>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x6" symbol="professor" type="ttl">
+    <indexlist>
+    </indexlist>
+    </named>
+    <named arg="x6" symbol="comerio" type="per">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </named>
+    <named arg="x2" symbol="voa" type="org">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="ray" type="per">
+    <indexlist>
+    <index pos="3">i1003</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="kouguell" type="per">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </named>
+    <rel arg1="x3" arg2="x2" symbol="of" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </rel>
+    <named arg="x4" symbol="professor" type="nam">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </named>
+    <named arg="x5" symbol="architecture" type="org">
+    <indexlist>
+    <index pos="8">i1008</index>
+    </indexlist>
+    </named>
+    <named arg="x6" symbol="mary" type="per">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </named>
+    <named arg="x7" symbol="university" type="org">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </named>
+    <named arg="x8" symbol="california" type="org">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </named>
+    <named arg="x9" symbol="berkeley" type="loc">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </named>
+    <pred arg="x10" symbol="month" type="n" sense="0">
+    <indexlist>
+    <index pos="24">i1024</index>
+    </indexlist>
+    </pred>
+    <pred arg="x10" symbol="ahead" type="a" sense="0">
+    <indexlist>
+    <index pos="25">i1025</index>
+    </indexlist>
+    </pred>
+    <pred arg="x11" symbol="scope" type="n" sense="0">
+    <indexlist>
+    <index pos="6">i2006</index>
+    </indexlist>
+    </pred>
+    <pred arg="x12" symbol="outlook" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i2012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x12" symbol="long-range" type="a" sense="0">
+    <indexlist>
+    <index pos="11">i2011</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k13">
+  <sdrs>
+   <constituents>
+   <constituent label="k14">
+   <drs type="sentence">
+    <tokens>
+     <token>interviewed</token>
+     <token>of</token>
+     <token>,</token>
+     <token>,</token>
+     <token>of</token>
+     <token>,</token>
+     <token>about</token>
+     <token>Haiti</token>
+     <token>earthquake</token>
+     <token>rehabilitation</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t19">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <rel arg1="x7" arg2="x8" symbol="of" sense="0">
+     <indexlist>
+     <index pos="14">i1014</index>
+     </indexlist>
+     </rel>
+     <pred arg="e18" symbol="interview" type="v" sense="37013000">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <named arg="x15" symbol="haiti" type="loc">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </named>
+     <rel arg1="x15" arg2="x17" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x16" symbol="earthquake" type="n" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x16" arg2="x17" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x17" symbol="rehabilitation" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x9" arg2="x17" symbol="about" sense="0">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x7" arg2="x9" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x6" arg2="x7" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x5" arg2="x6" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x4" arg2="x5" symbol="of" sense="0">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e18" arg2="x3" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e18" arg2="x4" symbol="Recipient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e18" arg2="t19" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t19" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e18" arg2="x10" symbol="in" sense="0">
+     <indexlist>
+     <index pos="22">i1022</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k20">
+   <drs type="sentence">
+    <tokens>
+     <token>talks</token>
+     <token>about</token>
+     <token>of</token>
+     <token>re-building</token>
+     <token>,</token>
+     <token>for</token>
+     <token>recovery</token>
+     <token>how</token>
+     <token>Haiti</token>
+     <token>'s</token>
+     <token>devastation</token>
+     <token>compares</token>
+     <token>with</token>
+     <token>other</token>
+     <token>similar</token>
+     <token>earthquake</token>
+     <token>disasters</token>
+    </tokens>
+    <dom>
+     <dr name="e21">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x22">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     <index pos="16">i2016</index>
+     </indexlist>
+     </dr>
+     <dr name="x26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e29">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t31">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e21" symbol="talk" type="v" sense="37110100">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e21" arg2="x6" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x22" symbol="re-build" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x23" symbol="recovery" type="n" sense="0">
+     <indexlist>
+     <index pos="14">i2014</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x12" arg2="x23" symbol="for" sense="0">
+     <indexlist>
+     <index pos="13">i2013</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x22" arg2="x12" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x22" symbol="of" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e21" arg2="x11" symbol="Topic" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e21" arg2="t24" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t24" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <named arg="x25" symbol="haiti" type="loc">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </named>
+     <pred arg="x26" symbol="devastation" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i2019</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x26" arg2="x25" symbol="of" sense="0">
+     <indexlist>
+     <index pos="18">i2018</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x28" arg2="x27" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x27" symbol="disaster" type="n" sense="0">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <pred arg="x27" symbol="similar" type="a" sense="0">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="earthquake" type="n" sense="0">
+     <indexlist>
+     <index pos="24">i2024</index>
+     </indexlist>
+     </pred>
+     <pred arg="e29" symbol="compare" type="v" sense="22020200">
+     <indexlist>
+     <index pos="20">i2020</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x28" arg2="x30" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x30" symbol="disaster" type="n" sense="0">
+     <indexlist>
+     <index pos="25">i2025</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e29" arg2="x26" symbol="Patient1" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x30" symbol="similar" type="a" sense="0">
+     <indexlist>
+     <index pos="23">i2023</index>
+     </indexlist>
+     </pred>
+     <not>
+     <indexlist>
+     <index pos="22">i2022</index>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x30" arg2="x27">
+        <indexlist>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </not>
+     <rel arg1="e29" arg2="x30" symbol="Patient2" sense="0">
+     <indexlist>
+     <index pos="21">i2021</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e29" arg2="t31" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t31" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k14" arg2="k20" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k13" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

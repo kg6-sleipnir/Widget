@@ -1,0 +1,88 @@
+The	DT	NP/N[nam]	the	O
+World	NNP	N[nam]/N[nam]	world	I-ORG
+Health	NNP	N[nam]/N[nam]	health	I-ORG
+Organization	NNP	N[nam]	organization	I-ORG
+estimates	VBZ	S[dcl]\NP/S[em]	estimate	O
+that	IN	S[em]/S[dcl]	that	O
+between	IN	N[num]/N[num]	between	O
+five	CD	N[num]	five	I-TIM
+and	CC	CONJ	and	I-TIM
+10	CD	N[nom]/N[nom]	10	I-PCT
+percent	NN	N[nom]	percent	I-PCT
+of	IN	NP\NP/NP	of	O
+us	PRP	NP	us	O
+suffer	VBP	S[dcl]\NP/PP	suffer	O
+from	IN	PP/NP	from	O
+depression	NN	N[nom]	depression	O
+at	IN	S[dcl]\NP\S[dcl]\NP/NP	at	O
+any	DT	NP/N[nom]	any	O
+given	VBN	N[nom]/N[nom]	give	O
+time	NN	N[nom]	time	O
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+fewer	JJR	N[nom]	fewer	O
+than	IN	NP\NP/NP	than	O
+a	DT	NP/N[nom]	a	O
+third	NN	N[nom]	third	O
+of	IN	NP\NP/NP	of	O
+those	DT	NP	those	O
+with	IN	NP\NP/NP	with	O
+depression	NN	N[nom]	depression	O
+receive	VBP	S[dcl]\NP/NP	receive	O
+appropriate	JJ	N[nom]/N[nom]	appropriate	O
+care	NN	N[nom]	care	O
+.	.	S[dcl]\S[dcl]	.	O
+
+In	IN	S[dcl]/S[dcl]/NP	in	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]	state	I-LOC
+,	,	S[dcl]/S[dcl]	,	O
+more	JJR	S[adj]\NP	more	O
+than	IN	N[nom]/N[nom]/N[nom]/N[nom]\S[adj]\NP	than	O
+21	CD	N[nom]/N[nom]/N[nom]/N[nom]	21	O
+million	CD	N[nom]/N[nom]	million	O
+people	NNS	N[nom]	people	O
+suffer	VBP	S[dcl]\NP/PP	suffer	O
+from	IN	PP/NP	from	O
+depression	NN	N[nom]	depression	O
+.	.	S[dcl]\S[dcl]	.	O
+
+For	IN	S[dcl]/S[dcl]/NP	for	O
+millions	NNS	N[nom]	million	O
+,	,	S[dcl]/S[dcl]	,	O
+no	DT	NP/N[nom]	no	O
+treatment	NN	N[nom]	treatment	O
+works	VBZ	S[dcl]\NP	work	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Now	RB	S[dcl]/S[dcl]	now	O
+,	,	S[dcl]/S[dcl]	,	O
+doctors	NNS	N[nom]	doctor	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+trying	VBG	S[ng]\NP/NP	try	O
+an	DT	NP/N[nom]	an	O
+experimental	JJ	N[nom]/N[nom]	experimental	O
+technique	NN	N[nom]	technique	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+shows	VBZ	S[dcl]\NP/NP	show	O
+promise	NN	N[nom]	promise	O
+in	IN	S[dcl]\NP\S[dcl]\NP/S[ng]\NP	in	O
+treating	VBG	S[ng]\NP/NP	treat	O
+some	DT	NP/N[nom]	some	O
+difficult	JJ	N[nom]/N[nom]	difficult	O
+cases	NNS	N[nom]	case	O
+of	IN	NP\NP/NP	of	O
+depression	NN	N[nom]	depression	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+Carol	NNP	N[nom]/N[nom]	carol	I-PER
+Pearson	NNP	N[nom]/N[nom]	pearson	I-PER
+reports	NNS	N[nom]	report	O
+.	.	NP\NP	.	O
+
+
+

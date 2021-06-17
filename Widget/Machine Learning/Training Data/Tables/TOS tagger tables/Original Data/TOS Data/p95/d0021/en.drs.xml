@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- New York City 's largest film event , the Tribeca Film Festival , is screening 120 films this year in theaters around downtown Manhattan . The 12-day festival [ which ran through May 4 ] was created to revive the economy in lower Manhattan after the September 11th , 2001 terrorist attacks on the United States , and to provide a showcase for films from abroad that might otherwise go unseen in the U.S. VOA 's Carolyn Weaver reports . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">New</word>
+  <word xml:id="i1002">York</word>
+  <word xml:id="i1003">City</word>
+  <word xml:id="i1004">'s</word>
+  <word xml:id="i1005">largest</word>
+  <word xml:id="i1006">film</word>
+  <word xml:id="i1007">event</word>
+  <word xml:id="i1008">,</word>
+  <word xml:id="i1009">the</word>
+  <word xml:id="i1010">Tribeca</word>
+  <word xml:id="i1011">Film</word>
+  <word xml:id="i1012">Festival</word>
+  <word xml:id="i1013">,</word>
+  <word xml:id="i1014">is</word>
+  <word xml:id="i1015">screening</word>
+  <word xml:id="i1016">120</word>
+  <word xml:id="i1017">films</word>
+  <word xml:id="i1018">this</word>
+  <word xml:id="i1019">year</word>
+  <word xml:id="i1020">in</word>
+  <word xml:id="i1021">theaters</word>
+  <word xml:id="i1022">around</word>
+  <word xml:id="i1023">downtown</word>
+  <word xml:id="i1024">Manhattan</word>
+  <word xml:id="i1025">.</word>
+  <word xml:id="i2001">The</word>
+  <word xml:id="i2002">12-day</word>
+  <word xml:id="i2003">festival</word>
+  <word xml:id="i2004">[</word>
+  <word xml:id="i2005">which</word>
+  <word xml:id="i2006">ran</word>
+  <word xml:id="i2007">through</word>
+  <word xml:id="i2008">May</word>
+  <word xml:id="i2009">4</word>
+  <word xml:id="i2010">]</word>
+  <word xml:id="i2011">was</word>
+  <word xml:id="i2012">created</word>
+  <word xml:id="i2013">to</word>
+  <word xml:id="i2014">revive</word>
+  <word xml:id="i2015">the</word>
+  <word xml:id="i2016">economy</word>
+  <word xml:id="i2017">in</word>
+  <word xml:id="i2018">lower</word>
+  <word xml:id="i2019">Manhattan</word>
+  <word xml:id="i2020">after</word>
+  <word xml:id="i2021">the</word>
+  <word xml:id="i2022">September</word>
+  <word xml:id="i2023">11th</word>
+  <word xml:id="i2024">,</word>
+  <word xml:id="i2025">2001</word>
+  <word xml:id="i2026">terrorist</word>
+  <word xml:id="i2027">attacks</word>
+  <word xml:id="i2028">on</word>
+  <word xml:id="i2029">the</word>
+  <word xml:id="i2030">United</word>
+  <word xml:id="i2031">States</word>
+  <word xml:id="i2032">,</word>
+  <word xml:id="i2033">and</word>
+  <word xml:id="i2034">to</word>
+  <word xml:id="i2035">provide</word>
+  <word xml:id="i2036">a</word>
+  <word xml:id="i2037">showcase</word>
+  <word xml:id="i2038">for</word>
+  <word xml:id="i2039">films</word>
+  <word xml:id="i2040">from</word>
+  <word xml:id="i2041">abroad</word>
+  <word xml:id="i2042">that</word>
+  <word xml:id="i2043">might</word>
+  <word xml:id="i2044">otherwise</word>
+  <word xml:id="i2045">go</word>
+  <word xml:id="i2046">unseen</word>
+  <word xml:id="i2047">in</word>
+  <word xml:id="i2048">the</word>
+  <word xml:id="i2049">U.S.</word>
+  <word xml:id="i2050">VOA</word>
+  <word xml:id="i2051">'s</word>
+  <word xml:id="i2052">Carolyn</word>
+  <word xml:id="i2053">Weaver</word>
+  <word xml:id="i2054">reports</word>
+  <word xml:id="i2055">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNP</tag>
+  <tag type="pos" index="i1002">NNP</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">POS</tag>
+  <tag type="pos" index="i1005">JJS</tag>
+  <tag type="pos" index="i1006">NN</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">,</tag>
+  <tag type="pos" index="i1009">DT</tag>
+  <tag type="pos" index="i1010">NNP</tag>
+  <tag type="pos" index="i1011">NNP</tag>
+  <tag type="pos" index="i1012">NNP</tag>
+  <tag type="pos" index="i1013">,</tag>
+  <tag type="pos" index="i1014">VBZ</tag>
+  <tag type="pos" index="i1015">VBG</tag>
+  <tag type="pos" index="i1016">CD</tag>
+  <tag type="pos" index="i1017">NNS</tag>
+  <tag type="pos" index="i1018">DT</tag>
+  <tag type="pos" index="i1019">NN</tag>
+  <tag type="pos" index="i1020">IN</tag>
+  <tag type="pos" index="i1021">NNS</tag>
+  <tag type="pos" index="i1022">IN</tag>
+  <tag type="pos" index="i1023">NN</tag>
+  <tag type="pos" index="i1024">NNP</tag>
+  <tag type="pos" index="i1025">.</tag>
+  <tag type="pos" index="i2001">DT</tag>
+  <tag type="pos" index="i2002">JJ</tag>
+  <tag type="pos" index="i2003">NN</tag>
+  <tag type="pos" index="i2004">NN</tag>
+  <tag type="pos" index="i2005">WDT</tag>
+  <tag type="pos" index="i2006">VBD</tag>
+  <tag type="pos" index="i2007">IN</tag>
+  <tag type="pos" index="i2008">NNP</tag>
+  <tag type="pos" index="i2009">CD</tag>
+  <tag type="pos" index="i2010">NN</tag>
+  <tag type="pos" index="i2011">VBD</tag>
+  <tag type="pos" index="i2012">VBN</tag>
+  <tag type="pos" index="i2013">TO</tag>
+  <tag type="pos" index="i2014">VB</tag>
+  <tag type="pos" index="i2015">DT</tag>
+  <tag type="pos" index="i2016">NN</tag>
+  <tag type="pos" index="i2017">IN</tag>
+  <tag type="pos" index="i2018">JJR</tag>
+  <tag type="pos" index="i2019">NNP</tag>
+  <tag type="pos" index="i2020">IN</tag>
+  <tag type="pos" index="i2021">DT</tag>
+  <tag type="pos" index="i2022">NNP</tag>
+  <tag type="pos" index="i2023">CD</tag>
+  <tag type="pos" index="i2024">,</tag>
+  <tag type="pos" index="i2025">CD</tag>
+  <tag type="pos" index="i2026">JJ</tag>
+  <tag type="pos" index="i2027">NNS</tag>
+  <tag type="pos" index="i2028">IN</tag>
+  <tag type="pos" index="i2029">DT</tag>
+  <tag type="pos" index="i2030">NNP</tag>
+  <tag type="pos" index="i2031">NNPS</tag>
+  <tag type="pos" index="i2032">,</tag>
+  <tag type="pos" index="i2033">CC</tag>
+  <tag type="pos" index="i2034">TO</tag>
+  <tag type="pos" index="i2035">VB</tag>
+  <tag type="pos" index="i2036">DT</tag>
+  <tag type="pos" index="i2037">NN</tag>
+  <tag type="pos" index="i2038">IN</tag>
+  <tag type="pos" index="i2039">NNS</tag>
+  <tag type="pos" index="i2040">IN</tag>
+  <tag type="pos" index="i2041">RB</tag>
+  <tag type="pos" index="i2042">DT</tag>
+  <tag type="pos" index="i2043">MD</tag>
+  <tag type="pos" index="i2044">RB</tag>
+  <tag type="pos" index="i2045">VB</tag>
+  <tag type="pos" index="i2046">JJ</tag>
+  <tag type="pos" index="i2047">IN</tag>
+  <tag type="pos" index="i2048">DT</tag>
+  <tag type="pos" index="i2049">NNP</tag>
+  <tag type="pos" index="i2050">NNP</tag>
+  <tag type="pos" index="i2051">POS</tag>
+  <tag type="pos" index="i2052">NNP</tag>
+  <tag type="pos" index="i2053">NNP</tag>
+  <tag type="pos" index="i2054">NNS</tag>
+  <tag type="pos" index="i2055">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1001">I-LOC</tag>
+  <tag type="ne" index="i1002">I-LOC</tag>
+  <tag type="ne" index="i1003">I-LOC</tag>
+  <tag type="ne" index="i1010">I-ORG</tag>
+  <tag type="ne" index="i1011">I-ORG</tag>
+  <tag type="ne" index="i1012">I-ORG</tag>
+  <tag type="ne" index="i1018">I-DAT</tag>
+  <tag type="ne" index="i1019">I-DAT</tag>
+  <tag type="ne" index="i1024">I-LOC</tag>
+  <tag type="ne" index="i2008">I-DAT</tag>
+  <tag type="ne" index="i2009">I-DAT</tag>
+  <tag type="ne" index="i2010">I-DAT</tag>
+  <tag type="ne" index="i2019">I-LOC</tag>
+  <tag type="ne" index="i2022">I-DAT</tag>
+  <tag type="ne" index="i2023">I-DAT</tag>
+  <tag type="ne" index="i2024">I-DAT</tag>
+  <tag type="ne" index="i2025">I-DAT</tag>
+  <tag type="ne" index="i2030">I-LOC</tag>
+  <tag type="ne" index="i2031">I-LOC</tag>
+  <tag type="ne" index="i2049">I-LOC</tag>
+  <tag type="ne" index="i2050">I-LOC</tag>
+  <tag type="ne" index="i2052">I-LOC</tag>
+  <tag type="ne" index="i2053">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>New</token>
+    <token>York</token>
+    <token>City</token>
+    <token>'s</token>
+    <token>largest</token>
+    <token>film</token>
+    <token>event</token>
+    <token>the</token>
+    <token>Tribeca</token>
+    <token>Film</token>
+    <token>Festival</token>
+    <token>downtown</token>
+    <token>Manhattan</token>
+    <token>The</token>
+    <token>12-day</token>
+    <token>festival</token>
+    <token>[</token>
+    <token>the</token>
+    <token>economy</token>
+    <token>the</token>
+    <token>September</token>
+    <token>11th</token>
+    <token>the</token>
+    <token>United</token>
+    <token>States</token>
+    <token>the</token>
+    <token>U.S.</token>
+    <token>VOA</token>
+    <token>'s</token>
+    <token>Carolyn</token>
+    <token>Weaver</token>
+    <token>reports</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    <index pos="1">i2001</index>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    <index pos="15">i2015</index>
+    </indexlist>
+    </dr>
+    <dr name="x14">
+    <indexlist>
+    <index pos="21">i2021</index>
+    </indexlist>
+    </dr>
+    <dr name="x15">
+    <indexlist>
+    <index pos="29">i2029</index>
+    </indexlist>
+    </dr>
+    <dr name="x16">
+    <indexlist>
+    <index pos="48">i2048</index>
+    </indexlist>
+    </dr>
+    <dr name="x17">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x18">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t6" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="lower" type="a" sense="0">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x5" symbol="manhattan" type="loc">
+    <indexlist>
+    <index pos="24">i1024</index>
+    </indexlist>
+    </named>
+    <named arg="x1" symbol="new_york_city" type="loc">
+    <indexlist>
+    <index pos="1">i1001</index>
+    <index pos="2">i1002</index>
+    <index pos="3">i1003</index>
+    </indexlist>
+    </named>
+    <pred arg="x2" symbol="film" type="n" sense="0">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x2" arg2="x3" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x3" symbol="event" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x3" arg2="x1" symbol="of" sense="0">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </rel>
+    <imp>
+    <indexlist>
+    </indexlist>
+     <drs type="normal">
+      <dom>
+       <dr name="x19">
+       <indexlist>
+       </indexlist>
+       </dr>
+       <dr name="x20">
+       <indexlist>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="x19" symbol="film" type="n" sense="0">
+       <indexlist>
+       <index pos="6">i1006</index>
+       </indexlist>
+       </pred>
+       <rel arg1="x19" arg2="x20" symbol="nn" sense="0">
+       <indexlist>
+       </indexlist>
+       </rel>
+       <pred arg="x20" symbol="event" type="n" sense="0">
+       <indexlist>
+       <index pos="7">i1007</index>
+       </indexlist>
+       </pred>
+       <not>
+       <indexlist>
+       </indexlist>
+        <drs type="normal">
+         <dom>
+         </dom>
+         <con>
+          <eq arg1="x3" arg2="x20">
+          <indexlist>
+          </indexlist>
+          </eq>
+         </con>
+        </drs>
+       </not>
+      </con>
+     </drs>
+     <drs type="normal">
+      <dom>
+      </dom>
+      <con>
+       <rel arg1="x3" arg2="x20" symbol="largest" sense="0">
+       <indexlist>
+       <index pos="5">i1005</index>
+       </indexlist>
+       </rel>
+      </con>
+     </drs>
+    </imp>
+    <pred arg="x4" symbol="downtown" type="n" sense="0">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x4" arg2="x5" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <named arg="x7" symbol="tribeca_film_festival" type="org">
+    <indexlist>
+    <index pos="10">i1010</index>
+    <index pos="11">i1011</index>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </named>
+    <pred arg="x8" symbol="downtown" type="n" sense="0">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x8" arg2="x9" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <named arg="x9" symbol="manhattan" type="loc">
+    <indexlist>
+    <index pos="24">i1024</index>
+    </indexlist>
+    </named>
+    <pred arg="x12" symbol="day" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i2002</index>
+    </indexlist>
+    </pred>
+    <pred arg="x10" symbol="festival" type="n" sense="0">
+    <indexlist>
+    <index pos="3">i2003</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x10" arg2="x11" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x11" symbol="[" type="n" sense="0">
+    <indexlist>
+    <index pos="4">i2004</index>
+    </indexlist>
+    </pred>
+    <card arg="x12" value="12" type="eq">
+    <indexlist>
+    </indexlist>
+    </card>
+    <rel arg1="x12" arg2="x11" symbol="nn" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x13" symbol="economy" type="n" sense="0">
+    <indexlist>
+    <index pos="16">i2016</index>
+    </indexlist>
+    </pred>
+    <timex arg="x14">
+    <indexlist>
+    <index pos="22">i2022</index>
+    <index pos="23">i2023</index>
+    </indexlist>
+    <date>+XXXX0911</date>
+    </timex>
+    <named arg="x15" symbol="united_states" type="loc">
+    <indexlist>
+    <index pos="30">i2030</index>
+    <index pos="31">i2031</index>
+    </indexlist>
+    </named>
+    <named arg="x16" symbol="u.s._voa" type="loc">
+    <indexlist>
+    <index pos="49">i2049</index>
+    <index pos="50">i2050</index>
+    </indexlist>
+    </named>
+    <named arg="x17" symbol="carolyn_weaver" type="loc">
+    <indexlist>
+    <index pos="52">i2052</index>
+    <index pos="53">i2053</index>
+    </indexlist>
+    </named>
+    <rel arg1="x17" arg2="x18" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x18" symbol="report" type="n" sense="0">
+    <indexlist>
+    <index pos="54">i2054</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x18" arg2="x16" symbol="of" sense="0">
+    <indexlist>
+    <index pos="51">i2051</index>
+    </indexlist>
+    </rel>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k21">
+  <sdrs>
+   <constituents>
+   <constituent label="k22">
+   <drs type="sentence">
+    <tokens>
+     <token>screening</token>
+     <token>120</token>
+     <token>films</token>
+     <token>this</token>
+     <token>year</token>
+     <token>in</token>
+     <token>theaters</token>
+     <token>around</token>
+    </tokens>
+    <dom>
+     <dr name="x23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x29">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e34">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x23" symbol="film" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i1017</index>
+     </indexlist>
+     </pred>
+     <pred arg="x24" symbol="year" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </pred>
+     <pred arg="x25" symbol="theater" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <card arg="x23" value="120" type="eq">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     </card>
+     <rel arg1="x23" arg2="x24" symbol="this" sense="0">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x23" arg2="x25" symbol="in" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </rel>
+     <pred arg="e26" symbol="screen" type="v" sense="16000000">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x23" arg2="x5" symbol="around" sense="0">
+     <indexlist>
+     <index pos="22">i1022</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e26" arg2="x3" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e26" arg2="x23" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t27" arg2="t6">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="e28" arg2="t27" symbol="temp_overlap" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e28" arg2="e26" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x29" symbol="film" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i1017</index>
+     </indexlist>
+     </pred>
+     <pred arg="x30" symbol="year" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </pred>
+     <pred arg="x31" symbol="theater" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <card arg="x29" value="120" type="eq">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     </card>
+     <rel arg1="x29" arg2="x30" symbol="this" sense="0">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x29" arg2="x31" symbol="in" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </rel>
+     <pred arg="e32" symbol="screen" type="v" sense="16000000">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x29" arg2="x9" symbol="around" sense="0">
+     <indexlist>
+     <index pos="22">i1022</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e32" arg2="x7" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e32" arg2="x29" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t33" arg2="t6">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="e34" arg2="t33" symbol="temp_overlap" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e34" arg2="e32" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k35">
+   <drs type="sentence">
+    <tokens>
+     <token>ran</token>
+     <token>through</token>
+     <token>May</token>
+     <token>4</token>
+     <token>]</token>
+     <token>created</token>
+     <token>revive</token>
+     <token>in</token>
+     <token>after</token>
+     <token>,</token>
+     <token>2001</token>
+     <token>terrorist</token>
+     <token>attacks</token>
+     <token>on</token>
+     <token>provide</token>
+     <token>a</token>
+     <token>showcase</token>
+     <token>for</token>
+     <token>films</token>
+     <token>abroad</token>
+     <token>might</token>
+     <token>otherwise</token>
+     <token>go</token>
+     <token>unseen</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x36">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x39">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e40">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t41">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x42">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e43">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x44">
+     <indexlist>
+     <index pos="36">i2036</index>
+     </indexlist>
+     </dr>
+     <dr name="x45">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e46">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e37" symbol="run" type="v" sense="47051100">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </pred>
+     <pred arg="e40" symbol="create" type="v" sense="26040000">
+     <indexlist>
+     <index pos="12">i2012</index>
+     </indexlist>
+     </pred>
+     <timex arg="x36">
+     <indexlist>
+     <index pos="8">i2008</index>
+     <index pos="9">i2009</index>
+     </indexlist>
+     <date>+XXXX0504</date>
+     </timex>
+     <rel arg1="x36" arg2="x39" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x39" symbol="]" type="n" sense="0">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e37" arg2="x11" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e37" arg2="t38" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t38" arg2="t6" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e37" arg2="x39" symbol="Location" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e40" arg2="x11" symbol="Product" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e40" arg2="t41" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t41" arg2="t6" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="x13" arg2="x5" symbol="in" sense="0">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </rel>
+     <timex arg="x42">
+     <indexlist>
+     <index pos="25">i2025</index>
+     </indexlist>
+     <date>+2001XXXX</date>
+     </timex>
+     <pred arg="x42" symbol="attack" type="n" sense="0">
+     <indexlist>
+     <index pos="27">i2027</index>
+     </indexlist>
+     </pred>
+     <pred arg="x42" symbol="terrorist" type="a" sense="0">
+     <indexlist>
+     <index pos="26">i2026</index>
+     </indexlist>
+     </pred>
+     <pred arg="e43" symbol="revive" type="v" sense="45040000">
+     <indexlist>
+     <index pos="14">i2014</index>
+     </indexlist>
+     </pred>
+     <pred arg="e46" symbol="provide" type="v" sense="13041200">
+     <indexlist>
+     <index pos="35">i2035</index>
+     </indexlist>
+     </pred>
+     <pred arg="x44" symbol="showcase" type="n" sense="0">
+     <indexlist>
+     <index pos="37">i2037</index>
+     </indexlist>
+     </pred>
+     <pred arg="x45" symbol="film" type="n" sense="0">
+     <indexlist>
+     <index pos="39">i2039</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x42" arg2="x15" symbol="on" sense="0">
+     <indexlist>
+     <index pos="28">i2028</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x14" arg2="x42" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="24">i2024</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x13" arg2="x14" symbol="after" sense="0">
+     <indexlist>
+     <index pos="20">i2020</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e43" arg2="x11" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e43" arg2="x13" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x45" symbol="abroad" type="a" sense="0">
+     <indexlist>
+     <index pos="41">i2041</index>
+     </indexlist>
+     </pred>
+     <pos>
+     <indexlist>
+     <index pos="43">i2043</index>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="e47">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t48">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="e47" symbol="go" type="v" sense="51010200">
+        <indexlist>
+        <index pos="45">i2045</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e47" arg2="x45" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x45" symbol="unseen" type="a" sense="0">
+        <indexlist>
+        <index pos="46">i2046</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e47" arg2="x18" symbol="Oblique" sense="0">
+        <indexlist>
+        <index pos="47">i2047</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e47" arg2="t48" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="t6" arg2="t48" symbol="temp_before" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="e47" symbol="otherwise" type="a" sense="0">
+        <indexlist>
+        <index pos="44">i2044</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+     </pos>
+     <rel arg1="x44" arg2="x45" symbol="for" sense="0">
+     <indexlist>
+     <index pos="38">i2038</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e46" arg2="x11" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e46" arg2="x44" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k22" arg2="k35" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k21" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

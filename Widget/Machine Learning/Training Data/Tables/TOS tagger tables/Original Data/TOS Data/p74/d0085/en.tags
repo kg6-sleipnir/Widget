@@ -1,0 +1,74 @@
+Chinese	JJ	N[nom]/N[nom]	chinese	O
+officials	NNS	N[nom]	official	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+gas	NN	N[nom]/N[nom]	gas	O
+explosion	NN	N[nom]	explosion	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+trapped	VBN	S[pt]\NP/PP	trap	O
+at	IN	PP/NP	at	O
+least	JJS	N[nom]/N[nom]	least	O
+50	CD	N[nom]/N[nom]	50	I-PCT
+coal	NN	N[nom]/N[nom]	coal	I-PCT
+miners	NNS	N[nom]	miner	O
+deep	JJ	S[adj]\NP	deep	O
+underground	NN	S[adj]\NP\S[adj]\NP	underground	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Officials	NNS	N[nom]	official	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+the	DT	NP/N[nom]	the	O
+blast	NN	N[nom]	blast	O
+occurred	VBD	S[dcl]\NP	occur	O
+before	IN	S[dcl]\NP\S[dcl]\NP/NP	before	I-TIM
+dawn	NN	N[nom]	dawn	I-TIM
+Thursday	NNP	S[dcl]\NP\S[dcl]\NP	thursday	I-DAT
+at	IN	S[dcl]\NP\S[dcl]\NP/NP	at	O
+a	DT	NP/N[nom]	a	O
+mine	NN	N[nom]	mine	O
+in	IN	NP\NP/NP	in	O
+northern	JJ	N[nom]/N[nom]	northern	O
+Hebei	NNP	N[nom]/N[nom]	hebeus	I-LOC
+province	NN	N[nom]	province	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+condition	NN	N[nom]	condition	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+miners	NNS	N[nom]	miner	O
+is	VBZ	S[dcl]\NP/S[pss]\NP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+immediately	RB	S[dcl]\NP\S[dcl]\NP	immediately	O
+known	VBN	S[pss]\NP	know	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+latest	JJS	N[nom]/N[nom]	latest	O
+accident	NN	N[nom]	accident	O
+in	IN	NP\NP/NP	in	O
+China	NNP	N[nam]	china	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+notoriously	RB	N[nom]/N[nom]/N[nom]/N[nom]	notoriously	O
+dangerous	JJ	N[nom]/N[nom]	dangerous	O
+mines	NNS	N[nom]	mine	O
+comes	VBZ	S[dcl]\NP	come	O
+one	CD	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	one	O
+week	NN	S[dcl]\NP\S[dcl]\NP	week	O
+after	IN	S[dcl]\NP\S[dcl]\NP/S[dcl]	after	O
+an	DT	NP/N[nom]	an	O
+accidental	JJ	N[nom]/N[nom]	accidental	O
+explosion	NN	N[nom]	explosion	O
+killed	VBD	S[dcl]\NP/NP	kill	O
+21	CD	N[nom]/N[nom]	21	O
+miners	NNS	N[nom]	miner	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Sichuan	NNP	N[nom]/N[nom]	sichuan	I-LOC
+province	NN	N[nom]	province	O
+in	IN	NP\NP/NP	in	O
+southwestern	JJ	N[nam]/N[nam]	southwestern	O
+China	NNP	N[nam]	china	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

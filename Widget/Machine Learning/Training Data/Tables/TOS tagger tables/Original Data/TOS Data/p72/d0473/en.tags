@@ -1,0 +1,52 @@
+For	IN	S[qem]/S[qem]/NP	for	O
+years	NNS	N[nom]	year	O
+,	,	S[dcl]/S[dcl]	,	O
+health	NN	N[nom]/N[nom]	health	O
+professionals	NNS	N[nom]	professional	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[ng]\NP	be	O
+showing	VBG	S[ng]\NP/NP	show	O
+women	NNS	N[nom]	woman	O
+how	WRB	S[qem]/S[to]\NP	how	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+do	VB	S[b]\NP/NP	do	O
+monthly	JJ	N[nom]/N[nom]	monthly	O
+exams	NNS	N[nom]	exam	O
+of	IN	NP\NP/NP	of	O
+their	PRP$	NP/N[nom]	their	O
+own	JJ	N[nom]/N[nom]	own	O
+breasts	NNS	N[nom]	breast	O
+as	IN	S[b]\NP\S[b]\NP/NP	as	O
+a	DT	NP/N[nom]	a	O
+method	NN	N[nom]	method	O
+of	IN	NP\NP/NP	of	O
+early	JJ	N[nom]/N[nom]	early	O
+cancer	NN	N[nom]/N[nom]	cancer	O
+detection	NN	N[nom]	detection	O
+.	.	S[b]\NP\S[b]\NP	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+studies	NNS	N[nom]	study	O
+this	DT	S[dcl]\NP/S[dcl]\NP/N[nom]	this	I-DAT
+week	NN	N[nom]	week	I-DAT
+reveal	VBP	S[dcl]\NP/S[em]	reveal	O
+that	IN	S[em]/S[dcl]	that	O
+breast	NN	N[nom]/N[nom]	breast	O
+self-exam	NN	N[nom]	self-exam	O
+may	MD	S[dcl]\NP/S[b]\NP	may	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+be	VB	S[b]\NP/S[adj]\NP	be	O
+all	DT	S[adj]\NP/S[adj]\NP	all	O
+that	IN	S[adj]\NP/S[adj]\NP	that	O
+healthy	JJ	S[adj]\NP	healthy	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Melinda	NNP	N[nam]/N[nam]	melinda	I-PER
+Smith	NNP	N[nam]	smith	I-PER
+explains	VBZ	S[dcl]\S[dcl]\NP	explain	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

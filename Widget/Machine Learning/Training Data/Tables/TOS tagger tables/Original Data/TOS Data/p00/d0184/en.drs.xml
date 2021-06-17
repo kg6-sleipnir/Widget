@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- The American Diabetes Association reports the disease is the leading cause of new cases of blindness among adults . It is the leading cause of kidney failure . The rate of amputation is 10 times higher among those who suffer from the disease . Experts say those who learn how to manage the disease early , can live healthier and more normal lives . VOA 's June Soh found camps that provide children with this chronic disease a positive approach to living with diabetes while letting them just be kids . Amy Katz Narrates . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">The</word>
+  <word xml:id="i1002">American</word>
+  <word xml:id="i1003">Diabetes</word>
+  <word xml:id="i1004">Association</word>
+  <word xml:id="i1005">reports</word>
+  <word xml:id="i1006">the</word>
+  <word xml:id="i1007">disease</word>
+  <word xml:id="i1008">is</word>
+  <word xml:id="i1009">the</word>
+  <word xml:id="i1010">leading</word>
+  <word xml:id="i1011">cause</word>
+  <word xml:id="i1012">of</word>
+  <word xml:id="i1013">new</word>
+  <word xml:id="i1014">cases</word>
+  <word xml:id="i1015">of</word>
+  <word xml:id="i1016">blindness</word>
+  <word xml:id="i1017">among</word>
+  <word xml:id="i1018">adults</word>
+  <word xml:id="i1019">.</word>
+  <word xml:id="i2001">It</word>
+  <word xml:id="i2002">is</word>
+  <word xml:id="i2003">the</word>
+  <word xml:id="i2004">leading</word>
+  <word xml:id="i2005">cause</word>
+  <word xml:id="i2006">of</word>
+  <word xml:id="i2007">kidney</word>
+  <word xml:id="i2008">failure</word>
+  <word xml:id="i2009">.</word>
+  <word xml:id="i3001">The</word>
+  <word xml:id="i3002">rate</word>
+  <word xml:id="i3003">of</word>
+  <word xml:id="i3004">amputation</word>
+  <word xml:id="i3005">is</word>
+  <word xml:id="i3006">10</word>
+  <word xml:id="i3007">times</word>
+  <word xml:id="i3008">higher</word>
+  <word xml:id="i3009">among</word>
+  <word xml:id="i3010">those</word>
+  <word xml:id="i3011">who</word>
+  <word xml:id="i3012">suffer</word>
+  <word xml:id="i3013">from</word>
+  <word xml:id="i3014">the</word>
+  <word xml:id="i3015">disease</word>
+  <word xml:id="i3016">.</word>
+  <word xml:id="i4001">Experts</word>
+  <word xml:id="i4002">say</word>
+  <word xml:id="i4003">those</word>
+  <word xml:id="i4004">who</word>
+  <word xml:id="i4005">learn</word>
+  <word xml:id="i4006">how</word>
+  <word xml:id="i4007">to</word>
+  <word xml:id="i4008">manage</word>
+  <word xml:id="i4009">the</word>
+  <word xml:id="i4010">disease</word>
+  <word xml:id="i4011">early</word>
+  <word xml:id="i4012">,</word>
+  <word xml:id="i4013">can</word>
+  <word xml:id="i4014">live</word>
+  <word xml:id="i4015">healthier</word>
+  <word xml:id="i4016">and</word>
+  <word xml:id="i4017">more</word>
+  <word xml:id="i4018">normal</word>
+  <word xml:id="i4019">lives</word>
+  <word xml:id="i4020">.</word>
+  <word xml:id="i5001">VOA</word>
+  <word xml:id="i5002">'s</word>
+  <word xml:id="i5003">June</word>
+  <word xml:id="i5004">Soh</word>
+  <word xml:id="i5005">found</word>
+  <word xml:id="i5006">camps</word>
+  <word xml:id="i5007">that</word>
+  <word xml:id="i5008">provide</word>
+  <word xml:id="i5009">children</word>
+  <word xml:id="i5010">with</word>
+  <word xml:id="i5011">this</word>
+  <word xml:id="i5012">chronic</word>
+  <word xml:id="i5013">disease</word>
+  <word xml:id="i5014">a</word>
+  <word xml:id="i5015">positive</word>
+  <word xml:id="i5016">approach</word>
+  <word xml:id="i5017">to</word>
+  <word xml:id="i5018">living</word>
+  <word xml:id="i5019">with</word>
+  <word xml:id="i5020">diabetes</word>
+  <word xml:id="i5021">while</word>
+  <word xml:id="i5022">letting</word>
+  <word xml:id="i5023">them</word>
+  <word xml:id="i5024">just</word>
+  <word xml:id="i5025">be</word>
+  <word xml:id="i5026">kids</word>
+  <word xml:id="i5027">.</word>
+  <word xml:id="i6001">Amy</word>
+  <word xml:id="i6002">Katz</word>
+  <word xml:id="i6003">Narrates</word>
+  <word xml:id="i6004">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">NNP</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">NNP</tag>
+  <tag type="pos" index="i1005">VBZ</tag>
+  <tag type="pos" index="i1006">DT</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">VBZ</tag>
+  <tag type="pos" index="i1009">DT</tag>
+  <tag type="pos" index="i1010">VBG</tag>
+  <tag type="pos" index="i1011">NN</tag>
+  <tag type="pos" index="i1012">IN</tag>
+  <tag type="pos" index="i1013">JJ</tag>
+  <tag type="pos" index="i1014">NNS</tag>
+  <tag type="pos" index="i1015">IN</tag>
+  <tag type="pos" index="i1016">NN</tag>
+  <tag type="pos" index="i1017">IN</tag>
+  <tag type="pos" index="i1018">NNS</tag>
+  <tag type="pos" index="i1019">.</tag>
+  <tag type="pos" index="i2001">PRP</tag>
+  <tag type="pos" index="i2002">VBZ</tag>
+  <tag type="pos" index="i2003">DT</tag>
+  <tag type="pos" index="i2004">VBG</tag>
+  <tag type="pos" index="i2005">NN</tag>
+  <tag type="pos" index="i2006">IN</tag>
+  <tag type="pos" index="i2007">NN</tag>
+  <tag type="pos" index="i2008">NN</tag>
+  <tag type="pos" index="i2009">.</tag>
+  <tag type="pos" index="i3001">DT</tag>
+  <tag type="pos" index="i3002">NN</tag>
+  <tag type="pos" index="i3003">IN</tag>
+  <tag type="pos" index="i3004">NN</tag>
+  <tag type="pos" index="i3005">VBZ</tag>
+  <tag type="pos" index="i3006">CD</tag>
+  <tag type="pos" index="i3007">NNS</tag>
+  <tag type="pos" index="i3008">JJR</tag>
+  <tag type="pos" index="i3009">IN</tag>
+  <tag type="pos" index="i3010">DT</tag>
+  <tag type="pos" index="i3011">WP</tag>
+  <tag type="pos" index="i3012">VBP</tag>
+  <tag type="pos" index="i3013">IN</tag>
+  <tag type="pos" index="i3014">DT</tag>
+  <tag type="pos" index="i3015">NN</tag>
+  <tag type="pos" index="i3016">.</tag>
+  <tag type="pos" index="i4001">NNS</tag>
+  <tag type="pos" index="i4002">VBP</tag>
+  <tag type="pos" index="i4003">DT</tag>
+  <tag type="pos" index="i4004">WP</tag>
+  <tag type="pos" index="i4005">VBP</tag>
+  <tag type="pos" index="i4006">WRB</tag>
+  <tag type="pos" index="i4007">TO</tag>
+  <tag type="pos" index="i4008">VB</tag>
+  <tag type="pos" index="i4009">DT</tag>
+  <tag type="pos" index="i4010">NN</tag>
+  <tag type="pos" index="i4011">RB</tag>
+  <tag type="pos" index="i4012">,</tag>
+  <tag type="pos" index="i4013">MD</tag>
+  <tag type="pos" index="i4014">VB</tag>
+  <tag type="pos" index="i4015">JJR</tag>
+  <tag type="pos" index="i4016">CC</tag>
+  <tag type="pos" index="i4017">JJR</tag>
+  <tag type="pos" index="i4018">JJ</tag>
+  <tag type="pos" index="i4019">NNS</tag>
+  <tag type="pos" index="i4020">.</tag>
+  <tag type="pos" index="i5001">NNP</tag>
+  <tag type="pos" index="i5002">POS</tag>
+  <tag type="pos" index="i5003">NNP</tag>
+  <tag type="pos" index="i5004">NNP</tag>
+  <tag type="pos" index="i5005">VBD</tag>
+  <tag type="pos" index="i5006">NNS</tag>
+  <tag type="pos" index="i5007">WDT</tag>
+  <tag type="pos" index="i5008">VBP</tag>
+  <tag type="pos" index="i5009">NNS</tag>
+  <tag type="pos" index="i5010">IN</tag>
+  <tag type="pos" index="i5011">DT</tag>
+  <tag type="pos" index="i5012">JJ</tag>
+  <tag type="pos" index="i5013">NN</tag>
+  <tag type="pos" index="i5014">DT</tag>
+  <tag type="pos" index="i5015">JJ</tag>
+  <tag type="pos" index="i5016">NN</tag>
+  <tag type="pos" index="i5017">TO</tag>
+  <tag type="pos" index="i5018">VBG</tag>
+  <tag type="pos" index="i5019">IN</tag>
+  <tag type="pos" index="i5020">NNS</tag>
+  <tag type="pos" index="i5021">IN</tag>
+  <tag type="pos" index="i5022">VBG</tag>
+  <tag type="pos" index="i5023">PRP</tag>
+  <tag type="pos" index="i5024">RB</tag>
+  <tag type="pos" index="i5025">VB</tag>
+  <tag type="pos" index="i5026">NNS</tag>
+  <tag type="pos" index="i5027">.</tag>
+  <tag type="pos" index="i6001">NNP</tag>
+  <tag type="pos" index="i6002">NNP</tag>
+  <tag type="pos" index="i6003">VBZ</tag>
+  <tag type="pos" index="i6004">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1002">I-ORG</tag>
+  <tag type="ne" index="i1003">I-ORG</tag>
+  <tag type="ne" index="i1004">I-ORG</tag>
+  <tag type="ne" index="i5001">I-ORG</tag>
+  <tag type="ne" index="i5003">I-DAT</tag>
+  <tag type="ne" index="i5004">I-DAT</tag>
+  <tag type="ne" index="i6001">I-PER</tag>
+  <tag type="ne" index="i6002">I-PER</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>The</token>
+    <token>American</token>
+    <token>Diabetes</token>
+    <token>Association</token>
+    <token>the</token>
+    <token>disease</token>
+    <token>the</token>
+    <token>leading</token>
+    <token>cause</token>
+    <token>It</token>
+    <token>The</token>
+    <token>rate</token>
+    <token>those</token>
+    <token>VOA</token>
+    <token>'s</token>
+    <token>June</token>
+    <token>Soh</token>
+    <token>them</token>
+    <token>Amy</token>
+    <token>Katz</token>
+   </tokens>
+   <dom>
+    <dr name="e1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </dr>
+    <dr name="e6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    <index pos="1">i3001</index>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x14">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t2" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x4" symbol="chronic" type="a" sense="0">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x4" symbol="disease" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </pred>
+    <pred arg="x9" symbol="thing" type="n" sense="12">
+    <indexlist>
+    <index pos="10">i3010</index>
+    </indexlist>
+    </pred>
+    <pred arg="e1" symbol="lead" type="v" sense="51070000">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <rel arg1="e1" arg2="x5" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x5" symbol="cause" type="n" sense="0">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </pred>
+    <named arg="x3" symbol="american_diabetes_association" type="org">
+    <indexlist>
+    <index pos="2">i1002</index>
+    <index pos="3">i1003</index>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </named>
+    <pred arg="e6" symbol="lead" type="v" sense="51070000">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e6" arg2="x5" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x7" symbol="neuter" type="a" sense="0">
+    <indexlist>
+    <index pos="1">i2001</index>
+    </indexlist>
+    </pred>
+    <pred arg="x8" symbol="rate" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i3002</index>
+    </indexlist>
+    </pred>
+    <named arg="x10" symbol="voa" type="org">
+    <indexlist>
+    <index pos="1">i5001</index>
+    </indexlist>
+    </named>
+    <timex arg="x11">
+    <indexlist>
+    <index pos="3">i5003</index>
+    </indexlist>
+    <date>+XXXX06XX</date>
+    </timex>
+    <rel arg1="x11" arg2="x12" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <named arg="x12" symbol="soh" type="nam">
+    <indexlist>
+    <index pos="4">i5004</index>
+    </indexlist>
+    </named>
+    <rel arg1="x12" arg2="x10" symbol="of" sense="0">
+    <indexlist>
+    <index pos="2">i5002</index>
+    </indexlist>
+    </rel>
+    <pred arg="x13" symbol="thing" type="n" sense="12">
+    <indexlist>
+    <index pos="23">i5023</index>
+    </indexlist>
+    </pred>
+    <named arg="x14" symbol="amy" type="per">
+    <indexlist>
+    <index pos="1">i6001</index>
+    </indexlist>
+    </named>
+    <named arg="x14" symbol="katz" type="per">
+    <indexlist>
+    <index pos="2">i6002</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k15">
+  <sdrs>
+   <constituents>
+   <constituent label="k16">
+   <drs type="sentence">
+    <tokens>
+     <token>reports</token>
+     <token>is</token>
+     <token>of</token>
+     <token>new</token>
+     <token>cases</token>
+     <token>of</token>
+     <token>blindness</token>
+     <token>among</token>
+     <token>adults</token>
+    </tokens>
+    <dom>
+     <dr name="e17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t19">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e17" symbol="report" type="v" sense="29090100">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e17" arg2="x3" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e17" arg2="p18" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p18">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="p20">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t21">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <prop argument="p20">
+        <indexlist>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+           <dr name="x22">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="x23">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="x24">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x22" symbol="case" type="n" sense="0">
+           <indexlist>
+           <index pos="14">i1014</index>
+           </indexlist>
+           </pred>
+           <pred arg="x23" symbol="blindness" type="n" sense="0">
+           <indexlist>
+           <index pos="16">i1016</index>
+           </indexlist>
+           </pred>
+           <pred arg="x24" symbol="adult" type="n" sense="0">
+           <indexlist>
+           <index pos="18">i1018</index>
+           </indexlist>
+           </pred>
+           <pred arg="x22" symbol="new" type="a" sense="0">
+           <indexlist>
+           <index pos="13">i1013</index>
+           </indexlist>
+           </pred>
+           <rel arg1="x22" arg2="x23" symbol="of" sense="0">
+           <indexlist>
+           <index pos="15">i1015</index>
+           </indexlist>
+           </rel>
+           <rel arg1="x5" arg2="x22" symbol="of" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </rel>
+           <rel arg1="x5" arg2="x24" symbol="among" sense="0">
+           <indexlist>
+           <index pos="17">i1017</index>
+           </indexlist>
+           </rel>
+           <eq arg1="x4" arg2="x5">
+           <indexlist>
+           <index pos="8">i1008</index>
+           </indexlist>
+           </eq>
+          </con>
+         </drs>
+        </prop>
+        <rel arg1="p20" arg2="t21" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <eq arg1="t21" arg2="t2">
+        <indexlist>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e17" arg2="t19" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t19" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k25">
+   <drs type="sentence">
+    <tokens>
+     <token>is</token>
+     <token>of</token>
+     <token>kidney</token>
+     <token>failure</token>
+    </tokens>
+    <dom>
+     <dr name="p26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t27">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <prop argument="p26">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x28">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x29">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x28" symbol="kidney" type="n" sense="0">
+        <indexlist>
+        <index pos="7">i2007</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x28" arg2="x29" symbol="nn" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x29" symbol="failure" type="n" sense="0">
+        <indexlist>
+        <index pos="8">i2008</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x5" arg2="x29" symbol="of" sense="0">
+        <indexlist>
+        <index pos="6">i2006</index>
+        </indexlist>
+        </rel>
+        <eq arg1="x7" arg2="x5">
+        <indexlist>
+        <index pos="2">i2002</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p26" arg2="t27" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t27" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k30">
+   <drs type="sentence">
+    <tokens>
+     <token>of</token>
+     <token>amputation</token>
+     <token>10</token>
+     <token>times</token>
+     <token>higher</token>
+     <token>among</token>
+     <token>suffer</token>
+     <token>from</token>
+    </tokens>
+    <dom>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e34">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t35">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x31" symbol="amputation" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x8" arg2="x31" symbol="of" sense="0">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     </rel>
+     <prop argument="p32">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x36">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x36" symbol="time" type="n" sense="0">
+        <indexlist>
+        <index pos="7">i3007</index>
+        </indexlist>
+        </pred>
+        <card arg="x36" value="10" type="eq">
+        <indexlist>
+        <index pos="6">i3006</index>
+        </indexlist>
+        </card>
+        <pred arg="x8" symbol="higher" type="a" sense="0">
+        <indexlist>
+        <index pos="8">i3008</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x8" arg2="x36" symbol="rel" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p32" arg2="t33" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t33" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <pred arg="e34" symbol="suffer" type="v" sense="31030400">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e34" arg2="x9" symbol="Experiencer" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e34" arg2="x4" symbol="Cause" sense="0">
+     <indexlist>
+     <index pos="13">i3013</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e34" arg2="t35" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t35" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="p32" arg2="x9" symbol="among" sense="0">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k37">
+   <drs type="sentence">
+    <tokens>
+     <token>Experts</token>
+     <token>say</token>
+     <token>learn</token>
+     <token>how</token>
+     <token>manage</token>
+     <token>early</token>
+     <token>can</token>
+     <token>live</token>
+     <token>healthier</token>
+     <token>more</token>
+     <token>normal</token>
+     <token>lives</token>
+    </tokens>
+    <dom>
+     <dr name="x38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e39">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p40">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t41">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e39" symbol="say" type="v" sense="37070100">
+     <indexlist>
+     <index pos="2">i4002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x38" symbol="expert" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i4001</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e39" arg2="x38" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e39" arg2="p40" symbol="Topic" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p40">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <pos>
+        <indexlist>
+        <index pos="13">i4013</index>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+           <dr name="e42">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="p43">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="t44">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="x45">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="e46">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="t47">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="e42" symbol="learn" type="v" sense="84000110">
+           <indexlist>
+           <index pos="5">i4005</index>
+           </indexlist>
+           </pred>
+           <pred arg="e46" symbol="live" type="v" sense="46000000">
+           <indexlist>
+           <index pos="14">i4014</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="life" type="n" sense="0">
+           <indexlist>
+           <index pos="19">i4019</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="life" type="n" sense="0">
+           <indexlist>
+           <index pos="19">i4019</index>
+           </indexlist>
+           </pred>
+           <rel arg1="e42" arg2="x9" symbol="Agent" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="e42" arg2="p43" symbol="Theme" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <prop argument="p43">
+           <indexlist>
+           </indexlist>
+            <drs type="normal">
+             <dom>
+              <dr name="e48">
+              <indexlist>
+              </indexlist>
+              </dr>
+             </dom>
+             <con>
+              <pred arg="e48" symbol="manage" type="v" sense="75000200">
+              <indexlist>
+              <index pos="8">i4008</index>
+              </indexlist>
+              </pred>
+              <rel arg1="e48" arg2="x9" symbol="Agent" sense="0">
+              <indexlist>
+              </indexlist>
+              </rel>
+              <rel arg1="e48" arg2="x4" symbol="Theme" sense="0">
+              <indexlist>
+              </indexlist>
+              </rel>
+              <pred arg="e48" symbol="early" type="a" sense="0">
+              <indexlist>
+              <index pos="11">i4011</index>
+              </indexlist>
+              </pred>
+             </con>
+            </drs>
+           </prop>
+           <rel arg1="e42" arg2="t44" symbol="temp_included" sense="1">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <eq arg1="t44" arg2="t2">
+           <indexlist>
+           </indexlist>
+           </eq>
+           <pred arg="e42" symbol="how" type="a" sense="0">
+           <indexlist>
+           <index pos="6">i4006</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="healthier" type="a" sense="0">
+           <indexlist>
+           <index pos="15">i4015</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="normal" type="a" sense="0">
+           <indexlist>
+           <index pos="18">i4018</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="more" type="a" sense="0">
+           <indexlist>
+           <index pos="17">i4017</index>
+           </indexlist>
+           </pred>
+           <pred arg="x45" symbol="normal" type="a" sense="0">
+           <indexlist>
+           <index pos="18">i4018</index>
+           </indexlist>
+           </pred>
+           <rel arg1="e46" arg2="x9" symbol="Theme" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="e46" arg2="x45" symbol="Location" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="e46" arg2="t47" symbol="temp_included" sense="1">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="t2" arg2="t47" symbol="temp_before" sense="1">
+           <indexlist>
+           </indexlist>
+           </rel>
+          </con>
+         </drs>
+        </pos>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e39" arg2="t41" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t41" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k49">
+   <drs type="sentence">
+    <tokens>
+     <token>found</token>
+     <token>camps</token>
+     <token>provide</token>
+     <token>children</token>
+     <token>with</token>
+     <token>a</token>
+     <token>positive</token>
+     <token>approach</token>
+     <token>living</token>
+     <token>with</token>
+     <token>diabetes</token>
+     <token>while</token>
+     <token>letting</token>
+     <token>just</token>
+     <token>be</token>
+     <token>kids</token>
+    </tokens>
+    <dom>
+     <dr name="x50">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x51">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e52">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t53">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x50" symbol="camp" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i5006</index>
+     </indexlist>
+     </pred>
+     <pred arg="e52" symbol="find" type="v" sense="13051000">
+     <indexlist>
+     <index pos="5">i5005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x51" symbol="child" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i5009</index>
+     </indexlist>
+     </pred>
+     <imp>
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x54">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x54" symbol="approach" type="n" sense="0">
+        <indexlist>
+        <index pos="16">i5016</index>
+        </indexlist>
+        </pred>
+        <pred arg="x54" symbol="positive" type="a" sense="0">
+        <indexlist>
+        <index pos="15">i5015</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+      <drs type="normal">
+       <dom>
+        <dr name="e55">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x56">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="e57">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="p58">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="e59">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t60">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="e55" symbol="live" type="v" sense="46000000">
+        <indexlist>
+        <index pos="18">i5018</index>
+        </indexlist>
+        </pred>
+        <pred arg="e57" symbol="let" type="v" sense="0">
+        <indexlist>
+        <index pos="22">i5022</index>
+        </indexlist>
+        </pred>
+        <pred arg="e59" symbol="provide" type="v" sense="13041200">
+        <indexlist>
+        <index pos="8">i5008</index>
+        </indexlist>
+        </pred>
+        <pred arg="x56" symbol="diabetes" type="n" sense="0">
+        <indexlist>
+        <index pos="20">i5020</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x4" arg2="x54" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="14">i5014</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e55" arg2="x4" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e55" arg2="x56" symbol="Location" sense="0">
+        <indexlist>
+        <index pos="19">i5019</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e57" arg2="x4" symbol="agent" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e57" arg2="p58" symbol="theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <prop argument="p58">
+        <indexlist>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+           <dr name="p61">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <prop argument="p61">
+           <indexlist>
+           </indexlist>
+            <drs type="normal">
+             <dom>
+              <dr name="x62">
+              <indexlist>
+              </indexlist>
+              </dr>
+             </dom>
+             <con>
+              <pred arg="x62" symbol="kid" type="n" sense="0">
+              <indexlist>
+              <index pos="26">i5026</index>
+              </indexlist>
+              </pred>
+              <eq arg1="x13" arg2="x62">
+              <indexlist>
+              <index pos="25">i5025</index>
+              </indexlist>
+              </eq>
+             </con>
+            </drs>
+           </prop>
+           <pred arg="p61" symbol="just" type="a" sense="0">
+           <indexlist>
+           <index pos="24">i5024</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+        </prop>
+        <rel arg1="e57" arg2="e55" symbol="while" sense="0">
+        <indexlist>
+        <index pos="21">i5021</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x51" arg2="x4" symbol="with" sense="0">
+        <indexlist>
+        <index pos="10">i5010</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e59" arg2="x50" symbol="Agent" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e59" arg2="x51" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e59" arg2="t60" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <eq arg1="t60" arg2="t2">
+        <indexlist>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </imp>
+     <rel arg1="e52" arg2="x12" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e52" arg2="x50" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e52" arg2="t53" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t53" arg2="t2" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k63">
+   <drs type="sentence">
+    <tokens>
+     <token>Narrates</token>
+    </tokens>
+    <dom>
+     <dr name="e64">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t65">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e64" symbol="narrate" type="v" sense="37011000">
+     <indexlist>
+     <index pos="3">i6003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e64" arg2="x14" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e64" arg2="t65" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t65" arg2="t2">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k49" arg2="k63" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k37" arg2="k49" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k30" arg2="k37" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k25" arg2="k30" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k16" arg2="k25" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k15" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

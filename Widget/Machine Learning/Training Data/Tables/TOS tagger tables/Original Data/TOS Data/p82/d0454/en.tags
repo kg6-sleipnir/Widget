@@ -1,0 +1,50 @@
+With	IN	S[dcl]/S[dcl]/NP	with	O
+the	DT	NP/N[nam]	the	O
+Democratic	JJ	N[nam]/N[nam]	democratic	I-ORG
+National	NNP	N[nam]/N[nam]	national	I-ORG
+Convention	NNP	N[nam]	convention	I-ORG
+ending	VBG	S[ng]\NP	end	O
+this	DT	S[ng]\NP\S[ng]\NP/N[nom]	this	I-DAT
+week	NN	N[nom]	week	I-DAT
+and	CC	CONJ	and	O
+the	DT	NP/N[nam]	the	O
+Republicans	NNPS	N[nam]	republican	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+follow	VB	S[b]\NP/NP	follow	O
+next	JJ	S[b]\NP\S[b]\NP	next	O
+,	,	NP\NP	,	O
+those	DT	NP/N[nom]	those	O
+efforts	NNS	N[nom]	effort	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+switched	VBN	S[pt]\NP/PP	switch	O
+into	IN	PP/NP	into	O
+high	JJ	N[nom]/N[nom]	high	O
+gear	NN	N[nom]	gear	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Jeff	NNP	N[nam]/N[nam]	jeff	I-PER
+Swicord	NNP	N[nam]	swicord	I-PER
+reports	VBZ	S[dcl]\NP/PP	report	O
+from	IN	PP/NP	from	O
+the	DT	NP/N[nom]	the	O
+Democratic	JJ	N[nom]/N[nom]	democratic	I-LOC
+convention	NN	N[nom]	convention	O
+in	IN	NP\NP/NP	in	O
+Denver	NNP	N[nam]	denver	I-LOC
+on	IN	NP\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+importance	NN	N[nom]	importance	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+youth	NN	N[nom]/N[nom]	youth	O
+vote	NN	N[nom]	vote	O
+in	IN	NP\NP/NP	in	O
+this	DT	NP/N[nom]	this	I-DAT
+year	NN	N[nom]	year	I-DAT
+'s	POS	NP/N[nom]\NP	's	O
+presidential	JJ	N[nom]/N[nom]	presidential	O
+election	NN	N[nom]	election	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- These uninhabited , barren , sub-Antarctic islands were transferred from the UK to Australia in 1947 . Populated by large numbers of seal and bird species , the islands have been designated a nature preserve . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">These</word>
+  <word xml:id="i1002">uninhabited</word>
+  <word xml:id="i1003">,</word>
+  <word xml:id="i1004">barren</word>
+  <word xml:id="i1005">,</word>
+  <word xml:id="i1006">sub-Antarctic</word>
+  <word xml:id="i1007">islands</word>
+  <word xml:id="i1008">were</word>
+  <word xml:id="i1009">transferred</word>
+  <word xml:id="i1010">from</word>
+  <word xml:id="i1011">the</word>
+  <word xml:id="i1012">UK</word>
+  <word xml:id="i1013">to</word>
+  <word xml:id="i1014">Australia</word>
+  <word xml:id="i1015">in</word>
+  <word xml:id="i1016">1947</word>
+  <word xml:id="i1017">.</word>
+  <word xml:id="i2001">Populated</word>
+  <word xml:id="i2002">by</word>
+  <word xml:id="i2003">large</word>
+  <word xml:id="i2004">numbers</word>
+  <word xml:id="i2005">of</word>
+  <word xml:id="i2006">seal</word>
+  <word xml:id="i2007">and</word>
+  <word xml:id="i2008">bird</word>
+  <word xml:id="i2009">species</word>
+  <word xml:id="i2010">,</word>
+  <word xml:id="i2011">the</word>
+  <word xml:id="i2012">islands</word>
+  <word xml:id="i2013">have</word>
+  <word xml:id="i2014">been</word>
+  <word xml:id="i2015">designated</word>
+  <word xml:id="i2016">a</word>
+  <word xml:id="i2017">nature</word>
+  <word xml:id="i2018">preserve</word>
+  <word xml:id="i2019">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">JJ</tag>
+  <tag type="pos" index="i1003">,</tag>
+  <tag type="pos" index="i1004">JJ</tag>
+  <tag type="pos" index="i1005">,</tag>
+  <tag type="pos" index="i1006">JJ</tag>
+  <tag type="pos" index="i1007">NNS</tag>
+  <tag type="pos" index="i1008">VBD</tag>
+  <tag type="pos" index="i1009">VBN</tag>
+  <tag type="pos" index="i1010">IN</tag>
+  <tag type="pos" index="i1011">DT</tag>
+  <tag type="pos" index="i1012">NNP</tag>
+  <tag type="pos" index="i1013">TO</tag>
+  <tag type="pos" index="i1014">NNP</tag>
+  <tag type="pos" index="i1015">IN</tag>
+  <tag type="pos" index="i1016">CD</tag>
+  <tag type="pos" index="i1017">.</tag>
+  <tag type="pos" index="i2001">VBN</tag>
+  <tag type="pos" index="i2002">IN</tag>
+  <tag type="pos" index="i2003">JJ</tag>
+  <tag type="pos" index="i2004">NNS</tag>
+  <tag type="pos" index="i2005">IN</tag>
+  <tag type="pos" index="i2006">NN</tag>
+  <tag type="pos" index="i2007">CC</tag>
+  <tag type="pos" index="i2008">NN</tag>
+  <tag type="pos" index="i2009">NNS</tag>
+  <tag type="pos" index="i2010">,</tag>
+  <tag type="pos" index="i2011">DT</tag>
+  <tag type="pos" index="i2012">NNS</tag>
+  <tag type="pos" index="i2013">VBP</tag>
+  <tag type="pos" index="i2014">VBN</tag>
+  <tag type="pos" index="i2015">VBN</tag>
+  <tag type="pos" index="i2016">DT</tag>
+  <tag type="pos" index="i2017">NN</tag>
+  <tag type="pos" index="i2018">VB</tag>
+  <tag type="pos" index="i2019">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1012">I-ORG</tag>
+  <tag type="ne" index="i1014">I-ORG</tag>
+  <tag type="ne" index="i1016">I-DAT</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>These</token>
+    <token>uninhabited</token>
+    <token>barren</token>
+    <token>sub-Antarctic</token>
+    <token>islands</token>
+    <token>the</token>
+    <token>UK</token>
+    <token>Australia</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="uninhabited" type="a" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="barren" type="a" sense="0">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="sub-antarctic" type="a" sense="0">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </pred>
+    <named arg="x3" symbol="uk" type="org">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </named>
+    <named arg="x4" symbol="australia" type="org">
+    <indexlist>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k5">
+  <sdrs>
+   <constituents>
+   <constituent label="k6">
+   <drs type="sentence">
+    <tokens>
+     <token>transferred</token>
+     <token>from</token>
+     <token>to</token>
+     <token>in</token>
+     <token>1947</token>
+    </tokens>
+    <dom>
+     <dr name="e7">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x8">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t9">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e7" symbol="transfer" type="v" sense="11010000">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e7" arg2="x2" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e7" arg2="x3" symbol="from" sense="0">
+     <indexlist>
+     <index pos="10">i1010</index>
+     </indexlist>
+     </rel>
+     <timex arg="x8">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     <date>+1947XXXX</date>
+     </timex>
+     <rel arg1="e7" arg2="x4" symbol="Destination" sense="0">
+     <indexlist>
+     <index pos="13">i1013</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e7" arg2="x8" symbol="Source" sense="0">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e7" arg2="t9" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t9" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k10">
+   <drs type="sentence">
+    <tokens>
+     <token>Populated</token>
+     <token>by</token>
+     <token>large</token>
+     <token>numbers</token>
+     <token>of</token>
+     <token>seal</token>
+     <token>bird</token>
+     <token>species</token>
+     <token>designated</token>
+     <token>a</token>
+     <token>nature</token>
+     <token>preserve</token>
+    </tokens>
+    <dom>
+     <dr name="x11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x14">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x16">
+     <indexlist>
+     <index pos="16">i2016</index>
+     </indexlist>
+     </dr>
+     <dr name="e17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e20">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e13" symbol="populate" type="v" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x14" symbol="number" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x15" symbol="seal" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </pred>
+     <pred arg="x11" symbol="bird" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x11" arg2="x15" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x15" symbol="species" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </pred>
+     <pred arg="x15" symbol="species" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e13" arg2="x12" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x14" symbol="large" type="a" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x14" arg2="x15" symbol="of" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e13" arg2="x14" symbol="agent" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </rel>
+     <pred arg="e17" symbol="designate" type="v" sense="29010000">
+     <indexlist>
+     <index pos="15">i2015</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="nature" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e17" arg2="x2" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e17" arg2="x16" symbol="Predicate" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e20" symbol="preserve" type="v" sense="85000000">
+     <indexlist>
+     <index pos="18">i2018</index>
+     </indexlist>
+     </pred>
+     <eq arg1="x18" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="x18" arg2="t19" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e17" arg2="t19" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e20" arg2="x2" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k6" arg2="k10" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k5" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

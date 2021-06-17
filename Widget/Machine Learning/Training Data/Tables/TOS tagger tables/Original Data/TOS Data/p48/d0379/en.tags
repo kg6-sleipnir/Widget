@@ -1,0 +1,60 @@
+A	DT	NP/N[nom]	a	O
+well-known	JJ	N[nom]/N[nom]	well-known	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+consumer	NN	N[nom]/N[nom]	consumer	O
+group	NN	N[nom]	group	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+calling	VBG	S[ng]\NP/PP	call	O
+for	IN	PP/NP	for	O
+a	DT	NP/N[nom]	a	O
+ban	NN	N[nom]	ban	O
+on	IN	NP\NP/NP	on	O
+some	DT	NP	some	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+most	RBS	N[nom]/N[nom]/N[nom]/N[nom]	most	O
+widely-used	JJ	N[nom]/N[nom]	widely-used	O
+dyes	NNS	N[nom]	dye	O
+in	IN	NP\NP/NP	in	O
+food	NN	N[nom]/N[nom]	food	O
+products	NNS	N[nom]	product	O
+sold	VBN	S[pss]\NP	sell	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]	state	I-LOC
+and	CC	CONJ	and	O
+elsewhere	RB	S[pss]\NP\S[pss]\NP	elsewhere	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nam]	the	I-ORG
+Center	NNP	N[nam]	center	I-ORG
+for	IN	NP\NP/NP	for	I-ORG
+Science	NNP	N[nam]	science	I-ORG
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+Public	NNP	N[nom]/N[nom]	public	I-ORG
+Interest	NN	N[nom]	interest	I-ORG
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+there	EX	NP	there	O
+is	VBZ	S[dcl]\NP/NP	be	O
+evidence	NN	N[nom]/S[em]	evidence	O
+that	IN	S[em]/S[dcl]	that	O
+these	DT	NP/N[nom]	these	O
+dyes	NNS	N[nom]	dye	O
+are	VBP	S[dcl]\NP/S[adj]\NP	be	O
+harmful	JJ	S[adj]\NP	harmful	O
+for	IN	S[dcl]\NP\S[dcl]\NP/NP	for	O
+children	NNS	N[nom]	child	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Carol	NNP	N[nam]/N[nam]	carol	I-PER
+Pearson	NNP	N[nam]	pearson	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+more	RBR	N[nom]	more	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

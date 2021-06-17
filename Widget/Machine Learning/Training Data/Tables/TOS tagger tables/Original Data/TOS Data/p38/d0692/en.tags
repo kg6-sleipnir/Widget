@@ -1,0 +1,64 @@
+Named	VBN	S[pss]\NP	name	O
+after	IN	S[pss]\NP\S[pss]\NP/NP	after	O
+Captain	NNP	N[nam]/N[nam]	captain	I-ORG
+COOK	NNP	N[nam]	cook	I-ORG
+,	,	NP\NP	,	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+sighted	VBD	S[dcl]\NP/NP	sight	O
+them	PRP	NP	them	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1770	CD	N[num]	1770	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+the	DT	NP/N[nom]	the	O
+islands	NNS	N[nom]	island	O
+became	VBD	S[dcl]\NP/NP	become	O
+a	DT	NP/N[nom]	a	O
+British	JJ	N[nom]/N[nom]	british	O
+protectorate	NN	N[nom]	protectorate	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1888	CD	N[num]	1888	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+By	IN	S[dcl]/S[dcl]/NP	by	O
+1900	CD	N[num]	1900	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+administrative	JJ	N[nom]/N[nom]	administrative	O
+control	NN	N[nom]	control	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+transferred	VBN	S[pss]\NP	transfer	O
+to	TO	S[pss]\NP\S[pss]\NP/NP	to	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Zealand	NNP	N[nam]	zealand	I-LOC
+;	;	SEMI	;	O
+in	IN	S[dcl]/S[dcl]/NP	in	O
+1965	CD	N[num]	1965	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+residents	NNS	N[nom]	resident	O
+chose	VBD	S[dcl]\NP/NP	choose	O
+self-government	NN	N[nom]	self-government	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+free	JJ	N[nom]/N[nom]	free	O
+association	NN	N[nom]	association	O
+with	IN	S[dcl]\NP\S[dcl]\NP/NP	with	O
+New	NNP	N[nam]/N[nam]	new	I-ORG
+Zealand	NNP	N[nam]	zealand	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+emigration	NN	N[nom]	emigration	O
+of	IN	NP\NP/NP	of	O
+skilled	JJ	N[nom]/N[nom]	skilled	O
+workers	NNS	N[nom]	worker	O
+to	TO	NP\NP/NP	to	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Zealand	NNP	N[nam]	zealand	I-LOC
+and	CC	CONJ	and	O
+government	NN	N[nom]/N[nom]	government	O
+deficits	NNS	N[nom]	deficit	O
+are	VBP	S[dcl]\NP/NP	be	O
+continuing	VBG	N[nom]/N[nom]	continue	O
+problems	NNS	N[nom]	problem	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

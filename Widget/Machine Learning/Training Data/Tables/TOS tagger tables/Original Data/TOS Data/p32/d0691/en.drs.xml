@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- The evolution of what is today the European Union ( EU ) from a regional economic agreement among six neighboring states in 1951 to today 's hybrid intergovernmental and supranational organization of 27 countries across the European continent stands as an unprecedented phenomenon in the annals of history . Dynastic unions for territorial consolidation were long the norm in Europe ; on a few occasions even country-level unions were arranged - the Polish-Lithuanian Commonwealth and the Austro-Hungarian Empire were examples . But for such a large number of nation-states to cede some of their sovereignty to an overarching entity is unique . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">The</word>
+  <word xml:id="i1002">evolution</word>
+  <word xml:id="i1003">of</word>
+  <word xml:id="i1004">what</word>
+  <word xml:id="i1005">is</word>
+  <word xml:id="i1006">today</word>
+  <word xml:id="i1007">the</word>
+  <word xml:id="i1008">European</word>
+  <word xml:id="i1009">Union</word>
+  <word xml:id="i1010">(</word>
+  <word xml:id="i1011">EU</word>
+  <word xml:id="i1012">)</word>
+  <word xml:id="i1013">from</word>
+  <word xml:id="i1014">a</word>
+  <word xml:id="i1015">regional</word>
+  <word xml:id="i1016">economic</word>
+  <word xml:id="i1017">agreement</word>
+  <word xml:id="i1018">among</word>
+  <word xml:id="i1019">six</word>
+  <word xml:id="i1020">neighboring</word>
+  <word xml:id="i1021">states</word>
+  <word xml:id="i1022">in</word>
+  <word xml:id="i1023">1951</word>
+  <word xml:id="i1024">to</word>
+  <word xml:id="i1025">today</word>
+  <word xml:id="i1026">'s</word>
+  <word xml:id="i1027">hybrid</word>
+  <word xml:id="i1028">intergovernmental</word>
+  <word xml:id="i1029">and</word>
+  <word xml:id="i1030">supranational</word>
+  <word xml:id="i1031">organization</word>
+  <word xml:id="i1032">of</word>
+  <word xml:id="i1033">27</word>
+  <word xml:id="i1034">countries</word>
+  <word xml:id="i1035">across</word>
+  <word xml:id="i1036">the</word>
+  <word xml:id="i1037">European</word>
+  <word xml:id="i1038">continent</word>
+  <word xml:id="i1039">stands</word>
+  <word xml:id="i1040">as</word>
+  <word xml:id="i1041">an</word>
+  <word xml:id="i1042">unprecedented</word>
+  <word xml:id="i1043">phenomenon</word>
+  <word xml:id="i1044">in</word>
+  <word xml:id="i1045">the</word>
+  <word xml:id="i1046">annals</word>
+  <word xml:id="i1047">of</word>
+  <word xml:id="i1048">history</word>
+  <word xml:id="i1049">.</word>
+  <word xml:id="i2001">Dynastic</word>
+  <word xml:id="i2002">unions</word>
+  <word xml:id="i2003">for</word>
+  <word xml:id="i2004">territorial</word>
+  <word xml:id="i2005">consolidation</word>
+  <word xml:id="i2006">were</word>
+  <word xml:id="i2007">long</word>
+  <word xml:id="i2008">the</word>
+  <word xml:id="i2009">norm</word>
+  <word xml:id="i2010">in</word>
+  <word xml:id="i2011">Europe</word>
+  <word xml:id="i2012">;</word>
+  <word xml:id="i2013">on</word>
+  <word xml:id="i2014">a</word>
+  <word xml:id="i2015">few</word>
+  <word xml:id="i2016">occasions</word>
+  <word xml:id="i2017">even</word>
+  <word xml:id="i2018">country-level</word>
+  <word xml:id="i2019">unions</word>
+  <word xml:id="i2020">were</word>
+  <word xml:id="i2021">arranged</word>
+  <word xml:id="i2022">-</word>
+  <word xml:id="i2023">the</word>
+  <word xml:id="i2024">Polish-Lithuanian</word>
+  <word xml:id="i2025">Commonwealth</word>
+  <word xml:id="i2026">and</word>
+  <word xml:id="i2027">the</word>
+  <word xml:id="i2028">Austro-Hungarian</word>
+  <word xml:id="i2029">Empire</word>
+  <word xml:id="i2030">were</word>
+  <word xml:id="i2031">examples</word>
+  <word xml:id="i2032">.</word>
+  <word xml:id="i3001">But</word>
+  <word xml:id="i3002">for</word>
+  <word xml:id="i3003">such</word>
+  <word xml:id="i3004">a</word>
+  <word xml:id="i3005">large</word>
+  <word xml:id="i3006">number</word>
+  <word xml:id="i3007">of</word>
+  <word xml:id="i3008">nation-states</word>
+  <word xml:id="i3009">to</word>
+  <word xml:id="i3010">cede</word>
+  <word xml:id="i3011">some</word>
+  <word xml:id="i3012">of</word>
+  <word xml:id="i3013">their</word>
+  <word xml:id="i3014">sovereignty</word>
+  <word xml:id="i3015">to</word>
+  <word xml:id="i3016">an</word>
+  <word xml:id="i3017">overarching</word>
+  <word xml:id="i3018">entity</word>
+  <word xml:id="i3019">is</word>
+  <word xml:id="i3020">unique</word>
+  <word xml:id="i3021">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">NN</tag>
+  <tag type="pos" index="i1003">IN</tag>
+  <tag type="pos" index="i1004">WP</tag>
+  <tag type="pos" index="i1005">VBZ</tag>
+  <tag type="pos" index="i1006">NN</tag>
+  <tag type="pos" index="i1007">DT</tag>
+  <tag type="pos" index="i1008">NNP</tag>
+  <tag type="pos" index="i1009">NNP</tag>
+  <tag type="pos" index="i1010">LRB</tag>
+  <tag type="pos" index="i1011">NNP</tag>
+  <tag type="pos" index="i1012">RRB</tag>
+  <tag type="pos" index="i1013">IN</tag>
+  <tag type="pos" index="i1014">DT</tag>
+  <tag type="pos" index="i1015">JJ</tag>
+  <tag type="pos" index="i1016">JJ</tag>
+  <tag type="pos" index="i1017">NN</tag>
+  <tag type="pos" index="i1018">IN</tag>
+  <tag type="pos" index="i1019">CD</tag>
+  <tag type="pos" index="i1020">JJ</tag>
+  <tag type="pos" index="i1021">NNS</tag>
+  <tag type="pos" index="i1022">IN</tag>
+  <tag type="pos" index="i1023">CD</tag>
+  <tag type="pos" index="i1024">TO</tag>
+  <tag type="pos" index="i1025">NN</tag>
+  <tag type="pos" index="i1026">POS</tag>
+  <tag type="pos" index="i1027">JJ</tag>
+  <tag type="pos" index="i1028">JJ</tag>
+  <tag type="pos" index="i1029">CC</tag>
+  <tag type="pos" index="i1030">JJ</tag>
+  <tag type="pos" index="i1031">NN</tag>
+  <tag type="pos" index="i1032">IN</tag>
+  <tag type="pos" index="i1033">CD</tag>
+  <tag type="pos" index="i1034">NNS</tag>
+  <tag type="pos" index="i1035">IN</tag>
+  <tag type="pos" index="i1036">DT</tag>
+  <tag type="pos" index="i1037">JJ</tag>
+  <tag type="pos" index="i1038">NN</tag>
+  <tag type="pos" index="i1039">VBZ</tag>
+  <tag type="pos" index="i1040">IN</tag>
+  <tag type="pos" index="i1041">DT</tag>
+  <tag type="pos" index="i1042">JJ</tag>
+  <tag type="pos" index="i1043">NN</tag>
+  <tag type="pos" index="i1044">IN</tag>
+  <tag type="pos" index="i1045">DT</tag>
+  <tag type="pos" index="i1046">NNS</tag>
+  <tag type="pos" index="i1047">IN</tag>
+  <tag type="pos" index="i1048">NN</tag>
+  <tag type="pos" index="i1049">.</tag>
+  <tag type="pos" index="i2001">NNP</tag>
+  <tag type="pos" index="i2002">NNS</tag>
+  <tag type="pos" index="i2003">IN</tag>
+  <tag type="pos" index="i2004">JJ</tag>
+  <tag type="pos" index="i2005">NN</tag>
+  <tag type="pos" index="i2006">VBD</tag>
+  <tag type="pos" index="i2007">RB</tag>
+  <tag type="pos" index="i2008">DT</tag>
+  <tag type="pos" index="i2009">NN</tag>
+  <tag type="pos" index="i2010">IN</tag>
+  <tag type="pos" index="i2011">NNP</tag>
+  <tag type="pos" index="i2012">;</tag>
+  <tag type="pos" index="i2013">IN</tag>
+  <tag type="pos" index="i2014">DT</tag>
+  <tag type="pos" index="i2015">JJ</tag>
+  <tag type="pos" index="i2016">NNS</tag>
+  <tag type="pos" index="i2017">RB</tag>
+  <tag type="pos" index="i2018">JJ</tag>
+  <tag type="pos" index="i2019">NNS</tag>
+  <tag type="pos" index="i2020">VBD</tag>
+  <tag type="pos" index="i2021">VBN</tag>
+  <tag type="pos" index="i2022">IN</tag>
+  <tag type="pos" index="i2023">DT</tag>
+  <tag type="pos" index="i2024">JJ</tag>
+  <tag type="pos" index="i2025">NN</tag>
+  <tag type="pos" index="i2026">CC</tag>
+  <tag type="pos" index="i2027">DT</tag>
+  <tag type="pos" index="i2028">JJ</tag>
+  <tag type="pos" index="i2029">NN</tag>
+  <tag type="pos" index="i2030">VBD</tag>
+  <tag type="pos" index="i2031">NNS</tag>
+  <tag type="pos" index="i2032">.</tag>
+  <tag type="pos" index="i3001">CC</tag>
+  <tag type="pos" index="i3002">IN</tag>
+  <tag type="pos" index="i3003">PDT</tag>
+  <tag type="pos" index="i3004">DT</tag>
+  <tag type="pos" index="i3005">JJ</tag>
+  <tag type="pos" index="i3006">NN</tag>
+  <tag type="pos" index="i3007">IN</tag>
+  <tag type="pos" index="i3008">NNS</tag>
+  <tag type="pos" index="i3009">TO</tag>
+  <tag type="pos" index="i3010">VB</tag>
+  <tag type="pos" index="i3011">DT</tag>
+  <tag type="pos" index="i3012">IN</tag>
+  <tag type="pos" index="i3013">PRP$</tag>
+  <tag type="pos" index="i3014">NN</tag>
+  <tag type="pos" index="i3015">TO</tag>
+  <tag type="pos" index="i3016">DT</tag>
+  <tag type="pos" index="i3017">JJ</tag>
+  <tag type="pos" index="i3018">NN</tag>
+  <tag type="pos" index="i3019">VBZ</tag>
+  <tag type="pos" index="i3020">JJ</tag>
+  <tag type="pos" index="i3021">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1006">I-DAT</tag>
+  <tag type="ne" index="i1008">I-ORG</tag>
+  <tag type="ne" index="i1009">I-ORG</tag>
+  <tag type="ne" index="i1011">I-ORG</tag>
+  <tag type="ne" index="i1023">I-DAT</tag>
+  <tag type="ne" index="i1024">I-PCT</tag>
+  <tag type="ne" index="i1025">I-DAT</tag>
+  <tag type="ne" index="i2011">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>The</token>
+    <token>evolution</token>
+    <token>the</token>
+    <token>European</token>
+    <token>Union</token>
+    <token>EU</token>
+    <token>the</token>
+    <token>European</token>
+    <token>continent</token>
+    <token>the</token>
+    <token>annals</token>
+    <token>the</token>
+    <token>norm</token>
+    <token>Europe</token>
+    <token>the</token>
+    <token>Polish-Lithuanian</token>
+    <token>Commonwealth</token>
+    <token>the</token>
+    <token>Austro-Hungarian</token>
+    <token>Empire</token>
+    <token>their</token>
+    <token>sovereignty</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="36">i1036</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    <index pos="45">i1045</index>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    <index pos="8">i2008</index>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    <index pos="23">i2023</index>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    <index pos="27">i2027</index>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="evolution" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </pred>
+    <named arg="x3" symbol="european_union" type="org">
+    <indexlist>
+    <index pos="8">i1008</index>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </named>
+    <named arg="x4" symbol="eu" type="org">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </named>
+    <pred arg="x5" symbol="continent" type="n" sense="0">
+    <indexlist>
+    <index pos="38">i1038</index>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="european" type="a" sense="0">
+    <indexlist>
+    <index pos="37">i1037</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="annals" type="n" sense="0">
+    <indexlist>
+    <index pos="46">i1046</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="norm" type="n" sense="0">
+    <indexlist>
+    <index pos="9">i2009</index>
+    </indexlist>
+    </pred>
+    <named arg="x8" symbol="europe" type="loc">
+    <indexlist>
+    <index pos="11">i2011</index>
+    </indexlist>
+    </named>
+    <pred arg="x9" symbol="commonwealth" type="n" sense="0">
+    <indexlist>
+    <index pos="25">i2025</index>
+    </indexlist>
+    </pred>
+    <pred arg="x9" symbol="polish-lithuanian" type="a" sense="0">
+    <indexlist>
+    <index pos="24">i2024</index>
+    </indexlist>
+    </pred>
+    <pred arg="x10" symbol="empire" type="n" sense="0">
+    <indexlist>
+    <index pos="29">i2029</index>
+    </indexlist>
+    </pred>
+    <pred arg="x10" symbol="austro-hungarian" type="a" sense="0">
+    <indexlist>
+    <index pos="28">i2028</index>
+    </indexlist>
+    </pred>
+    <pred arg="x11" symbol="thing" type="n" sense="12">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x12" symbol="sovereignty" type="n" sense="0">
+    <indexlist>
+    <index pos="14">i3014</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x12" arg2="x11" symbol="of" sense="0">
+    <indexlist>
+    <index pos="13">i3013</index>
+    </indexlist>
+    </rel>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k13">
+  <sdrs>
+   <constituents>
+   <constituent label="k14">
+   <drs type="sentence">
+    <tokens>
+     <token>of</token>
+     <token>what</token>
+     <token>is</token>
+     <token>today</token>
+     <token>(</token>
+     <token>from</token>
+     <token>a</token>
+     <token>regional</token>
+     <token>economic</token>
+     <token>agreement</token>
+     <token>among</token>
+     <token>six</token>
+     <token>neighboring</token>
+     <token>states</token>
+     <token>in</token>
+     <token>1951</token>
+     <token>to</token>
+     <token>today</token>
+     <token>'s</token>
+     <token>hybrid</token>
+     <token>intergovernmental</token>
+     <token>supranational</token>
+     <token>organization</token>
+     <token>of</token>
+     <token>27</token>
+     <token>countries</token>
+     <token>across</token>
+     <token>stands</token>
+     <token>as</token>
+     <token>an</token>
+     <token>unprecedented</token>
+     <token>phenomenon</token>
+     <token>in</token>
+     <token>of</token>
+     <token>history</token>
+    </tokens>
+    <dom>
+    </dom>
+    <con>
+     <whq>
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x15">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x15" symbol="thing" type="n" sense="12">
+        <indexlist>
+        <index pos="4">i1004</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+      <drs type="normal">
+       <dom>
+        <dr name="p16">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t17">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x18">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x19">
+        <indexlist>
+        <index pos="14">i1014</index>
+        </indexlist>
+        </dr>
+        <dr name="x20">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x21">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x22">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x23">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x24">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="e25">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x26">
+        <indexlist>
+        <index pos="41">i1041</index>
+        </indexlist>
+        </dr>
+        <dr name="x27">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t28">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x18" symbol="today" type="n" sense="0">
+        <indexlist>
+        <index pos="6">i1006</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="agreement" type="n" sense="0">
+        <indexlist>
+        <index pos="17">i1017</index>
+        </indexlist>
+        </pred>
+        <pred arg="x20" symbol="state" type="n" sense="0">
+        <indexlist>
+        <index pos="21">i1021</index>
+        </indexlist>
+        </pred>
+        <timex arg="x21">
+        <indexlist>
+        <index pos="23">i1023</index>
+        </indexlist>
+        <date>+1951XXXX</date>
+        </timex>
+        <pred arg="x22" symbol="today" type="n" sense="0">
+        <indexlist>
+        <index pos="25">i1025</index>
+        </indexlist>
+        </pred>
+        <prop argument="p16">
+        <indexlist>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <rel arg1="x3" arg2="x4" symbol="rel" sense="0">
+           <indexlist>
+           <index pos="10">i1010</index>
+           </indexlist>
+           </rel>
+           <eq arg1="x15" arg2="x3">
+           <indexlist>
+           <index pos="5">i1005</index>
+           </indexlist>
+           </eq>
+          </con>
+         </drs>
+        </prop>
+        <rel arg1="p16" arg2="t17" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <eq arg1="t17" arg2="t1">
+        <indexlist>
+        </indexlist>
+        </eq>
+        <rel arg1="p16" arg2="x18" symbol="rel" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x19" symbol="regional" type="a" sense="0">
+        <indexlist>
+        <index pos="15">i1015</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="economic" type="a" sense="0">
+        <indexlist>
+        <index pos="16">i1016</index>
+        </indexlist>
+        </pred>
+        <card arg="x20" value="6" type="eq">
+        <indexlist>
+        <index pos="19">i1019</index>
+        </indexlist>
+        </card>
+        <pred arg="x20" symbol="neighboring" type="a" sense="0">
+        <indexlist>
+        <index pos="20">i1020</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x19" arg2="x20" symbol="among" sense="0">
+        <indexlist>
+        <index pos="18">i1018</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x19" arg2="x21" symbol="in" sense="0">
+        <indexlist>
+        <index pos="22">i1022</index>
+        </indexlist>
+        </rel>
+        <pred arg="x23" symbol="organization" type="n" sense="0">
+        <indexlist>
+        <index pos="31">i1031</index>
+        </indexlist>
+        </pred>
+        <pred arg="x23" symbol="organization" type="n" sense="0">
+        <indexlist>
+        <index pos="31">i1031</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x23" arg2="x22" symbol="of" sense="0">
+        <indexlist>
+        <index pos="26">i1026</index>
+        </indexlist>
+        </rel>
+        <pred arg="x23" symbol="hybrid" type="a" sense="0">
+        <indexlist>
+        <index pos="27">i1027</index>
+        </indexlist>
+        </pred>
+        <pred arg="x23" symbol="intergovernmental" type="a" sense="0">
+        <indexlist>
+        <index pos="28">i1028</index>
+        </indexlist>
+        </pred>
+        <pred arg="x23" symbol="supranational" type="a" sense="0">
+        <indexlist>
+        <index pos="30">i1030</index>
+        </indexlist>
+        </pred>
+        <pred arg="x24" symbol="country" type="n" sense="0">
+        <indexlist>
+        <index pos="34">i1034</index>
+        </indexlist>
+        </pred>
+        <card arg="x24" value="27" type="eq">
+        <indexlist>
+        <index pos="33">i1033</index>
+        </indexlist>
+        </card>
+        <rel arg1="x23" arg2="x24" symbol="of" sense="0">
+        <indexlist>
+        <index pos="32">i1032</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x19" arg2="x23" symbol="to" sense="0">
+        <indexlist>
+        <index pos="24">i1024</index>
+        </indexlist>
+        </rel>
+        <pred arg="e25" symbol="stand" type="v" sense="50000000">
+        <indexlist>
+        <index pos="39">i1039</index>
+        </indexlist>
+        </pred>
+        <pred arg="x26" symbol="phenomenon" type="n" sense="0">
+        <indexlist>
+        <index pos="43">i1043</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x19" arg2="x5" symbol="across" sense="0">
+        <indexlist>
+        <index pos="35">i1035</index>
+        </indexlist>
+        </rel>
+        <rel arg1="p16" arg2="x19" symbol="from" sense="0">
+        <indexlist>
+        <index pos="13">i1013</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x2" arg2="x15" symbol="of" sense="0">
+        <indexlist>
+        <index pos="3">i1003</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e25" arg2="x2" symbol="Agent" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x26" symbol="unprecedented" type="a" sense="0">
+        <indexlist>
+        <index pos="42">i1042</index>
+        </indexlist>
+        </pred>
+        <pred arg="x27" symbol="history" type="n" sense="0">
+        <indexlist>
+        <index pos="48">i1048</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x6" arg2="x27" symbol="of" sense="0">
+        <indexlist>
+        <index pos="47">i1047</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x26" arg2="x6" symbol="in" sense="0">
+        <indexlist>
+        <index pos="44">i1044</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e25" arg2="x26" symbol="Location" sense="0">
+        <indexlist>
+        <index pos="40">i1040</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e25" arg2="t28" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <eq arg1="t28" arg2="t1">
+        <indexlist>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </whq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k29">
+   <drs type="sentence">
+    <tokens>
+     <token>Dynastic</token>
+     <token>unions</token>
+     <token>for</token>
+     <token>territorial</token>
+     <token>consolidation</token>
+     <token>were</token>
+     <token>long</token>
+     <token>in</token>
+     <token>on</token>
+     <token>a</token>
+     <token>few</token>
+     <token>occasions</token>
+     <token>even</token>
+     <token>country-level</token>
+     <token>unions</token>
+     <token>arranged</token>
+     <token>-</token>
+     <token>were</token>
+     <token>examples</token>
+    </tokens>
+    <dom>
+     <dr name="x30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t34">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x35">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e36">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x38">
+     <indexlist>
+     <index pos="14">i2014</index>
+     </indexlist>
+     </dr>
+     <dr name="p39">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t40">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <named arg="x30" symbol="dynastic" type="nam">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </named>
+     <rel arg1="x30" arg2="x31" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x31" symbol="union" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x32" symbol="consolidation" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x32" symbol="territorial" type="a" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x31" arg2="x32" symbol="for" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </rel>
+     <prop argument="p33">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <rel arg1="x7" arg2="x8" symbol="in" sense="0">
+        <indexlist>
+        <index pos="10">i2010</index>
+        </indexlist>
+        </rel>
+        <eq arg1="x31" arg2="x7">
+        <indexlist>
+        <index pos="6">i2006</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p33" arg2="t34" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t34" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="p33" symbol="long" type="a" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </pred>
+     <pred arg="e36" symbol="arrange" type="v" sense="9010000">
+     <indexlist>
+     <index pos="21">i2021</index>
+     </indexlist>
+     </pred>
+     <pred arg="x35" symbol="union" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i2019</index>
+     </indexlist>
+     </pred>
+     <pred arg="x35" symbol="even" type="a" sense="0">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </pred>
+     <pred arg="x35" symbol="country-level" type="a" sense="0">
+     <indexlist>
+     <index pos="18">i2018</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e36" arg2="x35" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x38" symbol="occasion" type="n" sense="0">
+     <indexlist>
+     <index pos="16">i2016</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e36" arg2="x9" symbol="-" sense="0">
+     <indexlist>
+     <index pos="22">i2022</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e36" arg2="t37" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t37" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x38" symbol="few" type="a" sense="0">
+     <indexlist>
+     <index pos="15">i2015</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e36" arg2="x38" symbol="Destination" sense="0">
+     <indexlist>
+     <index pos="13">i2013</index>
+     </indexlist>
+     </rel>
+     <prop argument="p39">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x41">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x41" symbol="example" type="n" sense="0">
+        <indexlist>
+        <index pos="31">i2031</index>
+        </indexlist>
+        </pred>
+        <eq arg1="x10" arg2="x41">
+        <indexlist>
+        <index pos="30">i2030</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p39" arg2="t40" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t40" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k42">
+   <drs type="sentence">
+    <tokens>
+     <token>But</token>
+     <token>for</token>
+     <token>a</token>
+     <token>large</token>
+     <token>number</token>
+     <token>of</token>
+     <token>nation-states</token>
+     <token>cede</token>
+     <token>some</token>
+     <token>of</token>
+     <token>to</token>
+     <token>an</token>
+     <token>overarching</token>
+     <token>entity</token>
+     <token>unique</token>
+    </tokens>
+    <dom>
+     <dr name="x43">
+     <indexlist>
+     <index pos="16">i3016</index>
+     </indexlist>
+     </dr>
+     <dr name="p44">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t45">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x46">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </dr>
+     <dr name="x47">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x48">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e49">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x50">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x43" symbol="entity" type="n" sense="0">
+     <indexlist>
+     <index pos="18">i3018</index>
+     </indexlist>
+     </pred>
+     <pred arg="x46" symbol="number" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i3006</index>
+     </indexlist>
+     </pred>
+     <pred arg="x47" symbol="nation-state" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x48" symbol="thing" type="n" sense="12">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="overarching" type="a" sense="0">
+     <indexlist>
+     <index pos="17">i3017</index>
+     </indexlist>
+     </pred>
+     <prop argument="p44">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <pred arg="x43" symbol="unique" type="a" sense="0">
+        <indexlist>
+        <index pos="20">i3020</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p44" arg2="t45" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t45" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <pred arg="x46" symbol="large" type="a" sense="0">
+     <indexlist>
+     <index pos="5">i3005</index>
+     </indexlist>
+     </pred>
+     <pred arg="e49" symbol="cede" type="v" sense="13030000">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </pred>
+     <pred arg="x50" symbol="thing" type="n" sense="12">
+     <indexlist>
+     </indexlist>
+     </pred>
+     <rel arg1="x48" arg2="x12" symbol="of" sense="0">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e49" arg2="x47" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e49" arg2="x48" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e49" arg2="x50" symbol="Recipient" sense="0">
+     <indexlist>
+     <index pos="15">i3015</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x46" arg2="x47" symbol="of" sense="0">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="p44" arg2="x46" symbol="for" sense="0">
+     <indexlist>
+     <index pos="2">i3002</index>
+     </indexlist>
+     </rel>
+     <pred arg="p44" symbol="but" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i3001</index>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k29" arg2="k42" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k14" arg2="k29" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k13" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

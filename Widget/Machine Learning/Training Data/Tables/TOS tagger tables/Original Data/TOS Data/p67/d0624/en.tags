@@ -1,0 +1,58 @@
+Police	NNS	N[nom]	police	O
+in	IN	NP\NP/NP	in	O
+Pakistan	NNP	N[nam]	pakistan	I-LOC
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+gunmen	NNS	N[nom]	gunman	O
+opened	VBD	S[dcl]\NP/NP	open	O
+fire	NN	N[nom]	fire	O
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+car	NN	N[nom]	car	O
+carrying	VBG	S[ng]\NP/NP	carry	O
+the	DT	NP/N[nom]	the	O
+nation	NN	N[nom]	nation	O
+'s	POS	NP/N[nom]\NP	's	O
+religious	JJ	N[nom]/N[nom]	religious	O
+affairs	NNS	N[nom]/N[nom]	affair	O
+minister	NN	N[nom]	minister	O
+,	,	COMMA	,	O
+wounding	VBG	S[ng]\NP/NP	wound	O
+him	PRP	NP	him	O
+and	CC	CONJ	and	O
+killing	VBG	S[ng]\NP/NP	kill	O
+his	PRP$	NP/N[nom]	his	O
+driver	NN	N[nom]	driver	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Authorities	NNS	N[nom]	authority	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+minister	NN	N[nam]/N[nam]	minister	O
+Hamid	NNP	N[nam]/N[nam]	hamid	I-PER
+Saeed	NNP	N[nam]/N[nam]	saeed	I-PER
+Kazmi	NNP	N[nam]	kazmus	I-PER
+'s	POS	NP/N[nom]\NP	's	O
+vehicle	NN	N[nom]	vehicle	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+attacked	VBN	S[pss]\NP	attack	O
+near	IN	S[pss]\NP\S[pss]\NP/NP	near	O
+his	PRP$	NP/N[nom]	his	O
+office	NN	N[nom]	office	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+capital	NN	N[nom]	capital	O
+,	,	CONJ[app]	,	O
+Islamabad	NNP	N[nam]	islamabad	I-LOC
+,	,	NP\NP	,	O
+Wednesday	NNP	NP\NP	wednesday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Further	JJ	N[nom]/N[nom]	further	O
+details	NNS	N[nom]	detail	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+immediately	RB	S[dcl]\NP\S[dcl]\NP	immediately	O
+confirmed	VBN	S[pss]\NP	confirm	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

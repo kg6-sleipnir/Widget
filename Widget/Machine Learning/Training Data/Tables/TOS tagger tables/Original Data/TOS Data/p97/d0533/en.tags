@@ -1,0 +1,41 @@
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+government	NN	N[nom]/N[nom]	government	O
+health	NN	N[nom]/N[nom]	health	O
+officials	NNS	N[nom]	official	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+record	NN	N[nom]/N[nom]	record	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+Americans	NNPS	N[nam]	american	O
+have	VBP	S[dcl]\NP/NP	have	O
+diabetes	NNS	N[nom]	diabetes	O
+and	CC	CONJ	and	O
+many	JJ	N[nom]/N[nom]	many	O
+more	JJR	N[nom]	more	O
+are	VBP	S[dcl]\NP/S[adj]\NP	be	O
+likely	JJ	S[adj]\NP/S[to]\NP	likely	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+get	VB	S[b]\NP/NP	get	O
+it	PRP	NP	it	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+Carol	NNP	N[nom]/N[nom]	carol	I-PER
+Pearson	NNP	N[nom]/N[nom]	pearson	I-PER
+reports	NNS	N[nom]	report	O
+even	RB	S[ng]\NP/S[ng]\NP	even	O
+developing	VBG	S[ng]\NP/NP	develop	O
+countries	NNS	N[nom]	country	O
+need	VBP	S[dcl]\NP/S[to]\NP	need	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+concerned	VBN	S[pss]\NP/PP	concern	O
+about	IN	PP/NP	about	O
+this	DT	NP/N[nom]	this	I-TIM
+disease	NN	N[nom]	disease	I-TIM
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

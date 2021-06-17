@@ -1,0 +1,73 @@
+An	DT	NP/N[nom]	an	O
+advisory	JJ	N[nom]/N[nom]	advisory	O
+panel	NN	N[nom]	panel	O
+for	IN	NP\NP/NP	for	O
+a	DT	NP/N[nom]	a	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+government	NN	N[nom]/N[nom]	government	O
+health	NN	N[nom]/N[nom]	health	O
+agency	NN	N[nom]	agency	O
+recommends	VBZ	S[dcl]\NP/S[ng]\NP	recommend	O
+greatly	RB	S[dcl]\NP\S[dcl]\NP	greatly	O
+increasing	VBG	S[ng]\NP/NP	increase	O
+the	DT	NP/N[nom]	the	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+American	JJ	N[nom]/N[nom]	american	O
+children	NNS	N[nom]	child	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+receive	VBP	S[dcl]\NP/NP	receive	O
+the	DT	NP/N[nom]	the	O
+influenza	NN	N[nom]/N[nom]	influenza	O
+immunization	NN	N[nom]	immunization	O
+each	DT	S[dcl]\NP\S[dcl]\NP/N[nom]	each	I-DAT
+year	NN	N[nom]	year	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+panel	NN	N[nom]	panel	O
+suggests	VBZ	S[dcl]\NP/S[dcl]	suggest	O
+every	DT	NP/N[nom]	every	O
+child	NN	N[nom]	child	O
+from	IN	NP\NP/NP\NP/NP	from	O
+age	NN	N[nom]/N[nom]	age	O
+six	CD	N[nom]/N[nom]	six	I-DAT
+months	NNS	N[nom]	month	I-DAT
+to	TO	NP\NP/NP	to	I-DAT
+18	CD	N[nom]/N[nom]	18	I-DAT
+years	NNS	N[nom]	year	I-DAT
+receive	VBP	S[dcl]\NP/NP	receive	O
+a	DT	NP/N[nom]	a	O
+flu	NN	N[nom]/N[nom]	flu	O
+shot	NN	N[nom]	shot	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+new	JJ	N[nom]/N[nom]	new	O
+guideline	NN	N[nom]	guideline	O
+would	MD	S[dcl]\NP/S[b]\NP	would	O
+expand	VB	S[b]\NP/NP	expand	O
+by	IN	S[b]\NP\S[b]\NP/NP	by	O
+some	DT	N[num]/N[num]/N[num]/N[num]	some	O
+30	CD	N[num]/N[num]	30	O
+million	CD	N[num]	million	O
+the	DT	NP/N[nom]	the	O
+number	NN	N[nom]	number	O
+of	IN	NP\NP/NP	of	O
+young	JJ	N[nom]/N[nom]	young	O
+people	NNS	N[nom]	people	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+should	MD	S[dcl]\NP/S[b]\NP	should	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+vaccinated	VBN	S[pss]\NP	vaccinate	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Leta	NNP	N[nam]/N[nam]	leta	I-LOC
+Hong	NNP	N[nam]/N[nam]	hong	I-LOC
+Fincher	NNP	N[nam]	fincher	I-LOC
+has	VBZ	S[dcl]\NP/NP	have	O
+more	RBR	N[nom]	more	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

@@ -1,0 +1,77 @@
+Burmese	NN	N[nom]/N[nom]	burmese	O
+officials	NNS	N[nom]	official	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+they	PRP	NP	they	O
+plan	VBP	S[dcl]\NP/S[to]\NP	plan	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+release	VB	S[b]\NP/NP	release	O
+5,000	CD	N[nom]/N[nom]	5,000	O
+prisoners	NNS	N[nom]	prisoner	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+mark	VB	S[b]\NP/NP	mark	O
+the	DT	NP/N[nom]	the	O
+60th	JJ	N[nom]/N[nom]	60th	I-DAT
+anniversary	NN	N[nom]	anniversary	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+country	NN	N[nom]	country	O
+'s	POS	NP/N[nom]\NP	's	O
+independence	NN	N[nom]	independence	O
+on	IN	NP\NP/NP	on	O
+Tuesday	NNP	N[nam]	tuesday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Burma	NNP	N[nam]	burma	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+military	JJ	N[nom]/N[nom]	military	O
+government	NN	N[nom]	government	O
+issued	VBD	S[dcl]\NP/NP	issue	O
+the	DT	NP/N[nom]	the	O
+announcement	NN	N[nom]	announcement	O
+on	IN	NP\NP/NP	on	O
+state-radio	JJ	N[nam]/N[nam]	state-radio	I-DAT
+Sunday	NNP	N[nam]	sunday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Since	IN	S[dcl]/S[dcl]/NP	since	I-DAT
+November	NNP	N[nam]	november	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+officials	NNS	N[nom]	official	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+freed	VBN	S[pt]\NP/NP	free	O
+some	DT	NP/N[nom]	some	O
+20,000	CD	N[nom]/N[nom]	20,000	O
+prisoners	NNS	N[nom]	prisoner	O
+,	,	S[pt]\NP\S[pt]\NP	,	O
+including	VBG	S[pt]\NP\S[pt]\NP/NP	include	O
+some	DT	NP	some	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+had	VBD	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[pss]\NP	be	O
+illegally	RB	S[pt]\NP\S[pt]\NP	illegally	O
+jailed	VBN	S[pss]\NP	jail	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+the	DT	NP/N[nam]	the	O
+former	JJ	N[nam]/N[nam]	former	O
+National	NNP	N[nam]/N[nam]	national	I-ORG
+Intelligence	NNP	N[nam]/N[nam]	intelligence	I-ORG
+Bureau	NNP	N[nam]	bureau	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+government	NN	N[nom]	government	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+dismantled	VBN	S[pt]\NP/NP	dismantle	O
+the	DT	NP/N[nom]	the	O
+organization	NN	N[nom]	organization	O
+led	VBN	S[pss]\NP	lead	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+disgraced	JJ	N[nam]/N[nam]	disgraced	O
+Prime	NNP	N[nam]/N[nam]	prime	O
+Minister	NNP	N[nam]/N[nam]	minister	O
+Khin	NNP	N[nam]/N[nam]	khin	I-PER
+Nyunt	NNP	N[nam]	nyunt	I-PER
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

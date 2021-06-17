@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- The Pacific Ocean is the largest of the world 's five oceans ( followed by the Atlantic Ocean , Indian Ocean , Southern Ocean , and Arctic Ocean ) . Strategically important access waterways include the La Perouse , Tsugaru , Tsushima , Taiwan , Singapore , and Torres Straits . The decision by the International Hydrographic Organization in the spring of 2000 to delimit a fifth ocean , the Southern Ocean , removed the portion of the Pacific Ocean south of 60 degrees south . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">The</word>
+  <word xml:id="i1002">Pacific</word>
+  <word xml:id="i1003">Ocean</word>
+  <word xml:id="i1004">is</word>
+  <word xml:id="i1005">the</word>
+  <word xml:id="i1006">largest</word>
+  <word xml:id="i1007">of</word>
+  <word xml:id="i1008">the</word>
+  <word xml:id="i1009">world</word>
+  <word xml:id="i1010">'s</word>
+  <word xml:id="i1011">five</word>
+  <word xml:id="i1012">oceans</word>
+  <word xml:id="i1013">(</word>
+  <word xml:id="i1014">followed</word>
+  <word xml:id="i1015">by</word>
+  <word xml:id="i1016">the</word>
+  <word xml:id="i1017">Atlantic</word>
+  <word xml:id="i1018">Ocean</word>
+  <word xml:id="i1019">,</word>
+  <word xml:id="i1020">Indian</word>
+  <word xml:id="i1021">Ocean</word>
+  <word xml:id="i1022">,</word>
+  <word xml:id="i1023">Southern</word>
+  <word xml:id="i1024">Ocean</word>
+  <word xml:id="i1025">,</word>
+  <word xml:id="i1026">and</word>
+  <word xml:id="i1027">Arctic</word>
+  <word xml:id="i1028">Ocean</word>
+  <word xml:id="i1029">)</word>
+  <word xml:id="i1030">.</word>
+  <word xml:id="i2001">Strategically</word>
+  <word xml:id="i2002">important</word>
+  <word xml:id="i2003">access</word>
+  <word xml:id="i2004">waterways</word>
+  <word xml:id="i2005">include</word>
+  <word xml:id="i2006">the</word>
+  <word xml:id="i2007">La</word>
+  <word xml:id="i2008">Perouse</word>
+  <word xml:id="i2009">,</word>
+  <word xml:id="i2010">Tsugaru</word>
+  <word xml:id="i2011">,</word>
+  <word xml:id="i2012">Tsushima</word>
+  <word xml:id="i2013">,</word>
+  <word xml:id="i2014">Taiwan</word>
+  <word xml:id="i2015">,</word>
+  <word xml:id="i2016">Singapore</word>
+  <word xml:id="i2017">,</word>
+  <word xml:id="i2018">and</word>
+  <word xml:id="i2019">Torres</word>
+  <word xml:id="i2020">Straits</word>
+  <word xml:id="i2021">.</word>
+  <word xml:id="i3001">The</word>
+  <word xml:id="i3002">decision</word>
+  <word xml:id="i3003">by</word>
+  <word xml:id="i3004">the</word>
+  <word xml:id="i3005">International</word>
+  <word xml:id="i3006">Hydrographic</word>
+  <word xml:id="i3007">Organization</word>
+  <word xml:id="i3008">in</word>
+  <word xml:id="i3009">the</word>
+  <word xml:id="i3010">spring</word>
+  <word xml:id="i3011">of</word>
+  <word xml:id="i3012">2000</word>
+  <word xml:id="i3013">to</word>
+  <word xml:id="i3014">delimit</word>
+  <word xml:id="i3015">a</word>
+  <word xml:id="i3016">fifth</word>
+  <word xml:id="i3017">ocean</word>
+  <word xml:id="i3018">,</word>
+  <word xml:id="i3019">the</word>
+  <word xml:id="i3020">Southern</word>
+  <word xml:id="i3021">Ocean</word>
+  <word xml:id="i3022">,</word>
+  <word xml:id="i3023">removed</word>
+  <word xml:id="i3024">the</word>
+  <word xml:id="i3025">portion</word>
+  <word xml:id="i3026">of</word>
+  <word xml:id="i3027">the</word>
+  <word xml:id="i3028">Pacific</word>
+  <word xml:id="i3029">Ocean</word>
+  <word xml:id="i3030">south</word>
+  <word xml:id="i3031">of</word>
+  <word xml:id="i3032">60</word>
+  <word xml:id="i3033">degrees</word>
+  <word xml:id="i3034">south</word>
+  <word xml:id="i3035">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">NNP</tag>
+  <tag type="pos" index="i1003">NNP</tag>
+  <tag type="pos" index="i1004">VBZ</tag>
+  <tag type="pos" index="i1005">DT</tag>
+  <tag type="pos" index="i1006">JJS</tag>
+  <tag type="pos" index="i1007">IN</tag>
+  <tag type="pos" index="i1008">DT</tag>
+  <tag type="pos" index="i1009">NN</tag>
+  <tag type="pos" index="i1010">POS</tag>
+  <tag type="pos" index="i1011">CD</tag>
+  <tag type="pos" index="i1012">NNS</tag>
+  <tag type="pos" index="i1013">LRB</tag>
+  <tag type="pos" index="i1014">VBN</tag>
+  <tag type="pos" index="i1015">IN</tag>
+  <tag type="pos" index="i1016">DT</tag>
+  <tag type="pos" index="i1017">NNP</tag>
+  <tag type="pos" index="i1018">NNP</tag>
+  <tag type="pos" index="i1019">,</tag>
+  <tag type="pos" index="i1020">NNP</tag>
+  <tag type="pos" index="i1021">NNP</tag>
+  <tag type="pos" index="i1022">,</tag>
+  <tag type="pos" index="i1023">NNP</tag>
+  <tag type="pos" index="i1024">NNP</tag>
+  <tag type="pos" index="i1025">,</tag>
+  <tag type="pos" index="i1026">CC</tag>
+  <tag type="pos" index="i1027">NNP</tag>
+  <tag type="pos" index="i1028">NNP</tag>
+  <tag type="pos" index="i1029">RRB</tag>
+  <tag type="pos" index="i1030">.</tag>
+  <tag type="pos" index="i2001">RB</tag>
+  <tag type="pos" index="i2002">JJ</tag>
+  <tag type="pos" index="i2003">NN</tag>
+  <tag type="pos" index="i2004">NNS</tag>
+  <tag type="pos" index="i2005">VBP</tag>
+  <tag type="pos" index="i2006">DT</tag>
+  <tag type="pos" index="i2007">NNP</tag>
+  <tag type="pos" index="i2008">NNP</tag>
+  <tag type="pos" index="i2009">,</tag>
+  <tag type="pos" index="i2010">NNP</tag>
+  <tag type="pos" index="i2011">,</tag>
+  <tag type="pos" index="i2012">NNP</tag>
+  <tag type="pos" index="i2013">,</tag>
+  <tag type="pos" index="i2014">NNP</tag>
+  <tag type="pos" index="i2015">,</tag>
+  <tag type="pos" index="i2016">NNP</tag>
+  <tag type="pos" index="i2017">,</tag>
+  <tag type="pos" index="i2018">CC</tag>
+  <tag type="pos" index="i2019">NNP</tag>
+  <tag type="pos" index="i2020">NNS</tag>
+  <tag type="pos" index="i2021">.</tag>
+  <tag type="pos" index="i3001">DT</tag>
+  <tag type="pos" index="i3002">NN</tag>
+  <tag type="pos" index="i3003">IN</tag>
+  <tag type="pos" index="i3004">DT</tag>
+  <tag type="pos" index="i3005">NNP</tag>
+  <tag type="pos" index="i3006">NNP</tag>
+  <tag type="pos" index="i3007">NNP</tag>
+  <tag type="pos" index="i3008">IN</tag>
+  <tag type="pos" index="i3009">DT</tag>
+  <tag type="pos" index="i3010">NN</tag>
+  <tag type="pos" index="i3011">IN</tag>
+  <tag type="pos" index="i3012">CD</tag>
+  <tag type="pos" index="i3013">TO</tag>
+  <tag type="pos" index="i3014">VB</tag>
+  <tag type="pos" index="i3015">DT</tag>
+  <tag type="pos" index="i3016">JJ</tag>
+  <tag type="pos" index="i3017">NN</tag>
+  <tag type="pos" index="i3018">,</tag>
+  <tag type="pos" index="i3019">DT</tag>
+  <tag type="pos" index="i3020">NNP</tag>
+  <tag type="pos" index="i3021">NNP</tag>
+  <tag type="pos" index="i3022">,</tag>
+  <tag type="pos" index="i3023">VBD</tag>
+  <tag type="pos" index="i3024">DT</tag>
+  <tag type="pos" index="i3025">NN</tag>
+  <tag type="pos" index="i3026">IN</tag>
+  <tag type="pos" index="i3027">DT</tag>
+  <tag type="pos" index="i3028">NNP</tag>
+  <tag type="pos" index="i3029">NNP</tag>
+  <tag type="pos" index="i3030">NN</tag>
+  <tag type="pos" index="i3031">IN</tag>
+  <tag type="pos" index="i3032">CD</tag>
+  <tag type="pos" index="i3033">NNS</tag>
+  <tag type="pos" index="i3034">RB</tag>
+  <tag type="pos" index="i3035">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1002">I-LOC</tag>
+  <tag type="ne" index="i1003">I-LOC</tag>
+  <tag type="ne" index="i1017">I-LOC</tag>
+  <tag type="ne" index="i1018">I-LOC</tag>
+  <tag type="ne" index="i1020">I-LOC</tag>
+  <tag type="ne" index="i1021">I-LOC</tag>
+  <tag type="ne" index="i1023">I-LOC</tag>
+  <tag type="ne" index="i1024">I-LOC</tag>
+  <tag type="ne" index="i1027">I-LOC</tag>
+  <tag type="ne" index="i1028">I-LOC</tag>
+  <tag type="ne" index="i2007">I-LOC</tag>
+  <tag type="ne" index="i2008">I-LOC</tag>
+  <tag type="ne" index="i2010">I-LOC</tag>
+  <tag type="ne" index="i2012">I-LOC</tag>
+  <tag type="ne" index="i2014">I-LOC</tag>
+  <tag type="ne" index="i2016">I-ORG</tag>
+  <tag type="ne" index="i2019">I-ORG</tag>
+  <tag type="ne" index="i2020">I-ORG</tag>
+  <tag type="ne" index="i3005">I-ORG</tag>
+  <tag type="ne" index="i3006">I-ORG</tag>
+  <tag type="ne" index="i3007">I-ORG</tag>
+  <tag type="ne" index="i3009">I-DAT</tag>
+  <tag type="ne" index="i3010">I-DAT</tag>
+  <tag type="ne" index="i3011">I-DAT</tag>
+  <tag type="ne" index="i3012">I-DAT</tag>
+  <tag type="ne" index="i3020">I-LOC</tag>
+  <tag type="ne" index="i3021">I-LOC</tag>
+  <tag type="ne" index="i3028">I-LOC</tag>
+  <tag type="ne" index="i3029">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>The</token>
+    <token>Pacific</token>
+    <token>Ocean</token>
+    <token>the</token>
+    <token>largest</token>
+    <token>the</token>
+    <token>world</token>
+    <token>'s</token>
+    <token>five</token>
+    <token>oceans</token>
+    <token>the</token>
+    <token>Atlantic</token>
+    <token>Ocean</token>
+    <token>Indian</token>
+    <token>Ocean</token>
+    <token>Southern</token>
+    <token>Ocean</token>
+    <token>Arctic</token>
+    <token>Ocean</token>
+    <token>the</token>
+    <token>La</token>
+    <token>Perouse</token>
+    <token>Tsugaru</token>
+    <token>Tsushima</token>
+    <token>Taiwan</token>
+    <token>Singapore</token>
+    <token>The</token>
+    <token>decision</token>
+    <token>the</token>
+    <token>International</token>
+    <token>Hydrographic</token>
+    <token>Organization</token>
+    <token>the</token>
+    <token>spring</token>
+    <token>the</token>
+    <token>portion</token>
+    <token>the</token>
+    <token>Pacific</token>
+    <token>Ocean</token>
+    <token>south</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="5">i1005</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="8">i1008</index>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    <index pos="6">i2006</index>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    <index pos="1">i3001</index>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    <index pos="4">i3004</index>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    <index pos="9">i3009</index>
+    </indexlist>
+    </dr>
+    <dr name="x14">
+    <indexlist>
+    <index pos="24">i3024</index>
+    </indexlist>
+    </dr>
+    <dr name="x15">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x16">
+    <indexlist>
+    <index pos="27">i3027</index>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <named arg="x8" symbol="southern_ocean" type="loc">
+    <indexlist>
+    <index pos="23">i1023</index>
+    <index pos="24">i1024</index>
+    </indexlist>
+    </named>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="pacific_ocean" type="loc">
+    <indexlist>
+    <index pos="2">i1002</index>
+    <index pos="3">i1003</index>
+    </indexlist>
+    </named>
+    <imp>
+    <indexlist>
+    </indexlist>
+     <drs type="normal">
+      <dom>
+       <dr name="x17">
+       <indexlist>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <not>
+       <indexlist>
+       </indexlist>
+        <drs type="normal">
+         <dom>
+         </dom>
+         <con>
+          <eq arg1="x17" arg2="x3">
+          <indexlist>
+          </indexlist>
+          </eq>
+         </con>
+        </drs>
+       </not>
+      </con>
+     </drs>
+     <drs type="normal">
+      <dom>
+      </dom>
+      <con>
+       <rel arg1="x3" arg2="x17" symbol="largest" sense="0">
+       <indexlist>
+       <index pos="6">i1006</index>
+       </indexlist>
+       </rel>
+      </con>
+     </drs>
+    </imp>
+    <pred arg="x4" symbol="world" type="n" sense="0">
+    <indexlist>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="ocean" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x5" arg2="x4" symbol="of" sense="0">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </rel>
+    <card arg="x5" value="5" type="eq">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </card>
+    <named arg="x6" symbol="atlantic_ocean" type="loc">
+    <indexlist>
+    <index pos="17">i1017</index>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </named>
+    <named arg="x7" symbol="indian_ocean" type="loc">
+    <indexlist>
+    <index pos="20">i1020</index>
+    <index pos="21">i1021</index>
+    </indexlist>
+    </named>
+    <named arg="x9" symbol="arctic_ocean" type="loc">
+    <indexlist>
+    <index pos="27">i1027</index>
+    <index pos="28">i1028</index>
+    </indexlist>
+    </named>
+    <named arg="x10" symbol="la_perouse" type="loc">
+    <indexlist>
+    <index pos="7">i2007</index>
+    <index pos="8">i2008</index>
+    </indexlist>
+    </named>
+    <named arg="x10" symbol="tsugaru" type="loc">
+    <indexlist>
+    <index pos="10">i2010</index>
+    </indexlist>
+    </named>
+    <named arg="x10" symbol="tsushima" type="loc">
+    <indexlist>
+    <index pos="12">i2012</index>
+    </indexlist>
+    </named>
+    <named arg="x10" symbol="taiwan" type="loc">
+    <indexlist>
+    <index pos="14">i2014</index>
+    </indexlist>
+    </named>
+    <named arg="x10" symbol="singapore" type="org">
+    <indexlist>
+    <index pos="16">i2016</index>
+    </indexlist>
+    </named>
+    <pred arg="x11" symbol="decision" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i3002</index>
+    </indexlist>
+    </pred>
+    <named arg="x12" symbol="international_hydrographic_organization" type="org">
+    <indexlist>
+    <index pos="5">i3005</index>
+    <index pos="6">i3006</index>
+    <index pos="7">i3007</index>
+    </indexlist>
+    </named>
+    <pred arg="x13" symbol="spring" type="n" sense="0">
+    <indexlist>
+    <index pos="10">i3010</index>
+    </indexlist>
+    </pred>
+    <pred arg="x14" symbol="portion" type="n" sense="0">
+    <indexlist>
+    <index pos="25">i3025</index>
+    </indexlist>
+    </pred>
+    <named arg="x15" symbol="pacific_ocean" type="loc">
+    <indexlist>
+    <index pos="28">i3028</index>
+    <index pos="29">i3029</index>
+    </indexlist>
+    </named>
+    <rel arg1="x15" arg2="x16" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x16" symbol="south" type="n" sense="0">
+    <indexlist>
+    <index pos="30">i3030</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k18">
+  <sdrs>
+   <constituents>
+   <constituent label="k19">
+   <drs type="sentence">
+    <tokens>
+     <token>is</token>
+     <token>of</token>
+     <token>followed</token>
+     <token>by</token>
+     <token>,</token>
+     <token>,</token>
+    </tokens>
+    <dom>
+     <dr name="p20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t21">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <prop argument="p20">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="e22">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="e22" symbol="follow" type="v" sense="51060000">
+        <indexlist>
+        <index pos="14">i1014</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e22" arg2="x5" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="x7" arg2="x8" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="22">i1022</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x6" arg2="x7" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="19">i1019</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x6" arg2="x9" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="19">i1019</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e22" arg2="x6" symbol="Agent" sense="0">
+        <indexlist>
+        <index pos="15">i1015</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x3" arg2="x5" symbol="of" sense="0">
+        <indexlist>
+        <index pos="7">i1007</index>
+        </indexlist>
+        </rel>
+        <eq arg1="x2" arg2="x3">
+        <indexlist>
+        <index pos="4">i1004</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p20" arg2="t21" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t21" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k23">
+   <drs type="sentence">
+    <tokens>
+     <token>Strategically</token>
+     <token>important</token>
+     <token>access</token>
+     <token>waterways</token>
+     <token>include</token>
+     <token>Torres</token>
+     <token>Straits</token>
+    </tokens>
+    <dom>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x29">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t31">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x24" symbol="access" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x24" arg2="x25" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x25" symbol="waterway" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x25" symbol="strategically" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x25" symbol="important" type="a" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </pred>
+     <pred arg="e27" symbol="include" type="v" sense="107000000">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <pred arg="e30" symbol="include" type="v" sense="107000000">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <named arg="x26" symbol="torres" type="org">
+     <indexlist>
+     <index pos="19">i2019</index>
+     </indexlist>
+     </named>
+     <rel arg1="x26" arg2="x29" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x29" symbol="strait" type="n" sense="0">
+     <indexlist>
+     <index pos="20">i2020</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e27" arg2="x25" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="x10" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="t28" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t28" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="e30" arg2="x25" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e30" arg2="x29" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e30" arg2="t31" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t31" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k32">
+   <drs type="sentence">
+    <tokens>
+     <token>by</token>
+     <token>in</token>
+     <token>of</token>
+     <token>2000</token>
+     <token>delimit</token>
+     <token>a</token>
+     <token>fifth</token>
+     <token>ocean</token>
+     <token>removed</token>
+     <token>of</token>
+     <token>of</token>
+     <token>60</token>
+     <token>degrees</token>
+     <token>south</token>
+    </tokens>
+    <dom>
+     <dr name="x33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x34">
+     <indexlist>
+     <index pos="15">i3015</index>
+     </indexlist>
+     </dr>
+     <dr name="e35">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e36">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t39">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e35" symbol="delimit" type="v" sense="0">
+     <indexlist>
+     <index pos="14">i3014</index>
+     </indexlist>
+     </pred>
+     <timex arg="x33">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     <date>+2000XXXX</date>
+     </timex>
+     <pred arg="x34" symbol="ocean" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i3017</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x13" arg2="x33" symbol="of" sense="0">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x12" arg2="x13" symbol="in" sense="0">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x12" symbol="by" sense="0">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     </rel>
+     <pred arg="x34" symbol="fifth" type="a" sense="0">
+     <indexlist>
+     <index pos="16">i3016</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e35" arg2="x11" symbol="agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e35" arg2="x34" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e36" symbol="delimit" type="v" sense="0">
+     <indexlist>
+     <index pos="14">i3014</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e36" arg2="x11" symbol="agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e36" arg2="x8" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e38" symbol="remove" type="v" sense="10010000">
+     <indexlist>
+     <index pos="23">i3023</index>
+     </indexlist>
+     </pred>
+     <pred arg="x37" symbol="degree" type="n" sense="0">
+     <indexlist>
+     <index pos="33">i3033</index>
+     </indexlist>
+     </pred>
+     <card arg="x37" value="60" type="eq">
+     <indexlist>
+     <index pos="32">i3032</index>
+     </indexlist>
+     </card>
+     <rel arg1="x16" arg2="x37" symbol="of" sense="0">
+     <indexlist>
+     <index pos="31">i3031</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x14" arg2="x16" symbol="of" sense="0">
+     <indexlist>
+     <index pos="26">i3026</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="x11" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="x14" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e38" arg2="t39" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t39" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e38" symbol="south" type="a" sense="0">
+     <indexlist>
+     <index pos="34">i3034</index>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k23" arg2="k32" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k19" arg2="k23" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k18" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

@@ -1,0 +1,67 @@
+Russian	NNP	N[nam]/N[nam]	russian	O
+Defense	NNP	N[nam]/N[nam]	defense	O
+Minister	NNP	N[nam]/N[nam]	minister	O
+Sergei	NNP	N[nam]/N[nam]	sergeus	I-PER
+Ivanov	NNP	N[nam]	ivanov	I-PER
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+Russia	NNP	N[nam]	russium	I-LOC
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+soon	RB	S[dcl]\NP\S[dcl]\NP	soon	O
+begin	VB	S[b]\NP/S[ng]\NP	begin	O
+testing	VBG	S[ng]\NP/NP	test	O
+a	DT	NP/N[nom]	a	O
+new	JJ	N[nom]/N[nom]	new	O
+intercontinental	JJ	N[nom]/N[nom]	intercontinental	O
+ballistic	JJ	N[nom]/N[nom]	ballistic	O
+missile	NN	N[nom]/N[nom]	missile	O
+system	NN	N[nom]	system	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+Russian	JJ	N[nom]/N[nom]	russian	O
+minister	NN	N[nom]	minister	O
+told	VBD	S[dcl]\NP/S[dcl]/NP	tell	O
+reporters	NNS	N[nom]	reporter	O
+his	PRP$	NP/N[nom]	his	O
+country	NN	N[nom]	country	O
+would	MD	S[dcl]\NP/S[b]\NP	would	O
+develop	VB	S[b]\NP/NP	develop	O
+weapons	NNS	N[nom]	weapon	O
+based	VBN	S[b]\NP\S[b]\NP/PP	base	O
+on	IN	PP/NP	on	O
+the	DT	NP/N[nom]	the	O
+Topol-M	JJ	N[nom]/N[nom]	topol-m	O
+mobile	JJ	N[nom]/N[nom]	mobile	O
+missiles	NNS	N[nom]	missile	O
+and	CC	CONJ	and	O
+the	DT	NP/N[nom]	the	O
+sea-based	JJ	N[nom]/N[nom]	sea-based	O
+Bulava	NNP	N[nom]/N[nom]	bulava	I-ORG
+system	NN	N[nom]	system	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+Interfax	NNP	N[nom]/N[nom]	interfax	I-ORG
+news	NN	N[nom]/N[nom]	news	O
+agency	NN	N[nom]	agency	O
+quotes	VBZ	S[dcl]\NP/NP	quote	O
+Mr.	NNP	N[nam]/N[nam]	mr.	I-LOC
+Ivanov	NNP	N[nam]	ivanov	I-PER
+as	IN	PP/S[ng]\NP	as	O
+saying	VBG	S[ng]\NP/NP	say	O
+Moscow	NNP	N[nom]/N[nom]	moscow	I-LOC
+plans	NNS	N[nom]	plan	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+produce	VB	S[b]\NP/NP	produce	O
+nuclear	JJ	N[nom]/N[nom]	nuclear	O
+weapons	NNS	N[nom]	weapon	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+can	MD	S[dcl]\NP/S[b]\NP	can	O
+penetrate	VB	S[b]\NP/NP	penetrate	O
+any	DT	NP/N[nom]	any	O
+defense	NN	N[nom]/N[nom]	defense	O
+system	NN	N[nom]	system	O
+.	.	S[b]\NP\S[b]\NP	.	O
+
+
+

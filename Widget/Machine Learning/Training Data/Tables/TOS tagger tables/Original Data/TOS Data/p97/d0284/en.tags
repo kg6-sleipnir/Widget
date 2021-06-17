@@ -1,0 +1,85 @@
+The	DT	NP/N[nam]	the	O
+World	NNP	N[nam]/N[nam]	world	I-ORG
+Health	NNP	N[nam]/N[nam]	health	I-ORG
+Organization	NNP	N[nam]	organization	I-ORG
+estimates	VBZ	S[dcl]\NP/S[dcl]	estimate	O
+there	EX	NP	there	O
+are	VBP	S[dcl]\NP/NP	be	O
+about	RB	N[nom]/N[nom]/N[nom]/N[nom]	about	O
+18	CD	N[nom]/N[nom]/N[nom]/N[nom]	18	O
+million	CD	N[nom]/N[nom]	million	O
+people	NNS	N[nom]	people	O
+with	IN	NP\NP/NP	with	O
+Alzheimer	NNP	N[nam]	alzheimer	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+disease	NN	N[nom]	disease	O
+.	.	S[dcl]\S[dcl]	.	O
+
+And	CC	S[dcl]/S[dcl]	and	O
+that	DT	NP/N[nom]	that	O
+figure	NN	N[nom]	figure	O
+is	VBZ	S[dcl]\NP/S[pss]\NP	be	O
+expected	VBN	S[pss]\NP/S[to]\NP	expect	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+double	VB	S[b]\NP	double	O
+by	IN	S[b]\NP\S[b]\NP/NP	by	O
+the	DT	NP/N[nom]	the	I-DAT
+year	NN	N[nom]	year	I-DAT
+2025	CD	N[nom]\N[nom]	2025	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Many	NN	N[nom]	many	O
+of	IN	NP\NP/NP	of	O
+those	DT	NP/N[nam]	those	O
+Alzheimer	NNP	N[nam]	alzheimer	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+patients	NNS	N[nom]	patient	O
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+live	VB	S[b]\NP	live	O
+in	IN	S[b]\NP\S[b]\NP/NP	in	O
+developing	VBG	N[nom]/N[nom]	develop	O
+countries	NNS	N[nom]	country	O
+.	.	S[dcl]\S[dcl]	.	O
+
+New	NNP	N[nom]/N[nom]	new	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+figures	NNS	N[nom]	figure	O
+estimate	VBP	S[dcl]\NP/S[em]	estimate	O
+that	IN	S[em]/S[dcl]	that	O
+one	CD	N[num]	one	O
+out	IN	NP\NP/PP	out	O
+of	IN	PP/NP	of	O
+every	DT	NP/N[nam]	every	O
+eight	CD	N[nam]/N[nam]	eight	O
+Americans	NNPS	N[nam]	american	O
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+also	RB	S[dcl]\NP\S[dcl]\NP	also	O
+develop	VB	S[b]\NP/NP	develop	O
+the	DT	NP/N[nom]	the	O
+disease	NN	N[nom]	disease	O
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+as	IN	S[dcl]/S[dcl]/NP	as	O
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+Melinda	NNP	N[nom]/N[nom]	melinda	I-PER
+Smith	NNP	N[nom]/N[nom]	smith	I-PER
+reports	NNS	N[nom]	report	O
+,	,	S[dcl]/S[dcl]	,	O
+there	EX	NP	there	O
+is	VBZ	S[dcl]\NP/NP	be	O
+ample	JJ	N[nom]/N[nom]	ample	O
+evidence	NN	N[nom]/S[em]	evidence	O
+that	IN	S[em]/S[dcl]	that	O
+something	DT	NP	something	O
+can	MD	S[dcl]\NP/S[b]\NP	can	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+done	VBN	S[pss]\NP	do	O
+about	IN	S[pss]\NP\S[pss]\NP/NP	about	O
+it	PRP	NP	it	O
+now	RB	S[pss]\NP\S[pss]\NP	now	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

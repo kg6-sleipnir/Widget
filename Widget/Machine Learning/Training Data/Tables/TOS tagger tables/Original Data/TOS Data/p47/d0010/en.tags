@@ -1,0 +1,65 @@
+The	DT	NP/N[nom]	the	O
+US	NNP	N[nom]/N[nom]	us	I-LOC
+Gulf	NNP	N[nom]/N[nom]	gulf	I-LOC
+Coast	NNP	N[nom]/N[nom]	coast	I-LOC
+city	NN	N[nom]	city	O
+of	IN	NP\NP/NP	of	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Orleans	NNP	N[nam]	orlean	I-LOC
+escaped	VBD	S[dcl]\NP/NP	escape	O
+a	DT	NP/N[nom]	a	O
+major	JJ	N[nom]/N[nom]	major	O
+disaster	NN	N[nom]	disaster	O
+this	DT	NP\NP/N[nom]	this	I-DAT
+week	NN	N[nom]	week	I-DAT
+when	WRB	NP\NP/S[dcl]	when	O
+Hurricane	NNP	N[nam]/N[nam]	hurricane	O
+Gustav	NNP	N[nam]	gustav	O
+hit	VBD	S[dcl]\NP/NP	hit	O
+shore	NN	N[nom]	shore	O
+some	DT	S[dcl]\NP\S[dcl]\NP/N[nom]	some	O
+110	CD	N[nom]/N[nom]	110	O
+kilometers	NNS	N[nom]	kilometer	O
+southwest	JJS	S[dcl]\NP\S[dcl]\NP	southwest	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+legendary	JJ	N[nom]/N[nom]	legendary	O
+city	NN	N[nom]	city	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Three	CD	N[nom]/N[nom]	three	I-DAT
+years	NNS	N[nom]	year	I-DAT
+ago	RB	S[dcl]/S[dcl]\NP	ago	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Orleans	NNP	N[nam]	orlean	I-LOC
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+devastated	VBN	S[pss]\NP	devastate	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+Hurricane	NNP	N[nam]/N[nam]	hurricane	O
+Katrina	NNP	N[nam]	katrina	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Barry	NNP	N[nam]/N[nam]	barry	I-PER
+Wood	NNP	N[nam]	wood	I-PER
+reports	VBZ	S[dcl]\NP/S[dcl]	report	O
+the	DT	NP/N[nom]	the	O
+city	NN	N[nom]	city	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+cleaning	VBG	S[ng]\NP/PP	clean	O
+up	RP	S[ng]\NP\S[ng]\NP	up	O
+from	IN	PP/NP	from	O
+a	DT	NP/N[nom]	a	O
+storm	NN	N[nom]	storm	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+could	MD	S[dcl]\NP/S[b]\NP	could	O
+have	VB	S[b]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[adj]\NP	be	O
+much	RB	S[adj]\NP/S[adj]\NP	much	O
+worse	JJR	S[adj]\NP	worse	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

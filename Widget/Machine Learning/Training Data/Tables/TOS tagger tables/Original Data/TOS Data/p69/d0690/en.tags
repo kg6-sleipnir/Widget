@@ -1,0 +1,55 @@
+Phosphate	NNP	N[nom]/N[nom]	phosphate	O
+mining	NN	N[nom]	mining	O
+had	VBD	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/NP	be	O
+the	DT	NP/N[nom]	the	O
+only	JJ	N[nom]/N[nom]	only	O
+significant	JJ	N[nom]/N[nom]	significant	O
+economic	JJ	N[nom]/N[nom]	economic	O
+activity	NN	N[nom]	activity	O
+,	,	S[dcl]\S[dcl]/S[dcl]\S[dcl]	,	O
+but	CC	CONJ	but	O
+in	IN	S[dcl]/S[dcl]/NP	in	O
+December	NNP	N[nam]	december	I-DAT
+1987	CD	N[nam]\N[nam]	1987	I-DAT
+the	DT	NP/N[nom]	the	O
+Australian	JJ	N[nom]/N[nom]	australian	O
+government	NN	N[nom]	government	O
+closed	VBD	S[dcl]\NP/NP	close	O
+the	DT	NP/N[nom]	the	O
+mine	NN	N[nom]	mine	O
+.	.	S[dcl]\S[dcl]	.	O
+
+In	IN	S[dcl]/S[dcl]/NP	in	O
+1991	CD	N[num]	1991	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+the	DT	NP/N[nom]	the	O
+mine	NN	N[nom]	mine	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+reopened	VBN	S[pss]\NP	reopen	O
+.	.	S[dcl]\S[dcl]	.	O
+
+With	IN	S[dcl]/S[dcl]/NP	with	O
+the	DT	NP/N[nom]	the	O
+support	NN	N[nom]	support	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+government	NN	N[nom]	government	O
+,	,	S[dcl]/S[dcl]	,	O
+a	DT	NP/N[nom]	a	O
+$	$	N[nom]/N[nom]/N[num]	$	O
+34	CD	N[num]/N[num]	34	O
+million	CD	N[num]	million	O
+casino	NN	N[nom]	casino	O
+opened	VBD	S[dcl]\NP	open	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1993	CD	N[num]	1993	I-DAT
+,	,	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	,	O
+but	CC	CONJ	but	O
+closed	VBD	S[dcl]\NP	close	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1998	CD	N[num]	1998	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

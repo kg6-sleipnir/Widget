@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Two British attempts at establishing the island as a penal colony ( 1788-1814 and 1825-55 ) were ultimately abandoned . In 1856 , the island was resettled by Pitcairn Islanders , descendants of the Bounty mutineers and their Tahitian companions . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Two</word>
+  <word xml:id="i1002">British</word>
+  <word xml:id="i1003">attempts</word>
+  <word xml:id="i1004">at</word>
+  <word xml:id="i1005">establishing</word>
+  <word xml:id="i1006">the</word>
+  <word xml:id="i1007">island</word>
+  <word xml:id="i1008">as</word>
+  <word xml:id="i1009">a</word>
+  <word xml:id="i1010">penal</word>
+  <word xml:id="i1011">colony</word>
+  <word xml:id="i1012">(</word>
+  <word xml:id="i1013">1788-1814</word>
+  <word xml:id="i1014">and</word>
+  <word xml:id="i1015">1825-55</word>
+  <word xml:id="i1016">)</word>
+  <word xml:id="i1017">were</word>
+  <word xml:id="i1018">ultimately</word>
+  <word xml:id="i1019">abandoned</word>
+  <word xml:id="i1020">.</word>
+  <word xml:id="i2001">In</word>
+  <word xml:id="i2002">1856</word>
+  <word xml:id="i2003">,</word>
+  <word xml:id="i2004">the</word>
+  <word xml:id="i2005">island</word>
+  <word xml:id="i2006">was</word>
+  <word xml:id="i2007">resettled</word>
+  <word xml:id="i2008">by</word>
+  <word xml:id="i2009">Pitcairn</word>
+  <word xml:id="i2010">Islanders</word>
+  <word xml:id="i2011">,</word>
+  <word xml:id="i2012">descendants</word>
+  <word xml:id="i2013">of</word>
+  <word xml:id="i2014">the</word>
+  <word xml:id="i2015">Bounty</word>
+  <word xml:id="i2016">mutineers</word>
+  <word xml:id="i2017">and</word>
+  <word xml:id="i2018">their</word>
+  <word xml:id="i2019">Tahitian</word>
+  <word xml:id="i2020">companions</word>
+  <word xml:id="i2021">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">CD</tag>
+  <tag type="pos" index="i1002">JJ</tag>
+  <tag type="pos" index="i1003">NNS</tag>
+  <tag type="pos" index="i1004">IN</tag>
+  <tag type="pos" index="i1005">VBG</tag>
+  <tag type="pos" index="i1006">DT</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">IN</tag>
+  <tag type="pos" index="i1009">DT</tag>
+  <tag type="pos" index="i1010">JJ</tag>
+  <tag type="pos" index="i1011">NN</tag>
+  <tag type="pos" index="i1012">LRB</tag>
+  <tag type="pos" index="i1013">CD</tag>
+  <tag type="pos" index="i1014">CC</tag>
+  <tag type="pos" index="i1015">CD</tag>
+  <tag type="pos" index="i1016">RRB</tag>
+  <tag type="pos" index="i1017">VBD</tag>
+  <tag type="pos" index="i1018">RB</tag>
+  <tag type="pos" index="i1019">VBN</tag>
+  <tag type="pos" index="i1020">.</tag>
+  <tag type="pos" index="i2001">IN</tag>
+  <tag type="pos" index="i2002">CD</tag>
+  <tag type="pos" index="i2003">,</tag>
+  <tag type="pos" index="i2004">DT</tag>
+  <tag type="pos" index="i2005">NN</tag>
+  <tag type="pos" index="i2006">VBD</tag>
+  <tag type="pos" index="i2007">VBN</tag>
+  <tag type="pos" index="i2008">IN</tag>
+  <tag type="pos" index="i2009">NNP</tag>
+  <tag type="pos" index="i2010">NNPS</tag>
+  <tag type="pos" index="i2011">,</tag>
+  <tag type="pos" index="i2012">NNS</tag>
+  <tag type="pos" index="i2013">IN</tag>
+  <tag type="pos" index="i2014">DT</tag>
+  <tag type="pos" index="i2015">NNP</tag>
+  <tag type="pos" index="i2016">NNS</tag>
+  <tag type="pos" index="i2017">CC</tag>
+  <tag type="pos" index="i2018">PRP$</tag>
+  <tag type="pos" index="i2019">JJ</tag>
+  <tag type="pos" index="i2020">NNS</tag>
+  <tag type="pos" index="i2021">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i2002">I-DAT</tag>
+  <tag type="ne" index="i2009">I-PER</tag>
+  <tag type="ne" index="i2010">I-PER</tag>
+  <tag type="ne" index="i2015">I-ORG</tag>
+  <tag type="ne" index="i2016">I-ORG</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>the</token>
+    <token>island</token>
+    <token>Pitcairn</token>
+    <token>Islanders</token>
+    <token>the</token>
+    <token>Bounty</token>
+    <token>mutineers</token>
+    <token>their</token>
+    <token>Tahitian</token>
+    <token>companions</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </dr>
+    <dr name="t2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="14">i2014</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="x1" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </pred>
+    <pred arg="t2" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x3" symbol="pitcairn" type="per">
+    <indexlist>
+    <index pos="9">i2009</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="islanders" type="per">
+    <indexlist>
+    <index pos="10">i2010</index>
+    </indexlist>
+    </named>
+    <named arg="x4" symbol="bounty" type="org">
+    <indexlist>
+    <index pos="15">i2015</index>
+    </indexlist>
+    </named>
+    <rel arg1="x4" arg2="x5" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x5" symbol="mutineer" type="n" sense="0">
+    <indexlist>
+    <index pos="16">i2016</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="thing" type="n" sense="12">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="companion" type="n" sense="0">
+    <indexlist>
+    <index pos="20">i2020</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x7" arg2="x6" symbol="of" sense="0">
+    <indexlist>
+    <index pos="18">i2018</index>
+    </indexlist>
+    </rel>
+    <pred arg="x7" symbol="tahitian" type="a" sense="0">
+    <indexlist>
+    <index pos="19">i2019</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k8">
+  <sdrs>
+   <constituents>
+   <sub>
+   <constituent label="k9">
+   <drs type="sentence">
+    <tokens>
+     <token>Two</token>
+     <token>British</token>
+     <token>attempts</token>
+     <token>establishing</token>
+    </tokens>
+    <dom>
+     <dr name="x10">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e11">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x10" symbol="attempt" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <card arg="x10" value="2" type="eq">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </card>
+     <pred arg="x10" symbol="british" type="a" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </pred>
+     <pred arg="e11" symbol="establish" type="v" sense="55050100">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e11" arg2="x10" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e11" arg2="x1" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x10" symbol="topic" type="a" sense="1">
+     <indexlist>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k12">
+   <sdrs>
+    <constituents>
+    <constituent label="k13">
+    <drs type="sentence">
+     <tokens>
+      <token>a</token>
+      <token>penal</token>
+      <token>colony</token>
+      <token>(</token>
+      <token>1788-1814</token>
+      <token>1825-55</token>
+      <token>ultimately</token>
+      <token>abandoned</token>
+     </tokens>
+     <dom>
+      <dr name="x14">
+      <indexlist>
+      <index pos="9">i1009</index>
+      </indexlist>
+      </dr>
+      <dr name="x15">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="e16">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="t17">
+      <indexlist>
+      </indexlist>
+      </dr>
+     </dom>
+     <con>
+      <pred arg="e16" symbol="abandon" type="v" sense="51020000">
+      <indexlist>
+      <index pos="19">i1019</index>
+      </indexlist>
+      </pred>
+      <pred arg="x14" symbol="colony" type="n" sense="0">
+      <indexlist>
+      <index pos="11">i1011</index>
+      </indexlist>
+      </pred>
+      <pred arg="x15" symbol="1788-1814" type="n" sense="0">
+      <indexlist>
+      <index pos="13">i1013</index>
+      </indexlist>
+      </pred>
+      <pred arg="x15" symbol="1825-55" type="n" sense="0">
+      <indexlist>
+      <index pos="15">i1015</index>
+      </indexlist>
+      </pred>
+      <pred arg="x14" symbol="penal" type="a" sense="0">
+      <indexlist>
+      <index pos="10">i1010</index>
+      </indexlist>
+      </pred>
+      <rel arg1="x14" arg2="x15" symbol="rel" sense="0">
+      <indexlist>
+      <index pos="12">i1012</index>
+      </indexlist>
+      </rel>
+      <rel arg1="e16" arg2="x14" symbol="Source" sense="0">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="e16" arg2="t17" symbol="temp_included" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="t17" arg2="t2" symbol="temp_before" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <pred arg="e16" symbol="ultimately" type="a" sense="0">
+      <indexlist>
+      <index pos="18">i1018</index>
+      </indexlist>
+      </pred>
+     </con>
+    </drs>
+    </constituent>
+    <constituent label="k18">
+    <drs type="sentence">
+     <tokens>
+      <token>In</token>
+      <token>1856</token>
+      <token>resettled</token>
+      <token>by</token>
+      <token>descendants</token>
+      <token>of</token>
+     </tokens>
+     <dom>
+      <dr name="e19">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="t20">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="x21">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="x22">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="t23">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="x24">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="t25">
+      <indexlist>
+      </indexlist>
+      </dr>
+      <dr name="x26">
+      <indexlist>
+      </indexlist>
+      </dr>
+     </dom>
+     <con>
+      <pred arg="e19" symbol="resettle" type="v" sense="0">
+      <indexlist>
+      <index pos="7">i2007</index>
+      </indexlist>
+      </pred>
+      <rel arg1="e19" arg2="x1" symbol="patient" sense="0">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <timex arg="x21">
+      <indexlist>
+      <index pos="2">i2002</index>
+      </indexlist>
+      <date>+1856XXXX</date>
+      </timex>
+      <pred arg="x22" symbol="descendant" type="n" sense="0">
+      <indexlist>
+      <index pos="12">i2012</index>
+      </indexlist>
+      </pred>
+      <rel arg1="e19" arg2="x3" symbol="agent" sense="0">
+      <indexlist>
+      <index pos="8">i2008</index>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="t20" symbol="temp_included" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="t20" arg2="t2" symbol="temp_before" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="x21" symbol="in" sense="0">
+      <indexlist>
+      <index pos="1">i2001</index>
+      </indexlist>
+      </rel>
+      <timex arg="x24">
+      <indexlist>
+      <index pos="2">i2002</index>
+      </indexlist>
+      <date>+1856XXXX</date>
+      </timex>
+      <rel arg1="x22" arg2="x5" symbol="of" sense="0">
+      <indexlist>
+      <index pos="13">i2013</index>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="x22" symbol="agent" sense="0">
+      <indexlist>
+      <index pos="8">i2008</index>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="t23" symbol="temp_included" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="t23" arg2="t2" symbol="temp_before" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="x24" symbol="in" sense="0">
+      <indexlist>
+      <index pos="1">i2001</index>
+      </indexlist>
+      </rel>
+      <timex arg="x26">
+      <indexlist>
+      <index pos="2">i2002</index>
+      </indexlist>
+      <date>+1856XXXX</date>
+      </timex>
+      <rel arg1="e19" arg2="x7" symbol="agent" sense="0">
+      <indexlist>
+      <index pos="8">i2008</index>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="t25" symbol="temp_included" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="t25" arg2="t2" symbol="temp_before" sense="1">
+      <indexlist>
+      </indexlist>
+      </rel>
+      <rel arg1="e19" arg2="x26" symbol="in" sense="0">
+      <indexlist>
+      <index pos="1">i2001</index>
+      </indexlist>
+      </rel>
+     </con>
+    </drs>
+    </constituent>
+    </constituents>
+    <relations>
+    <drel arg1="k13" arg2="k18" sym="continuation">
+    <indexlist>
+    </indexlist>
+    </drel>
+    </relations>
+   </sdrs>
+   </constituent>
+   </sub>
+   </constituents>
+   <relations>
+   <drel arg1="k9" arg2="k12" sym="as">
+   <indexlist>
+   <index pos="8">i1008</index>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k8" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

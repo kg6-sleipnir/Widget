@@ -1,0 +1,68 @@
+Police	NNS	N[nom]	police	O
+in	IN	NP\NP/NP	in	O
+India	NNP	N[nam]	indium	I-LOC
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+at	IN	S[dcl]/S[dcl]/S[asup]\NP	at	O
+least	JJS	S[asup]\NP	least	O
+15	CD	N[nom]/N[nom]	15	O
+people	NNS	N[nom]	people	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+killed	VBN	S[pss]\NP	kill	O
+Sunday	NNP	S[pss]\NP\S[pss]\NP	sunday	I-DAT
+when	WRB	S[pss]\NP\S[pss]\NP/S[dcl]	when	O
+a	DT	NP/N[nom]	a	O
+highway	NN	N[nom]/N[nom]	highway	O
+overpass	NN	N[nom]	overpass	O
+under	IN	NP\NP/NP	under	O
+construction	NN	N[nom]	construction	O
+collapsed	VBD	S[dcl]\NP	collapse	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+southern	JJ	N[nam]/N[nam]	southern	I-LOC
+India	NNP	N[nam]	indium	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+About	IN	N[nom]/N[nom]/N[nom]/N[nom]	about	O
+10	CD	N[nom]/N[nom]	10	O
+people	NNS	N[nom]	people	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+also	RB	S[dcl]\NP\S[dcl]\NP	also	O
+reported	VBN	S[pss]\NP/S[to]\NP	report	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+injured	VBN	S[pss]\NP	injure	O
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+is	VBZ	S[dcl]\NP/S[adj]\NP	be	O
+unclear	JJ	S[adj]\NP/PP	unclear	O
+as	IN	PP/PP	as	O
+to	TO	PP/S[qem]	to	O
+whether	IN	S[qem]/S[dcl]	whether	O
+any	DT	NP/N[nom]	any	O
+others	NNS	N[nom]	other	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+trapped	VBN	S[pss]\NP	trap	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+overpass	NN	N[nom]	overpass	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+located	VBN	S[pss]\NP	locate	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+a	DT	NP/N[nom]	a	O
+busy	JJ	N[nom]/N[nom]	busy	O
+commercial	JJ	N[nom]/N[nom]	commercial	O
+area	NN	N[nom]	area	O
+in	IN	NP\NP/NP	in	O
+Hyderabad	NNP	N[nam]	hyderabad	I-LOC
+,	,	CONJ[app]	,	O
+the	DT	NP/N[nom]	the	O
+capital	NN	N[nom]	capital	O
+of	IN	NP\NP/NP	of	O
+Andhra	NNP	N[nom]/N[nom]	andhra	I-LOC
+Pradesh	NNP	N[nom]/N[nom]	pradesh	I-LOC
+state	NN	N[nom]	state	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

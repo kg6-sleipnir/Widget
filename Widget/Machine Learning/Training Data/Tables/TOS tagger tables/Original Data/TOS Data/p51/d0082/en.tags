@@ -1,0 +1,54 @@
+A	DT	NP/N[nom]	a	O
+leading	VBG	N[nom]/N[nom]	lead	O
+group	NN	N[nom]	group	O
+of	IN	NP\NP/NP	of	O
+American	NNP	N[nam]/N[nam]	american	I-ORG
+pediatricians	NNPS	N[nam]	pediatrician	I-ORG
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+some	DT	NP/N[nom]	some	O
+children	NNS	N[nom]	child	O
+with	IN	NP\NP/NP	with	O
+high	JJ	N[nom]/N[nom]	high	O
+cholesterol	NN	N[nom]	cholesterol	O
+should	MD	S[dcl]\NP/S[b]\NP	should	O
+take	VB	S[b]\NP/NP	take	O
+cholesterol	NN	N[nom]	cholesterol	O
+lowering	VBG	S[ng]\NP/NP	lower	O
+medications	NNS	N[nom]	medication	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Some	DT	NP/N[nom]	some	O
+doctors	NNS	N[nom]	doctor	O
+criticize	VBP	S[dcl]\NP/NP	criticize	O
+the	DT	NP/N[nom]	the	O
+recommendation	NN	N[nom]	recommendation	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Other	JJ	S[dcl]\NP/S[dcl]\NP	other	O
+support	VBP	S[dcl]\NP/NP	support	O
+it	PRP	NP	it	O
+.	.	NP\NP	.	O
+
+There	EX	NP	there	O
+is	VBZ	S[dcl]\NP/NP	be	O
+no	DT	NP/N[nom]	no	O
+doubt	NN	N[nom]	doubt	O
+,	,	COMMA	,	O
+it	PRP	NP	it	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+stirred	VBN	S[pt]\NP/NP	stir	O
+up	RP	S[pt]\NP\S[pt]\NP	up	O
+a	DT	NP/N[nom]	a	O
+furious	JJ	N[nom]/N[nom]	furious	O
+debate	NN	N[nom]	debate	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Carol	NNP	N[nam]/N[nam]	carol	I-PER
+Pearson	NNP	N[nam]	pearson	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

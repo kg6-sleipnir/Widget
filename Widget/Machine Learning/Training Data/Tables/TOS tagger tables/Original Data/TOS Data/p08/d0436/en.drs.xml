@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Here are prices of some key commodities traded in New York : Crude oil for June delivery rose $ .70 Thursday , closing at $ 50.83 cents a barrel . Coffee for May delivery fell a bit more than two cents to close at $ 1.224 per pound . Cocoa for May delivery fell $ 16 to close at $ 1452 per ton . Copper for May delivery settled at $ 1.459 per pound , unchanged from yesterday . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Here</word>
+  <word xml:id="i1002">are</word>
+  <word xml:id="i1003">prices</word>
+  <word xml:id="i1004">of</word>
+  <word xml:id="i1005">some</word>
+  <word xml:id="i1006">key</word>
+  <word xml:id="i1007">commodities</word>
+  <word xml:id="i1008">traded</word>
+  <word xml:id="i1009">in</word>
+  <word xml:id="i1010">New</word>
+  <word xml:id="i1011">York</word>
+  <word xml:id="i1012">:</word>
+  <word xml:id="i1013">Crude</word>
+  <word xml:id="i1014">oil</word>
+  <word xml:id="i1015">for</word>
+  <word xml:id="i1016">June</word>
+  <word xml:id="i1017">delivery</word>
+  <word xml:id="i1018">rose</word>
+  <word xml:id="i1019">$</word>
+  <word xml:id="i1020">.70</word>
+  <word xml:id="i1021">Thursday</word>
+  <word xml:id="i1022">,</word>
+  <word xml:id="i1023">closing</word>
+  <word xml:id="i1024">at</word>
+  <word xml:id="i1025">$</word>
+  <word xml:id="i1026">50.83</word>
+  <word xml:id="i1027">cents</word>
+  <word xml:id="i1028">a</word>
+  <word xml:id="i1029">barrel</word>
+  <word xml:id="i1030">.</word>
+  <word xml:id="i2001">Coffee</word>
+  <word xml:id="i2002">for</word>
+  <word xml:id="i2003">May</word>
+  <word xml:id="i2004">delivery</word>
+  <word xml:id="i2005">fell</word>
+  <word xml:id="i2006">a</word>
+  <word xml:id="i2007">bit</word>
+  <word xml:id="i2008">more</word>
+  <word xml:id="i2009">than</word>
+  <word xml:id="i2010">two</word>
+  <word xml:id="i2011">cents</word>
+  <word xml:id="i2012">to</word>
+  <word xml:id="i2013">close</word>
+  <word xml:id="i2014">at</word>
+  <word xml:id="i2015">$</word>
+  <word xml:id="i2016">1.224</word>
+  <word xml:id="i2017">per</word>
+  <word xml:id="i2018">pound</word>
+  <word xml:id="i2019">.</word>
+  <word xml:id="i3001">Cocoa</word>
+  <word xml:id="i3002">for</word>
+  <word xml:id="i3003">May</word>
+  <word xml:id="i3004">delivery</word>
+  <word xml:id="i3005">fell</word>
+  <word xml:id="i3006">$</word>
+  <word xml:id="i3007">16</word>
+  <word xml:id="i3008">to</word>
+  <word xml:id="i3009">close</word>
+  <word xml:id="i3010">at</word>
+  <word xml:id="i3011">$</word>
+  <word xml:id="i3012">1452</word>
+  <word xml:id="i3013">per</word>
+  <word xml:id="i3014">ton</word>
+  <word xml:id="i3015">.</word>
+  <word xml:id="i4001">Copper</word>
+  <word xml:id="i4002">for</word>
+  <word xml:id="i4003">May</word>
+  <word xml:id="i4004">delivery</word>
+  <word xml:id="i4005">settled</word>
+  <word xml:id="i4006">at</word>
+  <word xml:id="i4007">$</word>
+  <word xml:id="i4008">1.459</word>
+  <word xml:id="i4009">per</word>
+  <word xml:id="i4010">pound</word>
+  <word xml:id="i4011">,</word>
+  <word xml:id="i4012">unchanged</word>
+  <word xml:id="i4013">from</word>
+  <word xml:id="i4014">yesterday</word>
+  <word xml:id="i4015">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">RB</tag>
+  <tag type="pos" index="i1002">VBP</tag>
+  <tag type="pos" index="i1003">NNS</tag>
+  <tag type="pos" index="i1004">IN</tag>
+  <tag type="pos" index="i1005">DT</tag>
+  <tag type="pos" index="i1006">JJ</tag>
+  <tag type="pos" index="i1007">NNS</tag>
+  <tag type="pos" index="i1008">VBN</tag>
+  <tag type="pos" index="i1009">IN</tag>
+  <tag type="pos" index="i1010">NNP</tag>
+  <tag type="pos" index="i1011">NNP</tag>
+  <tag type="pos" index="i1012">IN</tag>
+  <tag type="pos" index="i1013">JJ</tag>
+  <tag type="pos" index="i1014">NN</tag>
+  <tag type="pos" index="i1015">IN</tag>
+  <tag type="pos" index="i1016">NNP</tag>
+  <tag type="pos" index="i1017">NN</tag>
+  <tag type="pos" index="i1018">VBD</tag>
+  <tag type="pos" index="i1019">$</tag>
+  <tag type="pos" index="i1020">CD</tag>
+  <tag type="pos" index="i1021">NNP</tag>
+  <tag type="pos" index="i1022">,</tag>
+  <tag type="pos" index="i1023">NN</tag>
+  <tag type="pos" index="i1024">IN</tag>
+  <tag type="pos" index="i1025">$</tag>
+  <tag type="pos" index="i1026">CD</tag>
+  <tag type="pos" index="i1027">NNS</tag>
+  <tag type="pos" index="i1028">DT</tag>
+  <tag type="pos" index="i1029">NN</tag>
+  <tag type="pos" index="i1030">.</tag>
+  <tag type="pos" index="i2001">NNP</tag>
+  <tag type="pos" index="i2002">IN</tag>
+  <tag type="pos" index="i2003">NNP</tag>
+  <tag type="pos" index="i2004">NN</tag>
+  <tag type="pos" index="i2005">VBD</tag>
+  <tag type="pos" index="i2006">DT</tag>
+  <tag type="pos" index="i2007">NN</tag>
+  <tag type="pos" index="i2008">RBR</tag>
+  <tag type="pos" index="i2009">IN</tag>
+  <tag type="pos" index="i2010">CD</tag>
+  <tag type="pos" index="i2011">NNS</tag>
+  <tag type="pos" index="i2012">TO</tag>
+  <tag type="pos" index="i2013">VB</tag>
+  <tag type="pos" index="i2014">IN</tag>
+  <tag type="pos" index="i2015">$</tag>
+  <tag type="pos" index="i2016">CD</tag>
+  <tag type="pos" index="i2017">IN</tag>
+  <tag type="pos" index="i2018">NN</tag>
+  <tag type="pos" index="i2019">.</tag>
+  <tag type="pos" index="i3001">NNP</tag>
+  <tag type="pos" index="i3002">IN</tag>
+  <tag type="pos" index="i3003">NNP</tag>
+  <tag type="pos" index="i3004">NN</tag>
+  <tag type="pos" index="i3005">VBD</tag>
+  <tag type="pos" index="i3006">$</tag>
+  <tag type="pos" index="i3007">CD</tag>
+  <tag type="pos" index="i3008">TO</tag>
+  <tag type="pos" index="i3009">VB</tag>
+  <tag type="pos" index="i3010">IN</tag>
+  <tag type="pos" index="i3011">$</tag>
+  <tag type="pos" index="i3012">CD</tag>
+  <tag type="pos" index="i3013">IN</tag>
+  <tag type="pos" index="i3014">NN</tag>
+  <tag type="pos" index="i3015">.</tag>
+  <tag type="pos" index="i4001">NN</tag>
+  <tag type="pos" index="i4002">IN</tag>
+  <tag type="pos" index="i4003">NNP</tag>
+  <tag type="pos" index="i4004">NN</tag>
+  <tag type="pos" index="i4005">VBD</tag>
+  <tag type="pos" index="i4006">IN</tag>
+  <tag type="pos" index="i4007">$</tag>
+  <tag type="pos" index="i4008">CD</tag>
+  <tag type="pos" index="i4009">IN</tag>
+  <tag type="pos" index="i4010">NN</tag>
+  <tag type="pos" index="i4011">,</tag>
+  <tag type="pos" index="i4012">JJ</tag>
+  <tag type="pos" index="i4013">IN</tag>
+  <tag type="pos" index="i4014">NN</tag>
+  <tag type="pos" index="i4015">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1010">I-LOC</tag>
+  <tag type="ne" index="i1011">I-LOC</tag>
+  <tag type="ne" index="i1016">I-DAT</tag>
+  <tag type="ne" index="i1019">I-MON</tag>
+  <tag type="ne" index="i1020">I-MON</tag>
+  <tag type="ne" index="i1021">I-DAT</tag>
+  <tag type="ne" index="i1025">I-MON</tag>
+  <tag type="ne" index="i1026">I-MON</tag>
+  <tag type="ne" index="i1027">I-MON</tag>
+  <tag type="ne" index="i2003">I-DAT</tag>
+  <tag type="ne" index="i2011">I-MON</tag>
+  <tag type="ne" index="i2015">I-MON</tag>
+  <tag type="ne" index="i2016">I-MON</tag>
+  <tag type="ne" index="i3003">I-DAT</tag>
+  <tag type="ne" index="i3006">I-MON</tag>
+  <tag type="ne" index="i3007">I-PCT</tag>
+  <tag type="ne" index="i3011">I-MON</tag>
+  <tag type="ne" index="i3012">I-MON</tag>
+  <tag type="ne" index="i4003">I-DAT</tag>
+  <tag type="ne" index="i4007">I-MON</tag>
+  <tag type="ne" index="i4008">I-MON</tag>
+  <tag type="ne" index="i4014">I-DAT</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>New</token>
+    <token>York</token>
+    <token>Coffee</token>
+    <token>Cocoa</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="new_york" type="loc">
+    <indexlist>
+    <index pos="10">i1010</index>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="coffee" type="nam">
+    <indexlist>
+    <index pos="1">i2001</index>
+    </indexlist>
+    </named>
+    <named arg="x4" symbol="cocoa" type="nam">
+    <indexlist>
+    <index pos="1">i3001</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k5">
+  <sdrs>
+   <constituents>
+   <constituent label="k6">
+   <drs type="sentence">
+    <tokens>
+     <token>Here</token>
+     <token>are</token>
+     <token>prices</token>
+     <token>of</token>
+     <token>some</token>
+     <token>key</token>
+     <token>commodities</token>
+     <token>traded</token>
+     <token>in</token>
+     <token>:</token>
+     <token>Crude</token>
+     <token>oil</token>
+     <token>for</token>
+     <token>June</token>
+     <token>delivery</token>
+     <token>rose</token>
+     <token>$</token>
+     <token>.70</token>
+     <token>Thursday</token>
+     <token>,</token>
+     <token>closing</token>
+     <token>at</token>
+     <token>$</token>
+     <token>50.83</token>
+     <token>cents</token>
+     <token>a</token>
+     <token>barrel</token>
+    </tokens>
+    <dom>
+     <dr name="x7">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x8">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </dr>
+     <dr name="e9">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x10">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e14">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t21">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e9" symbol="trade" type="v" sense="13060100">
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x7" symbol="price" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x8" symbol="commodity" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x8" symbol="key" type="a" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e9" arg2="x8" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x11" symbol="oil" type="n" sense="0">
+     <indexlist>
+     <index pos="14">i1014</index>
+     </indexlist>
+     </pred>
+     <timex arg="x10">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     <date>+XXXX06XX</date>
+     </timex>
+     <rel arg1="x10" arg2="x12" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x12" symbol="delivery" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i1017</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e9" arg2="x2" symbol="Theme" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </rel>
+     <pred arg="x11" symbol="crude" type="a" sense="0">
+     <indexlist>
+     <index pos="13">i1013</index>
+     </indexlist>
+     </pred>
+     <pred arg="e14" symbol="rise" type="v" sense="50000000">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </pred>
+     <pred arg="x13" symbol="$" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x13" arg2="x16" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x16" symbol=".70" type="n" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </pred>
+     <pred arg="x17" symbol="thursday" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <pred arg="x18" symbol="closing" type="n" sense="0">
+     <indexlist>
+     <index pos="23">i1023</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e14" arg2="x12" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e14" arg2="t15" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t15" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e14" arg2="x16" symbol="rel" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e14" arg2="x17" symbol="Location" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x12" symbol="for" sense="0">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </rel>
+     <imp>
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x22">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x22" symbol="barrel" type="n" sense="0">
+        <indexlist>
+        <index pos="29">i1029</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+      <drs type="normal">
+       <dom>
+        <dr name="x23">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x24">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x24" symbol="dollar" type="n" sense="1">
+        <indexlist>
+        <index pos="25">i1025</index>
+        </indexlist>
+        </pred>
+        <pred arg="x23" symbol="cent" type="n" sense="0">
+        <indexlist>
+        <index pos="27">i1027</index>
+        </indexlist>
+        </pred>
+        <card arg="x24" value="50.83" type="eq">
+        <indexlist>
+        <index pos="26">i1026</index>
+        </indexlist>
+        </card>
+        <rel arg1="x23" arg2="x24" symbol="rel" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="x23" arg2="x22" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="28">i1028</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x18" arg2="x23" symbol="at" sense="0">
+        <indexlist>
+        <index pos="24">i1024</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x11" arg2="x18" symbol="rel" sense="0">
+        <indexlist>
+        <index pos="22">i1022</index>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </imp>
+     <rel arg1="x8" arg2="x11" symbol=":" sense="0">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x7" arg2="x8" symbol="of" sense="0">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </rel>
+     <prop argument="p19">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x7" arg2="p20">
+        <indexlist>
+        <index pos="2">i1002</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <prop argument="p20">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x25">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x25" symbol="here" type="a" sense="0">
+        <indexlist>
+        <index pos="1">i1001</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p19" arg2="t21" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t21" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k26">
+   <drs type="sentence">
+    <tokens>
+     <token>for</token>
+     <token>May</token>
+     <token>delivery</token>
+     <token>fell</token>
+     <token>a</token>
+     <token>bit</token>
+     <token>more</token>
+     <token>than</token>
+     <token>two</token>
+     <token>cents</token>
+     <token>close</token>
+     <token>at</token>
+     <token>$</token>
+     <token>1.224</token>
+     <token>per</token>
+     <token>pound</token>
+    </tokens>
+    <dom>
+     <dr name="x27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e29">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t30">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x34">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x35">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <timex arg="x27">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     <date>+XXXX05XX</date>
+     </timex>
+     <rel arg1="x27" arg2="x28" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x28" symbol="delivery" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x3" arg2="x28" symbol="for" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </rel>
+     <pred arg="e29" symbol="fall" type="v" sense="51010200">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <pred arg="e33" symbol="close" type="v" sense="45040000">
+     <indexlist>
+     <index pos="13">i2013</index>
+     </indexlist>
+     </pred>
+     <pred arg="x31" symbol="bit" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x32" symbol="cent" type="n" sense="0">
+     <indexlist>
+     <index pos="11">i2011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x34" symbol="dollar" type="n" sense="1">
+     <indexlist>
+     <index pos="15">i2015</index>
+     </indexlist>
+     </pred>
+     <pred arg="x35" symbol="pound" type="n" sense="0">
+     <indexlist>
+     <index pos="18">i2018</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e29" arg2="x3" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e29" arg2="t30" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t30" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e29" arg2="x31" symbol="Oblique" sense="0">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </rel>
+     <pred arg="x3" symbol="more" type="a" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <card arg="x32" value="2" type="eq">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </card>
+     <rel arg1="x3" arg2="x32" symbol="than" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e33" arg2="x3" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x34" value="1.224" type="eq">
+     <indexlist>
+     <index pos="16">i2016</index>
+     </indexlist>
+     </card>
+     <rel arg1="x34" arg2="x35" symbol="per" sense="0">
+     <indexlist>
+     <index pos="17">i2017</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e33" arg2="x34" symbol="at" sense="0">
+     <indexlist>
+     <index pos="14">i2014</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k36">
+   <drs type="sentence">
+    <tokens>
+     <token>for</token>
+     <token>May</token>
+     <token>delivery</token>
+     <token>fell</token>
+     <token>$</token>
+     <token>16</token>
+     <token>close</token>
+     <token>at</token>
+     <token>$</token>
+     <token>1452</token>
+     <token>per</token>
+     <token>ton</token>
+    </tokens>
+    <dom>
+     <dr name="x37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e39">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p40">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t41">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x42">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e39" symbol="fall" type="v" sense="51010200">
+     <indexlist>
+     <index pos="5">i3005</index>
+     </indexlist>
+     </pred>
+     <timex arg="x37">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     <date>+XXXX05XX</date>
+     </timex>
+     <rel arg1="x37" arg2="x38" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x38" symbol="delivery" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x42" symbol="$" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i3006</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x4" arg2="x38" symbol="for" sense="0">
+     <indexlist>
+     <index pos="2">i3002</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e39" arg2="x4" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e39" arg2="p40" symbol="theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p40">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="e43">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x44">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x45">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="e43" symbol="close" type="v" sense="45040000">
+        <indexlist>
+        <index pos="9">i3009</index>
+        </indexlist>
+        </pred>
+        <pred arg="x44" symbol="dollar" type="n" sense="1">
+        <indexlist>
+        <index pos="11">i3011</index>
+        </indexlist>
+        </pred>
+        <pred arg="x45" symbol="ton" type="n" sense="0">
+        <indexlist>
+        <index pos="14">i3014</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e43" arg2="x4" symbol="Patient" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <card arg="x44" value="1452" type="eq">
+        <indexlist>
+        <index pos="12">i3012</index>
+        </indexlist>
+        </card>
+        <rel arg1="x44" arg2="x45" symbol="per" sense="0">
+        <indexlist>
+        <index pos="13">i3013</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e43" arg2="x44" symbol="at" sense="0">
+        <indexlist>
+        <index pos="10">i3010</index>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e39" arg2="t41" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t41" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e39" arg2="x42" symbol="Oblique" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x42" value="16" type="eq">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </card>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k46">
+   <drs type="sentence">
+    <tokens>
+     <token>Copper</token>
+     <token>for</token>
+     <token>May</token>
+     <token>delivery</token>
+     <token>settled</token>
+     <token>at</token>
+     <token>$</token>
+     <token>1.459</token>
+     <token>per</token>
+     <token>pound</token>
+     <token>unchanged</token>
+     <token>from</token>
+     <token>yesterday</token>
+    </tokens>
+    <dom>
+     <dr name="x47">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x48">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x49">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e50">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x51">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x52">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x53">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t54">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t55">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e50" symbol="settle" type="v" sense="46000000">
+     <indexlist>
+     <index pos="5">i4005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x48" symbol="copper" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i4001</index>
+     </indexlist>
+     </pred>
+     <timex arg="x47">
+     <indexlist>
+     <index pos="3">i4003</index>
+     </indexlist>
+     <date>+XXXX05XX</date>
+     </timex>
+     <rel arg1="x47" arg2="x49" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x49" symbol="delivery" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i4004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x51" symbol="dollar" type="n" sense="1">
+     <indexlist>
+     <index pos="7">i4007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x52" symbol="pound" type="n" sense="0">
+     <indexlist>
+     <index pos="10">i4010</index>
+     </indexlist>
+     </pred>
+     <pred arg="x53" symbol="yesterday" type="n" sense="0">
+     <indexlist>
+     <index pos="14">i4014</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x48" arg2="x49" symbol="for" sense="0">
+     <indexlist>
+     <index pos="2">i4002</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e50" arg2="x48" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x51" value="1.459" type="eq">
+     <indexlist>
+     <index pos="8">i4008</index>
+     </indexlist>
+     </card>
+     <rel arg1="x51" arg2="x52" symbol="per" sense="0">
+     <indexlist>
+     <index pos="9">i4009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e50" arg2="x51" symbol="Location" sense="0">
+     <indexlist>
+     <index pos="6">i4006</index>
+     </indexlist>
+     </rel>
+     <pred arg="e50" symbol="unchanged" type="a" sense="0">
+     <indexlist>
+     <index pos="12">i4012</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e50" arg2="x53" symbol="from" sense="0">
+     <indexlist>
+     <index pos="13">i4013</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e50" arg2="t54" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t54" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e50" arg2="t55" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t55" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k36" arg2="k46" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k26" arg2="k36" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k6" arg2="k26" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k5" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

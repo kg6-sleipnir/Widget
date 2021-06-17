@@ -1,0 +1,80 @@
+View	NNP	N[nom]/N[nom]	view	O
+flash	NN	N[nom]/N[nom]	flash	O
+slideshow	NN	N[nom]	slideshow	O
+narrated	VBN	S[pss]\NP	narrate	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+Sgt	NNP	N[nam]	sgt	I-ORG
+.	.	S[pss]\S[pss]	.	O
+
+Roche	NNP	N[nam]/N[nam]	roche	I-ORG
+US	NNP	N[nam]/N[nam]	us	I-ORG
+Army	NNP	N[nam]/N[nam]	army	I-ORG
+Sergeant	NNP	N[nam]/N[nam]	sergeant	I-ORG
+Joe	NNP	N[nam]/N[nam]	joe	I-PER
+Roche	NNP	N[nam]	roche	I-PER
+served	VBD	S[dcl]\NP	serve	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Baghdad	NN	N[nom]	baghdad	I-LOC
+for	IN	S[dcl]\NP\S[dcl]\NP/NP	for	O
+15	CD	N[nom]/N[nom]	15	O
+months	NNS	N[nom]	month	O
+with	IN	S[dcl]\NP\S[dcl]\NP/NP	with	O
+the	DT	NP/N[nam]	the	O
+16th	JJ	N[nam]/N[nam]	16th	I-ORG
+Engineer	NNP	N[nam]/N[nam]	engineer	I-ORG
+Battalion	NNP	N[nam]	battalion	I-ORG
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nam]	the	O
+1st	CD	N[nam]/N[nam]	1st	I-ORG
+Armored	NNP	N[nam]/N[nam]	armored	I-ORG
+Division	NNP	N[nam]	division	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+His	PRP$	NP/N[nom]	his	O
+unit	NN	N[nom]	unit	O
+worked	VBD	S[dcl]\NP/PP	work	O
+on	IN	PP/S[ng]\NP	on	O
+helping	VBG	S[ng]\NP/S[b]\NP	help	O
+rebuild	VB	S[b]\NP/NP	rebuild	O
+Iraq	NNP	N[nam]	iraq	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+infrastructure	NN	N[nom]	infrastructure	O
+,	,	NP\NP	,	O
+including	VBG	NP\NP/NP	include	O
+schools	NNS	N[nom]	school	O
+and	CC	CONJ	and	O
+sewage	NN	N[nom]/N[nom]	sewage	O
+systems	NNS	N[nom]	system	O
+,	,	NP\NP	,	O
+while	IN	S[ng]\NP\S[ng]\NP/S[ng]\NP	while	O
+fighting	VBG	S[ng]\NP/NP	fight	O
+insurgents	NNS	N[nom]	insurgent	O
+and	CC	CONJ	and	O
+terrorists	NNS	N[nom]	terrorist	O
+.	.	S[dcl]\S[dcl]	.	O
+
+His	PRP$	NP/N[nom]	his	O
+unit	NN	N[nom]	unit	O
+also	RB	S[dcl]\NP/S[dcl]\NP	also	O
+helped	VBD	S[dcl]\NP/S[b]\NP	help	O
+train	VB	S[b]\NP/NP	train	O
+new	JJ	N[nom]/N[nom]	new	O
+Iraqi	NNP	N[nom]/N[nom]	iraqus	O
+soldiers	NNS	N[nom]	soldier	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+following	VBG	N[nom]	follow	O
+are	VBP	S[dcl]\NP/NP	be	O
+pictures	NNS	N[nom]	picture	O
+he	PRP	NP	he	O
+took	VBD	S[dcl]\NP/NP	take	O
+during	IN	S[dcl]\NP\S[dcl]\NP/NP	during	O
+his	PRP$	NP/N[nom]	his	O
+stay	NN	N[nom]	stay	O
+in	IN	NP\NP/NP	in	O
+Iraq	NNP	N[nam]	iraq	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

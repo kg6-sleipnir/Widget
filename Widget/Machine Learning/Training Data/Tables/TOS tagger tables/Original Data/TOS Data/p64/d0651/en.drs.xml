@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- U.S. seismologists say an earthquake with a magnitude of 6.8 has struck Guatemala . There were no immediate reports of injuries or major damage following the tremor Wednesday . The U.S. Geological Survey says the epicenter of the quake was near the Pacific coast about 115 kilometers from Guatemala City . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">U.S.</word>
+  <word xml:id="i1002">seismologists</word>
+  <word xml:id="i1003">say</word>
+  <word xml:id="i1004">an</word>
+  <word xml:id="i1005">earthquake</word>
+  <word xml:id="i1006">with</word>
+  <word xml:id="i1007">a</word>
+  <word xml:id="i1008">magnitude</word>
+  <word xml:id="i1009">of</word>
+  <word xml:id="i1010">6.8</word>
+  <word xml:id="i1011">has</word>
+  <word xml:id="i1012">struck</word>
+  <word xml:id="i1013">Guatemala</word>
+  <word xml:id="i1014">.</word>
+  <word xml:id="i2001">There</word>
+  <word xml:id="i2002">were</word>
+  <word xml:id="i2003">no</word>
+  <word xml:id="i2004">immediate</word>
+  <word xml:id="i2005">reports</word>
+  <word xml:id="i2006">of</word>
+  <word xml:id="i2007">injuries</word>
+  <word xml:id="i2008">or</word>
+  <word xml:id="i2009">major</word>
+  <word xml:id="i2010">damage</word>
+  <word xml:id="i2011">following</word>
+  <word xml:id="i2012">the</word>
+  <word xml:id="i2013">tremor</word>
+  <word xml:id="i2014">Wednesday</word>
+  <word xml:id="i2015">.</word>
+  <word xml:id="i3001">The</word>
+  <word xml:id="i3002">U.S.</word>
+  <word xml:id="i3003">Geological</word>
+  <word xml:id="i3004">Survey</word>
+  <word xml:id="i3005">says</word>
+  <word xml:id="i3006">the</word>
+  <word xml:id="i3007">epicenter</word>
+  <word xml:id="i3008">of</word>
+  <word xml:id="i3009">the</word>
+  <word xml:id="i3010">quake</word>
+  <word xml:id="i3011">was</word>
+  <word xml:id="i3012">near</word>
+  <word xml:id="i3013">the</word>
+  <word xml:id="i3014">Pacific</word>
+  <word xml:id="i3015">coast</word>
+  <word xml:id="i3016">about</word>
+  <word xml:id="i3017">115</word>
+  <word xml:id="i3018">kilometers</word>
+  <word xml:id="i3019">from</word>
+  <word xml:id="i3020">Guatemala</word>
+  <word xml:id="i3021">City</word>
+  <word xml:id="i3022">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNP</tag>
+  <tag type="pos" index="i1002">NNS</tag>
+  <tag type="pos" index="i1003">VBP</tag>
+  <tag type="pos" index="i1004">DT</tag>
+  <tag type="pos" index="i1005">NN</tag>
+  <tag type="pos" index="i1006">IN</tag>
+  <tag type="pos" index="i1007">DT</tag>
+  <tag type="pos" index="i1008">NN</tag>
+  <tag type="pos" index="i1009">IN</tag>
+  <tag type="pos" index="i1010">CD</tag>
+  <tag type="pos" index="i1011">VBZ</tag>
+  <tag type="pos" index="i1012">VBN</tag>
+  <tag type="pos" index="i1013">NNP</tag>
+  <tag type="pos" index="i1014">.</tag>
+  <tag type="pos" index="i2001">EX</tag>
+  <tag type="pos" index="i2002">VBD</tag>
+  <tag type="pos" index="i2003">DT</tag>
+  <tag type="pos" index="i2004">JJ</tag>
+  <tag type="pos" index="i2005">NNS</tag>
+  <tag type="pos" index="i2006">IN</tag>
+  <tag type="pos" index="i2007">NNS</tag>
+  <tag type="pos" index="i2008">CC</tag>
+  <tag type="pos" index="i2009">JJ</tag>
+  <tag type="pos" index="i2010">NN</tag>
+  <tag type="pos" index="i2011">VBG</tag>
+  <tag type="pos" index="i2012">DT</tag>
+  <tag type="pos" index="i2013">NN</tag>
+  <tag type="pos" index="i2014">NNP</tag>
+  <tag type="pos" index="i2015">.</tag>
+  <tag type="pos" index="i3001">DT</tag>
+  <tag type="pos" index="i3002">NNP</tag>
+  <tag type="pos" index="i3003">NNP</tag>
+  <tag type="pos" index="i3004">NNP</tag>
+  <tag type="pos" index="i3005">VBZ</tag>
+  <tag type="pos" index="i3006">DT</tag>
+  <tag type="pos" index="i3007">NN</tag>
+  <tag type="pos" index="i3008">IN</tag>
+  <tag type="pos" index="i3009">DT</tag>
+  <tag type="pos" index="i3010">NN</tag>
+  <tag type="pos" index="i3011">VBD</tag>
+  <tag type="pos" index="i3012">IN</tag>
+  <tag type="pos" index="i3013">DT</tag>
+  <tag type="pos" index="i3014">NNP</tag>
+  <tag type="pos" index="i3015">NN</tag>
+  <tag type="pos" index="i3016">IN</tag>
+  <tag type="pos" index="i3017">CD</tag>
+  <tag type="pos" index="i3018">NNS</tag>
+  <tag type="pos" index="i3019">IN</tag>
+  <tag type="pos" index="i3020">NNP</tag>
+  <tag type="pos" index="i3021">NNP</tag>
+  <tag type="pos" index="i3022">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1001">I-LOC</tag>
+  <tag type="ne" index="i1013">I-LOC</tag>
+  <tag type="ne" index="i2014">I-DAT</tag>
+  <tag type="ne" index="i3002">I-ORG</tag>
+  <tag type="ne" index="i3003">I-ORG</tag>
+  <tag type="ne" index="i3004">I-ORG</tag>
+  <tag type="ne" index="i3014">I-LOC</tag>
+  <tag type="ne" index="i3020">I-LOC</tag>
+  <tag type="ne" index="i3021">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>Guatemala</token>
+    <token>the</token>
+    <token>tremor</token>
+    <token>Wednesday</token>
+    <token>The</token>
+    <token>U.S.</token>
+    <token>Geological</token>
+    <token>Survey</token>
+    <token>the</token>
+    <token>epicenter</token>
+    <token>the</token>
+    <token>quake</token>
+    <token>the</token>
+    <token>Pacific</token>
+    <token>coast</token>
+    <token>Guatemala</token>
+    <token>City</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="12">i2012</index>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    <index pos="1">i3001</index>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    <index pos="6">i3006</index>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    <index pos="9">i3009</index>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    <index pos="13">i3013</index>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="guatemala" type="loc">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </named>
+    <pred arg="x3" symbol="tremor" type="n" sense="0">
+    <indexlist>
+    <index pos="13">i2013</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x3" arg2="x4" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <named arg="x4" symbol="wednesday" type="nam">
+    <indexlist>
+    <index pos="14">i2014</index>
+    </indexlist>
+    </named>
+    <named arg="x5" symbol="u.s._geological_survey" type="org">
+    <indexlist>
+    <index pos="2">i3002</index>
+    <index pos="3">i3003</index>
+    <index pos="4">i3004</index>
+    </indexlist>
+    </named>
+    <pred arg="x6" symbol="epicenter" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i3007</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="quake" type="n" sense="0">
+    <indexlist>
+    <index pos="10">i3010</index>
+    </indexlist>
+    </pred>
+    <named arg="x8" symbol="pacific" type="loc">
+    <indexlist>
+    <index pos="14">i3014</index>
+    </indexlist>
+    </named>
+    <rel arg1="x8" arg2="x9" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x9" symbol="coast" type="n" sense="0">
+    <indexlist>
+    <index pos="15">i3015</index>
+    </indexlist>
+    </pred>
+    <named arg="x10" symbol="guatemala_city" type="loc">
+    <indexlist>
+    <index pos="20">i3020</index>
+    <index pos="21">i3021</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k11">
+  <sdrs>
+   <constituents>
+   <constituent label="k12">
+   <drs type="sentence">
+    <tokens>
+     <token>U.S.</token>
+     <token>seismologists</token>
+     <token>say</token>
+     <token>an</token>
+     <token>earthquake</token>
+     <token>with</token>
+     <token>a</token>
+     <token>magnitude</token>
+     <token>of</token>
+     <token>6.8</token>
+     <token>struck</token>
+    </tokens>
+    <dom>
+     <dr name="x13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x14">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t17">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e15" symbol="say" type="v" sense="37070100">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <named arg="x13" symbol="u.s." type="loc">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </named>
+     <rel arg1="x13" arg2="x14" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x14" symbol="seismologist" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e15" arg2="x14" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e15" arg2="p16" symbol="Topic" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p16">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x18">
+        <indexlist>
+        <index pos="4">i1004</index>
+        </indexlist>
+        </dr>
+        <dr name="x19">
+        <indexlist>
+        <index pos="7">i1007</index>
+        </indexlist>
+        </dr>
+        <dr name="x20">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="e21">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x22">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t23">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x18" symbol="earthquake" type="n" sense="0">
+        <indexlist>
+        <index pos="5">i1005</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="magnitude" type="n" sense="0">
+        <indexlist>
+        <index pos="8">i1008</index>
+        </indexlist>
+        </pred>
+        <card arg="x20" value="6.8" type="eq">
+        <indexlist>
+        <index pos="10">i1010</index>
+        </indexlist>
+        </card>
+        <rel arg1="x19" arg2="x20" symbol="of" sense="0">
+        <indexlist>
+        <index pos="9">i1009</index>
+        </indexlist>
+        </rel>
+        <rel arg1="x18" arg2="x19" symbol="with" sense="0">
+        <indexlist>
+        <index pos="6">i1006</index>
+        </indexlist>
+        </rel>
+        <pred arg="e21" symbol="strike" type="v" sense="43020000">
+        <indexlist>
+        <index pos="12">i1012</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e21" arg2="x18" symbol="Agent" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e21" arg2="x2" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <eq arg1="x22" arg2="t1">
+        <indexlist>
+        </indexlist>
+        </eq>
+        <rel arg1="x22" arg2="t23" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e21" arg2="t23" symbol="temp_abut" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e15" arg2="t17" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t17" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k24">
+   <drs type="sentence">
+    <tokens>
+     <token>There</token>
+     <token>were</token>
+     <token>no</token>
+     <token>immediate</token>
+     <token>reports</token>
+     <token>of</token>
+     <token>injuries</token>
+     <token>or</token>
+     <token>major</token>
+     <token>damage</token>
+     <token>following</token>
+    </tokens>
+    <dom>
+     <dr name="x25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t27">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x25" symbol="there" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <prop argument="p26">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <or>
+        <indexlist>
+        <index pos="8">i2008</index>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <imp>
+           <indexlist>
+           </indexlist>
+            <drs type="normal">
+             <dom>
+              <dr name="x28">
+              <indexlist>
+              <index pos="3">i2003</index>
+              </indexlist>
+              </dr>
+             </dom>
+             <con>
+              <pred arg="x28" symbol="report" type="n" sense="0">
+              <indexlist>
+              <index pos="5">i2005</index>
+              </indexlist>
+              </pred>
+              <pred arg="x28" symbol="immediate" type="a" sense="0">
+              <indexlist>
+              <index pos="4">i2004</index>
+              </indexlist>
+              </pred>
+             </con>
+            </drs>
+            <drs type="normal">
+             <dom>
+             </dom>
+             <con>
+              <not>
+              <indexlist>
+              </indexlist>
+               <drs type="normal">
+                <dom>
+                 <dr name="x29">
+                 <indexlist>
+                 </indexlist>
+                 </dr>
+                </dom>
+                <con>
+                 <pred arg="x29" symbol="injury" type="n" sense="0">
+                 <indexlist>
+                 <index pos="7">i2007</index>
+                 </indexlist>
+                 </pred>
+                 <rel arg1="x28" arg2="x29" symbol="of" sense="0">
+                 <indexlist>
+                 <index pos="6">i2006</index>
+                 </indexlist>
+                 </rel>
+                 <eq arg1="x25" arg2="x28">
+                 <indexlist>
+                 <index pos="2">i2002</index>
+                 </indexlist>
+                 </eq>
+                </con>
+               </drs>
+              </not>
+             </con>
+            </drs>
+           </imp>
+          </con>
+         </drs>
+         <drs type="normal">
+          <dom>
+           <dr name="x30">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x30" symbol="damage" type="n" sense="0">
+           <indexlist>
+           <index pos="10">i2010</index>
+           </indexlist>
+           </pred>
+           <pred arg="x30" symbol="major" type="a" sense="0">
+           <indexlist>
+           <index pos="9">i2009</index>
+           </indexlist>
+           </pred>
+           <rel arg1="x30" arg2="x4" symbol="follow" sense="0">
+           <indexlist>
+           <index pos="11">i2011</index>
+           </indexlist>
+           </rel>
+           <eq arg1="x25" arg2="x30">
+           <indexlist>
+           <index pos="2">i2002</index>
+           </indexlist>
+           </eq>
+          </con>
+         </drs>
+        </or>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p26" arg2="t27" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t27" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k31">
+   <drs type="sentence">
+    <tokens>
+     <token>says</token>
+     <token>of</token>
+     <token>near</token>
+     <token>about</token>
+     <token>115</token>
+     <token>kilometers</token>
+     <token>from</token>
+    </tokens>
+    <dom>
+     <dr name="e32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t34">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e32" symbol="say" type="v" sense="37070100">
+     <indexlist>
+     <index pos="5">i3005</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e32" arg2="x5" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e32" arg2="p33" symbol="Topic" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p33">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="p35">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t36">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <rel arg1="x6" arg2="x7" symbol="of" sense="0">
+        <indexlist>
+        <index pos="8">i3008</index>
+        </indexlist>
+        </rel>
+        <prop argument="p35">
+        <indexlist>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+           <dr name="x37">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x37" symbol="kilometer" type="n" sense="0">
+           <indexlist>
+           <index pos="18">i3018</index>
+           </indexlist>
+           </pred>
+           <card arg="x37" value="115" type="eq">
+           <indexlist>
+           <index pos="17">i3017</index>
+           </indexlist>
+           </card>
+           <rel arg1="x37" arg2="x10" symbol="from" sense="0">
+           <indexlist>
+           <index pos="19">i3019</index>
+           </indexlist>
+           </rel>
+           <rel arg1="x9" arg2="x37" symbol="about" sense="0">
+           <indexlist>
+           <index pos="16">i3016</index>
+           </indexlist>
+           </rel>
+           <rel arg1="x6" arg2="x9" symbol="near" sense="0">
+           <indexlist>
+           <index pos="12">i3012</index>
+           </indexlist>
+           </rel>
+          </con>
+         </drs>
+        </prop>
+        <rel arg1="p35" arg2="t36" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="t36" arg2="t1" symbol="temp_before" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e32" arg2="t34" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t34" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k24" arg2="k31" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k12" arg2="k24" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k11" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

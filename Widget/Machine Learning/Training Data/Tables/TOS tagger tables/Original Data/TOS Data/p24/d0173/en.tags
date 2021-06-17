@@ -1,0 +1,70 @@
+A	DT	NP/N[nom]	a	O
+Nigerian	JJ	N[nom]/N[nom]	nigerian	O
+military	JJ	N[nom]/N[nom]	military	O
+aircraft	NN	N[nom]	aircraft	O
+carrying	VBG	S[ng]\NP/PP	carry	O
+at	IN	PP/NP	at	O
+least	JJS	N[nom]/N[nom]/N[nom]/N[nom]	least	O
+12	CD	N[nom]/N[nom]	12	O
+people	NNS	N[nom]	people	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+crashed	VBN	S[pt]\NP	crash	O
+in	IN	S[pt]\NP\S[pt]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+southeast	JJ	N[nom]/N[nom]	southeast	O
+part	NN	N[nom]	part	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+country	NN	N[nom]	country	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Military	JJ	N[nom]/N[nom]	military	O
+officers	NNS	N[nom]	officer	O
+are	VBP	S[dcl]\NP/PP	be	O
+among	IN	PP/NP	among	O
+those	DT	NP	those	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+were	VBD	S[dcl]\NP/PP	be	O
+on	IN	PP/NP	on	O
+board	NN	N[nom]	board	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Some	DT	NP	some	O
+on	IN	NP\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+plane	NN	N[nom]	plane	O
+are	VBP	S[dcl]\NP/S[pss]\NP	be	O
+believed	VBN	S[pss]\NP/S[to]\NP	believe	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+have	VB	S[b]\NP/S[pt]\NP	have	O
+survived	VBN	S[pt]\NP/NP	survive	O
+the	DT	NP/N[nom]	the	O
+crash	NN	N[nom]	crash	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+air	NN	N[nom]/N[nom]	air	O
+force	NN	N[nom]/N[nom]	force	O
+plane	NN	N[nom]	plane	O
+was	VBD	S[dcl]\NP/S[ng]\NP	be	O
+flying	VBG	S[ng]\NP/PP	fly	O
+from	IN	PP/NP	from	O
+Nigeria	NNP	N[nam]	nigerium	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+capital	NN	N[nom]	capital	O
+,	,	CONJ[app]	,	O
+Abuja	NNP	N[nam]	abuja	I-PER
+,	,	NP\NP	,	O
+to	TO	S[ng]\NP\S[ng]\NP/NP	to	O
+Obudu	NNP	N[nam]	obudu	I-LOC
+near	IN	NP\NP/NP	near	O
+Nigeria	NNP	N[nam]	nigerium	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+southeast	NN	N[nom]/N[nom]	southeast	O
+border	NN	N[nom]	border	O
+with	IN	NP\NP/NP	with	O
+Cameroon	NNP	N[nam]	cameroon	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

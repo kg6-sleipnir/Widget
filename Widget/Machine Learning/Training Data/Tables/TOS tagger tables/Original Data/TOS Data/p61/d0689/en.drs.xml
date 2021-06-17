@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- Coconuts , grown throughout the islands , are the sole cash crop . Small local gardens and fishing contribute to the food supply , but additional food and most other necessities must be imported from Australia . There is a small tourist industry . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">Coconuts</word>
+  <word xml:id="i1002">,</word>
+  <word xml:id="i1003">grown</word>
+  <word xml:id="i1004">throughout</word>
+  <word xml:id="i1005">the</word>
+  <word xml:id="i1006">islands</word>
+  <word xml:id="i1007">,</word>
+  <word xml:id="i1008">are</word>
+  <word xml:id="i1009">the</word>
+  <word xml:id="i1010">sole</word>
+  <word xml:id="i1011">cash</word>
+  <word xml:id="i1012">crop</word>
+  <word xml:id="i1013">.</word>
+  <word xml:id="i2001">Small</word>
+  <word xml:id="i2002">local</word>
+  <word xml:id="i2003">gardens</word>
+  <word xml:id="i2004">and</word>
+  <word xml:id="i2005">fishing</word>
+  <word xml:id="i2006">contribute</word>
+  <word xml:id="i2007">to</word>
+  <word xml:id="i2008">the</word>
+  <word xml:id="i2009">food</word>
+  <word xml:id="i2010">supply</word>
+  <word xml:id="i2011">,</word>
+  <word xml:id="i2012">but</word>
+  <word xml:id="i2013">additional</word>
+  <word xml:id="i2014">food</word>
+  <word xml:id="i2015">and</word>
+  <word xml:id="i2016">most</word>
+  <word xml:id="i2017">other</word>
+  <word xml:id="i2018">necessities</word>
+  <word xml:id="i2019">must</word>
+  <word xml:id="i2020">be</word>
+  <word xml:id="i2021">imported</word>
+  <word xml:id="i2022">from</word>
+  <word xml:id="i2023">Australia</word>
+  <word xml:id="i2024">.</word>
+  <word xml:id="i3001">There</word>
+  <word xml:id="i3002">is</word>
+  <word xml:id="i3003">a</word>
+  <word xml:id="i3004">small</word>
+  <word xml:id="i3005">tourist</word>
+  <word xml:id="i3006">industry</word>
+  <word xml:id="i3007">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">NNS</tag>
+  <tag type="pos" index="i1002">,</tag>
+  <tag type="pos" index="i1003">VBN</tag>
+  <tag type="pos" index="i1004">IN</tag>
+  <tag type="pos" index="i1005">DT</tag>
+  <tag type="pos" index="i1006">NNS</tag>
+  <tag type="pos" index="i1007">,</tag>
+  <tag type="pos" index="i1008">VBP</tag>
+  <tag type="pos" index="i1009">DT</tag>
+  <tag type="pos" index="i1010">JJ</tag>
+  <tag type="pos" index="i1011">NN</tag>
+  <tag type="pos" index="i1012">NN</tag>
+  <tag type="pos" index="i1013">.</tag>
+  <tag type="pos" index="i2001">JJ</tag>
+  <tag type="pos" index="i2002">JJ</tag>
+  <tag type="pos" index="i2003">NNS</tag>
+  <tag type="pos" index="i2004">CC</tag>
+  <tag type="pos" index="i2005">NN</tag>
+  <tag type="pos" index="i2006">VBP</tag>
+  <tag type="pos" index="i2007">TO</tag>
+  <tag type="pos" index="i2008">DT</tag>
+  <tag type="pos" index="i2009">NN</tag>
+  <tag type="pos" index="i2010">NN</tag>
+  <tag type="pos" index="i2011">,</tag>
+  <tag type="pos" index="i2012">CC</tag>
+  <tag type="pos" index="i2013">JJ</tag>
+  <tag type="pos" index="i2014">NN</tag>
+  <tag type="pos" index="i2015">CC</tag>
+  <tag type="pos" index="i2016">RBS</tag>
+  <tag type="pos" index="i2017">JJ</tag>
+  <tag type="pos" index="i2018">NNS</tag>
+  <tag type="pos" index="i2019">MD</tag>
+  <tag type="pos" index="i2020">VB</tag>
+  <tag type="pos" index="i2021">VBN</tag>
+  <tag type="pos" index="i2022">IN</tag>
+  <tag type="pos" index="i2023">NNP</tag>
+  <tag type="pos" index="i2024">.</tag>
+  <tag type="pos" index="i3001">EX</tag>
+  <tag type="pos" index="i3002">VBZ</tag>
+  <tag type="pos" index="i3003">DT</tag>
+  <tag type="pos" index="i3004">JJ</tag>
+  <tag type="pos" index="i3005">NN</tag>
+  <tag type="pos" index="i3006">NN</tag>
+  <tag type="pos" index="i3007">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i2023">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>the</token>
+    <token>islands</token>
+    <token>the</token>
+    <token>sole</token>
+    <token>cash</token>
+    <token>crop</token>
+    <token>the</token>
+    <token>food</token>
+    <token>supply</token>
+    <token>necessities</token>
+    <token>Australia</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="5">i1005</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    <index pos="8">i2008</index>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="6">i1006</index>
+    </indexlist>
+    </pred>
+    <pred arg="x3" symbol="cash" type="n" sense="0">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x3" arg2="x4" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x4" symbol="crop" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x4" symbol="sole" type="a" sense="0">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="food" type="n" sense="0">
+    <indexlist>
+    <index pos="9">i2009</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x5" arg2="x6" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x6" symbol="supply" type="n" sense="0">
+    <indexlist>
+    <index pos="10">i2010</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="necessity" type="n" sense="0">
+    <indexlist>
+    <index pos="18">i2018</index>
+    </indexlist>
+    </pred>
+    <named arg="x8" symbol="australia" type="loc">
+    <indexlist>
+    <index pos="23">i2023</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k9">
+  <sdrs>
+   <constituents>
+   <constituent label="k10">
+   <drs type="sentence">
+    <tokens>
+     <token>Coconuts</token>
+     <token>grown</token>
+     <token>throughout</token>
+     <token>are</token>
+    </tokens>
+    <dom>
+     <dr name="x11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t14">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e12" symbol="grow" type="v" sense="45040000">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x11" symbol="coconut" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e12" arg2="x11" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e12" arg2="x2" symbol="throughout" sense="0">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </rel>
+     <prop argument="p13">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x11" arg2="x4">
+        <indexlist>
+        <index pos="8">i1008</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p13" arg2="t14" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t14" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k15">
+   <drs type="sentence">
+    <tokens>
+     <token>Small</token>
+     <token>local</token>
+     <token>gardens</token>
+     <token>fishing</token>
+     <token>contribute</token>
+     <token>to</token>
+     <token>additional</token>
+     <token>food</token>
+     <token>most</token>
+     <token>other</token>
+     <token>necessities</token>
+     <token>must</token>
+     <token>imported</token>
+     <token>from</token>
+    </tokens>
+    <dom>
+     <dr name="x16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t18">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e17" symbol="contribute" type="v" sense="13020111">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="garden" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="fishing" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="small" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="local" type="a" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e17" arg2="x16" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e17" arg2="x6" symbol="Recipient" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e17" arg2="t18" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t18" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <nec>
+     <indexlist>
+     <index pos="19">i2019</index>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x19">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="e20">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t21">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x19" symbol="food" type="n" sense="0">
+        <indexlist>
+        <index pos="14">i2014</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="necessity" type="n" sense="0">
+        <indexlist>
+        <index pos="18">i2018</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="necessity" type="n" sense="0">
+        <indexlist>
+        <index pos="18">i2018</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="additional" type="a" sense="0">
+        <indexlist>
+        <index pos="13">i2013</index>
+        </indexlist>
+        </pred>
+        <pred arg="x19" symbol="most" type="a" sense="0">
+        <indexlist>
+        <index pos="16">i2016</index>
+        </indexlist>
+        </pred>
+        <pred arg="e20" symbol="import" type="v" sense="0">
+        <indexlist>
+        <index pos="21">i2021</index>
+        </indexlist>
+        </pred>
+        <not>
+        <indexlist>
+        <index pos="17">i2017</index>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <eq arg1="x19" arg2="x7">
+           <indexlist>
+           </indexlist>
+           </eq>
+          </con>
+         </drs>
+        </not>
+        <rel arg1="e20" arg2="x19" symbol="patient" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e20" arg2="x8" symbol="from" sense="0">
+        <indexlist>
+        <index pos="22">i2022</index>
+        </indexlist>
+        </rel>
+        <rel arg1="e20" arg2="t21" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="t1" arg2="t21" symbol="temp_before" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </nec>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k22">
+   <drs type="sentence">
+    <tokens>
+     <token>There</token>
+     <token>is</token>
+     <token>a</token>
+     <token>small</token>
+     <token>tourist</token>
+     <token>industry</token>
+    </tokens>
+    <dom>
+     <dr name="x23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t25">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x23" symbol="there" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i3001</index>
+     </indexlist>
+     </pred>
+     <prop argument="p24">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x26">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x27">
+        <indexlist>
+        <index pos="3">i3003</index>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x26" symbol="tourist" type="n" sense="0">
+        <indexlist>
+        <index pos="5">i3005</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x26" arg2="x27" symbol="nn" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <pred arg="x27" symbol="industry" type="n" sense="0">
+        <indexlist>
+        <index pos="6">i3006</index>
+        </indexlist>
+        </pred>
+        <pred arg="x27" symbol="small" type="a" sense="0">
+        <indexlist>
+        <index pos="4">i3004</index>
+        </indexlist>
+        </pred>
+        <eq arg1="x23" arg2="x27">
+        <indexlist>
+        <index pos="2">i3002</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p24" arg2="t25" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t25" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k15" arg2="k22" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k10" arg2="k15" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k9" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

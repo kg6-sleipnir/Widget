@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- The economy is limited to traditional subsistence agriculture , with about 80 % of labor force earnings from agriculture ( coconuts and vegetables ), livestock ( mostly pigs ), and fishing . About 4 % of the population is employed in government . Revenues come from French Government subsidies , licensing of fishing rights to Japan and South Korea , import taxes , and remittances from expatriate workers in New Caledonia . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">The</word>
+  <word xml:id="i1002">economy</word>
+  <word xml:id="i1003">is</word>
+  <word xml:id="i1004">limited</word>
+  <word xml:id="i1005">to</word>
+  <word xml:id="i1006">traditional</word>
+  <word xml:id="i1007">subsistence</word>
+  <word xml:id="i1008">agriculture</word>
+  <word xml:id="i1009">,</word>
+  <word xml:id="i1010">with</word>
+  <word xml:id="i1011">about</word>
+  <word xml:id="i1012">80</word>
+  <word xml:id="i1013">%</word>
+  <word xml:id="i1014">of</word>
+  <word xml:id="i1015">labor</word>
+  <word xml:id="i1016">force</word>
+  <word xml:id="i1017">earnings</word>
+  <word xml:id="i1018">from</word>
+  <word xml:id="i1019">agriculture</word>
+  <word xml:id="i1020">(</word>
+  <word xml:id="i1021">coconuts</word>
+  <word xml:id="i1022">and</word>
+  <word xml:id="i1023">vegetables</word>
+  <word xml:id="i1024">),</word>
+  <word xml:id="i1025">livestock</word>
+  <word xml:id="i1026">(</word>
+  <word xml:id="i1027">mostly</word>
+  <word xml:id="i1028">pigs</word>
+  <word xml:id="i1029">),</word>
+  <word xml:id="i1030">and</word>
+  <word xml:id="i1031">fishing</word>
+  <word xml:id="i1032">.</word>
+  <word xml:id="i2001">About</word>
+  <word xml:id="i2002">4</word>
+  <word xml:id="i2003">%</word>
+  <word xml:id="i2004">of</word>
+  <word xml:id="i2005">the</word>
+  <word xml:id="i2006">population</word>
+  <word xml:id="i2007">is</word>
+  <word xml:id="i2008">employed</word>
+  <word xml:id="i2009">in</word>
+  <word xml:id="i2010">government</word>
+  <word xml:id="i2011">.</word>
+  <word xml:id="i3001">Revenues</word>
+  <word xml:id="i3002">come</word>
+  <word xml:id="i3003">from</word>
+  <word xml:id="i3004">French</word>
+  <word xml:id="i3005">Government</word>
+  <word xml:id="i3006">subsidies</word>
+  <word xml:id="i3007">,</word>
+  <word xml:id="i3008">licensing</word>
+  <word xml:id="i3009">of</word>
+  <word xml:id="i3010">fishing</word>
+  <word xml:id="i3011">rights</word>
+  <word xml:id="i3012">to</word>
+  <word xml:id="i3013">Japan</word>
+  <word xml:id="i3014">and</word>
+  <word xml:id="i3015">South</word>
+  <word xml:id="i3016">Korea</word>
+  <word xml:id="i3017">,</word>
+  <word xml:id="i3018">import</word>
+  <word xml:id="i3019">taxes</word>
+  <word xml:id="i3020">,</word>
+  <word xml:id="i3021">and</word>
+  <word xml:id="i3022">remittances</word>
+  <word xml:id="i3023">from</word>
+  <word xml:id="i3024">expatriate</word>
+  <word xml:id="i3025">workers</word>
+  <word xml:id="i3026">in</word>
+  <word xml:id="i3027">New</word>
+  <word xml:id="i3028">Caledonia</word>
+  <word xml:id="i3029">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">NN</tag>
+  <tag type="pos" index="i1003">VBZ</tag>
+  <tag type="pos" index="i1004">VBN</tag>
+  <tag type="pos" index="i1005">TO</tag>
+  <tag type="pos" index="i1006">JJ</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">NN</tag>
+  <tag type="pos" index="i1009">,</tag>
+  <tag type="pos" index="i1010">IN</tag>
+  <tag type="pos" index="i1011">IN</tag>
+  <tag type="pos" index="i1012">CD</tag>
+  <tag type="pos" index="i1013">NN</tag>
+  <tag type="pos" index="i1014">IN</tag>
+  <tag type="pos" index="i1015">NN</tag>
+  <tag type="pos" index="i1016">NN</tag>
+  <tag type="pos" index="i1017">NNS</tag>
+  <tag type="pos" index="i1018">IN</tag>
+  <tag type="pos" index="i1019">NN</tag>
+  <tag type="pos" index="i1020">LRB</tag>
+  <tag type="pos" index="i1021">NNS</tag>
+  <tag type="pos" index="i1022">CC</tag>
+  <tag type="pos" index="i1023">NNS</tag>
+  <tag type="pos" index="i1024">VBP</tag>
+  <tag type="pos" index="i1025">NN</tag>
+  <tag type="pos" index="i1026">LRB</tag>
+  <tag type="pos" index="i1027">RB</tag>
+  <tag type="pos" index="i1028">NNS</tag>
+  <tag type="pos" index="i1029">NNS</tag>
+  <tag type="pos" index="i1030">CC</tag>
+  <tag type="pos" index="i1031">NN</tag>
+  <tag type="pos" index="i1032">.</tag>
+  <tag type="pos" index="i2001">RB</tag>
+  <tag type="pos" index="i2002">CD</tag>
+  <tag type="pos" index="i2003">NN</tag>
+  <tag type="pos" index="i2004">IN</tag>
+  <tag type="pos" index="i2005">DT</tag>
+  <tag type="pos" index="i2006">NN</tag>
+  <tag type="pos" index="i2007">VBZ</tag>
+  <tag type="pos" index="i2008">VBN</tag>
+  <tag type="pos" index="i2009">IN</tag>
+  <tag type="pos" index="i2010">NN</tag>
+  <tag type="pos" index="i2011">.</tag>
+  <tag type="pos" index="i3001">NNS</tag>
+  <tag type="pos" index="i3002">VBP</tag>
+  <tag type="pos" index="i3003">IN</tag>
+  <tag type="pos" index="i3004">JJ</tag>
+  <tag type="pos" index="i3005">NN</tag>
+  <tag type="pos" index="i3006">NNS</tag>
+  <tag type="pos" index="i3007">,</tag>
+  <tag type="pos" index="i3008">NN</tag>
+  <tag type="pos" index="i3009">IN</tag>
+  <tag type="pos" index="i3010">NN</tag>
+  <tag type="pos" index="i3011">NNS</tag>
+  <tag type="pos" index="i3012">TO</tag>
+  <tag type="pos" index="i3013">NNP</tag>
+  <tag type="pos" index="i3014">CC</tag>
+  <tag type="pos" index="i3015">NNP</tag>
+  <tag type="pos" index="i3016">NNP</tag>
+  <tag type="pos" index="i3017">,</tag>
+  <tag type="pos" index="i3018">NN</tag>
+  <tag type="pos" index="i3019">NNS</tag>
+  <tag type="pos" index="i3020">,</tag>
+  <tag type="pos" index="i3021">CC</tag>
+  <tag type="pos" index="i3022">NNS</tag>
+  <tag type="pos" index="i3023">IN</tag>
+  <tag type="pos" index="i3024">JJ</tag>
+  <tag type="pos" index="i3025">NNS</tag>
+  <tag type="pos" index="i3026">IN</tag>
+  <tag type="pos" index="i3027">NNP</tag>
+  <tag type="pos" index="i3028">NNP</tag>
+  <tag type="pos" index="i3029">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1012">I-PCT</tag>
+  <tag type="ne" index="i1013">I-PCT</tag>
+  <tag type="ne" index="i2002">I-PCT</tag>
+  <tag type="ne" index="i2003">I-PCT</tag>
+  <tag type="ne" index="i3013">I-LOC</tag>
+  <tag type="ne" index="i3015">I-LOC</tag>
+  <tag type="ne" index="i3016">I-LOC</tag>
+  <tag type="ne" index="i3027">I-LOC</tag>
+  <tag type="ne" index="i3028">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>The</token>
+    <token>economy</token>
+    <token>the</token>
+    <token>population</token>
+    <token>Japan</token>
+    <token>South</token>
+    <token>Korea</token>
+    <token>New</token>
+    <token>Caledonia</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="5">i2005</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="economy" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </pred>
+    <pred arg="x3" symbol="population" type="n" sense="0">
+    <indexlist>
+    <index pos="6">i2006</index>
+    </indexlist>
+    </pred>
+    <named arg="x4" symbol="japan" type="loc">
+    <indexlist>
+    <index pos="13">i3013</index>
+    </indexlist>
+    </named>
+    <named arg="x5" symbol="south_korea" type="loc">
+    <indexlist>
+    <index pos="15">i3015</index>
+    <index pos="16">i3016</index>
+    </indexlist>
+    </named>
+    <named arg="x6" symbol="new_caledonia" type="loc">
+    <indexlist>
+    <index pos="27">i3027</index>
+    <index pos="28">i3028</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k7">
+  <sdrs>
+   <constituents>
+   <constituent label="k8">
+   <drs type="sentence">
+    <tokens>
+     <token>limited</token>
+     <token>to</token>
+     <token>traditional</token>
+     <token>subsistence</token>
+     <token>agriculture</token>
+     <token>with</token>
+     <token>about</token>
+     <token>80</token>
+     <token>%</token>
+     <token>of</token>
+     <token>labor</token>
+     <token>force</token>
+     <token>earnings</token>
+     <token>from</token>
+     <token>agriculture</token>
+     <token>(</token>
+     <token>coconuts</token>
+     <token>vegetables</token>
+     <token>),</token>
+     <token>livestock</token>
+     <token>(</token>
+     <token>mostly</token>
+     <token>pigs</token>
+     <token>),</token>
+     <token>fishing</token>
+    </tokens>
+    <dom>
+     <dr name="x9">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x10">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x11">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e12">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x13">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x14">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x21">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e22">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e12" symbol="limit" type="v" sense="76000000">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x11" symbol="subsistence" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x11" arg2="x13" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x13" symbol="agriculture" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x14" symbol="percent" type="n" sense="1">
+     <indexlist>
+     <index pos="13">i1013</index>
+     </indexlist>
+     </pred>
+     <pred arg="x9" symbol="labor" type="n" sense="0">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x9" arg2="x10" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x10" symbol="force" type="n" sense="0">
+     <indexlist>
+     <index pos="16">i1016</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x10" arg2="x15" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x15" symbol="earnings" type="n" sense="0">
+     <indexlist>
+     <index pos="17">i1017</index>
+     </indexlist>
+     </pred>
+     <pred arg="x16" symbol="agriculture" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i1019</index>
+     </indexlist>
+     </pred>
+     <pred arg="x17" symbol="coconut" type="n" sense="0">
+     <indexlist>
+     <index pos="21">i1021</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e12" arg2="x2" symbol="Patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x13" symbol="traditional" type="a" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e12" arg2="x13" symbol="Proposition" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </rel>
+     <pred arg="x14" symbol="about" type="a" sense="0">
+     <indexlist>
+     <index pos="11">i1011</index>
+     </indexlist>
+     </pred>
+     <card arg="x14" value="80" type="eq">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </card>
+     <rel arg1="x16" arg2="x17" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="20">i1020</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x15" arg2="x16" symbol="from" sense="0">
+     <indexlist>
+     <index pos="18">i1018</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x14" arg2="x15" symbol="of" sense="0">
+     <indexlist>
+     <index pos="14">i1014</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e12" arg2="x14" symbol="with" sense="0">
+     <indexlist>
+     <index pos="10">i1010</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e12" arg2="t18" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t18" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <pred arg="e22" symbol=")," type="v" sense="0">
+     <indexlist>
+     <index pos="24">i1024</index>
+     </indexlist>
+     </pred>
+     <pred arg="x20" symbol="vegetable" type="n" sense="0">
+     <indexlist>
+     <index pos="23">i1023</index>
+     </indexlist>
+     </pred>
+     <pred arg="x21" symbol="livestock" type="n" sense="0">
+     <indexlist>
+     <index pos="25">i1025</index>
+     </indexlist>
+     </pred>
+     <pred arg="x19" symbol="pig" type="n" sense="0">
+     <indexlist>
+     <index pos="28">i1028</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x19" arg2="x24" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x24" symbol=")," type="n" sense="0">
+     <indexlist>
+     <index pos="29">i1029</index>
+     </indexlist>
+     </pred>
+     <pred arg="x24" symbol="fishing" type="n" sense="0">
+     <indexlist>
+     <index pos="31">i1031</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e22" arg2="x20" symbol="agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e22" arg2="x21" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e22" arg2="t23" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t23" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <pred arg="x24" symbol="mostly" type="a" sense="0">
+     <indexlist>
+     <index pos="27">i1027</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e22" arg2="x24" symbol="(" sense="0">
+     <indexlist>
+     <index pos="26">i1026</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k25">
+   <drs type="sentence">
+    <tokens>
+     <token>About</token>
+     <token>4</token>
+     <token>%</token>
+     <token>of</token>
+     <token>employed</token>
+     <token>in</token>
+     <token>government</token>
+    </tokens>
+    <dom>
+     <dr name="x26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t29">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x26" symbol="percent" type="n" sense="1">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x26" symbol="about" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <card arg="x26" value="4" type="eq">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </card>
+     <pred arg="e27" symbol="employ" type="v" sense="13053000">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x28" symbol="government" type="n" sense="0">
+     <indexlist>
+     <index pos="10">i2010</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x26" arg2="x3" symbol="of" sense="0">
+     <indexlist>
+     <index pos="4">i2004</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="x26" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="x28" symbol="in" sense="0">
+     <indexlist>
+     <index pos="9">i2009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e27" arg2="t29" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t29" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k30">
+   <drs type="sentence">
+    <tokens>
+     <token>Revenues</token>
+     <token>come</token>
+     <token>from</token>
+     <token>French</token>
+     <token>Government</token>
+     <token>subsidies</token>
+     <token>,</token>
+     <token>licensing</token>
+     <token>of</token>
+     <token>fishing</token>
+     <token>rights</token>
+     <token>to</token>
+     <token>,</token>
+     <token>import</token>
+     <token>taxes</token>
+     <token>remittances</token>
+     <token>from</token>
+     <token>expatriate</token>
+     <token>workers</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x31">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x33">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e34">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x35">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x36">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x37">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x38">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x39">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x40">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x41">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t42">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e34" symbol="come" type="v" sense="48011000">
+     <indexlist>
+     <index pos="2">i3002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x33" symbol="revenue" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i3001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x32" symbol="government" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i3005</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x32" arg2="x35" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x35" symbol="subsidy" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i3006</index>
+     </indexlist>
+     </pred>
+     <pred arg="x36" symbol="licensing" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x31" symbol="fishing" type="n" sense="0">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x31" arg2="x37" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x37" symbol="rights" type="n" sense="0">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e34" arg2="x33" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x35" symbol="french" type="a" sense="0">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x37" arg2="x4" symbol="to" sense="0">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x36" arg2="x37" symbol="of" sense="0">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x35" arg2="x36" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </rel>
+     <pred arg="x38" symbol="import" type="n" sense="0">
+     <indexlist>
+     <index pos="18">i3018</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x38" arg2="x39" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x39" symbol="tax" type="n" sense="0">
+     <indexlist>
+     <index pos="19">i3019</index>
+     </indexlist>
+     </pred>
+     <pred arg="x40" symbol="remittance" type="n" sense="0">
+     <indexlist>
+     <index pos="22">i3022</index>
+     </indexlist>
+     </pred>
+     <pred arg="x41" symbol="worker" type="n" sense="0">
+     <indexlist>
+     <index pos="25">i3025</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x5" arg2="x39" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="17">i3017</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x37" arg2="x5" symbol="to" sense="0">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x36" arg2="x37" symbol="of" sense="0">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x35" arg2="x36" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </rel>
+     <pred arg="x41" symbol="expatriate" type="a" sense="0">
+     <indexlist>
+     <index pos="24">i3024</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x41" arg2="x6" symbol="in" sense="0">
+     <indexlist>
+     <index pos="26">i3026</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x40" arg2="x41" symbol="from" sense="0">
+     <indexlist>
+     <index pos="23">i3023</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x35" arg2="x40" symbol="rel" sense="0">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e34" arg2="x35" symbol="Location" sense="0">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e34" arg2="t42" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t42" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k25" arg2="k30" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k8" arg2="k25" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k7" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

@@ -1,0 +1,73 @@
+Turkey	NNP	N[nam]	turkey	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+military	JJ	N[nom]	military	O
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+troops	NNS	N[nom]	troops	O
+killed	VBD	S[dcl]\NP/NP	kill	O
+four	CD	N[nom]/N[nom]	four	O
+Kurdish	JJ	N[nom]/N[nom]	kurdish	O
+guerrillas	NNS	N[nom]	guerrilla	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+operations	NNS	N[nom]	operation	O
+Friday	NNP	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	friday	I-DAT
+night	NN	S[dcl]\NP\S[dcl]\NP	night	I-TIM
+near	IN	S[dcl]\NP\S[dcl]\NP/NP	near	O
+the	DT	NP/N[nom]	the	O
+border	NN	N[nom]	border	O
+with	IN	NP\NP/NP	with	O
+northern	JJ	N[nam]/N[nam]	northern	O
+Iraq	NNP	N[nam]	iraq	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+Military	JJ	N[nom]/N[nom]	military	O
+authorities	NNS	N[nom]	authority	O
+said	VBD	S[dcl]\NP/S[dcl]	say	O
+Saturday	NNP	S[dcl]\NP\S[dcl]\NP	saturday	I-DAT
+the	DT	NP/N[nom]	the	O
+clash	NN	N[nom]	clash	O
+occurred	VBD	S[dcl]\NP	occur	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+southeastern	JJ	N[nom]/N[nom]	southeastern	O
+Hakkari	NNP	N[nom]/N[nom]	hakkarus	I-LOC
+province	NN	N[nom]	province	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nam]	the	O
+banned	VBN	N[nam]/N[nam]	ban	O
+Kurdistan	NNP	N[nam]/N[nam]	kurdistan	I-ORG
+Workers	NNP	N[nam]	worker	I-ORG
+'	POS	NP/N[nam]\NP	'	I-ORG
+Party	NNP	N[nam]	party	I-ORG
+(	LRB	NP\NP/NP	(	O
+PKK	NNP	N[nam]	pkk	I-ORG
+)	RRB	NP\NP\NP\NP	)	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[ng]\NP	be	O
+fighting	VBG	S[ng]\NP/PP	fight	O
+for	IN	PP/NP	for	O
+autonomy	NN	N[nom]	autonomy	O
+for	IN	NP\NP/NP	for	O
+ethnic	JJ	N[nom]/N[nom]	ethnic	O
+Kurds	NNS	N[nom]	kurd	I-LOC
+in	IN	NP\NP/NP	in	O
+Turkey	NNP	N[nam]	turkey	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+southeast	NN	N[nom]	southeast	O
+since	IN	NP\NP/NP	since	I-DAT
+1984	CD	N[num]	1984	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+More	JJR	S[adj]\NP	more	O
+than	IN	N[nom]/N[nom]/N[nom]/N[nom]\S[adj]\NP	than	O
+30,000	CD	N[nom]/N[nom]	30,000	O
+people	NNS	N[nom]	people	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[pss]\NP	be	O
+killed	VBN	S[pss]\NP	kill	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+conflict	NN	N[nom]	conflict	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

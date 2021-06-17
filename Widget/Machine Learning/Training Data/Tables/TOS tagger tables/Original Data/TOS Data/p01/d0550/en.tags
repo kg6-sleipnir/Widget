@@ -1,0 +1,76 @@
+President	NNP	N[nam]/N[nam]	president	O
+Bush	NNP	N[nam]	bush	I-PER
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+signed	VBN	S[pt]\NP/NP	sign	O
+legislation	NN	N[nom]	legislation	O
+reaffirming	VBG	S[ng]\NP/NP	reaffirm	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+support	NN	N[nom]	support	O
+for	IN	NP\NP/NP	for	O
+the	DT	NP/N[nom]	the	O
+continued	JJ	N[nom]/N[nom]	continued	O
+expansion	NN	N[nom]	expansion	O
+of	IN	NP\NP/NP	of	O
+NATO	NNP	N[nam]	nato	I-ORG
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+measure	NN	N[nom]	measure	O
+designates	VBZ	S[dcl]\NP/NP	designate	O
+Albania	NNP	N[nam]	albanium	I-LOC
+,	,	COMMA	,	O
+Croatia	NNP	N[nam]	croatium	I-LOC
+,	,	COMMA	,	O
+Georgia	NNP	N[nam]	georgium	I-LOC
+,	,	COMMA	,	O
+Macedonia	NNP	N[nam]	macedonium	I-LOC
+and	CC	CONJ	and	O
+Ukraine	NNP	N[nam]	ukraine	I-LOC
+as	IN	S[dcl]\NP\S[dcl]\NP/S[adj]\NP	as	O
+eligible	JJ	S[adj]\NP/S[to]\NP	eligible	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+receive	VB	S[b]\NP/PP/NP	receive	O
+financial	JJ	N[nom]/N[nom]	financial	O
+assistance	NN	N[nom]	assistance	O
+as	IN	PP/NP	as	O
+they	PRP	NP	they	O
+pursue	VB	S[b]\NP/NP	pursue	O
+NATO	NNP	N[nom]/N[nom]	nato	I-ORG
+membership	NN	N[nom]	membership	O
+.	.	S[b]\S[b]	.	O
+
+It	PRP	NP	it	O
+also	RB	S[dcl]\NP/S[dcl]\NP	also	O
+specifies	VBZ	S[dcl]\NP/S[em]	specify	O
+that	IN	S[em]/S[dcl]	that	O
+funds	NNS	N[nom]	fund	O
+for	IN	NP\NP/NP	for	O
+military	JJ	N[nom]/N[nom]	military	O
+assistance	NN	N[nom]	assistance	O
+for	IN	NP\NP/NP	for	O
+these	DT	NP/N[nom]	these	O
+countries	NNS	N[nom]	country	O
+should	MD	S[dcl]\NP/S[b]\NP	should	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+included	VBN	S[pss]\NP	include	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+next	JJ	N[nom]/N[nom]	next	I-DAT
+year	NN	N[nom]	year	I-DAT
+'s	POS	NP/N[nom]\NP	's	O
+budget	NN	N[nom]	budget	O
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+the	DT	NP/N[nom]	the	O
+White	NNP	N[nom]/N[nom]	white	I-ORG
+House	NNP	N[nom]/N[nom]	house	I-ORG
+announcement	NN	N[nom]	announcement	O
+did	VBD	S[dcl]\NP/S[b]\NP	do	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+specify	VB	S[b]\NP/NP	specify	O
+a	DT	NP/N[nom]	a	O
+figure	NN	N[nom]	figure	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

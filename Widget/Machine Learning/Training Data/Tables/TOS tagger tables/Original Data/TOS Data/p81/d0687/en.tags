@@ -1,0 +1,55 @@
+This	DT	NP/N[nom]	this	O
+isolated	JJ	N[nom]/N[nom]	isolated	O
+island	NN	N[nom]	island	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+named	VBN	S[pss]\NP/PP	name	O
+for	IN	PP/NP	for	O
+John	NNP	N[nam]/N[nam]	john	I-PER
+CLIPPERTON	NNP	N[nam]	clipperton	I-PER
+,	,	CONJ[app]	,	O
+a	DT	NP/N[nom]	a	O
+pirate	NN	N[nom]	pirate	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+made	VBD	S[dcl]\NP/NP/NP	make	O
+it	PRP	NP	it	O
+his	PRP$	NP/N[nom]	his	O
+hideout	NN	N[nom]	hideout	O
+early	RB	S[dcl]\NP\S[dcl]\NP/PP	early	I-DAT
+in	IN	PP/NP	in	I-DAT
+the	DT	NP/N[nom]	the	I-DAT
+18th	JJ	N[nom]/N[nom]	18th	I-DAT
+century	NN	N[nom]	century	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Annexed	VBN	S[pss]\NP	annex	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+France	NNP	N[nam]	france	I-ORG
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1855	CD	N[num]	1855	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+it	PRP	NP	it	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+seized	VBN	S[pss]\NP	seize	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+Mexico	NNP	N[nam]	mexico	I-ORG
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1897	CD	N[num]	1897	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Arbitration	NNP	N[nam]	arbitration	O
+eventually	RB	S[dcl]\NP/S[dcl]\NP	eventually	O
+awarded	VBD	S[dcl]\NP/PP/NP	award	O
+the	DT	NP/N[nom]	the	O
+island	NN	N[nom]	island	O
+to	TO	PP/NP	to	O
+France	NNP	N[nam]	france	I-ORG
+,	,	NP\NP	,	O
+which	WDT	NP\NP/S[dcl]\NP	which	O
+took	VBD	S[dcl]\NP/NP	take	O
+possession	NN	N[nom]	possession	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1935	CD	N[num]	1935	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

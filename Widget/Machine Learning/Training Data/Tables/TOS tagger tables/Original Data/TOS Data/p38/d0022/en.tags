@@ -1,0 +1,65 @@
+Oil	NN	N[nom]/N[nom]	oil	O
+prices	NNS	N[nom]	price	O
+continued	VBD	S[dcl]\NP/S[to]\NP	continue	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+break	VB	S[b]\NP/NP	break	O
+new	JJ	N[nom]/N[nom]	new	O
+records	NNS	N[nom]	record	O
+this	DT	S[b]\NP\S[b]\NP/N[nom]	this	I-DAT
+week	NN	N[nom]	week	I-DAT
+trading	NN	N[nom]/N[nom]	trading	O
+briefly	NN	N[nom]	briefly	O
+above	IN	NP\NP/NP	above	O
+$	$	N[num]/N[num]	$	I-MON
+126	CD	N[num]	126	I-MON
+per	IN	NP\NP/NP	per	O
+barrel	NN	N[nom]	barrel	O
+on	IN	NP\NP/NP	on	O
+Monday	NNP	N[nam]	monday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+American	JJ	N[nom]/N[nom]	american	O
+consumers	NNS	N[nom]	consumer	O
+fear	VBP	S[dcl]\NP/S[dcl]	fear	O
+prices	NNS	N[nom]	price	O
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+go	VB	S[b]\NP/S[adj]\NP	go	O
+even	RB	S[adj]\NP/S[adj]\NP	even	O
+higher	JJR	S[adj]\NP	higher	O
+as	IN	S[b]\NP\S[b]\NP/S[dcl]	as	O
+the	DT	NP/N[nom]	the	O
+summer	NN	N[nom]/N[nom]	summer	I-DAT
+driving	VBG	N[nom]/N[nom]	drive	O
+season	NN	N[nom]	season	O
+gets	VBZ	S[dcl]\NP/NP	get	O
+underway	NN	N[nom]	underway	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Some	DT	NP	some	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+they	PRP	NP	they	O
+are	VBP	S[dcl]\NP/S[adj]\NP	be	O
+desperate	JJ	S[adj]\NP	desperate	O
+and	CC	CONJ	and	O
+many	JJ	N[nom]	many	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+calling	VBG	S[ng]\NP/PP	call	O
+on	IN	PP/NP	on	O
+U.S.	NNP	N[nom]/N[nom]	u.s.	I-LOC
+lawmakers	NNS	N[nom]	lawmaker	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+do	VB	S[b]\NP/NP	do	O
+something	DT	NP	something	O
+-	IN	S[dcl]\S[dcl]	-	O
+fast	RB	S[dcl]\NP\S[dcl]\NP	fast	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	I-ORG
+Mil	NNP	N[nam]/N[nam]	mil	I-PER
+Arcega	NNP	N[nam]	arcega	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

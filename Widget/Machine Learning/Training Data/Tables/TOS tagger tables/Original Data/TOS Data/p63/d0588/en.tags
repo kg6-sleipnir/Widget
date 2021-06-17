@@ -1,0 +1,54 @@
+As	IN	S[dcl]/S[dcl]/S[dcl]	as	O
+the	DT	NP/N[nom]	the	O
+price	NN	N[nom]	price	O
+of	IN	NP\NP/NP	of	O
+gasoline	NN	N[nom]	gasoline	O
+continues	VBZ	S[dcl]\NP/S[to]\NP	continue	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+rise	VB	S[b]\NP	rise	O
+in	IN	S[b]\NP\S[b]\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+U.S.	NNP	N[nam]	u.s.	I-LOC
+,	,	S[dcl]/S[dcl]	,	O
+more	RBR	N[nam]/N[nam]	more	O
+Americans	NNPS	N[nam]	american	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+buying	VBG	S[ng]\NP/NP	buy	O
+smaller	JJR	N[nom]/N[nom]	smaller	O
+,	,	N[nom]/N[nom]	,	O
+more	RBR	N[nom]/N[nom]/N[nom]/N[nom]	more	O
+fuel-efficient	JJ	N[nom]/N[nom]	fuel-efficient	O
+vehicles	NNS	N[nom]	vehicle	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Others	NNS	N[nom]	other	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+holding	VBG	S[ng]\NP/PP	hold	O
+on	IN	PP/PP	on	O
+to	TO	PP/NP	to	O
+their	PRP$	NP/N[nom]	their	O
+big	JJ	N[nom]/N[nom]	big	O
+cars	NNS	N[nom]	car	O
+,	,	S[ng]\NP\S[ng]\NP	,	O
+in	IN	S[ng]\NP\S[ng]\NP/NP	in	O
+hopes	NNS	N[nom]/S[em]	hope	O
+that	IN	S[em]/S[dcl]	that	O
+gas	NN	N[nom]/N[nom]	gas	O
+prices	NNS	N[nom]	price	O
+will	MD	S[dcl]\NP/S[b]\NP	will	O
+eventually	RB	S[dcl]\NP\S[dcl]\NP	eventually	O
+go	VB	S[b]\NP	go	O
+down	RB	S[b]\NP\S[b]\NP	down	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Deborah	NNP	N[nam]/N[nam]	deborah	I-PER
+Block	NNP	N[nam]	block	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+a	DT	NP/N[nom]	a	O
+report	NN	N[nom]	report	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

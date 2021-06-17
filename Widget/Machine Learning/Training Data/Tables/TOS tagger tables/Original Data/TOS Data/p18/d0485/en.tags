@@ -1,0 +1,101 @@
+Italy	NNP	N[nam]	italy	I-ORG
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+an	DT	NP/N[nom]	an	O
+Italian	JJ	N[nom]/N[nom]	italian	O
+photographer	NN	N[nom]	photographer	O
+kidnapped	VBN	S[pss]\NP	kidnap	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+Afghanistan	NNP	N[nam]	afghanistan	I-DAT
+last	JJ	S[pss]\NP\S[pss]\NP/S[pss]\NP\S[pss]\NP	last	I-DAT
+month	NN	S[pss]\NP\S[pss]\NP	month	I-DAT
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[pss]\NP	be	O
+freed	VBN	S[pss]\NP	free	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Italy	NNP	N[nam]	italy	I-ORG
+'s	POS	NP/N[nam]\NP	's	I-ORG
+Defense	NNP	N[nam]/N[nam]	defense	I-ORG
+Ministry	NNP	N[nam]	ministry	I-ORG
+said	VBD	S[dcl]\NP/S[dcl]	say	O
+Gabriele	NNP	N[nam]/N[nam]	gabriele	I-PER
+Torsello	NNP	N[nam]	torsello	I-PER
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+released	VBN	S[pss]\NP	release	O
+Friday	NNP	S[pss]\NP\S[pss]\NP	friday	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+gave	VBD	S[dcl]\NP/NP	give	O
+no	DT	NP/N[nom]	no	O
+details	NNS	N[nom]	detail	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Torsello	NNP	N[nam]	torsello	I-PER
+and	CC	CONJ	and	O
+his	PRP$	NP/N[nom]	his	O
+interpreter	NN	N[nom]	interpreter	O
+disappeared	VBD	S[dcl]\NP	disappear	O
+between	IN	S[dcl]\NP\S[dcl]\NP/NP	between	I-DAT
+October	NNP	N[num]/N[num]	october	I-DAT
+12	CD	N[num]	12	I-DAT
+and	CC	CONJ	and	I-DAT
+14	CD	N[num]	14	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Torsello	NNP	N[nam]	torsello	I-PER
+'s	POS	NP/N[nom]\NP	's	O
+kidnappers	NNS	N[nom]	kidnapper	O
+had	VBD	S[dcl]\NP/S[pt]\NP	have	O
+said	VBN	S[pt]\NP/S[dcl]	say	O
+they	PRP	NP	they	O
+would	MD	S[dcl]\NP/S[b]\NP	would	O
+kill	VB	S[b]\NP/NP	kill	O
+him	PRP	NP	him	O
+if	IN	S[b]\NP\S[b]\NP/S[dcl]	if	O
+Italy	NNP	N[nam]	italy	I-ORG
+'s	POS	NP/N[nom]\NP	's	I-ORG
+18,00	CD	N[nom]/N[nom]	18,00	I-ORG
+troops	NNS	N[nom]	troops	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+withdrawn	VBN	S[pss]\NP	withdraw	O
+from	IN	S[pss]\NP\S[pss]\NP/NP	from	O
+Afghanistan	NNP	N[nam]	afghanistan	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+In	IN	S[dcl]/S[dcl]/NP	in	O
+western	JJ	N[nom]/N[nom]	western	O
+Herat	NNP	N[nom]/N[nom]	herat	O
+province	NN	N[nom]	province	O
+,	,	S[dcl]/S[dcl]	,	O
+suspected	VBN	N[nom]/N[nom]	suspect	O
+militants	NNS	N[nom]	militant	O
+with	IN	NP\NP/NP	with	O
+machine	NN	N[nom]/N[nom]	machine	O
+guns	NNS	N[nom]	gun	O
+killed	VBD	S[dcl]\NP/NP	kill	O
+six	CD	N[nom]/N[nom]	six	O
+policemen	NNS	N[nom]	policeman	O
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+patrol	NN	N[nom]	patrol	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+district	NN	N[nom]/N[nom]	district	O
+police	NN	N[nom]/N[nom]	police	O
+chief	NN	N[nom]	chief	O
+was	VBD	S[dcl]\NP/PP	be	O
+among	IN	PP/NP	among	O
+those	DT	NP	those	O
+killed	VBN	S[pss]\NP	kill	O
+,	,	S[dcl]\S[dcl]/S[dcl]\S[dcl]	,	O
+and	CC	CONJ	and	O
+three	CD	N[nom]/N[nom]	three	O
+police	NNS	N[nom]	police	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+wounded	VBN	S[pss]\NP	wound	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

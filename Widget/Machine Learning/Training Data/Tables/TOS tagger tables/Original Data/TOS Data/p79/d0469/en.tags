@@ -1,0 +1,55 @@
+The	DT	NP/N[nom]	the	O
+port	NN	N[nom]	port	O
+of	IN	NP\NP/NP	of	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Orleans	NNP	N[nam]	orlean	I-LOC
+,	,	CONJ[app]	,	O
+Louisiana	NNP	N[nam]	louisiana	I-LOC
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+resuming	VBG	S[ng]\NP/NP	resume	O
+normal	JJ	N[nom]/N[nom]	normal	O
+operations	NNS	N[nom]	operation	O
+less	RBR	S[adj]\NP	less	O
+than	IN	N[nom]/N[nom]/N[nom]/N[nom]\S[adj]\NP	than	O
+five	CD	N[nom]/N[nom]	five	I-DAT
+days	NNS	N[nom]	day	I-DAT
+after	IN	S[ng]\NP\S[ng]\NP\NP/S[dcl]	after	I-DAT
+the	DT	NP/N[nam]	the	I-DAT
+US	NNP	N[nam]/N[nam]	us	I-ORG
+Gulf	NNP	N[nam]/N[nam]	gulf	I-LOC
+Coast	NNP	N[nam]	coast	I-LOC
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+hit	VBN	S[pss]\NP	hit	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+Hurricane	NNP	N[nam]/N[nam]	hurricane	O
+Gustav	NNP	N[nam]	gustav	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+storm	NN	N[nom]	storm	O
+did	VBD	S[dcl]\NP/NP	do	O
+far	RB	N[nom]/N[nom]/N[nom]/N[nom]	far	O
+less	JJR	N[nom]/N[nom]	less	O
+damage	NN	N[nom]	damage	O
+than	IN	NP\NP/NP	than	O
+Hurricane	NNP	N[nam]/N[nam]	hurricane	O
+Katrina	NNP	N[nam]	katrina	I-DAT
+three	CD	N[nom]/N[nom]	three	I-DAT
+years	NNS	N[nom]	year	I-DAT
+ago	RB	S[dcl]\NP\S[dcl]\NP\NP	ago	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Barry	NNP	N[nam]/N[nam]	barry	I-PER
+Wood	NNP	N[nam]	wood	I-PER
+in	IN	NP\NP/NP	in	O
+New	NNP	N[nam]/N[nam]	new	I-LOC
+Orleans	NNP	N[nam]	orlean	I-LOC
+sent	VBD	S[dcl]\NP/NP	send	O
+this	DT	NP/N[nom]	this	O
+report	NN	N[nom]	report	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

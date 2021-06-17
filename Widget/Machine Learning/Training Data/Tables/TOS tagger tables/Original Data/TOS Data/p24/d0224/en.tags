@@ -1,0 +1,65 @@
+The	DT	NP/N[nam]	the	O
+World	NNP	N[nam]/N[nam]	world	I-ORG
+Health	NNP	N[nam]/N[nam]	health	I-ORG
+Organization	NNP	N[nam]	organization	I-ORG
+estimates	VBZ	S[dcl]\NP/S[em]	estimate	O
+that	IN	S[em]/S[dcl]	that	O
+at	IN	S[dcl]/S[dcl]/S[asup]\NP	at	O
+least	JJS	S[asup]\NP	least	O
+17	CD	N[nom]/N[nom]/N[nom]/N[nom]	17	O
+million	CD	N[nom]/N[nom]	million	O
+people	NNS	N[nom]	people	O
+die	VBP	S[dcl]\NP	die	O
+every	DT	S[dcl]\NP\S[dcl]\NP/N[nom]	every	I-DAT
+year	NN	N[nom]	year	I-DAT
+from	IN	S[dcl]\NP\S[dcl]\NP/NP	from	I-DAT
+cardiovascular	JJ	N[nom]/N[nom]	cardiovascular	I-DAT
+disease	NN	N[nom]	disease	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Because	IN	S[dcl]/S[dcl]/S[dcl]	because	O
+heart	NN	N[nom]/N[nom]	heart	O
+related	VBN	N[nom]/N[nom]	relate	O
+illnesses	NNS	N[nom]	illness	O
+are	VBP	S[dcl]\NP/S[pss]\NP	be	O
+often	RB	S[dcl]\NP\S[dcl]\NP	often	O
+diagnosed	VBN	S[pss]\NP	diagnose	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+people	NNS	N[nom]	people	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+are	VBP	S[dcl]\NP/S[adj]\NP	be	O
+overweight	JJ	S[adj]\NP	overweight	O
+or	CC	CONJ	or	O
+obese	JJ	S[adj]\NP	obese	O
+,	,	S[dcl]/S[dcl]	,	O
+treatment	NN	N[nom]	treatment	O
+can	MD	S[dcl]\NP/S[b]\NP	can	O
+be	VB	S[b]\NP/S[pss]\NP	be	O
+complicated	VBN	S[pss]\NP	complicate	O
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+as	IN	S[dcl]/S[dcl]/NP	as	O
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nom]\NP	's	O
+Melinda	NNP	N[nom]/N[nom]	melinda	I-PER
+Smith	NNP	N[nom]/N[nom]	smith	I-PER
+reports	NNS	N[nom]	report	O
+,	,	S[dcl]/S[dcl]	,	O
+a	DT	NP/N[nom]	a	O
+drug	NN	N[nom]	drug	O
+used	VBN	S[pss]\NP/PP	use	O
+for	IN	PP/NP	for	O
+weight	NN	N[nom]/N[nom]	weight	O
+loss	NN	N[nom]	loss	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+showing	VBG	S[ng]\NP/NP	show	O
+promise	NN	N[nom]	promise	O
+for	IN	NP\NP/NP	for	O
+some	DT	NP/N[nom]	some	O
+heart	NN	N[nom]/N[nom]	heart	O
+patients	NNS	N[nom]	patient	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

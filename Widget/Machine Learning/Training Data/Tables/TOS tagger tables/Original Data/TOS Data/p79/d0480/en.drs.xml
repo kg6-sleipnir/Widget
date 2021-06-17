@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- A popular Indian style rural opera called Nautanki was recently staged at a theater in California 's high-tech Silicon Valley . It was the retelling of a decades old popular Indian opera Sultana Daku . VOA 's Savita Patel was on hand for one of the performances . Jim Bertel narrates . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">A</word>
+  <word xml:id="i1002">popular</word>
+  <word xml:id="i1003">Indian</word>
+  <word xml:id="i1004">style</word>
+  <word xml:id="i1005">rural</word>
+  <word xml:id="i1006">opera</word>
+  <word xml:id="i1007">called</word>
+  <word xml:id="i1008">Nautanki</word>
+  <word xml:id="i1009">was</word>
+  <word xml:id="i1010">recently</word>
+  <word xml:id="i1011">staged</word>
+  <word xml:id="i1012">at</word>
+  <word xml:id="i1013">a</word>
+  <word xml:id="i1014">theater</word>
+  <word xml:id="i1015">in</word>
+  <word xml:id="i1016">California</word>
+  <word xml:id="i1017">'s</word>
+  <word xml:id="i1018">high-tech</word>
+  <word xml:id="i1019">Silicon</word>
+  <word xml:id="i1020">Valley</word>
+  <word xml:id="i1021">.</word>
+  <word xml:id="i2001">It</word>
+  <word xml:id="i2002">was</word>
+  <word xml:id="i2003">the</word>
+  <word xml:id="i2004">retelling</word>
+  <word xml:id="i2005">of</word>
+  <word xml:id="i2006">a</word>
+  <word xml:id="i2007">decades</word>
+  <word xml:id="i2008">old</word>
+  <word xml:id="i2009">popular</word>
+  <word xml:id="i2010">Indian</word>
+  <word xml:id="i2011">opera</word>
+  <word xml:id="i2012">Sultana</word>
+  <word xml:id="i2013">Daku</word>
+  <word xml:id="i2014">.</word>
+  <word xml:id="i3001">VOA</word>
+  <word xml:id="i3002">'s</word>
+  <word xml:id="i3003">Savita</word>
+  <word xml:id="i3004">Patel</word>
+  <word xml:id="i3005">was</word>
+  <word xml:id="i3006">on</word>
+  <word xml:id="i3007">hand</word>
+  <word xml:id="i3008">for</word>
+  <word xml:id="i3009">one</word>
+  <word xml:id="i3010">of</word>
+  <word xml:id="i3011">the</word>
+  <word xml:id="i3012">performances</word>
+  <word xml:id="i3013">.</word>
+  <word xml:id="i4001">Jim</word>
+  <word xml:id="i4002">Bertel</word>
+  <word xml:id="i4003">narrates</word>
+  <word xml:id="i4004">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">JJ</tag>
+  <tag type="pos" index="i1003">JJ</tag>
+  <tag type="pos" index="i1004">NN</tag>
+  <tag type="pos" index="i1005">JJ</tag>
+  <tag type="pos" index="i1006">NN</tag>
+  <tag type="pos" index="i1007">VBN</tag>
+  <tag type="pos" index="i1008">NNP</tag>
+  <tag type="pos" index="i1009">VBD</tag>
+  <tag type="pos" index="i1010">RB</tag>
+  <tag type="pos" index="i1011">VBD</tag>
+  <tag type="pos" index="i1012">IN</tag>
+  <tag type="pos" index="i1013">DT</tag>
+  <tag type="pos" index="i1014">NN</tag>
+  <tag type="pos" index="i1015">IN</tag>
+  <tag type="pos" index="i1016">NNP</tag>
+  <tag type="pos" index="i1017">POS</tag>
+  <tag type="pos" index="i1018">JJ</tag>
+  <tag type="pos" index="i1019">NNP</tag>
+  <tag type="pos" index="i1020">NNP</tag>
+  <tag type="pos" index="i1021">.</tag>
+  <tag type="pos" index="i2001">PRP</tag>
+  <tag type="pos" index="i2002">VBD</tag>
+  <tag type="pos" index="i2003">DT</tag>
+  <tag type="pos" index="i2004">NN</tag>
+  <tag type="pos" index="i2005">IN</tag>
+  <tag type="pos" index="i2006">DT</tag>
+  <tag type="pos" index="i2007">NNS</tag>
+  <tag type="pos" index="i2008">JJ</tag>
+  <tag type="pos" index="i2009">JJ</tag>
+  <tag type="pos" index="i2010">JJ</tag>
+  <tag type="pos" index="i2011">NN</tag>
+  <tag type="pos" index="i2012">NNP</tag>
+  <tag type="pos" index="i2013">NNP</tag>
+  <tag type="pos" index="i2014">.</tag>
+  <tag type="pos" index="i3001">NNP</tag>
+  <tag type="pos" index="i3002">POS</tag>
+  <tag type="pos" index="i3003">NNP</tag>
+  <tag type="pos" index="i3004">NNP</tag>
+  <tag type="pos" index="i3005">VBD</tag>
+  <tag type="pos" index="i3006">IN</tag>
+  <tag type="pos" index="i3007">NN</tag>
+  <tag type="pos" index="i3008">IN</tag>
+  <tag type="pos" index="i3009">CD</tag>
+  <tag type="pos" index="i3010">IN</tag>
+  <tag type="pos" index="i3011">DT</tag>
+  <tag type="pos" index="i3012">NNS</tag>
+  <tag type="pos" index="i3013">.</tag>
+  <tag type="pos" index="i4001">NNP</tag>
+  <tag type="pos" index="i4002">NNP</tag>
+  <tag type="pos" index="i4003">VBZ</tag>
+  <tag type="pos" index="i4004">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1008">I-PER</tag>
+  <tag type="ne" index="i1016">I-LOC</tag>
+  <tag type="ne" index="i1019">I-LOC</tag>
+  <tag type="ne" index="i1020">I-LOC</tag>
+  <tag type="ne" index="i2012">I-PER</tag>
+  <tag type="ne" index="i2013">I-PER</tag>
+  <tag type="ne" index="i3001">I-ORG</tag>
+  <tag type="ne" index="i3003">I-PER</tag>
+  <tag type="ne" index="i3004">I-PER</tag>
+  <tag type="ne" index="i4001">I-PER</tag>
+  <tag type="ne" index="i4002">I-PER</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>Nautanki</token>
+    <token>California</token>
+    <token>'s</token>
+    <token>high-tech</token>
+    <token>Silicon</token>
+    <token>Valley</token>
+    <token>the</token>
+    <token>retelling</token>
+    <token>popular</token>
+    <token>Indian</token>
+    <token>opera</token>
+    <token>Sultana</token>
+    <token>Daku</token>
+    <token>VOA</token>
+    <token>'s</token>
+    <token>Savita</token>
+    <token>Patel</token>
+    <token>the</token>
+    <token>performances</token>
+    <token>Jim</token>
+    <token>Bertel</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    <index pos="3">i2003</index>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    <index pos="11">i3011</index>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x3" symbol="neuter" type="a" sense="0">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="nautanki" type="per">
+    <indexlist>
+    <index pos="8">i1008</index>
+    </indexlist>
+    </named>
+    <named arg="x3" symbol="california" type="loc">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </named>
+    <named arg="x4" symbol="silicon_valley" type="loc">
+    <indexlist>
+    <index pos="19">i1019</index>
+    <index pos="20">i1020</index>
+    </indexlist>
+    </named>
+    <rel arg1="x4" arg2="x3" symbol="of" sense="0">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </rel>
+    <pred arg="x4" symbol="high-tech" type="a" sense="0">
+    <indexlist>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </pred>
+    <named arg="x6" symbol="sultana" type="per">
+    <indexlist>
+    <index pos="12">i2012</index>
+    </indexlist>
+    </named>
+    <named arg="x6" symbol="daku" type="per">
+    <indexlist>
+    <index pos="13">i2013</index>
+    </indexlist>
+    </named>
+    <rel arg1="x5" arg2="x6" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x5" symbol="opera" type="n" sense="0">
+    <indexlist>
+    <index pos="11">i2011</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="popular" type="a" sense="0">
+    <indexlist>
+    <index pos="9">i2009</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="indian" type="a" sense="0">
+    <indexlist>
+    <index pos="10">i2010</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="retelling" type="n" sense="0">
+    <indexlist>
+    <index pos="4">i2004</index>
+    </indexlist>
+    </pred>
+    <named arg="x8" symbol="voa" type="org">
+    <indexlist>
+    <index pos="1">i3001</index>
+    </indexlist>
+    </named>
+    <named arg="x9" symbol="savita" type="per">
+    <indexlist>
+    <index pos="3">i3003</index>
+    </indexlist>
+    </named>
+    <named arg="x9" symbol="patel" type="per">
+    <indexlist>
+    <index pos="4">i3004</index>
+    </indexlist>
+    </named>
+    <rel arg1="x9" arg2="x8" symbol="of" sense="0">
+    <indexlist>
+    <index pos="2">i3002</index>
+    </indexlist>
+    </rel>
+    <pred arg="x10" symbol="performance" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i3012</index>
+    </indexlist>
+    </pred>
+    <named arg="x11" symbol="jim" type="per">
+    <indexlist>
+    <index pos="1">i4001</index>
+    </indexlist>
+    </named>
+    <named arg="x11" symbol="bertel" type="per">
+    <indexlist>
+    <index pos="2">i4002</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k12">
+  <sdrs>
+   <constituents>
+   <constituent label="k13">
+   <drs type="sentence">
+    <tokens>
+     <token>A</token>
+     <token>popular</token>
+     <token>Indian</token>
+     <token>style</token>
+     <token>rural</token>
+     <token>opera</token>
+     <token>called</token>
+     <token>was</token>
+     <token>recently</token>
+     <token>staged</token>
+     <token>at</token>
+     <token>a</token>
+     <token>theater</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x14">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </dr>
+     <dr name="x15">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e16">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x21">
+     <indexlist>
+     <index pos="13">i1013</index>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x14" symbol="style" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x14" symbol="popular" type="a" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x14" symbol="indian" type="a" sense="0">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x15" symbol="opera" type="n" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </pred>
+     <pred arg="x15" symbol="rural" type="a" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <pred arg="e16" symbol="call" type="v" sense="29030000">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </pred>
+     <pred arg="e19" symbol="stage" type="v" sense="55050000">
+     <indexlist>
+     <index pos="11">i1011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x21" symbol="theater" type="n" sense="0">
+     <indexlist>
+     <index pos="14">i1014</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e16" arg2="x15" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e16" arg2="x2" symbol="Predicate" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p17">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x15" arg2="x14">
+        <indexlist>
+        <index pos="9">i1009</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p17" arg2="t18" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t18" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e19" arg2="x14" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e19" arg2="t20" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t20" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="x21" arg2="x4" symbol="in" sense="0">
+     <indexlist>
+     <index pos="15">i1015</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e19" arg2="x21" symbol="at" sense="0">
+     <indexlist>
+     <index pos="12">i1012</index>
+     </indexlist>
+     </rel>
+     <pred arg="e19" symbol="recently" type="a" sense="0">
+     <indexlist>
+     <index pos="10">i1010</index>
+     </indexlist>
+     </pred>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k22">
+   <drs type="sentence">
+    <tokens>
+     <token>was</token>
+     <token>of</token>
+     <token>a</token>
+     <token>decades</token>
+     <token>old</token>
+    </tokens>
+    <dom>
+     <dr name="p23">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x25">
+     <indexlist>
+     <index pos="6">i2006</index>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <prop argument="p23">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <eq arg1="x3" arg2="x6">
+        <indexlist>
+        <index pos="2">i2002</index>
+        </indexlist>
+        </eq>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p23" arg2="t24" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t24" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x25" symbol="decade" type="n" sense="0">
+     <indexlist>
+     <index pos="7">i2007</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x7" arg2="x25" symbol="of" sense="0">
+     <indexlist>
+     <index pos="5">i2005</index>
+     </indexlist>
+     </rel>
+     <pred arg="x3" symbol="old" type="a" sense="0">
+     <indexlist>
+     <index pos="8">i2008</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x3" arg2="x7" symbol="rel" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k26">
+   <drs type="sentence">
+    <tokens>
+     <token>on</token>
+     <token>hand</token>
+     <token>for</token>
+     <token>one</token>
+     <token>of</token>
+    </tokens>
+    <dom>
+     <dr name="p27">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t28">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x29">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <prop argument="p27">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x30">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x30" symbol="hand" type="n" sense="0">
+        <indexlist>
+        <index pos="7">i3007</index>
+        </indexlist>
+        </pred>
+        <rel arg1="x9" arg2="x30" symbol="on" sense="0">
+        <indexlist>
+        <index pos="6">i3006</index>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="p27" arg2="t28" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="t28" arg2="t1" symbol="temp_before" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <card arg="x29" value="1" type="eq">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </card>
+     <rel arg1="x29" arg2="x10" symbol="of" sense="0">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </rel>
+     <rel arg1="p27" arg2="x29" symbol="for" sense="0">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k31">
+   <drs type="sentence">
+    <tokens>
+     <token>narrates</token>
+    </tokens>
+    <dom>
+     <dr name="e32">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t33">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e32" symbol="narrate" type="v" sense="37011000">
+     <indexlist>
+     <index pos="3">i4003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e32" arg2="x11" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e32" arg2="t33" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t33" arg2="t1">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k26" arg2="k31" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k22" arg2="k26" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k13" arg2="k22" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k12" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

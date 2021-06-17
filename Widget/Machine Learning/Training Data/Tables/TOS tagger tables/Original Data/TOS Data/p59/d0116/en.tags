@@ -1,0 +1,71 @@
+China	NNP	N[nam]	china	I-LOC
+'s	POS	NP/N[nom]\NP	's	O
+state-run	JJ	N[nom]/N[nom]	state-run	O
+news	NN	N[nom]/N[nom]	news	O
+agency	NN	N[nom]	agency	O
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+coal	NN	N[nom]/N[nom]	coal	O
+mine	NN	N[nom]/N[nom]	mine	O
+accident	NN	N[nom]	accident	O
+in	IN	NP\NP/NP	in	O
+central	JJ	N[nom]/N[nom]	central	O
+Henan	NNP	N[nom]/N[nom]	henan	I-LOC
+province	NN	N[nom]	province	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+killed	VBN	S[pt]\NP/NP	kill	O
+13	CD	N[nom]/N[nom]	13	O
+miners	NNS	N[nom]	miner	O
+and	CC	CONJ	and	O
+left	VBD	S[dcl]\NP/NP	leave	O
+66	CD	N[num]	66	O
+missing	JJ	S[adj]\NP	missing	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Xinhua	NNP	N[nam]	xinhua	I-ORG
+,	,	S[dcl]\NP/S[dcl]\NP	,	O
+citing	VBG	S[ng]\NP/NP	cite	O
+the	DT	NP/N[nom]	the	O
+state	NN	N[nom]	state	O
+'s	POS	NP/N[nom]\NP	's	O
+work	NN	N[nom]/N[nom]	work	O
+safety	NN	N[nom]/N[nom]	safety	O
+agency	NN	N[nom]	agency	O
+,	,	S[dcl]\NP/S[dcl]\NP	,	O
+says	VBZ	S[dcl]\NP/S[dcl]	say	O
+Tuesday	NNP	N[nam]	tuesday	I-DAT
+'s	POS	NP/N[nom]\NP	's	O
+accident	NN	N[nom]	accident	O
+took	VBD	S[dcl]\NP/NP	take	O
+place	NN	N[nom]	place	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Pingdingshan	NNP	N[nom]/N[nom]	pingdingshan	I-LOC
+city	NN	N[nom]	city	O
+.	.	S[dcl]\S[dcl]	.	O
+
+It	PRP	NP	it	O
+gave	VBD	S[dcl]\NP/NP	give	O
+no	DT	NP/N[nom]	no	O
+other	JJ	N[nom]/N[nom]	other	O
+information	NN	N[nom]	information	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Chinese	JJ	N[nom]/N[nom]	chinese	O
+coal	NN	N[nom]/N[nom]	coal	O
+mines	NNS	N[nom]	mine	O
+are	VBP	S[dcl]\NP/S[adj]\NP	be	O
+notoriously	RB	S[adj]\NP/S[adj]\NP	notoriously	O
+dangerous	JJ	S[adj]\NP	dangerous	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Accidents	NNS	N[nom]	accident	O
+killed	VBD	S[dcl]\NP/NP	kill	O
+more	JJR	S[adj]\NP	more	O
+than	IN	N[nom]/N[nom]/N[nom]/N[nom]\S[adj]\NP	than	O
+3,000	CD	N[nom]/N[nom]	3,000	O
+people	NNS	N[nom]	people	O
+last	JJ	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	last	I-DAT
+year	NN	S[dcl]\NP\S[dcl]\NP	year	I-DAT
+
+
+

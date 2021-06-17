@@ -1,0 +1,57 @@
+Senegal-based	JJ	S[b]/S[b]/S[b]/S[b]	senegal-based	O
+band	NN	S[b]/S[b]	band	O
+,	,	S[b]/S[b]	,	O
+Jac	NNP	N[nam]/N[nam]	jac	I-ORG
+et	FW	N[nam]/N[nam]	et	I-ORG
+le	FW	N[nam]/N[nam]	le	I-ORG
+Takeifa	NNPS	N[nam]	takeifa	I-ORG
+,	,	S[b]\NP/S[b]\NP	,	O
+prepare	VB	S[b]\NP/PP	prepare	O
+for	IN	PP/NP	for	O
+their	PRP$	NP/N[nom]	their	O
+album-release	JJ	N[nom]/N[nom]	album-release	O
+concert	NN	N[nom]	concert	O
+.	.	S[b]\S[b]	.	O
+
+As	IN	S[dcl]/S[dcl]/NP	as	O
+a	DT	NP/N[nom]	a	O
+family	NN	N[nom]/N[nom]	family	O
+band	NN	N[nom]	band	O
+in	IN	NP\NP/NP	in	O
+West	NNP	N[nam]/N[nam]	west	I-LOC
+Africa	NNP	N[nam]	africa	I-LOC
+,	,	S[dcl]/S[dcl]	,	O
+leader	NN	N[nam]/N[nam]	leader	O
+Jac	NNP	N[nam]/N[nam]	jac	I-PER
+Keita	NNP	N[nam]	keita	I-PER
+wants	VBZ	S[dcl]\NP/S[to]\NP	want	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+use	VB	S[b]\NP/NP	use	O
+music	NN	N[nom]	music	O
+not	RB	S[b]\NP\S[b]\NP	not	O
+just	RB	S[b]\NP\S[b]\NP/S[b]\NP\S[b]\NP	just	O
+as	IN	S[b]\NP\S[b]\NP/NP	as	O
+entertainment	NN	N[nom]	entertainment	O
+,	,	S[to]\NP\S[to]\NP/S[to]\NP\S[to]\NP	,	O
+but	CC	CONJ	but	O
+also	RB	S[to]\NP/S[to]\NP	also	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+address	VB	S[b]\NP/NP	address	O
+development	NN	N[nom]/N[nom]	development	O
+issues	NNS	N[nom]	issue	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+region	NN	N[nom]	region	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Ricci	NNP	N[nam]/N[nam]	riccus	I-PER
+Shyrock	NNP	N[nam]	shyrock	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+more	RBR	N[nom]	more	O
+on	IN	S[dcl]\NP\S[dcl]\NP/NP	on	O
+the	DT	NP/N[nom]	the	O
+band	NN	N[nom]	band	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

@@ -1,0 +1,42 @@
+The	DT	NP/N[nam]	the	O
+U.S.	NNP	N[nam]/N[nam]	u.s.	I-ORG
+Environmental	NNP	N[nam]/N[nam]	environmental	I-ORG
+Protection	NNP	N[nam]/N[nam]	protection	I-ORG
+Agency	NNP	N[nam]	agency	I-ORG
+celebrated	VBD	S[dcl]\NP/NP	celebrate	O
+Earth	NNP	N[nam]	earth	I-LOC
+Day	NNP	S[dcl]\NP\S[dcl]\NP	day	I-DAT
+this	DT	S[dcl]\NP\S[dcl]\NP/N[nom]	this	I-DAT
+week	NN	N[nom]	week	I-DAT
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+Washington	NNP	N[nam]	washington	I-LOC
+(	LRB	NP\NP/NP	(	O
+22	CD	N[nam]/N[nam]	22	I-DAT
+April	NNP	N[nam]	april	I-DAT
+)	RRB	NP\NP\NP\NP	)	O
+by	IN	S[dcl]\NP\S[dcl]\NP/S[ng]\NP	by	O
+showcasing	VBG	S[ng]\NP/NP	showcase	O
+environmentally	RB	N[nom]/N[nom]/N[nom]/N[nom]	environmentally	O
+friendly	JJ	N[nom]/N[nom]	friendly	O
+new	JJ	N[nom]/N[nom]	new	O
+designs	NNS	N[nom]	design	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+could	MD	S[dcl]\NP/S[b]\NP	could	O
+be	VB	S[b]\NP/NP	be	O
+the	DT	NP/N[nom]	the	O
+wave	NN	N[nom]	wave	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+future	NN	N[nom]	future	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Producer	NNP	N[nam]/N[nam]	producer	O
+Zulima	NNP	N[nam]/N[nam]	zulima	I-PER
+Palacio	NNP	N[nam]	palacio	I-PER
+prepared	VBD	S[pss]\NP	prepare	O
+this	DT	S[pss]\NP\S[pss]\NP/N[nom]	this	O
+report	NN	N[nom]	report	O
+.	.	NP\NP	.	O
+
+
+

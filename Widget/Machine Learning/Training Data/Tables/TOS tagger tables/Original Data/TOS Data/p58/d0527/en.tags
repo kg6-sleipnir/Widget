@@ -1,0 +1,62 @@
+Every	DT	NP/N[nom]	every	I-DAT
+year	NN	N[nom]	year	I-DAT
+since	IN	NP\NP/NP	since	I-DAT
+1995	CD	N[num]	1995	I-DAT
+,	,	CONJ[app]	,	O
+the	DT	NP/N[nam]	the	O
+United	NNP	N[nam]/N[nam]	united	I-LOC
+States	NNPS	N[nam]/N[nam]	state	I-LOC
+Botanic	NNP	N[nam]/N[nam]	botanic	I-LOC
+Garden	NNP	N[nam]	garden	I-LOC
+in	IN	NP\NP/NP	in	O
+Washington	NNP	N[nam]	washington	I-LOC
+,	,	CONJ[app]	,	O
+DC	NNP	N[nam]	dc	O
+,	,	NP\NP	,	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+partnered	VBN	S[pt]\NP/PP	partner	O
+with	IN	PP/NP	with	O
+the	DT	NP/N[nam]	the	O
+Smithsonian	NNP	N[nam]/N[nam]	smithsonian	I-ORG
+Institution	NNP	N[nam]	institution	I-ORG
+to	TO	S[to]\NP/S[b]\NP	to	O
+stage	VB	S[b]\NP/NP	stage	O
+a	DT	NP/N[nom]	a	O
+massive	JJ	N[nom]/N[nom]	massive	O
+floral	JJ	N[nom]/N[nom]	floral	O
+exhibit	NN	N[nom]	exhibit	O
+of	IN	NP\NP/NP	of	O
+orchids	NNS	N[nom]	orchid	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+George	NNP	N[nam]/N[nam]	george	I-PER
+Dwyer	NNP	N[nam]	dwyer	I-PER
+reports	VBZ	S[dcl]\NP/S[dcl]	report	O
+it	PRP	NP	it	O
+offers	VBZ	S[dcl]\NP/NP/NP	offer	O
+visitors	NNS	N[nom]	visitor	O
+a	DT	NP/N[nom]	a	O
+colorful	JJ	N[nom]/N[nom]	colorful	O
+splash	NN	N[nom]	splash	O
+of	IN	NP\NP/NP	of	O
+floral	JJ	N[nom]/N[nom]	floral	O
+brilliance	NN	N[nom]	brilliance	O
+as	IN	NP\NP/NP	as	O
+spring	NN	N[nom]	spring	O
+approached	VBN	S[pss]\NP	approach	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+nation	NN	N[nom]	nation	O
+'s	POS	NP/N[nom]\NP	's	O
+capital	NN	N[nom]	capital	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Jim	NNP	N[nam]/N[nam]	jim	I-PER
+Bertel	NNP	N[nam]	bertel	I-PER
+narrates	VBZ	S[dcl]\NP	narrate	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

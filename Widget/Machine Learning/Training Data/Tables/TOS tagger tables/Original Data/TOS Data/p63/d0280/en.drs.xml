@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- U.S.-led coalition forces clashed Sunday with Taleban militants in the country 's southern Helmand province . Military officials say at least 10 insurgents were killed when coalition air strikes hit militant positions during an early morning operation in the Garmser district . Coalition and Afghan forces have been fighting Taleban insurgents since 2001, when a U.S.-led invasion drove the Islamic group from power . Militant attacks in southern and eastern Afghanistan have escalated over the past 19 months , marking the bloodiest period since the beginning of the war . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">U.S.-led</word>
+  <word xml:id="i1002">coalition</word>
+  <word xml:id="i1003">forces</word>
+  <word xml:id="i1004">clashed</word>
+  <word xml:id="i1005">Sunday</word>
+  <word xml:id="i1006">with</word>
+  <word xml:id="i1007">Taleban</word>
+  <word xml:id="i1008">militants</word>
+  <word xml:id="i1009">in</word>
+  <word xml:id="i1010">the</word>
+  <word xml:id="i1011">country</word>
+  <word xml:id="i1012">'s</word>
+  <word xml:id="i1013">southern</word>
+  <word xml:id="i1014">Helmand</word>
+  <word xml:id="i1015">province</word>
+  <word xml:id="i1016">.</word>
+  <word xml:id="i2001">Military</word>
+  <word xml:id="i2002">officials</word>
+  <word xml:id="i2003">say</word>
+  <word xml:id="i2004">at</word>
+  <word xml:id="i2005">least</word>
+  <word xml:id="i2006">10</word>
+  <word xml:id="i2007">insurgents</word>
+  <word xml:id="i2008">were</word>
+  <word xml:id="i2009">killed</word>
+  <word xml:id="i2010">when</word>
+  <word xml:id="i2011">coalition</word>
+  <word xml:id="i2012">air</word>
+  <word xml:id="i2013">strikes</word>
+  <word xml:id="i2014">hit</word>
+  <word xml:id="i2015">militant</word>
+  <word xml:id="i2016">positions</word>
+  <word xml:id="i2017">during</word>
+  <word xml:id="i2018">an</word>
+  <word xml:id="i2019">early</word>
+  <word xml:id="i2020">morning</word>
+  <word xml:id="i2021">operation</word>
+  <word xml:id="i2022">in</word>
+  <word xml:id="i2023">the</word>
+  <word xml:id="i2024">Garmser</word>
+  <word xml:id="i2025">district</word>
+  <word xml:id="i2026">.</word>
+  <word xml:id="i3001">Coalition</word>
+  <word xml:id="i3002">and</word>
+  <word xml:id="i3003">Afghan</word>
+  <word xml:id="i3004">forces</word>
+  <word xml:id="i3005">have</word>
+  <word xml:id="i3006">been</word>
+  <word xml:id="i3007">fighting</word>
+  <word xml:id="i3008">Taleban</word>
+  <word xml:id="i3009">insurgents</word>
+  <word xml:id="i3010">since</word>
+  <word xml:id="i3011">2001,</word>
+  <word xml:id="i3012">when</word>
+  <word xml:id="i3013">a</word>
+  <word xml:id="i3014">U.S.-led</word>
+  <word xml:id="i3015">invasion</word>
+  <word xml:id="i3016">drove</word>
+  <word xml:id="i3017">the</word>
+  <word xml:id="i3018">Islamic</word>
+  <word xml:id="i3019">group</word>
+  <word xml:id="i3020">from</word>
+  <word xml:id="i3021">power</word>
+  <word xml:id="i3022">.</word>
+  <word xml:id="i4001">Militant</word>
+  <word xml:id="i4002">attacks</word>
+  <word xml:id="i4003">in</word>
+  <word xml:id="i4004">southern</word>
+  <word xml:id="i4005">and</word>
+  <word xml:id="i4006">eastern</word>
+  <word xml:id="i4007">Afghanistan</word>
+  <word xml:id="i4008">have</word>
+  <word xml:id="i4009">escalated</word>
+  <word xml:id="i4010">over</word>
+  <word xml:id="i4011">the</word>
+  <word xml:id="i4012">past</word>
+  <word xml:id="i4013">19</word>
+  <word xml:id="i4014">months</word>
+  <word xml:id="i4015">,</word>
+  <word xml:id="i4016">marking</word>
+  <word xml:id="i4017">the</word>
+  <word xml:id="i4018">bloodiest</word>
+  <word xml:id="i4019">period</word>
+  <word xml:id="i4020">since</word>
+  <word xml:id="i4021">the</word>
+  <word xml:id="i4022">beginning</word>
+  <word xml:id="i4023">of</word>
+  <word xml:id="i4024">the</word>
+  <word xml:id="i4025">war</word>
+  <word xml:id="i4026">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">JJ</tag>
+  <tag type="pos" index="i1002">NN</tag>
+  <tag type="pos" index="i1003">NNS</tag>
+  <tag type="pos" index="i1004">VBN</tag>
+  <tag type="pos" index="i1005">NNP</tag>
+  <tag type="pos" index="i1006">IN</tag>
+  <tag type="pos" index="i1007">NNP</tag>
+  <tag type="pos" index="i1008">NNS</tag>
+  <tag type="pos" index="i1009">IN</tag>
+  <tag type="pos" index="i1010">DT</tag>
+  <tag type="pos" index="i1011">NN</tag>
+  <tag type="pos" index="i1012">POS</tag>
+  <tag type="pos" index="i1013">JJ</tag>
+  <tag type="pos" index="i1014">NNP</tag>
+  <tag type="pos" index="i1015">NN</tag>
+  <tag type="pos" index="i1016">.</tag>
+  <tag type="pos" index="i2001">JJ</tag>
+  <tag type="pos" index="i2002">NNS</tag>
+  <tag type="pos" index="i2003">VBP</tag>
+  <tag type="pos" index="i2004">IN</tag>
+  <tag type="pos" index="i2005">JJS</tag>
+  <tag type="pos" index="i2006">CD</tag>
+  <tag type="pos" index="i2007">NNS</tag>
+  <tag type="pos" index="i2008">VBD</tag>
+  <tag type="pos" index="i2009">VBN</tag>
+  <tag type="pos" index="i2010">WRB</tag>
+  <tag type="pos" index="i2011">NN</tag>
+  <tag type="pos" index="i2012">NN</tag>
+  <tag type="pos" index="i2013">NNS</tag>
+  <tag type="pos" index="i2014">VBD</tag>
+  <tag type="pos" index="i2015">JJ</tag>
+  <tag type="pos" index="i2016">NNS</tag>
+  <tag type="pos" index="i2017">IN</tag>
+  <tag type="pos" index="i2018">DT</tag>
+  <tag type="pos" index="i2019">JJ</tag>
+  <tag type="pos" index="i2020">NN</tag>
+  <tag type="pos" index="i2021">NN</tag>
+  <tag type="pos" index="i2022">IN</tag>
+  <tag type="pos" index="i2023">DT</tag>
+  <tag type="pos" index="i2024">NNP</tag>
+  <tag type="pos" index="i2025">NN</tag>
+  <tag type="pos" index="i2026">.</tag>
+  <tag type="pos" index="i3001">NN</tag>
+  <tag type="pos" index="i3002">CC</tag>
+  <tag type="pos" index="i3003">JJ</tag>
+  <tag type="pos" index="i3004">NNS</tag>
+  <tag type="pos" index="i3005">VBP</tag>
+  <tag type="pos" index="i3006">VBN</tag>
+  <tag type="pos" index="i3007">VBG</tag>
+  <tag type="pos" index="i3008">NNP</tag>
+  <tag type="pos" index="i3009">NNS</tag>
+  <tag type="pos" index="i3010">IN</tag>
+  <tag type="pos" index="i3011">CD</tag>
+  <tag type="pos" index="i3012">WRB</tag>
+  <tag type="pos" index="i3013">DT</tag>
+  <tag type="pos" index="i3014">JJ</tag>
+  <tag type="pos" index="i3015">NN</tag>
+  <tag type="pos" index="i3016">VBD</tag>
+  <tag type="pos" index="i3017">DT</tag>
+  <tag type="pos" index="i3018">JJ</tag>
+  <tag type="pos" index="i3019">NN</tag>
+  <tag type="pos" index="i3020">IN</tag>
+  <tag type="pos" index="i3021">NN</tag>
+  <tag type="pos" index="i3022">.</tag>
+  <tag type="pos" index="i4001">JJ</tag>
+  <tag type="pos" index="i4002">NNS</tag>
+  <tag type="pos" index="i4003">IN</tag>
+  <tag type="pos" index="i4004">JJ</tag>
+  <tag type="pos" index="i4005">CC</tag>
+  <tag type="pos" index="i4006">JJ</tag>
+  <tag type="pos" index="i4007">NNP</tag>
+  <tag type="pos" index="i4008">VBP</tag>
+  <tag type="pos" index="i4009">VBN</tag>
+  <tag type="pos" index="i4010">IN</tag>
+  <tag type="pos" index="i4011">DT</tag>
+  <tag type="pos" index="i4012">JJ</tag>
+  <tag type="pos" index="i4013">CD</tag>
+  <tag type="pos" index="i4014">NNS</tag>
+  <tag type="pos" index="i4015">,</tag>
+  <tag type="pos" index="i4016">VBG</tag>
+  <tag type="pos" index="i4017">DT</tag>
+  <tag type="pos" index="i4018">JJS</tag>
+  <tag type="pos" index="i4019">NN</tag>
+  <tag type="pos" index="i4020">IN</tag>
+  <tag type="pos" index="i4021">DT</tag>
+  <tag type="pos" index="i4022">NN</tag>
+  <tag type="pos" index="i4023">IN</tag>
+  <tag type="pos" index="i4024">DT</tag>
+  <tag type="pos" index="i4025">NN</tag>
+  <tag type="pos" index="i4026">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1005">I-DAT</tag>
+  <tag type="ne" index="i1007">I-LOC</tag>
+  <tag type="ne" index="i1014">I-LOC</tag>
+  <tag type="ne" index="i2024">I-LOC</tag>
+  <tag type="ne" index="i3008">I-LOC</tag>
+  <tag type="ne" index="i3010">I-DAT</tag>
+  <tag type="ne" index="i3011">I-DAT</tag>
+  <tag type="ne" index="i4007">I-LOC</tag>
+  <tag type="ne" index="i4012">I-DAT</tag>
+  <tag type="ne" index="i4013">I-DAT</tag>
+  <tag type="ne" index="i4014">I-DAT</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>the</token>
+    <token>country</token>
+    <token>'s</token>
+    <token>southern</token>
+    <token>Helmand</token>
+    <token>province</token>
+    <token>the</token>
+    <token>Garmser</token>
+    <token>district</token>
+    <token>the</token>
+    <token>Islamic</token>
+    <token>group</token>
+    <token>southern</token>
+    <token>eastern</token>
+    <token>Afghanistan</token>
+    <token>the</token>
+    <token>past</token>
+    <token>19</token>
+    <token>months</token>
+    <token>the</token>
+    <token>bloodiest</token>
+    <token>period</token>
+    <token>the</token>
+    <token>beginning</token>
+    <token>the</token>
+    <token>war</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t4">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    <index pos="23">i2023</index>
+    </indexlist>
+    </dr>
+    <dr name="x7">
+    <indexlist>
+    <index pos="17">i3017</index>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    <index pos="11">i4011</index>
+    </indexlist>
+    </dr>
+    <dr name="x11">
+    <indexlist>
+    <index pos="17">i4017</index>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    <index pos="21">i4021</index>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    <index pos="24">i4024</index>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t4" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x1" symbol="country" type="n" sense="0">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </pred>
+    <named arg="x2" symbol="helmand" type="loc">
+    <indexlist>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </named>
+    <rel arg1="x2" arg2="x3" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x3" symbol="province" type="n" sense="0">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </pred>
+    <rel arg1="x3" arg2="x1" symbol="of" sense="0">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </rel>
+    <pred arg="x3" symbol="southern" type="a" sense="0">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </pred>
+    <named arg="x5" symbol="garmser" type="loc">
+    <indexlist>
+    <index pos="24">i2024</index>
+    </indexlist>
+    </named>
+    <rel arg1="x5" arg2="x6" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x6" symbol="district" type="n" sense="0">
+    <indexlist>
+    <index pos="25">i2025</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="group" type="n" sense="0">
+    <indexlist>
+    <index pos="19">i3019</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="islamic" type="a" sense="0">
+    <indexlist>
+    <index pos="18">i3018</index>
+    </indexlist>
+    </pred>
+    <named arg="x8" symbol="afghanistan" type="loc">
+    <indexlist>
+    <index pos="7">i4007</index>
+    </indexlist>
+    </named>
+    <named arg="x8" symbol="afghanistan" type="loc">
+    <indexlist>
+    <index pos="7">i4007</index>
+    </indexlist>
+    </named>
+    <pred arg="x8" symbol="southern" type="a" sense="0">
+    <indexlist>
+    <index pos="4">i4004</index>
+    </indexlist>
+    </pred>
+    <pred arg="x8" symbol="eastern" type="a" sense="0">
+    <indexlist>
+    <index pos="6">i4006</index>
+    </indexlist>
+    </pred>
+    <timex arg="x9">
+    <indexlist>
+    <index pos="13">i4013</index>
+    </indexlist>
+    <date>+XXXXXX19</date>
+    </timex>
+    <rel arg1="x9" arg2="x10" symbol="nn" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x10" symbol="month" type="n" sense="0">
+    <indexlist>
+    <index pos="14">i4014</index>
+    </indexlist>
+    </pred>
+    <pred arg="x10" symbol="past" type="a" sense="0">
+    <indexlist>
+    <index pos="12">i4012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x11" symbol="period" type="n" sense="0">
+    <indexlist>
+    <index pos="19">i4019</index>
+    </indexlist>
+    </pred>
+    <imp>
+    <indexlist>
+    </indexlist>
+     <drs type="normal">
+      <dom>
+       <dr name="x14">
+       <indexlist>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="x14" symbol="period" type="n" sense="0">
+       <indexlist>
+       <index pos="19">i4019</index>
+       </indexlist>
+       </pred>
+       <not>
+       <indexlist>
+       </indexlist>
+        <drs type="normal">
+         <dom>
+         </dom>
+         <con>
+          <eq arg1="x11" arg2="x14">
+          <indexlist>
+          </indexlist>
+          </eq>
+         </con>
+        </drs>
+       </not>
+      </con>
+     </drs>
+     <drs type="normal">
+      <dom>
+      </dom>
+      <con>
+       <rel arg1="x11" arg2="x14" symbol="bloodiest" sense="0">
+       <indexlist>
+       <index pos="18">i4018</index>
+       </indexlist>
+       </rel>
+      </con>
+     </drs>
+    </imp>
+    <pred arg="x12" symbol="beginning" type="n" sense="0">
+    <indexlist>
+    <index pos="22">i4022</index>
+    </indexlist>
+    </pred>
+    <pred arg="x13" symbol="war" type="n" sense="0">
+    <indexlist>
+    <index pos="25">i4025</index>
+    </indexlist>
+    </pred>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k15">
+  <sdrs>
+   <constituents>
+   <constituent label="k16">
+   <drs type="sentence">
+    <tokens>
+     <token>U.S.-led</token>
+     <token>coalition</token>
+     <token>forces</token>
+     <token>clashed</token>
+     <token>Sunday</token>
+     <token>with</token>
+     <token>Taleban</token>
+     <token>militants</token>
+     <token>in</token>
+    </tokens>
+    <dom>
+     <dr name="x17">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x18">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x19">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e20">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x21">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x22">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e20" symbol="clash" type="v" sense="43020000">
+     <indexlist>
+     <index pos="4">i1004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x18" symbol="coalition" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i1002</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x18" arg2="x19" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x19" symbol="force" type="n" sense="0">
+     <indexlist>
+     <index pos="3">i1003</index>
+     </indexlist>
+     </pred>
+     <named arg="x17" symbol="taleban" type="loc">
+     <indexlist>
+     <index pos="7">i1007</index>
+     </indexlist>
+     </named>
+     <rel arg1="x17" arg2="x21" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x21" symbol="militant" type="n" sense="0">
+     <indexlist>
+     <index pos="8">i1008</index>
+     </indexlist>
+     </pred>
+     <pred arg="x19" symbol="u.s.-led" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i1001</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e20" arg2="x19" symbol="patient" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x22" symbol="sunday" type="n" sense="0">
+     <indexlist>
+     <index pos="5">i1005</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x21" arg2="x3" symbol="in" sense="0">
+     <indexlist>
+     <index pos="9">i1009</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e20" arg2="x21" symbol="Theme" sense="0">
+     <indexlist>
+     <index pos="6">i1006</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e20" arg2="x22" symbol="rel" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k23">
+   <drs type="sentence">
+    <tokens>
+     <token>Military</token>
+     <token>officials</token>
+     <token>say</token>
+    </tokens>
+    <dom>
+     <dr name="x24">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e25">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p26">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t27">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e25" symbol="say" type="v" sense="37070100">
+     <indexlist>
+     <index pos="3">i2003</index>
+     </indexlist>
+     </pred>
+     <pred arg="x24" symbol="official" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i2002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x24" symbol="military" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i2001</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e25" arg2="x24" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e25" arg2="p26" symbol="Topic" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <prop argument="p26">
+     <indexlist>
+     </indexlist>
+      <sdrs>
+       <constituents>
+       <sub>
+       <constituent label="k28">
+       <drs type="normal">
+        <dom>
+         <dr name="x29">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="e30">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="t31">
+         <indexlist>
+         </indexlist>
+         </dr>
+        </dom>
+        <con>
+         <pred arg="e30" symbol="kill" type="v" sense="42030000">
+         <indexlist>
+         <index pos="9">i2009</index>
+         </indexlist>
+         </pred>
+         <pred arg="x29" symbol="insurgent" type="n" sense="0">
+         <indexlist>
+         <index pos="7">i2007</index>
+         </indexlist>
+         </pred>
+         <card arg="x29" value="10" type="eq">
+         <indexlist>
+         <index pos="6">i2006</index>
+         </indexlist>
+         </card>
+         <rel arg1="e30" arg2="x29" symbol="Patient" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <rel arg1="e30" arg2="t31" symbol="temp_included" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <rel arg1="t31" arg2="t4" symbol="temp_before" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+        </con>
+       </drs>
+       </constituent>
+       <constituent label="k32">
+       <drs type="normal">
+        <dom>
+         <dr name="x33">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="x34">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="x35">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="x36">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="x37">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="e38">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="t39">
+         <indexlist>
+         </indexlist>
+         </dr>
+         <dr name="x40">
+         <indexlist>
+         <index pos="18">i2018</index>
+         </indexlist>
+         </dr>
+        </dom>
+        <con>
+         <pred arg="e38" symbol="hit" type="v" sense="17010100">
+         <indexlist>
+         <index pos="14">i2014</index>
+         </indexlist>
+         </pred>
+         <pred arg="x34" symbol="coalition" type="n" sense="0">
+         <indexlist>
+         <index pos="11">i2011</index>
+         </indexlist>
+         </pred>
+         <rel arg1="x34" arg2="x35" symbol="nn" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <pred arg="x35" symbol="air" type="n" sense="0">
+         <indexlist>
+         <index pos="12">i2012</index>
+         </indexlist>
+         </pred>
+         <rel arg1="x35" arg2="x36" symbol="nn" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <pred arg="x36" symbol="strike" type="n" sense="0">
+         <indexlist>
+         <index pos="13">i2013</index>
+         </indexlist>
+         </pred>
+         <pred arg="x37" symbol="position" type="n" sense="0">
+         <indexlist>
+         <index pos="16">i2016</index>
+         </indexlist>
+         </pred>
+         <pred arg="x33" symbol="morning" type="n" sense="0">
+         <indexlist>
+         <index pos="20">i2020</index>
+         </indexlist>
+         </pred>
+         <rel arg1="x33" arg2="x40" symbol="nn" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <pred arg="x40" symbol="operation" type="n" sense="0">
+         <indexlist>
+         <index pos="21">i2021</index>
+         </indexlist>
+         </pred>
+         <pred arg="x37" symbol="militant" type="a" sense="0">
+         <indexlist>
+         <index pos="15">i2015</index>
+         </indexlist>
+         </pred>
+         <rel arg1="e38" arg2="x36" symbol="Agent" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <rel arg1="e38" arg2="x37" symbol="Theme" sense="0">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <rel arg1="e38" arg2="t39" symbol="temp_included" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <rel arg1="t39" arg2="t4" symbol="temp_before" sense="1">
+         <indexlist>
+         </indexlist>
+         </rel>
+         <pred arg="x40" symbol="early" type="a" sense="0">
+         <indexlist>
+         <index pos="19">i2019</index>
+         </indexlist>
+         </pred>
+         <rel arg1="x40" arg2="x6" symbol="in" sense="0">
+         <indexlist>
+         <index pos="22">i2022</index>
+         </indexlist>
+         </rel>
+         <rel arg1="e38" arg2="x40" symbol="Destination" sense="0">
+         <indexlist>
+         <index pos="17">i2017</index>
+         </indexlist>
+         </rel>
+        </con>
+       </drs>
+       </constituent>
+       </sub>
+       </constituents>
+       <relations>
+       <drel arg1="k28" arg2="k32" sym="when">
+       <indexlist>
+       <index pos="10">i2010</index>
+       </indexlist>
+       </drel>
+       </relations>
+      </sdrs>
+     </prop>
+     <rel arg1="e25" arg2="t27" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <eq arg1="t27" arg2="t4">
+     <indexlist>
+     </indexlist>
+     </eq>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k41">
+   <drs type="sentence">
+    <tokens>
+     <token>Coalition</token>
+     <token>Afghan</token>
+     <token>forces</token>
+     <token>fighting</token>
+     <token>Taleban</token>
+     <token>insurgents</token>
+     <token>since</token>
+     <token>2001,</token>
+     <token>when</token>
+     <token>a</token>
+     <token>U.S.-led</token>
+     <token>invasion</token>
+     <token>drove</token>
+     <token>from</token>
+     <token>power</token>
+    </tokens>
+    <dom>
+     <dr name="x42">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x43">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x44">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e45">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x46">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="p47">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x48">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t49">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="e45" symbol="fight" type="v" sense="36030200">
+     <indexlist>
+     <index pos="7">i3007</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="coalition" type="n" sense="0">
+     <indexlist>
+     <index pos="1">i3001</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="force" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="force" type="n" sense="0">
+     <indexlist>
+     <index pos="4">i3004</index>
+     </indexlist>
+     </pred>
+     <named arg="x42" symbol="taleban" type="loc">
+     <indexlist>
+     <index pos="8">i3008</index>
+     </indexlist>
+     </named>
+     <rel arg1="x42" arg2="x44" symbol="nn" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="x44" symbol="insurgent" type="n" sense="0">
+     <indexlist>
+     <index pos="9">i3009</index>
+     </indexlist>
+     </pred>
+     <pred arg="x46" symbol="2001," type="n" sense="0">
+     <indexlist>
+     <index pos="11">i3011</index>
+     </indexlist>
+     </pred>
+     <pred arg="x43" symbol="afghan" type="a" sense="0">
+     <indexlist>
+     <index pos="3">i3003</index>
+     </indexlist>
+     </pred>
+     <rel arg1="e45" arg2="x43" symbol="Actor1" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e45" arg2="x44" symbol="Actor2" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="x46" arg2="p47" symbol="when" sense="0">
+     <indexlist>
+     <index pos="12">i3012</index>
+     </indexlist>
+     </rel>
+     <prop argument="p47">
+     <indexlist>
+     </indexlist>
+      <drs type="normal">
+       <dom>
+        <dr name="x50">
+        <indexlist>
+        <index pos="13">i3013</index>
+        </indexlist>
+        </dr>
+        <dr name="e51">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="t52">
+        <indexlist>
+        </indexlist>
+        </dr>
+        <dr name="x53">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x50" symbol="invasion" type="n" sense="0">
+        <indexlist>
+        <index pos="15">i3015</index>
+        </indexlist>
+        </pred>
+        <pred arg="x50" symbol="u.s.-led" type="a" sense="0">
+        <indexlist>
+        <index pos="14">i3014</index>
+        </indexlist>
+        </pred>
+        <pred arg="e51" symbol="drive" type="v" sense="51042000">
+        <indexlist>
+        <index pos="16">i3016</index>
+        </indexlist>
+        </pred>
+        <pred arg="x53" symbol="power" type="n" sense="0">
+        <indexlist>
+        <index pos="21">i3021</index>
+        </indexlist>
+        </pred>
+        <rel arg1="e51" arg2="x50" symbol="Agent" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e51" arg2="x7" symbol="Theme" sense="0">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e51" arg2="t52" symbol="temp_included" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="t52" arg2="t4" symbol="temp_before" sense="1">
+        <indexlist>
+        </indexlist>
+        </rel>
+        <rel arg1="e51" arg2="x53" symbol="Location" sense="0">
+        <indexlist>
+        <index pos="20">i3020</index>
+        </indexlist>
+        </rel>
+       </con>
+      </drs>
+     </prop>
+     <rel arg1="e45" arg2="x46" symbol="since" sense="0">
+     <indexlist>
+     <index pos="10">i3010</index>
+     </indexlist>
+     </rel>
+     <eq arg1="x48" arg2="t4">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="x48" arg2="t49" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e45" arg2="t49" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   <constituent label="k54">
+   <drs type="sentence">
+    <tokens>
+     <token>Militant</token>
+     <token>attacks</token>
+     <token>in</token>
+     <token>escalated</token>
+     <token>over</token>
+     <token>marking</token>
+     <token>since</token>
+     <token>of</token>
+    </tokens>
+    <dom>
+     <dr name="x55">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e56">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="x57">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="t58">
+     <indexlist>
+     </indexlist>
+     </dr>
+     <dr name="e59">
+     <indexlist>
+     </indexlist>
+     </dr>
+    </dom>
+    <con>
+     <pred arg="x55" symbol="attack" type="n" sense="0">
+     <indexlist>
+     <index pos="2">i4002</index>
+     </indexlist>
+     </pred>
+     <pred arg="x55" symbol="militant" type="a" sense="0">
+     <indexlist>
+     <index pos="1">i4001</index>
+     </indexlist>
+     </pred>
+     <pred arg="e56" symbol="escalate" type="v" sense="0">
+     <indexlist>
+     <index pos="9">i4009</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x55" arg2="x8" symbol="in" sense="0">
+     <indexlist>
+     <index pos="3">i4003</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e56" arg2="x55" symbol="agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e56" arg2="x10" symbol="over" sense="0">
+     <indexlist>
+     <index pos="10">i4010</index>
+     </indexlist>
+     </rel>
+     <eq arg1="x57" arg2="t4">
+     <indexlist>
+     </indexlist>
+     </eq>
+     <rel arg1="x57" arg2="t58" symbol="temp_included" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e56" arg2="t58" symbol="temp_abut" sense="1">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <pred arg="e59" symbol="mark" type="v" sense="25010000">
+     <indexlist>
+     <index pos="16">i4016</index>
+     </indexlist>
+     </pred>
+     <rel arg1="x12" arg2="x13" symbol="of" sense="0">
+     <indexlist>
+     <index pos="23">i4023</index>
+     </indexlist>
+     </rel>
+     <rel arg1="x11" arg2="x12" symbol="since" sense="0">
+     <indexlist>
+     <index pos="20">i4020</index>
+     </indexlist>
+     </rel>
+     <rel arg1="e59" arg2="x55" symbol="Agent" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+     <rel arg1="e59" arg2="x11" symbol="Theme" sense="0">
+     <indexlist>
+     </indexlist>
+     </rel>
+    </con>
+   </drs>
+   </constituent>
+   </constituents>
+   <relations>
+   <drel arg1="k41" arg2="k54" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k23" arg2="k41" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   <drel arg1="k16" arg2="k23" sym="continuation">
+   <indexlist>
+   </indexlist>
+   </drel>
+   </relations>
+  </sdrs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k15" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

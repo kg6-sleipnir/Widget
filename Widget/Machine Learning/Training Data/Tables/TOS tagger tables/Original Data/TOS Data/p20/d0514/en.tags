@@ -1,0 +1,63 @@
+Orchid	NNP	N[nom]/N[nom]	orchid	I-PER
+growers	NNS	N[nom]	grower	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+trying	VBG	S[ng]\NP/S[to]\NP	try	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+grab	VB	S[b]\NP/NP	grab	O
+a	DT	NP/N[nom]	a	O
+bigger	JJR	N[nom]/N[nom]	bigger	O
+share	NN	N[nom]	share	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+global	JJ	N[nom]/N[nom]	global	O
+trade	NN	N[nom]	trade	O
+in	IN	NP\NP/NP	in	O
+flowers	NNS	N[nom]	flower	O
+,	,	NP\NP	,	O
+which	WDT	NP\NP/S[dcl]\NP	which	O
+accounts	VBZ	S[dcl]\NP/PP	account	O
+for	IN	PP/NP	for	O
+several	JJ	N[nom]/N[nom]/N[nom]/N[nom]	several	I-MON
+billion	CD	N[nom]/N[nom]	billion	I-MON
+dollars	NNS	N[nom]	dollar	I-MON
+each	DT	S[dcl]\NP\S[dcl]\NP/N[nom]	each	I-DAT
+year	NN	N[nom]	year	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Growers	NNS	N[nom]	grower	O
+from	IN	NP\NP/NP	from	O
+Latin	NNP	N[nam]/N[nam]	latin	I-LOC
+America	NNP	N[nam]	america	I-LOC
+and	CC	CONJ	and	O
+Asia	NNP	N[nam]	asia	I-LOC
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+scrambling	VBG	S[ng]\NP/S[to]\NP	scramble	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+market	VB	S[b]\NP/NP	market	O
+unique	JJ	N[nom]/N[nom]	unique	O
+plants	NNS	N[nom]	plant	O
+and	CC	CONJ	and	O
+develop	VB	S[b]\NP/NP	develop	O
+brand	NN	N[nom]/N[nom]	brand	O
+new	JJ	N[nom]/N[nom]	new	O
+varieties	NNS	N[nom]	variety	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+meet	VB	S[b]\NP/NP	meet	O
+the	DT	NP/N[nom]	the	O
+growing	VBG	N[nom]/N[nom]	grow	O
+demand	NN	N[nom]	demand	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Brian	NNP	N[nam]/N[nam]	brian	I-PER
+Wagner	NNP	N[nam]	wagner	I-PER
+has	VBZ	S[dcl]\NP/NP	have	O
+this	DT	NP/N[nom]	this	O
+report	NN	N[nom]	report	O
+from	IN	NP\NP/NP	from	O
+Miami	NNP	N[nam]	miamus	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

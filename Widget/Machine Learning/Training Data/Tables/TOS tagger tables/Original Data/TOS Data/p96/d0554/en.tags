@@ -1,0 +1,64 @@
+The	DT	NP/N[nom]	the	O
+price	NN	N[nom]	price	O
+of	IN	NP\NP/NP	of	O
+crude	JJ	N[nom]/N[nom]	crude	O
+oil	NN	N[nom]	oil	O
+reached	VBD	S[dcl]\NP/NP	reach	O
+an	DT	NP/N[nom]	an	O
+all-time	JJ	N[nom]/N[nom]	all-time	O
+high	NN	N[nom]	high	O
+,	,	S[dcl]\NP\S[dcl]\NP	,	O
+rising	VBG	S[ng]\NP/NP	rise	O
+$	$	N[num]/N[num]	$	I-MON
+4.89	CD	N[num]	4.89	I-MON
+to	TO	S[ng]\NP\S[ng]\NP/NP	to	I-MON
+$	$	N[num]/N[num]	$	I-MON
+104.41	CD	N[num]	104.41	I-MON
+a	DT	NP\NP/N[nom]	a	O
+barrel	NN	N[nom]	barrel	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Coffee	NNP	N[nom]/N[nom]	coffee	O
+prices	NNS	N[nom]	price	O
+fell	VBD	S[dcl]\NP/S[to]\NP	fall	O
+1.5	CD	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	1.5	I-MON
+cents	NNS	S[dcl]\NP\S[dcl]\NP	cent	I-MON
+to	TO	S[to]\NP/S[b]\NP	to	O
+close	VB	S[b]\NP/PP	close	O
+at	IN	PP/NP	at	O
+$	$	N[num]/N[num]	$	I-MON
+1.62	CD	N[num]	1.62	I-MON
+a	DT	NP\NP/N[nom]	a	O
+pound	NN	N[nom]	pound	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Copper	NN	N[nom]/N[nom]	copper	O
+prices	NNS	N[nom]	price	O
+rose	VBD	S[dcl]\NP	rise	O
+16	CD	S[dcl]\NP\S[dcl]\NP/S[dcl]\NP\S[dcl]\NP	16	I-DAT
+cents	NNS	S[dcl]\NP\S[dcl]\NP	cent	I-MON
+to	TO	S[to]\NP/S[b]\NP	to	O
+settle	VB	S[b]\NP/PP	settle	O
+at	IN	PP/NP	at	O
+$	$	N[num]/N[num]	$	I-MON
+3.99	CD	N[num]	3.99	I-MON
+a	DT	NP\NP/N[nom]	a	O
+pound	NN	N[nom]	pound	O
+.	.	S[dcl]\S[dcl]	.	O
+
+And	CC	S[dcl]/S[dcl]	and	O
+cocoa	NN	N[nom]/N[nom]	cocoa	O
+prices	NNS	N[nom]	price	O
+rose	VBD	S[dcl]\NP	rise	O
+$	$	S[dcl]\NP\S[dcl]\NP/N[num]	$	I-MON
+28	CD	N[num]	28	I-PCT
+to	TO	S[to]\NP/S[b]\NP	to	O
+reach	VB	S[b]\NP/NP	reach	O
+$	$	N[num]/N[num]	$	I-MON
+2,778	CD	N[num]	2,778	I-MON
+per	IN	NP\NP/NP	per	O
+ton	NN	N[nom]	ton	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

@@ -1,0 +1,67 @@
+The	DT	NP/N[nom]	the	O
+final	JJ	N[nom]/N[nom]	final	O
+numbers	NNS	N[nom]	number	O
+are	VBP	S[dcl]\NP/PP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+in	IN	PP/NP	in	O
+yet	RB	N[nom]	yet	O
+but	CC	CONJ	but	O
+,	,	S[dcl]/S[dcl]	,	O
+this	DT	S[dcl]/S[dcl]/N[nom]	this	I-DAT
+year	NN	N[nom]	year	I-DAT
+,	,	S[dcl]/S[dcl]	,	O
+US	NNP	N[nom]/N[nom]	us	I-ORG
+holiday	NN	N[nom]/N[nom]	holiday	O
+sales	NNS	N[nom]	sale	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/S[adj]\NP	be	O
+disappointing	JJ	S[adj]\NP	disappointing	O
+.	.	S[dcl]\S[dcl]	.	O
+
+Industry	NN	N[nom]/N[nom]	industry	O
+analysts	NNS	N[nom]	analyst	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+preliminary	JJ	N[nom]/N[nom]	preliminary	O
+data	NNS	N[nom]	datum	O
+show	VBP	S[dcl]\NP/NP	show	O
+total	JJ	N[nom]/N[nom]	total	O
+retail	JJ	N[nom]/N[nom]	retail	O
+sales	NNS	N[nom]	sale	O
+declined	VBD	S[dcl]\NP	decline	O
+compared	VBN	S[dcl]\NP\S[dcl]\NP/PP	compare	O
+to	TO	PP/NP	to	O
+last	JJ	N[nom]/N[nom]	last	I-DAT
+year	NN	N[nom]	year	I-DAT
+'s	POS	NP/N[nom]\NP	's	O
+holiday	NN	N[nom]/N[nom]	holiday	O
+season	NN	N[nom]	season	O
+.	.	S[dcl]\S[dcl]	.	O
+
+With	IN	S[dcl]/S[dcl]/NP	with	O
+the	DT	NP/N[nom]	the	O
+economy	NN	N[nom]	economy	O
+weak	JJ	S[adj]\NP	weak	O
+,	,	S[dcl]/S[dcl]	,	O
+many	JJ	N[nom]/N[nom]	many	O
+American	JJ	N[nom]/N[nom]	american	O
+consumers	NNS	N[nom]	consumer	O
+are	VBP	S[dcl]\NP/S[ng]\NP	be	O
+spending	VBG	S[ng]\NP/NP	spend	O
+less	JJR	N[nom]	less	O
+and	CC	CONJ	and	O
+that	DT	NP	that	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+prompted	VBN	S[pt]\NP/S[to]\NP/NP	prompt	O
+retailers	NNS	N[nom]	retailer	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+slash	VB	S[b]\NP/NP	slash	O
+prices	NNS	N[nom]	price	O
+in	IN	S[b]\NP\S[b]\NP/NP	in	O
+a	DT	NP/N[nom]	a	O
+bid	NN	N[nom]	bid	O
+to	TO	S[to]\NP/S[b]\NP	to	O
+survive	VB	S[b]\NP	survive	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

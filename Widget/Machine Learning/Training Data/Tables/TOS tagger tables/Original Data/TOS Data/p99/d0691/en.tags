@@ -1,0 +1,74 @@
+Tonga	NNP	N[nam]	tonga	I-LOC
+-	:	NP\NP/NP\NP	-	O
+unique	JJ	S[adj]\NP	unique	O
+among	IN	NP\NP/NP	among	O
+Pacific	NNP	N[nom]/N[nom]	pacific	O
+nations	NNS	N[nom]	nation	O
+-	IN	NP\NP/S[dcl]\NP	-	O
+never	RB	S[dcl]\NP/S[dcl]\NP	never	O
+completely	RB	S[dcl]\NP/S[dcl]\NP	completely	O
+lost	VBD	S[dcl]\NP/NP	lose	O
+its	PRP$	NP/N[nom]	its	O
+indigenous	JJ	N[nom]/N[nom]	indigenous	O
+governance	NN	N[nom]	governance	O
+.	.	NP\NP	.	O
+
+The	DT	NP/N[nom]	the	O
+archipelagos	NNS	N[nom]	archipelago	O
+of	IN	NP\NP/NP	of	O
+"	LQU	NP/NP	"	O
+The	DT	NP/N[nam]	the	O
+Friendly	NNP	N[nam]/N[nam]	friendly	O
+Islands	NNP	N[nam]	island	O
+"	LQU	S[dcl]\NP/S[dcl]\NP	"	O
+were	VBD	S[dcl]\NP/S[pss]\NP	be	O
+united	VBN	S[pss]\NP/PP	unite	O
+into	IN	PP/NP	into	O
+a	DT	NP/N[nom]	a	O
+Polynesian	JJ	N[nom]/N[nom]	polynesian	O
+kingdom	NN	N[nom]	kingdom	O
+in	IN	S[pss]\NP\S[pss]\NP/NP	in	O
+1845	CD	N[num]	1845	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Tonga	NNP	N[nam]	tonga	I-LOC
+became	VBD	S[dcl]\NP/NP	become	O
+a	DT	NP/N[nom]	a	O
+constitutional	JJ	N[nom]/N[nom]	constitutional	O
+monarchy	NN	N[nom]	monarchy	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1875	CD	N[num]	1875	I-DAT
+and	CC	CONJ	and	O
+a	DT	NP/N[nom]	a	O
+British	JJ	N[nom]/N[nom]	british	O
+protectorate	NN	N[nom]	protectorate	O
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1900	CD	N[num]	1900	I-DAT
+;	;	SEMI	;	O
+it	PRP	NP	it	O
+withdrew	VBD	S[dcl]\NP/PP	withdraw	O
+from	IN	PP/NP	from	O
+the	DT	NP/N[nom]	the	O
+protectorate	NN	N[nom]	protectorate	O
+and	CC	CONJ	and	O
+joined	VBD	S[dcl]\NP/NP	join	O
+the	DT	NP/N[nam]	the	O
+Commonwealth	NNP	N[nam]	commonwealth	I-ORG
+of	IN	NP\NP/NP	of	I-ORG
+Nations	NNP	N[nam]	nation	I-ORG
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+1970	CD	N[num]	1970	I-DAT
+.	.	S[dcl]\S[dcl]	.	O
+
+Tonga	NNP	N[nam]	tonga	I-LOC
+remains	VBZ	S[dcl]\NP/NP	remain	O
+the	DT	NP/N[nom]	the	O
+only	JJ	N[nom]/N[nom]	only	O
+monarchy	NN	N[nom]	monarchy	O
+in	IN	NP\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+Pacific	NNP	N[nam]	pacific	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

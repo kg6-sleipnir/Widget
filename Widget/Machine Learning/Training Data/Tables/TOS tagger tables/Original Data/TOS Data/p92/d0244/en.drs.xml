@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- In Washington , environmental groups and organizations promoting alternative energy have presented recommendations to transform the United States into an energy efficient country . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">In</word>
+  <word xml:id="i1002">Washington</word>
+  <word xml:id="i1003">,</word>
+  <word xml:id="i1004">environmental</word>
+  <word xml:id="i1005">groups</word>
+  <word xml:id="i1006">and</word>
+  <word xml:id="i1007">organizations</word>
+  <word xml:id="i1008">promoting</word>
+  <word xml:id="i1009">alternative</word>
+  <word xml:id="i1010">energy</word>
+  <word xml:id="i1011">have</word>
+  <word xml:id="i1012">presented</word>
+  <word xml:id="i1013">recommendations</word>
+  <word xml:id="i1014">to</word>
+  <word xml:id="i1015">transform</word>
+  <word xml:id="i1016">the</word>
+  <word xml:id="i1017">United</word>
+  <word xml:id="i1018">States</word>
+  <word xml:id="i1019">into</word>
+  <word xml:id="i1020">an</word>
+  <word xml:id="i1021">energy</word>
+  <word xml:id="i1022">efficient</word>
+  <word xml:id="i1023">country</word>
+  <word xml:id="i1024">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">IN</tag>
+  <tag type="pos" index="i1002">NNP</tag>
+  <tag type="pos" index="i1003">,</tag>
+  <tag type="pos" index="i1004">JJ</tag>
+  <tag type="pos" index="i1005">NNS</tag>
+  <tag type="pos" index="i1006">CC</tag>
+  <tag type="pos" index="i1007">NNS</tag>
+  <tag type="pos" index="i1008">VBG</tag>
+  <tag type="pos" index="i1009">JJ</tag>
+  <tag type="pos" index="i1010">NN</tag>
+  <tag type="pos" index="i1011">VBP</tag>
+  <tag type="pos" index="i1012">VBN</tag>
+  <tag type="pos" index="i1013">NNS</tag>
+  <tag type="pos" index="i1014">TO</tag>
+  <tag type="pos" index="i1015">VB</tag>
+  <tag type="pos" index="i1016">DT</tag>
+  <tag type="pos" index="i1017">NNP</tag>
+  <tag type="pos" index="i1018">NNPS</tag>
+  <tag type="pos" index="i1019">IN</tag>
+  <tag type="pos" index="i1020">DT</tag>
+  <tag type="pos" index="i1021">NN</tag>
+  <tag type="pos" index="i1022">JJ</tag>
+  <tag type="pos" index="i1023">NN</tag>
+  <tag type="pos" index="i1024">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1002">I-LOC</tag>
+  <tag type="ne" index="i1017">I-LOC</tag>
+  <tag type="ne" index="i1018">I-LOC</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>Washington</token>
+    <token>the</token>
+    <token>United</token>
+    <token>States</token>
+   </tokens>
+   <dom>
+    <dr name="x1">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </dr>
+    <dr name="t2">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <named arg="x3" symbol="washington" type="loc">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </named>
+    <pred arg="t2" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <named arg="x1" symbol="united_states" type="loc">
+    <indexlist>
+    <index pos="17">i1017</index>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </named>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k4">
+  <drs type="sentence">
+   <tokens>
+    <token>In</token>
+    <token>environmental</token>
+    <token>groups</token>
+    <token>organizations</token>
+    <token>promoting</token>
+    <token>alternative</token>
+    <token>energy</token>
+    <token>presented</token>
+    <token>recommendations</token>
+    <token>transform</token>
+    <token>into</token>
+    <token>an</token>
+    <token>energy</token>
+    <token>efficient</token>
+    <token>country</token>
+   </tokens>
+   <dom>
+    <dr name="x5">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x6">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="e7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x8">
+    <indexlist>
+    <index pos="20">i1020</index>
+    </indexlist>
+    </dr>
+    <dr name="e9">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x10">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t11">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x12">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x13">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="e14">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x15">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="e16">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x17">
+    <indexlist>
+    <index pos="20">i1020</index>
+    </indexlist>
+    </dr>
+    <dr name="e18">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x19">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t20">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="x5" symbol="group" type="n" sense="0">
+    <indexlist>
+    <index pos="5">i1005</index>
+    </indexlist>
+    </pred>
+    <pred arg="x6" symbol="recommendation" type="n" sense="0">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </pred>
+    <pred arg="x5" symbol="environmental" type="a" sense="0">
+    <indexlist>
+    <index pos="4">i1004</index>
+    </indexlist>
+    </pred>
+    <pred arg="e7" symbol="transform" type="v" sense="26061000">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </pred>
+    <pred arg="e9" symbol="present" type="v" sense="48012000">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x8" symbol="energy" type="n" sense="0">
+    <indexlist>
+    <index pos="21">i1021</index>
+    </indexlist>
+    </pred>
+    <pred arg="x8" symbol="country" type="n" sense="0">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e7" arg2="x6" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e7" arg2="x1" symbol="Patient" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x8" symbol="efficient" type="a" sense="0">
+    <indexlist>
+    <index pos="22">i1022</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e7" arg2="x8" symbol="Product" sense="0">
+    <indexlist>
+    <index pos="19">i1019</index>
+    </indexlist>
+    </rel>
+    <rel arg1="e9" arg2="x5" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e9" arg2="x6" symbol="Theme" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <eq arg1="x10" arg2="t2">
+    <indexlist>
+    </indexlist>
+    </eq>
+    <rel arg1="x10" arg2="t11" symbol="temp_included" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e9" arg2="t11" symbol="temp_abut" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="e14" symbol="promote" type="v" sense="102000000">
+    <indexlist>
+    <index pos="8">i1008</index>
+    </indexlist>
+    </pred>
+    <pred arg="x12" symbol="organization" type="n" sense="0">
+    <indexlist>
+    <index pos="7">i1007</index>
+    </indexlist>
+    </pred>
+    <pred arg="x13" symbol="energy" type="n" sense="0">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </pred>
+    <pred arg="x15" symbol="recommendation" type="n" sense="0">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </pred>
+    <rel arg1="t11" arg2="x3" symbol="in" sense="0">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </rel>
+    <pred arg="x13" symbol="alternative" type="a" sense="0">
+    <indexlist>
+    <index pos="9">i1009</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e14" arg2="x12" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e14" arg2="x13" symbol="Theme" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="e16" symbol="transform" type="v" sense="26061000">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </pred>
+    <pred arg="e18" symbol="present" type="v" sense="48012000">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x17" symbol="energy" type="n" sense="0">
+    <indexlist>
+    <index pos="21">i1021</index>
+    </indexlist>
+    </pred>
+    <pred arg="x17" symbol="country" type="n" sense="0">
+    <indexlist>
+    <index pos="23">i1023</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e16" arg2="x15" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e16" arg2="x1" symbol="Patient" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <pred arg="x17" symbol="efficient" type="a" sense="0">
+    <indexlist>
+    <index pos="22">i1022</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e16" arg2="x17" symbol="Product" sense="0">
+    <indexlist>
+    <index pos="19">i1019</index>
+    </indexlist>
+    </rel>
+    <rel arg1="e18" arg2="x12" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e18" arg2="x15" symbol="Theme" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <eq arg1="x19" arg2="t2">
+    <indexlist>
+    </indexlist>
+    </eq>
+    <rel arg1="x19" arg2="t20" symbol="temp_included" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e18" arg2="t20" symbol="temp_abut" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="t20" arg2="x3" symbol="in" sense="0">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </rel>
+   </con>
+  </drs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k4" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>

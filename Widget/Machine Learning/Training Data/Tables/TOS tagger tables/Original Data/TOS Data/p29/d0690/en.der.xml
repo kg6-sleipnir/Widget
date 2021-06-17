@@ -1,0 +1,2928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+				<der id="1">
+ <binaryrule type="ba" description="Backward Application">
+  <cat>
+    <atomic feature="dcl">S</atomic>
+  </cat>
+  <sem>
+  <lam>
+   <var>v0</var>
+   <alfa type="dei">
+    <drs type="normal">
+     <dom>
+      <dr name="t1">
+      <indexlist>
+      </indexlist>
+      </dr>
+     </dom>
+     <con>
+      <pred arg="t1" symbol="now" type="a" sense="1">
+      <indexlist>
+      </indexlist>
+      </pred>
+     </con>
+    </drs>
+    <alfa type="def">
+     <drs type="normal">
+      <dom>
+       <dr name="x2">
+       <indexlist>
+       <index pos="1">i1001</index>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="x2" symbol="island" type="n" sense="0">
+       <indexlist>
+       <index pos="2">i1002</index>
+       </indexlist>
+       </pred>
+      </con>
+     </drs>
+     <merge>
+      <drs type="normal">
+       <dom>
+       </dom>
+       <con>
+        <imp>
+        <indexlist>
+        </indexlist>
+         <drs type="normal">
+          <dom>
+           <dr name="x3">
+           <indexlist>
+           <index pos="4">i1004</index>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x3" symbol="indigenous" type="a" sense="0">
+           <indexlist>
+           <index pos="5">i1005</index>
+           </indexlist>
+           </pred>
+           <pred arg="x3" symbol="economic" type="a" sense="0">
+           <indexlist>
+           <index pos="6">i1006</index>
+           </indexlist>
+           </pred>
+           <pred arg="x3" symbol="activity" type="n" sense="0">
+           <indexlist>
+           <index pos="7">i1007</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <not>
+           <indexlist>
+           </indexlist>
+            <merge>
+             <drs type="normal">
+              <dom>
+               <dr name="e4">
+               <indexlist>
+               </indexlist>
+               </dr>
+               <dr name="t5">
+               <indexlist>
+               </indexlist>
+               </dr>
+              </dom>
+              <con>
+               <pred arg="e4" symbol="have" type="v" sense="0">
+               <indexlist>
+               <index pos="3">i1003</index>
+               </indexlist>
+               </pred>
+               <rel arg1="e4" arg2="x2" symbol="agent" sense="0">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <rel arg1="e4" arg2="x3" symbol="patient" sense="0">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <rel arg1="e4" arg2="t5" symbol="temp_included" sense="1">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <eq arg1="t5" arg2="t1">
+               <indexlist>
+               </indexlist>
+               </eq>
+              </con>
+             </drs>
+             <app>
+              <var>v0</var>
+              <var>e4</var>
+             </app>
+            </merge>
+           </not>
+          </con>
+         </drs>
+        </imp>
+       </con>
+      </drs>
+      <alfa type="dei">
+       <drs type="normal">
+        <dom>
+         <dr name="t6">
+         <indexlist>
+         </indexlist>
+         </dr>
+        </dom>
+        <con>
+         <pred arg="t6" symbol="now" type="a" sense="1">
+         <indexlist>
+         </indexlist>
+         </pred>
+        </con>
+       </drs>
+       <alfa type="def">
+        <drs type="normal">
+         <dom>
+          <dr name="x7">
+          <indexlist>
+          <index pos="10">i1010</index>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="x7" symbol="australian" type="a" sense="0">
+          <indexlist>
+          <index pos="11">i1011</index>
+          </indexlist>
+          </pred>
+          <pred arg="x7" symbol="government" type="n" sense="0">
+          <indexlist>
+          <index pos="12">i1012</index>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+        <merge>
+         <drs type="normal">
+          <dom>
+           <dr name="x8">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="e9">
+           <indexlist>
+           </indexlist>
+           </dr>
+           <dr name="t10">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x8" symbol="limited" type="a" sense="0">
+           <indexlist>
+           <index pos="14">i1014</index>
+           </indexlist>
+           </pred>
+           <pred arg="x8" symbol="fishing" type="n" sense="0">
+           <indexlist>
+           <index pos="15">i1015</index>
+           </indexlist>
+           </pred>
+           <pred arg="e9" symbol="allow" type="v" sense="0">
+           <indexlist>
+           <index pos="13">i1013</index>
+           </indexlist>
+           </pred>
+           <rel arg1="e9" arg2="x7" symbol="agent" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="e9" arg2="x8" symbol="patient" sense="0">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <rel arg1="e9" arg2="t10" symbol="temp_included" sense="1">
+           <indexlist>
+           </indexlist>
+           </rel>
+           <eq arg1="t10" arg2="t6">
+           <indexlist>
+           </indexlist>
+           </eq>
+          </con>
+         </drs>
+         <alfa type="def">
+          <drs type="normal">
+           <dom>
+            <dr name="x11">
+            <indexlist>
+            <index pos="17">i1017</index>
+            </indexlist>
+            </dr>
+            <dr name="e12">
+            <indexlist>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="e12" symbol="surround" type="v" sense="0">
+            <indexlist>
+            <index pos="18">i1018</index>
+            </indexlist>
+            </pred>
+            <rel arg1="e12" arg2="x11" symbol="agent" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <pred arg="x11" symbol="water" type="n" sense="0">
+            <indexlist>
+            <index pos="19">i1019</index>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <merge>
+           <drs type="normal">
+            <dom>
+            </dom>
+            <con>
+             <rel arg1="e9" arg2="x11" symbol="in" sense="0">
+             <indexlist>
+             <index pos="16">i1016</index>
+             </indexlist>
+             </rel>
+            </con>
+           </drs>
+           <app>
+            <var>v0</var>
+            <var>e9</var>
+           </app>
+          </merge>
+         </alfa>
+        </merge>
+       </alfa>
+      </alfa>
+     </merge>
+    </alfa>
+   </alfa>
+  </lam>
+  </sem>
+  <binaryrule type="ba" description="Backward Application">
+   <cat>
+     <atomic feature="dcl">S</atomic>
+   </cat>
+   <sem>
+   <lam>
+    <var>v0</var>
+    <alfa type="dei">
+     <drs type="normal">
+      <dom>
+       <dr name="t1">
+       <indexlist>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="t1" symbol="now" type="a" sense="1">
+       <indexlist>
+       </indexlist>
+       </pred>
+      </con>
+     </drs>
+     <alfa type="def">
+      <drs type="normal">
+       <dom>
+        <dr name="x2">
+        <indexlist>
+        <index pos="1">i1001</index>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="x2" symbol="island" type="n" sense="0">
+        <indexlist>
+        <index pos="2">i1002</index>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+      <merge>
+       <drs type="normal">
+        <dom>
+        </dom>
+        <con>
+         <imp>
+         <indexlist>
+         </indexlist>
+          <drs type="normal">
+           <dom>
+            <dr name="x3">
+            <indexlist>
+            <index pos="4">i1004</index>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x3" symbol="indigenous" type="a" sense="0">
+            <indexlist>
+            <index pos="5">i1005</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="economic" type="a" sense="0">
+            <indexlist>
+            <index pos="6">i1006</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="activity" type="n" sense="0">
+            <indexlist>
+            <index pos="7">i1007</index>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <drs type="normal">
+           <dom>
+           </dom>
+           <con>
+            <not>
+            <indexlist>
+            </indexlist>
+             <merge>
+              <drs type="normal">
+               <dom>
+                <dr name="e4">
+                <indexlist>
+                </indexlist>
+                </dr>
+                <dr name="t5">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="e4" symbol="have" type="v" sense="0">
+                <indexlist>
+                <index pos="3">i1003</index>
+                </indexlist>
+                </pred>
+                <rel arg1="e4" arg2="x2" symbol="agent" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e4" arg2="x3" symbol="patient" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e4" arg2="t5" symbol="temp_included" sense="1">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <eq arg1="t5" arg2="t1">
+                <indexlist>
+                </indexlist>
+                </eq>
+               </con>
+              </drs>
+              <app>
+               <var>v0</var>
+               <var>e4</var>
+              </app>
+             </merge>
+            </not>
+           </con>
+          </drs>
+         </imp>
+        </con>
+       </drs>
+       <alfa type="dei">
+        <drs type="normal">
+         <dom>
+          <dr name="t6">
+          <indexlist>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="t6" symbol="now" type="a" sense="1">
+          <indexlist>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+        <alfa type="def">
+         <drs type="normal">
+          <dom>
+           <dr name="x7">
+           <indexlist>
+           <index pos="10">i1010</index>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x7" symbol="australian" type="a" sense="0">
+           <indexlist>
+           <index pos="11">i1011</index>
+           </indexlist>
+           </pred>
+           <pred arg="x7" symbol="government" type="n" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <merge>
+          <drs type="normal">
+           <dom>
+            <dr name="x8">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="e9">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="t10">
+            <indexlist>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x8" symbol="limited" type="a" sense="0">
+            <indexlist>
+            <index pos="14">i1014</index>
+            </indexlist>
+            </pred>
+            <pred arg="x8" symbol="fishing" type="n" sense="0">
+            <indexlist>
+            <index pos="15">i1015</index>
+            </indexlist>
+            </pred>
+            <pred arg="e9" symbol="allow" type="v" sense="0">
+            <indexlist>
+            <index pos="13">i1013</index>
+            </indexlist>
+            </pred>
+            <rel arg1="e9" arg2="x7" symbol="agent" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e9" arg2="x8" symbol="patient" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e9" arg2="t10" symbol="temp_included" sense="1">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <eq arg1="t10" arg2="t6">
+            <indexlist>
+            </indexlist>
+            </eq>
+           </con>
+          </drs>
+          <alfa type="def">
+           <drs type="normal">
+            <dom>
+             <dr name="x11">
+             <indexlist>
+             <index pos="17">i1017</index>
+             </indexlist>
+             </dr>
+             <dr name="e12">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="e12" symbol="surround" type="v" sense="0">
+             <indexlist>
+             <index pos="18">i1018</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e12" arg2="x11" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <pred arg="x11" symbol="water" type="n" sense="0">
+             <indexlist>
+             <index pos="19">i1019</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <merge>
+            <drs type="normal">
+             <dom>
+             </dom>
+             <con>
+              <rel arg1="e9" arg2="x11" symbol="in" sense="0">
+              <indexlist>
+              <index pos="16">i1016</index>
+              </indexlist>
+              </rel>
+             </con>
+            </drs>
+            <app>
+             <var>v0</var>
+             <var>e9</var>
+            </app>
+           </merge>
+          </alfa>
+         </merge>
+        </alfa>
+       </alfa>
+      </merge>
+     </alfa>
+    </alfa>
+   </lam>
+   </sem>
+   <binaryrule type="ba" description="Backward Application">
+    <cat>
+      <atomic feature="dcl">S</atomic>
+    </cat>
+    <sem>
+    <lam>
+     <var>v0</var>
+     <alfa type="dei">
+      <drs type="normal">
+       <dom>
+        <dr name="t1">
+        <indexlist>
+        </indexlist>
+        </dr>
+       </dom>
+       <con>
+        <pred arg="t1" symbol="now" type="a" sense="1">
+        <indexlist>
+        </indexlist>
+        </pred>
+       </con>
+      </drs>
+      <alfa type="def">
+       <drs type="normal">
+        <dom>
+         <dr name="x2">
+         <indexlist>
+         <index pos="1">i1001</index>
+         </indexlist>
+         </dr>
+        </dom>
+        <con>
+         <pred arg="x2" symbol="island" type="n" sense="0">
+         <indexlist>
+         <index pos="2">i1002</index>
+         </indexlist>
+         </pred>
+        </con>
+       </drs>
+       <drs type="normal">
+        <dom>
+        </dom>
+        <con>
+         <imp>
+         <indexlist>
+         </indexlist>
+          <drs type="normal">
+           <dom>
+            <dr name="x3">
+            <indexlist>
+            <index pos="4">i1004</index>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x3" symbol="indigenous" type="a" sense="0">
+            <indexlist>
+            <index pos="5">i1005</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="economic" type="a" sense="0">
+            <indexlist>
+            <index pos="6">i1006</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="activity" type="n" sense="0">
+            <indexlist>
+            <index pos="7">i1007</index>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <drs type="normal">
+           <dom>
+           </dom>
+           <con>
+            <not>
+            <indexlist>
+            </indexlist>
+             <merge>
+              <drs type="normal">
+               <dom>
+                <dr name="e4">
+                <indexlist>
+                </indexlist>
+                </dr>
+                <dr name="t5">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="e4" symbol="have" type="v" sense="0">
+                <indexlist>
+                <index pos="3">i1003</index>
+                </indexlist>
+                </pred>
+                <rel arg1="e4" arg2="x2" symbol="agent" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e4" arg2="x3" symbol="patient" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e4" arg2="t5" symbol="temp_included" sense="1">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <eq arg1="t5" arg2="t1">
+                <indexlist>
+                </indexlist>
+                </eq>
+               </con>
+              </drs>
+              <app>
+               <var>v0</var>
+               <var>e4</var>
+              </app>
+             </merge>
+            </not>
+           </con>
+          </drs>
+         </imp>
+        </con>
+       </drs>
+      </alfa>
+     </alfa>
+    </lam>
+    </sem>
+    <binaryrule type="fa" description="Forward Application">
+     <cat>
+       <atomic>NP</atomic>
+     </cat>
+     <sem>
+     <lam>
+      <var>v0</var>
+      <alfa type="def">
+       <drs type="normal">
+        <dom>
+         <dr name="x1">
+         <indexlist>
+         <index pos="1">i1001</index>
+         </indexlist>
+         </dr>
+        </dom>
+        <con>
+         <pred arg="x1" symbol="island" type="n" sense="0">
+         <indexlist>
+         <index pos="2">i1002</index>
+         </indexlist>
+         </pred>
+        </con>
+       </drs>
+       <app>
+        <var>v0</var>
+        <var>x1</var>
+       </app>
+      </alfa>
+     </lam>
+     </sem>
+     <lex id="1001">
+      <token>The</token>
+      <tag type="lemma">the</tag>
+      <tag type="pos">DT</tag>
+      <tag type="ne">O</tag>
+      <cat>
+       <forward>
+         <atomic>NP</atomic>
+         <atomic feature="nom">N</atomic>
+       </forward>
+      </cat>
+      <sem>
+       <lam>
+        <var>v0</var>
+        <lam>
+         <var>v1</var>
+         <alfa type="def">
+          <merge>
+           <drs type="normal">
+            <dom>
+             <dr name="x2">
+             <indexlist>
+             <index pos="1">i1001</index>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+            </con>
+           </drs>
+           <app>
+            <var>v0</var>
+            <var>x2</var>
+           </app>
+          </merge>
+          <app>
+           <var>v1</var>
+           <var>x2</var>
+          </app>
+         </alfa>
+        </lam>
+       </lam>
+      </sem>
+     </lex>
+     <lex id="1002">
+      <token>islands</token>
+      <tag type="lemma">island</tag>
+      <tag type="pos">NNS</tag>
+      <tag type="ne">O</tag>
+      <cat>
+        <atomic feature="nom">N</atomic>
+      </cat>
+      <sem>
+       <lam>
+        <var>v0</var>
+        <drs type="normal">
+         <dom>
+         </dom>
+         <con>
+          <pred arg="v0" symbol="island" type="n" sense="0">
+          <indexlist>
+          <index pos="2">i1002</index>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+       </lam>
+      </sem>
+     </lex>
+     <tokens>
+      <token>The</token>
+      <token>islands</token>
+     </tokens>
+    </binaryrule>
+    <binaryrule type="fa" description="Forward Application">
+     <cat>
+      <backward>
+        <atomic feature="dcl">S</atomic>
+        <atomic>NP</atomic>
+      </backward>
+     </cat>
+     <sem>
+     <lam>
+      <var>v0</var>
+      <lam>
+       <var>v1</var>
+       <alfa type="dei">
+        <drs type="normal">
+         <dom>
+          <dr name="t2">
+          <indexlist>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="t2" symbol="now" type="a" sense="1">
+          <indexlist>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+        <app>
+         <var>v0</var>
+         <lam>
+          <var>v3</var>
+          <drs type="normal">
+           <dom>
+           </dom>
+           <con>
+            <imp>
+            <indexlist>
+            </indexlist>
+             <drs type="normal">
+              <dom>
+               <dr name="x4">
+               <indexlist>
+               <index pos="4">i1004</index>
+               </indexlist>
+               </dr>
+              </dom>
+              <con>
+               <pred arg="x4" symbol="indigenous" type="a" sense="0">
+               <indexlist>
+               <index pos="5">i1005</index>
+               </indexlist>
+               </pred>
+               <pred arg="x4" symbol="economic" type="a" sense="0">
+               <indexlist>
+               <index pos="6">i1006</index>
+               </indexlist>
+               </pred>
+               <pred arg="x4" symbol="activity" type="n" sense="0">
+               <indexlist>
+               <index pos="7">i1007</index>
+               </indexlist>
+               </pred>
+              </con>
+             </drs>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <not>
+               <indexlist>
+               </indexlist>
+                <merge>
+                 <drs type="normal">
+                  <dom>
+                   <dr name="e5">
+                   <indexlist>
+                   </indexlist>
+                   </dr>
+                   <dr name="t6">
+                   <indexlist>
+                   </indexlist>
+                   </dr>
+                  </dom>
+                  <con>
+                   <pred arg="e5" symbol="have" type="v" sense="0">
+                   <indexlist>
+                   <index pos="3">i1003</index>
+                   </indexlist>
+                   </pred>
+                   <rel arg1="e5" arg2="v3" symbol="agent" sense="0">
+                   <indexlist>
+                   </indexlist>
+                   </rel>
+                   <rel arg1="e5" arg2="x4" symbol="patient" sense="0">
+                   <indexlist>
+                   </indexlist>
+                   </rel>
+                   <rel arg1="e5" arg2="t6" symbol="temp_included" sense="1">
+                   <indexlist>
+                   </indexlist>
+                   </rel>
+                   <eq arg1="t6" arg2="t2">
+                   <indexlist>
+                   </indexlist>
+                   </eq>
+                  </con>
+                 </drs>
+                 <app>
+                  <var>v1</var>
+                  <var>e5</var>
+                 </app>
+                </merge>
+               </not>
+              </con>
+             </drs>
+            </imp>
+           </con>
+          </drs>
+         </lam>
+        </app>
+       </alfa>
+      </lam>
+     </lam>
+     </sem>
+     <lex id="1003">
+      <token>have</token>
+      <tag type="lemma">have</tag>
+      <tag type="pos">VBP</tag>
+      <tag type="ne">O</tag>
+      <cat>
+       <forward>
+        <backward>
+          <atomic feature="dcl">S</atomic>
+          <atomic>NP</atomic>
+        </backward>
+         <atomic>NP</atomic>
+       </forward>
+      </cat>
+      <sem>
+       <lam>
+        <var>v0</var>
+        <lam>
+         <var>v1</var>
+         <lam>
+          <var>v2</var>
+          <alfa type="dei">
+           <drs type="normal">
+            <dom>
+             <dr name="t3">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="t3" symbol="now" type="a" sense="1">
+             <indexlist>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <app>
+            <var>v1</var>
+            <lam>
+             <var>v4</var>
+             <app>
+              <var>v0</var>
+              <lam>
+               <var>v5</var>
+               <merge>
+                <drs type="normal">
+                 <dom>
+                  <dr name="e6">
+                  <indexlist>
+                  </indexlist>
+                  </dr>
+                  <dr name="t7">
+                  <indexlist>
+                  </indexlist>
+                  </dr>
+                 </dom>
+                 <con>
+                  <pred arg="e6" symbol="have" type="v" sense="0">
+                  <indexlist>
+                  <index pos="3">i1003</index>
+                  </indexlist>
+                  </pred>
+                  <rel arg1="e6" arg2="v4" symbol="agent" sense="0">
+                  <indexlist>
+                  </indexlist>
+                  </rel>
+                  <rel arg1="e6" arg2="v5" symbol="patient" sense="0">
+                  <indexlist>
+                  </indexlist>
+                  </rel>
+                  <rel arg1="e6" arg2="t7" symbol="temp_included" sense="1">
+                  <indexlist>
+                  </indexlist>
+                  </rel>
+                  <eq arg1="t7" arg2="t3">
+                  <indexlist>
+                  </indexlist>
+                  </eq>
+                 </con>
+                </drs>
+                <app>
+                 <var>v2</var>
+                 <var>e6</var>
+                </app>
+               </merge>
+              </lam>
+             </app>
+            </lam>
+           </app>
+          </alfa>
+         </lam>
+        </lam>
+       </lam>
+      </sem>
+     </lex>
+     <binaryrule type="fa" description="Forward Application">
+      <cat>
+        <atomic>NP</atomic>
+      </cat>
+      <sem>
+      <lam>
+       <var>v0</var>
+       <drs type="normal">
+        <dom>
+        </dom>
+        <con>
+         <imp>
+         <indexlist>
+         </indexlist>
+          <drs type="normal">
+           <dom>
+            <dr name="x1">
+            <indexlist>
+            <index pos="4">i1004</index>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x1" symbol="indigenous" type="a" sense="0">
+            <indexlist>
+            <index pos="5">i1005</index>
+            </indexlist>
+            </pred>
+            <pred arg="x1" symbol="economic" type="a" sense="0">
+            <indexlist>
+            <index pos="6">i1006</index>
+            </indexlist>
+            </pred>
+            <pred arg="x1" symbol="activity" type="n" sense="0">
+            <indexlist>
+            <index pos="7">i1007</index>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <drs type="normal">
+           <dom>
+           </dom>
+           <con>
+            <not>
+            <indexlist>
+            </indexlist>
+             <app>
+              <var>v0</var>
+              <var>x1</var>
+             </app>
+            </not>
+           </con>
+          </drs>
+         </imp>
+        </con>
+       </drs>
+      </lam>
+      </sem>
+      <lex id="1004">
+       <token>no</token>
+       <tag type="lemma">no</tag>
+       <tag type="pos">DT</tag>
+       <tag type="ne">O</tag>
+       <cat>
+        <forward>
+          <atomic>NP</atomic>
+          <atomic feature="nom">N</atomic>
+        </forward>
+       </cat>
+       <sem>
+        <lam>
+         <var>v0</var>
+         <lam>
+          <var>v1</var>
+          <drs type="normal">
+           <dom>
+           </dom>
+           <con>
+            <imp>
+            <indexlist>
+            </indexlist>
+             <merge>
+              <drs type="normal">
+               <dom>
+                <dr name="x2">
+                <indexlist>
+                <index pos="4">i1004</index>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+               </con>
+              </drs>
+              <app>
+               <var>v0</var>
+               <var>x2</var>
+              </app>
+             </merge>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <not>
+               <indexlist>
+               </indexlist>
+                <app>
+                 <var>v1</var>
+                 <var>x2</var>
+                </app>
+               </not>
+              </con>
+             </drs>
+            </imp>
+           </con>
+          </drs>
+         </lam>
+        </lam>
+       </sem>
+      </lex>
+      <binaryrule type="fa" description="Forward Application">
+       <cat>
+         <atomic feature="nom">N</atomic>
+       </cat>
+       <sem>
+       <lam>
+        <var>v0</var>
+        <drs type="normal">
+         <dom>
+         </dom>
+         <con>
+          <pred arg="v0" symbol="indigenous" type="a" sense="0">
+          <indexlist>
+          <index pos="5">i1005</index>
+          </indexlist>
+          </pred>
+          <pred arg="v0" symbol="economic" type="a" sense="0">
+          <indexlist>
+          <index pos="6">i1006</index>
+          </indexlist>
+          </pred>
+          <pred arg="v0" symbol="activity" type="n" sense="0">
+          <indexlist>
+          <index pos="7">i1007</index>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+       </lam>
+       </sem>
+       <lex id="1005">
+        <token>indigenous</token>
+        <tag type="lemma">indigenous</tag>
+        <tag type="pos">JJ</tag>
+        <tag type="ne">O</tag>
+        <cat>
+         <forward>
+           <atomic feature="nom">N</atomic>
+           <atomic feature="nom">N</atomic>
+         </forward>
+        </cat>
+        <sem>
+         <lam>
+          <var>v0</var>
+          <lam>
+           <var>v1</var>
+           <merge>
+            <drs type="normal">
+             <dom>
+             </dom>
+             <con>
+              <pred arg="v1" symbol="indigenous" type="a" sense="0">
+              <indexlist>
+              <index pos="5">i1005</index>
+              </indexlist>
+              </pred>
+             </con>
+            </drs>
+            <app>
+             <var>v0</var>
+             <var>v1</var>
+            </app>
+           </merge>
+          </lam>
+         </lam>
+        </sem>
+       </lex>
+       <binaryrule type="fa" description="Forward Application">
+        <cat>
+          <atomic feature="nom">N</atomic>
+        </cat>
+        <sem>
+        <lam>
+         <var>v0</var>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <pred arg="v0" symbol="economic" type="a" sense="0">
+           <indexlist>
+           <index pos="6">i1006</index>
+           </indexlist>
+           </pred>
+           <pred arg="v0" symbol="activity" type="n" sense="0">
+           <indexlist>
+           <index pos="7">i1007</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+        </lam>
+        </sem>
+        <lex id="1006">
+         <token>economic</token>
+         <tag type="lemma">economic</tag>
+         <tag type="pos">JJ</tag>
+         <tag type="ne">O</tag>
+         <cat>
+          <forward>
+            <atomic feature="nom">N</atomic>
+            <atomic feature="nom">N</atomic>
+          </forward>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <lam>
+            <var>v1</var>
+            <merge>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <pred arg="v1" symbol="economic" type="a" sense="0">
+               <indexlist>
+               <index pos="6">i1006</index>
+               </indexlist>
+               </pred>
+              </con>
+             </drs>
+             <app>
+              <var>v0</var>
+              <var>v1</var>
+             </app>
+            </merge>
+           </lam>
+          </lam>
+         </sem>
+        </lex>
+        <lex id="1007">
+         <token>activity</token>
+         <tag type="lemma">activity</tag>
+         <tag type="pos">NN</tag>
+         <tag type="ne">O</tag>
+         <cat>
+           <atomic feature="nom">N</atomic>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <drs type="normal">
+            <dom>
+            </dom>
+            <con>
+             <pred arg="v0" symbol="activity" type="n" sense="0">
+             <indexlist>
+             <index pos="7">i1007</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+          </lam>
+         </sem>
+        </lex>
+        <tokens>
+         <token>economic</token>
+         <token>activity</token>
+        </tokens>
+       </binaryrule>
+       <tokens>
+        <token>indigenous</token>
+        <token>economic</token>
+        <token>activity</token>
+       </tokens>
+      </binaryrule>
+      <tokens>
+       <token>no</token>
+       <token>indigenous</token>
+       <token>economic</token>
+       <token>activity</token>
+      </tokens>
+     </binaryrule>
+     <tokens>
+      <token>have</token>
+      <token>no</token>
+      <token>indigenous</token>
+      <token>economic</token>
+      <token>activity</token>
+     </tokens>
+    </binaryrule>
+    <tokens>
+     <token>The</token>
+     <token>islands</token>
+     <token>have</token>
+     <token>no</token>
+     <token>indigenous</token>
+     <token>economic</token>
+     <token>activity</token>
+    </tokens>
+   </binaryrule>
+   <binaryrule type="fa" description="Forward Application">
+    <cat>
+     <backward>
+       <atomic feature="dcl">S</atomic>
+       <atomic feature="dcl">S</atomic>
+     </backward>
+    </cat>
+    <sem>
+    <lam>
+     <var>v0</var>
+     <lam>
+      <var>v1</var>
+      <merge>
+       <app>
+        <var>v0</var>
+        <var>v1</var>
+       </app>
+       <alfa type="dei">
+        <drs type="normal">
+         <dom>
+          <dr name="t2">
+          <indexlist>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="t2" symbol="now" type="a" sense="1">
+          <indexlist>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+        <alfa type="def">
+         <drs type="normal">
+          <dom>
+           <dr name="x3">
+           <indexlist>
+           <index pos="10">i1010</index>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x3" symbol="australian" type="a" sense="0">
+           <indexlist>
+           <index pos="11">i1011</index>
+           </indexlist>
+           </pred>
+           <pred arg="x3" symbol="government" type="n" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <merge>
+          <drs type="normal">
+           <dom>
+            <dr name="x4">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="e5">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="t6">
+            <indexlist>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x4" symbol="limited" type="a" sense="0">
+            <indexlist>
+            <index pos="14">i1014</index>
+            </indexlist>
+            </pred>
+            <pred arg="x4" symbol="fishing" type="n" sense="0">
+            <indexlist>
+            <index pos="15">i1015</index>
+            </indexlist>
+            </pred>
+            <pred arg="e5" symbol="allow" type="v" sense="0">
+            <indexlist>
+            <index pos="13">i1013</index>
+            </indexlist>
+            </pred>
+            <rel arg1="e5" arg2="x3" symbol="agent" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e5" arg2="x4" symbol="patient" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e5" arg2="t6" symbol="temp_included" sense="1">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <eq arg1="t6" arg2="t2">
+            <indexlist>
+            </indexlist>
+            </eq>
+           </con>
+          </drs>
+          <alfa type="def">
+           <drs type="normal">
+            <dom>
+             <dr name="x7">
+             <indexlist>
+             <index pos="17">i1017</index>
+             </indexlist>
+             </dr>
+             <dr name="e8">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="e8" symbol="surround" type="v" sense="0">
+             <indexlist>
+             <index pos="18">i1018</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e8" arg2="x7" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <pred arg="x7" symbol="water" type="n" sense="0">
+             <indexlist>
+             <index pos="19">i1019</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <merge>
+            <drs type="normal">
+             <dom>
+             </dom>
+             <con>
+              <rel arg1="e5" arg2="x7" symbol="in" sense="0">
+              <indexlist>
+              <index pos="16">i1016</index>
+              </indexlist>
+              </rel>
+             </con>
+            </drs>
+            <app>
+             <var>v1</var>
+             <var>e5</var>
+            </app>
+           </merge>
+          </alfa>
+         </merge>
+        </alfa>
+       </alfa>
+      </merge>
+     </lam>
+    </lam>
+    </sem>
+    <lex id="1008">
+     <token>,</token>
+     <tag type="lemma">,</tag>
+     <tag type="pos">,</tag>
+     <tag type="ne">O</tag>
+     <cat>
+      <forward>
+       <backward>
+         <atomic feature="dcl">S</atomic>
+         <atomic feature="dcl">S</atomic>
+       </backward>
+       <backward>
+         <atomic feature="dcl">S</atomic>
+         <atomic feature="dcl">S</atomic>
+       </backward>
+      </forward>
+     </cat>
+     <sem>
+      <lam>
+       <var>v0</var>
+       <var>v0</var>
+      </lam>
+     </sem>
+    </lex>
+    <binaryrule type="conj" description="Conjunction">
+     <cat>
+      <backward>
+        <atomic feature="dcl">S</atomic>
+        <atomic feature="dcl">S</atomic>
+      </backward>
+     </cat>
+     <sem>
+     <lam>
+      <var>v0</var>
+      <lam>
+       <var>v1</var>
+       <merge>
+        <app>
+         <var>v0</var>
+         <var>v1</var>
+        </app>
+        <alfa type="dei">
+         <drs type="normal">
+          <dom>
+           <dr name="t2">
+           <indexlist>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="t2" symbol="now" type="a" sense="1">
+           <indexlist>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <alfa type="def">
+          <drs type="normal">
+           <dom>
+            <dr name="x3">
+            <indexlist>
+            <index pos="10">i1010</index>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x3" symbol="australian" type="a" sense="0">
+            <indexlist>
+            <index pos="11">i1011</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="government" type="n" sense="0">
+            <indexlist>
+            <index pos="12">i1012</index>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <merge>
+           <drs type="normal">
+            <dom>
+             <dr name="x4">
+             <indexlist>
+             </indexlist>
+             </dr>
+             <dr name="e5">
+             <indexlist>
+             </indexlist>
+             </dr>
+             <dr name="t6">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="x4" symbol="limited" type="a" sense="0">
+             <indexlist>
+             <index pos="14">i1014</index>
+             </indexlist>
+             </pred>
+             <pred arg="x4" symbol="fishing" type="n" sense="0">
+             <indexlist>
+             <index pos="15">i1015</index>
+             </indexlist>
+             </pred>
+             <pred arg="e5" symbol="allow" type="v" sense="0">
+             <indexlist>
+             <index pos="13">i1013</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e5" arg2="x3" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <rel arg1="e5" arg2="x4" symbol="patient" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <rel arg1="e5" arg2="t6" symbol="temp_included" sense="1">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <eq arg1="t6" arg2="t2">
+             <indexlist>
+             </indexlist>
+             </eq>
+            </con>
+           </drs>
+           <alfa type="def">
+            <drs type="normal">
+             <dom>
+              <dr name="x7">
+              <indexlist>
+              <index pos="17">i1017</index>
+              </indexlist>
+              </dr>
+              <dr name="e8">
+              <indexlist>
+              </indexlist>
+              </dr>
+             </dom>
+             <con>
+              <pred arg="e8" symbol="surround" type="v" sense="0">
+              <indexlist>
+              <index pos="18">i1018</index>
+              </indexlist>
+              </pred>
+              <rel arg1="e8" arg2="x7" symbol="agent" sense="0">
+              <indexlist>
+              </indexlist>
+              </rel>
+              <pred arg="x7" symbol="water" type="n" sense="0">
+              <indexlist>
+              <index pos="19">i1019</index>
+              </indexlist>
+              </pred>
+             </con>
+            </drs>
+            <merge>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <rel arg1="e5" arg2="x7" symbol="in" sense="0">
+               <indexlist>
+               <index pos="16">i1016</index>
+               </indexlist>
+               </rel>
+              </con>
+             </drs>
+             <app>
+              <var>v1</var>
+              <var>e5</var>
+             </app>
+            </merge>
+           </alfa>
+          </merge>
+         </alfa>
+        </alfa>
+       </merge>
+      </lam>
+     </lam>
+     </sem>
+     <lex id="1009">
+      <token>but</token>
+      <tag type="lemma">but</tag>
+      <tag type="pos">CC</tag>
+      <tag type="ne">O</tag>
+      <cat>
+        <atomic>CONJ</atomic>
+      </cat>
+      <sem>
+       <lam>
+        <var>v0</var>
+        <lam>
+         <var>v1</var>
+         <merge>
+          <var>v1</var>
+          <var>v0</var>
+         </merge>
+        </lam>
+       </lam>
+      </sem>
+     </lex>
+     <binaryrule type="ba" description="Backward Application">
+      <cat>
+        <atomic feature="dcl">S</atomic>
+      </cat>
+      <sem>
+      <lam>
+       <var>v0</var>
+       <alfa type="dei">
+        <drs type="normal">
+         <dom>
+          <dr name="t1">
+          <indexlist>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="t1" symbol="now" type="a" sense="1">
+          <indexlist>
+          </indexlist>
+          </pred>
+         </con>
+        </drs>
+        <alfa type="def">
+         <drs type="normal">
+          <dom>
+           <dr name="x2">
+           <indexlist>
+           <index pos="10">i1010</index>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x2" symbol="australian" type="a" sense="0">
+           <indexlist>
+           <index pos="11">i1011</index>
+           </indexlist>
+           </pred>
+           <pred arg="x2" symbol="government" type="n" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <merge>
+          <drs type="normal">
+           <dom>
+            <dr name="x3">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="e4">
+            <indexlist>
+            </indexlist>
+            </dr>
+            <dr name="t5">
+            <indexlist>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="x3" symbol="limited" type="a" sense="0">
+            <indexlist>
+            <index pos="14">i1014</index>
+            </indexlist>
+            </pred>
+            <pred arg="x3" symbol="fishing" type="n" sense="0">
+            <indexlist>
+            <index pos="15">i1015</index>
+            </indexlist>
+            </pred>
+            <pred arg="e4" symbol="allow" type="v" sense="0">
+            <indexlist>
+            <index pos="13">i1013</index>
+            </indexlist>
+            </pred>
+            <rel arg1="e4" arg2="x2" symbol="agent" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e4" arg2="x3" symbol="patient" sense="0">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <rel arg1="e4" arg2="t5" symbol="temp_included" sense="1">
+            <indexlist>
+            </indexlist>
+            </rel>
+            <eq arg1="t5" arg2="t1">
+            <indexlist>
+            </indexlist>
+            </eq>
+           </con>
+          </drs>
+          <alfa type="def">
+           <drs type="normal">
+            <dom>
+             <dr name="x6">
+             <indexlist>
+             <index pos="17">i1017</index>
+             </indexlist>
+             </dr>
+             <dr name="e7">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="e7" symbol="surround" type="v" sense="0">
+             <indexlist>
+             <index pos="18">i1018</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e7" arg2="x6" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <pred arg="x6" symbol="water" type="n" sense="0">
+             <indexlist>
+             <index pos="19">i1019</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <merge>
+            <drs type="normal">
+             <dom>
+             </dom>
+             <con>
+              <rel arg1="e4" arg2="x6" symbol="in" sense="0">
+              <indexlist>
+              <index pos="16">i1016</index>
+              </indexlist>
+              </rel>
+             </con>
+            </drs>
+            <app>
+             <var>v0</var>
+             <var>e4</var>
+            </app>
+           </merge>
+          </alfa>
+         </merge>
+        </alfa>
+       </alfa>
+      </lam>
+      </sem>
+      <binaryrule type="fa" description="Forward Application">
+       <cat>
+         <atomic>NP</atomic>
+       </cat>
+       <sem>
+       <lam>
+        <var>v0</var>
+        <alfa type="def">
+         <drs type="normal">
+          <dom>
+           <dr name="x1">
+           <indexlist>
+           <index pos="10">i1010</index>
+           </indexlist>
+           </dr>
+          </dom>
+          <con>
+           <pred arg="x1" symbol="australian" type="a" sense="0">
+           <indexlist>
+           <index pos="11">i1011</index>
+           </indexlist>
+           </pred>
+           <pred arg="x1" symbol="government" type="n" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+         <app>
+          <var>v0</var>
+          <var>x1</var>
+         </app>
+        </alfa>
+       </lam>
+       </sem>
+       <lex id="1010">
+        <token>the</token>
+        <tag type="lemma">the</tag>
+        <tag type="pos">DT</tag>
+        <tag type="ne">O</tag>
+        <cat>
+         <forward>
+           <atomic>NP</atomic>
+           <atomic feature="nom">N</atomic>
+         </forward>
+        </cat>
+        <sem>
+         <lam>
+          <var>v0</var>
+          <lam>
+           <var>v1</var>
+           <alfa type="def">
+            <merge>
+             <drs type="normal">
+              <dom>
+               <dr name="x2">
+               <indexlist>
+               <index pos="10">i1010</index>
+               </indexlist>
+               </dr>
+              </dom>
+              <con>
+              </con>
+             </drs>
+             <app>
+              <var>v0</var>
+              <var>x2</var>
+             </app>
+            </merge>
+            <app>
+             <var>v1</var>
+             <var>x2</var>
+            </app>
+           </alfa>
+          </lam>
+         </lam>
+        </sem>
+       </lex>
+       <binaryrule type="fa" description="Forward Application">
+        <cat>
+          <atomic feature="nom">N</atomic>
+        </cat>
+        <sem>
+        <lam>
+         <var>v0</var>
+         <drs type="normal">
+          <dom>
+          </dom>
+          <con>
+           <pred arg="v0" symbol="australian" type="a" sense="0">
+           <indexlist>
+           <index pos="11">i1011</index>
+           </indexlist>
+           </pred>
+           <pred arg="v0" symbol="government" type="n" sense="0">
+           <indexlist>
+           <index pos="12">i1012</index>
+           </indexlist>
+           </pred>
+          </con>
+         </drs>
+        </lam>
+        </sem>
+        <lex id="1011">
+         <token>Australian</token>
+         <tag type="lemma">australian</tag>
+         <tag type="pos">JJ</tag>
+         <tag type="ne">I-ORG</tag>
+         <cat>
+          <forward>
+            <atomic feature="nom">N</atomic>
+            <atomic feature="nom">N</atomic>
+          </forward>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <lam>
+            <var>v1</var>
+            <merge>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <pred arg="v1" symbol="australian" type="a" sense="0">
+               <indexlist>
+               <index pos="11">i1011</index>
+               </indexlist>
+               </pred>
+              </con>
+             </drs>
+             <app>
+              <var>v0</var>
+              <var>v1</var>
+             </app>
+            </merge>
+           </lam>
+          </lam>
+         </sem>
+        </lex>
+        <lex id="1012">
+         <token>Government</token>
+         <tag type="lemma">government</tag>
+         <tag type="pos">NN</tag>
+         <tag type="ne">I-ORG</tag>
+         <cat>
+           <atomic feature="nom">N</atomic>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <drs type="normal">
+            <dom>
+            </dom>
+            <con>
+             <pred arg="v0" symbol="government" type="n" sense="0">
+             <indexlist>
+             <index pos="12">i1012</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+          </lam>
+         </sem>
+        </lex>
+        <tokens>
+         <token>Australian</token>
+         <token>Government</token>
+        </tokens>
+       </binaryrule>
+       <tokens>
+        <token>the</token>
+        <token>Australian</token>
+        <token>Government</token>
+       </tokens>
+      </binaryrule>
+      <binaryrule type="ba" description="Backward Application">
+       <cat>
+        <backward>
+          <atomic feature="dcl">S</atomic>
+          <atomic>NP</atomic>
+        </backward>
+       </cat>
+       <sem>
+       <lam>
+        <var>v0</var>
+        <lam>
+         <var>v1</var>
+         <alfa type="dei">
+          <drs type="normal">
+           <dom>
+            <dr name="t2">
+            <indexlist>
+            </indexlist>
+            </dr>
+           </dom>
+           <con>
+            <pred arg="t2" symbol="now" type="a" sense="1">
+            <indexlist>
+            </indexlist>
+            </pred>
+           </con>
+          </drs>
+          <app>
+           <var>v0</var>
+           <lam>
+            <var>v3</var>
+            <merge>
+             <drs type="normal">
+              <dom>
+               <dr name="x4">
+               <indexlist>
+               </indexlist>
+               </dr>
+               <dr name="e5">
+               <indexlist>
+               </indexlist>
+               </dr>
+               <dr name="t6">
+               <indexlist>
+               </indexlist>
+               </dr>
+              </dom>
+              <con>
+               <pred arg="x4" symbol="limited" type="a" sense="0">
+               <indexlist>
+               <index pos="14">i1014</index>
+               </indexlist>
+               </pred>
+               <pred arg="x4" symbol="fishing" type="n" sense="0">
+               <indexlist>
+               <index pos="15">i1015</index>
+               </indexlist>
+               </pred>
+               <pred arg="e5" symbol="allow" type="v" sense="0">
+               <indexlist>
+               <index pos="13">i1013</index>
+               </indexlist>
+               </pred>
+               <rel arg1="e5" arg2="v3" symbol="agent" sense="0">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <rel arg1="e5" arg2="x4" symbol="patient" sense="0">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <rel arg1="e5" arg2="t6" symbol="temp_included" sense="1">
+               <indexlist>
+               </indexlist>
+               </rel>
+               <eq arg1="t6" arg2="t2">
+               <indexlist>
+               </indexlist>
+               </eq>
+              </con>
+             </drs>
+             <alfa type="def">
+              <drs type="normal">
+               <dom>
+                <dr name="x7">
+                <indexlist>
+                <index pos="17">i1017</index>
+                </indexlist>
+                </dr>
+                <dr name="e8">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="e8" symbol="surround" type="v" sense="0">
+                <indexlist>
+                <index pos="18">i1018</index>
+                </indexlist>
+                </pred>
+                <rel arg1="e8" arg2="x7" symbol="agent" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <pred arg="x7" symbol="water" type="n" sense="0">
+                <indexlist>
+                <index pos="19">i1019</index>
+                </indexlist>
+                </pred>
+               </con>
+              </drs>
+              <merge>
+               <drs type="normal">
+                <dom>
+                </dom>
+                <con>
+                 <rel arg1="e5" arg2="x7" symbol="in" sense="0">
+                 <indexlist>
+                 <index pos="16">i1016</index>
+                 </indexlist>
+                 </rel>
+                </con>
+               </drs>
+               <app>
+                <var>v1</var>
+                <var>e5</var>
+               </app>
+              </merge>
+             </alfa>
+            </merge>
+           </lam>
+          </app>
+         </alfa>
+        </lam>
+       </lam>
+       </sem>
+       <binaryrule type="fa" description="Forward Application">
+        <cat>
+         <backward>
+           <atomic feature="dcl">S</atomic>
+           <atomic>NP</atomic>
+         </backward>
+        </cat>
+        <sem>
+        <lam>
+         <var>v0</var>
+         <lam>
+          <var>v1</var>
+          <alfa type="dei">
+           <drs type="normal">
+            <dom>
+             <dr name="t2">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="t2" symbol="now" type="a" sense="1">
+             <indexlist>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <app>
+            <var>v0</var>
+            <lam>
+             <var>v3</var>
+             <merge>
+              <drs type="normal">
+               <dom>
+                <dr name="x4">
+                <indexlist>
+                </indexlist>
+                </dr>
+                <dr name="e5">
+                <indexlist>
+                </indexlist>
+                </dr>
+                <dr name="t6">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="x4" symbol="limited" type="a" sense="0">
+                <indexlist>
+                <index pos="14">i1014</index>
+                </indexlist>
+                </pred>
+                <pred arg="x4" symbol="fishing" type="n" sense="0">
+                <indexlist>
+                <index pos="15">i1015</index>
+                </indexlist>
+                </pred>
+                <pred arg="e5" symbol="allow" type="v" sense="0">
+                <indexlist>
+                <index pos="13">i1013</index>
+                </indexlist>
+                </pred>
+                <rel arg1="e5" arg2="v3" symbol="agent" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e5" arg2="x4" symbol="patient" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <rel arg1="e5" arg2="t6" symbol="temp_included" sense="1">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <eq arg1="t6" arg2="t2">
+                <indexlist>
+                </indexlist>
+                </eq>
+               </con>
+              </drs>
+              <app>
+               <var>v1</var>
+               <var>e5</var>
+              </app>
+             </merge>
+            </lam>
+           </app>
+          </alfa>
+         </lam>
+        </lam>
+        </sem>
+        <lex id="1013">
+         <token>allows</token>
+         <tag type="lemma">allow</tag>
+         <tag type="pos">VBZ</tag>
+         <tag type="ne">O</tag>
+         <cat>
+          <forward>
+           <backward>
+             <atomic feature="dcl">S</atomic>
+             <atomic>NP</atomic>
+           </backward>
+            <atomic>NP</atomic>
+          </forward>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <lam>
+            <var>v1</var>
+            <lam>
+             <var>v2</var>
+             <alfa type="dei">
+              <drs type="normal">
+               <dom>
+                <dr name="t3">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="t3" symbol="now" type="a" sense="1">
+                <indexlist>
+                </indexlist>
+                </pred>
+               </con>
+              </drs>
+              <app>
+               <var>v1</var>
+               <lam>
+                <var>v4</var>
+                <app>
+                 <var>v0</var>
+                 <lam>
+                  <var>v5</var>
+                  <merge>
+                   <drs type="normal">
+                    <dom>
+                     <dr name="e6">
+                     <indexlist>
+                     </indexlist>
+                     </dr>
+                     <dr name="t7">
+                     <indexlist>
+                     </indexlist>
+                     </dr>
+                    </dom>
+                    <con>
+                     <pred arg="e6" symbol="allow" type="v" sense="0">
+                     <indexlist>
+                     <index pos="13">i1013</index>
+                     </indexlist>
+                     </pred>
+                     <rel arg1="e6" arg2="v4" symbol="agent" sense="0">
+                     <indexlist>
+                     </indexlist>
+                     </rel>
+                     <rel arg1="e6" arg2="v5" symbol="patient" sense="0">
+                     <indexlist>
+                     </indexlist>
+                     </rel>
+                     <rel arg1="e6" arg2="t7" symbol="temp_included" sense="1">
+                     <indexlist>
+                     </indexlist>
+                     </rel>
+                     <eq arg1="t7" arg2="t3">
+                     <indexlist>
+                     </indexlist>
+                     </eq>
+                    </con>
+                   </drs>
+                   <app>
+                    <var>v2</var>
+                    <var>e6</var>
+                   </app>
+                  </merge>
+                 </lam>
+                </app>
+               </lam>
+              </app>
+             </alfa>
+            </lam>
+           </lam>
+          </lam>
+         </sem>
+        </lex>
+        <unaryrule type="tc" description="Type Changing">
+         <cat>
+          <atomic>NP</atomic>
+         </cat>
+         <sem>
+         <lam>
+          <var>v0</var>
+          <merge>
+           <drs type="normal">
+            <dom>
+             <dr name="x1">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="x1" symbol="limited" type="a" sense="0">
+             <indexlist>
+             <index pos="14">i1014</index>
+             </indexlist>
+             </pred>
+             <pred arg="x1" symbol="fishing" type="n" sense="0">
+             <indexlist>
+             <index pos="15">i1015</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <app>
+            <var>v0</var>
+            <var>x1</var>
+           </app>
+          </merge>
+         </lam>
+         </sem>
+         <binaryrule type="fa" description="Forward Application">
+          <cat>
+            <atomic feature="nom">N</atomic>
+          </cat>
+          <sem>
+          <lam>
+           <var>v0</var>
+           <drs type="normal">
+            <dom>
+            </dom>
+            <con>
+             <pred arg="v0" symbol="limited" type="a" sense="0">
+             <indexlist>
+             <index pos="14">i1014</index>
+             </indexlist>
+             </pred>
+             <pred arg="v0" symbol="fishing" type="n" sense="0">
+             <indexlist>
+             <index pos="15">i1015</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+          </lam>
+          </sem>
+          <lex id="1014">
+           <token>limited</token>
+           <tag type="lemma">limited</tag>
+           <tag type="pos">JJ</tag>
+           <tag type="ne">O</tag>
+           <cat>
+            <forward>
+              <atomic feature="nom">N</atomic>
+              <atomic feature="nom">N</atomic>
+            </forward>
+           </cat>
+           <sem>
+            <lam>
+             <var>v0</var>
+             <lam>
+              <var>v1</var>
+              <merge>
+               <drs type="normal">
+                <dom>
+                </dom>
+                <con>
+                 <pred arg="v1" symbol="limited" type="a" sense="0">
+                 <indexlist>
+                 <index pos="14">i1014</index>
+                 </indexlist>
+                 </pred>
+                </con>
+               </drs>
+               <app>
+                <var>v0</var>
+                <var>v1</var>
+               </app>
+              </merge>
+             </lam>
+            </lam>
+           </sem>
+          </lex>
+          <lex id="1015">
+           <token>fishing</token>
+           <tag type="lemma">fishing</tag>
+           <tag type="pos">NN</tag>
+           <tag type="ne">O</tag>
+           <cat>
+             <atomic feature="nom">N</atomic>
+           </cat>
+           <sem>
+            <lam>
+             <var>v0</var>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <pred arg="v0" symbol="fishing" type="n" sense="0">
+               <indexlist>
+               <index pos="15">i1015</index>
+               </indexlist>
+               </pred>
+              </con>
+             </drs>
+            </lam>
+           </sem>
+          </lex>
+          <tokens>
+           <token>limited</token>
+           <token>fishing</token>
+          </tokens>
+         </binaryrule>
+         <tokens>
+         <token>limited</token>
+         <token>fishing</token>
+         </tokens>
+        </unaryrule>
+        <tokens>
+         <token>allows</token>
+         <token>limited</token>
+         <token>fishing</token>
+        </tokens>
+       </binaryrule>
+       <binaryrule type="fa" description="Forward Application">
+        <cat>
+         <backward>
+          <backward>
+            <atomic feature="dcl">S</atomic>
+            <atomic>NP</atomic>
+          </backward>
+          <backward>
+            <atomic feature="dcl">S</atomic>
+            <atomic>NP</atomic>
+          </backward>
+         </backward>
+        </cat>
+        <sem>
+        <lam>
+         <var>v0</var>
+         <lam>
+          <var>v1</var>
+          <lam>
+           <var>v2</var>
+           <app>
+            <app>
+             <var>v0</var>
+             <var>v1</var>
+            </app>
+            <lam>
+             <var>v3</var>
+             <alfa type="def">
+              <drs type="normal">
+               <dom>
+                <dr name="x4">
+                <indexlist>
+                <index pos="17">i1017</index>
+                </indexlist>
+                </dr>
+                <dr name="e5">
+                <indexlist>
+                </indexlist>
+                </dr>
+               </dom>
+               <con>
+                <pred arg="e5" symbol="surround" type="v" sense="0">
+                <indexlist>
+                <index pos="18">i1018</index>
+                </indexlist>
+                </pred>
+                <rel arg1="e5" arg2="x4" symbol="agent" sense="0">
+                <indexlist>
+                </indexlist>
+                </rel>
+                <pred arg="x4" symbol="water" type="n" sense="0">
+                <indexlist>
+                <index pos="19">i1019</index>
+                </indexlist>
+                </pred>
+               </con>
+              </drs>
+              <merge>
+               <drs type="normal">
+                <dom>
+                </dom>
+                <con>
+                 <rel arg1="v3" arg2="x4" symbol="in" sense="0">
+                 <indexlist>
+                 <index pos="16">i1016</index>
+                 </indexlist>
+                 </rel>
+                </con>
+               </drs>
+               <app>
+                <var>v2</var>
+                <var>v3</var>
+               </app>
+              </merge>
+             </alfa>
+            </lam>
+           </app>
+          </lam>
+         </lam>
+        </lam>
+        </sem>
+        <lex id="1016">
+         <token>in</token>
+         <tag type="lemma">in</tag>
+         <tag type="pos">IN</tag>
+         <tag type="ne">O</tag>
+         <cat>
+          <forward>
+           <backward>
+            <backward>
+              <atomic feature="dcl">S</atomic>
+              <atomic>NP</atomic>
+            </backward>
+            <backward>
+              <atomic feature="dcl">S</atomic>
+              <atomic>NP</atomic>
+            </backward>
+           </backward>
+            <atomic>NP</atomic>
+          </forward>
+         </cat>
+         <sem>
+          <lam>
+           <var>v0</var>
+           <lam>
+            <var>v1</var>
+            <lam>
+             <var>v2</var>
+             <lam>
+              <var>v3</var>
+              <app>
+               <app>
+                <var>v1</var>
+                <var>v2</var>
+               </app>
+               <lam>
+                <var>v4</var>
+                <app>
+                 <var>v0</var>
+                 <lam>
+                  <var>v5</var>
+                  <merge>
+                   <drs type="normal">
+                    <dom>
+                    </dom>
+                    <con>
+                     <rel arg1="v4" arg2="v5" symbol="in" sense="0">
+                     <indexlist>
+                     <index pos="16">i1016</index>
+                     </indexlist>
+                     </rel>
+                    </con>
+                   </drs>
+                   <app>
+                    <var>v3</var>
+                    <var>v4</var>
+                   </app>
+                  </merge>
+                 </lam>
+                </app>
+               </lam>
+              </app>
+             </lam>
+            </lam>
+           </lam>
+          </lam>
+         </sem>
+        </lex>
+        <binaryrule type="fa" description="Forward Application">
+         <cat>
+           <atomic>NP</atomic>
+         </cat>
+         <sem>
+         <lam>
+          <var>v0</var>
+          <alfa type="def">
+           <drs type="normal">
+            <dom>
+             <dr name="x1">
+             <indexlist>
+             <index pos="17">i1017</index>
+             </indexlist>
+             </dr>
+             <dr name="e2">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="e2" symbol="surround" type="v" sense="0">
+             <indexlist>
+             <index pos="18">i1018</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e2" arg2="x1" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <pred arg="x1" symbol="water" type="n" sense="0">
+             <indexlist>
+             <index pos="19">i1019</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+           <app>
+            <var>v0</var>
+            <var>x1</var>
+           </app>
+          </alfa>
+         </lam>
+         </sem>
+         <lex id="1017">
+          <token>the</token>
+          <tag type="lemma">the</tag>
+          <tag type="pos">DT</tag>
+          <tag type="ne">O</tag>
+          <cat>
+           <forward>
+             <atomic>NP</atomic>
+             <atomic feature="nom">N</atomic>
+           </forward>
+          </cat>
+          <sem>
+           <lam>
+            <var>v0</var>
+            <lam>
+             <var>v1</var>
+             <alfa type="def">
+              <merge>
+               <drs type="normal">
+                <dom>
+                 <dr name="x2">
+                 <indexlist>
+                 <index pos="17">i1017</index>
+                 </indexlist>
+                 </dr>
+                </dom>
+                <con>
+                </con>
+               </drs>
+               <app>
+                <var>v0</var>
+                <var>x2</var>
+               </app>
+              </merge>
+              <app>
+               <var>v1</var>
+               <var>x2</var>
+              </app>
+             </alfa>
+            </lam>
+           </lam>
+          </sem>
+         </lex>
+         <binaryrule type="fa" description="Forward Application">
+          <cat>
+            <atomic feature="nom">N</atomic>
+          </cat>
+          <sem>
+          <lam>
+           <var>v0</var>
+           <drs type="normal">
+            <dom>
+             <dr name="e1">
+             <indexlist>
+             </indexlist>
+             </dr>
+            </dom>
+            <con>
+             <pred arg="e1" symbol="surround" type="v" sense="0">
+             <indexlist>
+             <index pos="18">i1018</index>
+             </indexlist>
+             </pred>
+             <rel arg1="e1" arg2="v0" symbol="agent" sense="0">
+             <indexlist>
+             </indexlist>
+             </rel>
+             <pred arg="v0" symbol="water" type="n" sense="0">
+             <indexlist>
+             <index pos="19">i1019</index>
+             </indexlist>
+             </pred>
+            </con>
+           </drs>
+          </lam>
+          </sem>
+          <lex id="1018">
+           <token>surrounding</token>
+           <tag type="lemma">surround</tag>
+           <tag type="pos">VBG</tag>
+           <tag type="ne">O</tag>
+           <cat>
+            <forward>
+              <atomic feature="nom">N</atomic>
+              <atomic feature="nom">N</atomic>
+            </forward>
+           </cat>
+           <sem>
+            <lam>
+             <var>v0</var>
+             <lam>
+              <var>v1</var>
+              <merge>
+               <drs type="normal">
+                <dom>
+                 <dr name="e2">
+                 <indexlist>
+                 </indexlist>
+                 </dr>
+                </dom>
+                <con>
+                 <pred arg="e2" symbol="surround" type="v" sense="0">
+                 <indexlist>
+                 <index pos="18">i1018</index>
+                 </indexlist>
+                 </pred>
+                 <rel arg1="e2" arg2="v1" symbol="agent" sense="0">
+                 <indexlist>
+                 </indexlist>
+                 </rel>
+                </con>
+               </drs>
+               <app>
+                <var>v0</var>
+                <var>v1</var>
+               </app>
+              </merge>
+             </lam>
+            </lam>
+           </sem>
+          </lex>
+          <lex id="1019">
+           <token>waters</token>
+           <tag type="lemma">water</tag>
+           <tag type="pos">NNS</tag>
+           <tag type="ne">O</tag>
+           <cat>
+             <atomic feature="nom">N</atomic>
+           </cat>
+           <sem>
+            <lam>
+             <var>v0</var>
+             <drs type="normal">
+              <dom>
+              </dom>
+              <con>
+               <pred arg="v0" symbol="water" type="n" sense="0">
+               <indexlist>
+               <index pos="19">i1019</index>
+               </indexlist>
+               </pred>
+              </con>
+             </drs>
+            </lam>
+           </sem>
+          </lex>
+          <tokens>
+           <token>surrounding</token>
+           <token>waters</token>
+          </tokens>
+         </binaryrule>
+         <tokens>
+          <token>the</token>
+          <token>surrounding</token>
+          <token>waters</token>
+         </tokens>
+        </binaryrule>
+        <tokens>
+         <token>in</token>
+         <token>the</token>
+         <token>surrounding</token>
+         <token>waters</token>
+        </tokens>
+       </binaryrule>
+       <tokens>
+        <token>allows</token>
+        <token>limited</token>
+        <token>fishing</token>
+        <token>in</token>
+        <token>the</token>
+        <token>surrounding</token>
+        <token>waters</token>
+       </tokens>
+      </binaryrule>
+      <tokens>
+       <token>the</token>
+       <token>Australian</token>
+       <token>Government</token>
+       <token>allows</token>
+       <token>limited</token>
+       <token>fishing</token>
+       <token>in</token>
+       <token>the</token>
+       <token>surrounding</token>
+       <token>waters</token>
+      </tokens>
+     </binaryrule>
+     <tokens>
+      <token>but</token>
+      <token>the</token>
+      <token>Australian</token>
+      <token>Government</token>
+      <token>allows</token>
+      <token>limited</token>
+      <token>fishing</token>
+      <token>in</token>
+      <token>the</token>
+      <token>surrounding</token>
+      <token>waters</token>
+     </tokens>
+    </binaryrule>
+    <tokens>
+     <token>,</token>
+     <token>but</token>
+     <token>the</token>
+     <token>Australian</token>
+     <token>Government</token>
+     <token>allows</token>
+     <token>limited</token>
+     <token>fishing</token>
+     <token>in</token>
+     <token>the</token>
+     <token>surrounding</token>
+     <token>waters</token>
+    </tokens>
+   </binaryrule>
+   <tokens>
+    <token>The</token>
+    <token>islands</token>
+    <token>have</token>
+    <token>no</token>
+    <token>indigenous</token>
+    <token>economic</token>
+    <token>activity</token>
+    <token>,</token>
+    <token>but</token>
+    <token>the</token>
+    <token>Australian</token>
+    <token>Government</token>
+    <token>allows</token>
+    <token>limited</token>
+    <token>fishing</token>
+    <token>in</token>
+    <token>the</token>
+    <token>surrounding</token>
+    <token>waters</token>
+   </tokens>
+  </binaryrule>
+  <lex id="1020">
+   <token>.</token>
+   <tag type="lemma">.</tag>
+   <tag type="pos">.</tag>
+   <tag type="ne">O</tag>
+   <cat>
+    <backward>
+      <atomic feature="dcl">S</atomic>
+      <atomic feature="dcl">S</atomic>
+    </backward>
+   </cat>
+   <sem>
+    <lam>
+     <var>v0</var>
+     <var>v0</var>
+    </lam>
+   </sem>
+  </lex>
+  <tokens>
+   <token>The</token>
+   <token>islands</token>
+   <token>have</token>
+   <token>no</token>
+   <token>indigenous</token>
+   <token>economic</token>
+   <token>activity</token>
+   <token>,</token>
+   <token>but</token>
+   <token>the</token>
+   <token>Australian</token>
+   <token>Government</token>
+   <token>allows</token>
+   <token>limited</token>
+   <token>fishing</token>
+   <token>in</token>
+   <token>the</token>
+   <token>surrounding</token>
+   <token>waters</token>
+   <token>.</token>
+  </tokens>
+ </binaryrule>
+</der></xdrs-output>
+

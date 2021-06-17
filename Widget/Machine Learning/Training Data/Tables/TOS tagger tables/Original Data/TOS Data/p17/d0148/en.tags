@@ -1,0 +1,107 @@
+Organizers	NNS	N[nom]	organizer	O
+of	IN	NP\NP/NP	of	O
+the	DT	NP/N[nom]	the	O
+vote	NN	N[nom]	vote	O
+by	IN	NP\NP/NP	by	O
+Iraqi	NNP	N[nom]/N[nom]	iraqus	O
+expatriates	NNS	N[nom]	expatriate	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+some	DT	NP/N[nom]	some	O
+two-thirds	NNS	N[nom]	two-third	O
+of	IN	NP\NP/NP	of	O
+eligable	JJ	N[nom]/N[nom]	eligable	O
+Iraqis	NNS	N[nom]	iraqi	O
+living	VBG	S[ng]\NP	live	O
+abroad	RB	S[ng]\NP\S[ng]\NP	abroad	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+participated	VBN	S[pt]\NP	participate	O
+in	IN	S[pt]\NP\S[pt]\NP/NP	in	O
+the	DT	NP/N[nom]	the	O
+historic	JJ	N[nom]/N[nom]	historic	O
+election	NN	N[nom]	election	O
+so	RB	S[pt]\NP\S[pt]\NP/S[pt]\NP\S[pt]\NP	so	O
+far	RB	S[pt]\NP\S[pt]\NP	far	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nam]	the	O
+International	NNP	N[nam]/N[nam]	international	I-ORG
+Organization	NNP	N[nam]	organization	I-ORG
+for	IN	NP\NP/NP	for	I-ORG
+Migration	NNP	N[nam]	migration	I-ORG
+said	VBD	S[dcl]\NP/S[dcl]	say	O
+Sunday	NNP	N[nam]/N[nam]	sunday	I-DAT
+more	JJR	S[adj]\NP	more	I-DAT
+than	IN	N[nam]/N[nam]/N[nam]/N[nam]\S[adj]\NP	than	I-DAT
+186,000	CD	N[nam]/N[nam]	186,000	I-DAT
+Iraqis	NNPS	N[nam]	iraqi	I-DAT
+voted	VBD	S[dcl]\NP	vote	I-DAT
+Friday	NNP	S[dcl]\NP\S[dcl]\NP	friday	I-DAT
+and	CC	CONJ	and	I-DAT
+Saturday	NNP	S[dcl]\NP\S[dcl]\NP	saturday	I-DAT
+in	IN	S[dcl]\NP\S[dcl]\NP/NP	in	O
+the	DT	NP/N[nam]	the	O
+Middle	NNP	N[nam]/N[nam]	middle	I-LOC
+East	NNP	N[nam]	east	I-LOC
+,	,	CONJ[app]	,	O
+North	NNP	N[nam]/N[nam]	north	I-LOC
+America	NNP	N[nam]	america	I-LOC
+,	,	CONJ[app]	,	O
+Australia	NNP	N[nam]	australium	I-LOC
+and	CC	CONJ	and	O
+Western	NNP	N[nam]/N[nam]	western	I-LOC
+Europe	NNP	N[nam]	europe	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT		the	O
+three-day	JJ		three-day	I-DAT
+process	NN		process	O
+runs	VBZ		run	O
+until	IN		until	O
+the	DT		the	I-DAT
+end	NN		end	I-DAT
+of	IN		of	I-DAT
+Sunday	NNP		sunday	I-DAT
+across	IN		across	O
+36	CD		36	O
+cities	NNS		city	O
+in	IN		in	O
+14	CD		14	O
+nations	NNS		nation	O
+,	,		,	O
+including	VBG		include	O
+Australia	NNP		australium	I-LOC
+,	,		,	O
+Britain	NNP		britain	I-LOC
+,	,		,	O
+Canada	NNP		canada	I-LOC
+,	,		,	O
+Denmark	NNP		denmark	I-LOC
+,	,		,	O
+France	NNP		france	I-LOC
+,	,		,	O
+Germany	NNP		germany	I-LOC
+,	,		,	O
+Iran	NNP		iran	I-LOC
+,	,		,	O
+Jordan	NNP		jordan	I-PER
+,	,		,	O
+the	DT		the	O
+Netherlands	NNP		netherland	I-LOC
+,	,		,	O
+Sweden	NNP		sweden	I-LOC
+,	,		,	O
+Syria	NNP		syrium	I-LOC
+,	,		,	O
+Turkey	NNP		turkey	I-LOC
+,	,		,	O
+United	NNP		united	I-ORG
+Arab	NNP		arab	I-ORG
+Emirates	NNPS		emirate	I-ORG
+and	CC		and	O
+the	DT		the	O
+United	NNP		united	I-LOC
+States	NNPS		state	I-LOC
+.	.		.	O
+
+
+

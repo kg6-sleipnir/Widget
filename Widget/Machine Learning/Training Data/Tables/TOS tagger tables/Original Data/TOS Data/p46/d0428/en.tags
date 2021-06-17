@@ -1,0 +1,76 @@
+Seismologists	NNS	N[nom]	seismologist	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+7.1	CD	N[nom]/N[nom]	7.1	O
+magnitude	NN	N[nom]/N[nom]	magnitude	O
+earthquake	NN	N[nom]	earthquake	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+struck	VBN	S[pt]\NP/NP	strike	O
+about	IN	N[nom]/N[nom]/N[nom]/N[nom]	about	O
+100	CD	N[nom]/N[nom]	100	O
+kilometers	NNS	N[nom]	kilometer	O
+south	RB	S[pt]\NP\S[pt]\NP/PP	south	O
+of	IN	PP/NP	of	O
+the	DT	NP/N[nom]	the	O
+coast	NN	N[nom]	coast	O
+of	IN	NP\NP/NP	of	O
+Taiwan	NNP	N[nam]	taiwan	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+Japanese	JJ	N[nom]/N[nom]	japanese	O
+seismologists	NNS	N[nom]	seismologist	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+issued	VBN	S[pt]\NP/NP	issue	O
+a	DT	NP/N[nom]	a	O
+tsunami	JJ	N[nom]/N[nom]	tsunami	O
+warning	NN	N[nom]	warning	O
+for	IN	NP\NP/NP	for	O
+the	DT	NP/N[nom]	the	O
+region	NN	N[nom]	region	O
+,	,	S[pt]\NP\S[pt]\NP	,	O
+saying	VBG	S[ng]\NP/S[dcl]	say	O
+a	DT	NP/N[nom]	a	O
+one-meter-tall	JJ	N[nom]/N[nom]	one-meter-tall	O
+tsunami	NN	N[nom]	tsunami	O
+is	VBZ	S[dcl]\NP/S[ng]\NP	be	O
+now	RB	S[dcl]\NP\S[dcl]\NP	now	O
+heading	VBG	S[ng]\NP	head	O
+for	IN	S[ng]\NP\S[ng]\NP/NP	for	O
+the	DT	NP/N[nam]	the	O
+Philippines	NNPS	N[nam]	philippine	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+Taiwanese	JJ	N[nom]/N[nom]	taiwanese	O
+scientists	NNS	N[nom]	scientist	O
+say	VBP	S[dcl]\NP/S[dcl]	say	O
+the	DT	NP/N[nom]	the	O
+earthquake	NN	N[nom]	earthquake	O
+was	VBD	S[dcl]\NP/S[pss]\NP	be	O
+followed	VBN	S[pss]\NP	follow	O
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+a	DT	NP/N[nom]	a	O
+magnitude	NN	N[nom]/N[nom]	magnitude	O
+6.4	CD	N[nom]/N[nom]	6.4	O
+aftershock	NN	N[nom]	aftershock	O
+that	WDT	NP\NP/S[dcl]\NP	that	O
+struck	VBD	S[dcl]\NP	strike	O
+off	IN	S[dcl]\NP\S[dcl]\NP/PP	off	O
+of	IN	PP/NP	of	O
+southwestern	JJ	N[nam]/N[nam]	southwestern	O
+Taiwan	NNP	N[nam]	taiwan	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+There	EX	NP	there	O
+have	VBP	S[dcl]\NP/S[pt]\NP	have	O
+been	VBN	S[pt]\NP/NP	be	O
+no	DT	NP/N[nom]	no	O
+immediate	JJ	N[nom]/N[nom]	immediate	O
+reports	NNS	N[nom]	report	O
+of	IN	NP\NP/NP	of	O
+damage	NN	N[nom]	damage	O
+or	CC	CONJ	or	O
+casualties	NNS	N[nom]	casualty	O
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

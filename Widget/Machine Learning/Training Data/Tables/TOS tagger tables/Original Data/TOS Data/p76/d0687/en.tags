@@ -1,0 +1,43 @@
+Economic	JJ	N[nom]/N[nom]	economic	O
+activity	NN	N[nom]	activity	O
+is	VBZ	S[dcl]\NP/S[pss]\NP	be	O
+limited	VBN	S[pss]\NP/PP	limit	O
+to	TO	PP/S[ng]\NP	to	O
+servicing	VBG	S[ng]\NP/NP	service	O
+meteorological	JJ	N[nom]/N[nom]	meteorological	O
+and	CC	CONJ	and	O
+geophysical	JJ	N[nom]/N[nom]	geophysical	O
+research	NN	N[nom]/N[nom]	research	O
+stations	NNS	N[nom]	station	O
+,	,	CONJ[app]	,	O
+military	JJ	N[nom]/N[nom]	military	O
+bases	NNS	N[nom]	basis	O
+,	,	NP\NP	,	O
+and	CC	CONJ	and	O
+French	NNP	N[nom]/N[nom]	french	I-LOC
+and	CC	CONJ	and	O
+other	JJ	N[nom]/N[nom]	other	O
+fishing	NN	N[nom]/N[nom]	fishing	O
+fleets	NNS	N[nom]	fleet	O
+.	.	S[dcl]\S[dcl]	.	O
+
+The	DT	NP/N[nom]	the	O
+fish	NN	N[nom]/N[nom]	fish	O
+catches	NNS	N[nom]	catch	O
+landed	VBN	S[pss]\NP	land	O
+on	IN	S[pss]\NP\S[pss]\NP/NP	on	O
+Iles	NNP	N[nam]/N[nam]	ile	I-LOC
+Kerguelen	NNP	N[nam]	kerguelen	I-LOC
+by	IN	S[pss]\NP\S[pss]\NP/NP	by	O
+foreign	JJ	N[nom]/N[nom]	foreign	O
+ships	NNS	N[nom]	ship	O
+are	VBP	S[dcl]\NP/S[pss]\NP	be	O
+exported	VBN	S[pss]\NP	export	O
+to	TO	S[pss]\NP\S[pss]\NP/NP	to	O
+France	NNP	N[nam]	france	I-LOC
+and	CC	CONJ	and	O
+Reunion	NNP	N[nam]	reunion	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+
+

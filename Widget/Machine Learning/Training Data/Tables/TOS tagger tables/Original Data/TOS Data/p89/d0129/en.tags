@@ -1,0 +1,73 @@
+The	DT	NP/N[nom]	the	O
+beginning	NN	N[nom]	beginning	O
+of	IN	NP\NP/NP	of	O
+traditional	JJ	N[nom]/N[nom]	traditional	O
+Chinese	JJ	N[nom]/N[nom]	chinese	O
+medicine	NN	N[nom]	medicine	O
+dates	VBZ	S[dcl]\NP/NP	date	O
+back	RB	S[adj]\NP/S[adj]\NP	back	O
+more	JJR	S[adj]\NP	more	O
+than	IN	N[nom]/N[nom]/N[nom]/N[nom]\S[adj]\NP	than	O
+2,000	CD	N[nom]/N[nom]	2,000	O
+years	NNS	N[nom]	year	O
+.	.	S[dcl]\S[dcl]	.	O
+
+But	CC	S[dcl]/S[dcl]	but	O
+it	PRP	NP	it	O
+was	VBD	S[dcl]\NP/S[em]/PP	be	O
+not	RB	S[dcl]\NP\S[dcl]\NP	not	O
+until	IN	PP/NP	until	O
+the	DT	NP/N[nam]	the	I-DAT
+17th	JJ	N[nam]/N[nam]	17th	I-DAT
+century	NN	N[nam]/N[nam]	century	I-DAT
+A.D.	NNP	N[nam]	a.d.	I-DAT
+that	IN	S[em]/S[dcl]	that	O
+westerners	NNS	N[nom]	westerner	O
+first	RB	S[dcl]\NP/S[dcl]\NP	first	O
+heard	VBD	S[dcl]\NP/PP	hear	O
+about	IN	PP/NP	about	O
+those	DT	NP/N[nom]	those	O
+ancient	JJ	N[nom]/N[nom]	ancient	O
+treatments	NNS	N[nom]	treatment	O
+from	IN	NP\NP/NP	from	O
+Jesuit	NNP	N[nom]/N[nom]	jesuit	I-ORG
+missionaries	NNS	N[nom]	missionary	O
+who	WP	NP\NP/S[dcl]\NP	who	O
+traveled	VBD	S[dcl]\NP	travel	O
+to	TO	S[dcl]\NP\S[dcl]\NP/NP	to	O
+Asia	NNP	N[nam]	asia	I-LOC
+.	.	S[dcl]\S[dcl]	.	O
+
+Now	RB	S[dcl]/S[dcl]	now	O
+,	,	S[dcl]/S[dcl]	,	O
+an	DT	NP/N[nom]	an	O
+American	JJ	N[nom]/N[nom]	american	O
+doctor	NN	N[nom]	doctor	O
+has	VBZ	S[dcl]\NP/S[pt]\NP	have	O
+traveled	VBN	S[pt]\NP/PP	travel	O
+to	TO	PP/NP	to	O
+China	NNP	N[nam]	china	I-LOC
+to	TO	S[to]\NP/S[b]\NP	to	O
+study	VB	S[b]\NP/NP	study	O
+the	DT	NP/N[nom]	the	O
+effectiveness	NN	N[nom]	effectiveness	O
+of	IN	NP\NP/NP	of	O
+an	DT	NP/N[nom]	an	O
+unusual	JJ	N[nom]/N[nom]	unusual	O
+source	NN	N[nom]	source	O
+of	IN	NP\NP/NP	of	O
+medicine	NN	N[nom]	medicine	O
+-	IN	NP\NP/NP	-	O
+toad	NN	N[nom]/N[nom]	toad	O
+venom	NN	N[nom]	venom	O
+.	.	S[dcl]\S[dcl]	.	O
+
+VOA	NNP	N[nam]	voa	I-ORG
+'s	POS	NP/N[nam]\NP	's	O
+Melinda	NNP	N[nam]/N[nam]	melinda	I-PER
+Smith	NNP	N[nam]	smith	I-PER
+reports	VBZ	S[dcl]\S[dcl]\NP	report	O
+.	.	S[dcl]\S[dcl]\S[dcl]\S[dcl]	.	O
+
+
+

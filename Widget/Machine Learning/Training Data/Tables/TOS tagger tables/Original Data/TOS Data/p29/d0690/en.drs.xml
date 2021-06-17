@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/data/boxer/xdrs.dtd">
+<xdrs-output version="boxer v2109 (unix build on 16 januari 2012, 15:20:04)">
+<!-- The islands have no indigenous economic activity , but the Australian Government allows limited fishing in the surrounding waters . --> 
+
+<xdrs xml:id="1">
+ <words>
+  <word xml:id="i1001">The</word>
+  <word xml:id="i1002">islands</word>
+  <word xml:id="i1003">have</word>
+  <word xml:id="i1004">no</word>
+  <word xml:id="i1005">indigenous</word>
+  <word xml:id="i1006">economic</word>
+  <word xml:id="i1007">activity</word>
+  <word xml:id="i1008">,</word>
+  <word xml:id="i1009">but</word>
+  <word xml:id="i1010">the</word>
+  <word xml:id="i1011">Australian</word>
+  <word xml:id="i1012">Government</word>
+  <word xml:id="i1013">allows</word>
+  <word xml:id="i1014">limited</word>
+  <word xml:id="i1015">fishing</word>
+  <word xml:id="i1016">in</word>
+  <word xml:id="i1017">the</word>
+  <word xml:id="i1018">surrounding</word>
+  <word xml:id="i1019">waters</word>
+  <word xml:id="i1020">.</word>
+ </words>
+ <postags>
+  <tag type="pos" index="i1001">DT</tag>
+  <tag type="pos" index="i1002">NNS</tag>
+  <tag type="pos" index="i1003">VBP</tag>
+  <tag type="pos" index="i1004">DT</tag>
+  <tag type="pos" index="i1005">JJ</tag>
+  <tag type="pos" index="i1006">JJ</tag>
+  <tag type="pos" index="i1007">NN</tag>
+  <tag type="pos" index="i1008">,</tag>
+  <tag type="pos" index="i1009">CC</tag>
+  <tag type="pos" index="i1010">DT</tag>
+  <tag type="pos" index="i1011">JJ</tag>
+  <tag type="pos" index="i1012">NN</tag>
+  <tag type="pos" index="i1013">VBZ</tag>
+  <tag type="pos" index="i1014">JJ</tag>
+  <tag type="pos" index="i1015">NN</tag>
+  <tag type="pos" index="i1016">IN</tag>
+  <tag type="pos" index="i1017">DT</tag>
+  <tag type="pos" index="i1018">VBG</tag>
+  <tag type="pos" index="i1019">NNS</tag>
+  <tag type="pos" index="i1020">.</tag>
+ </postags>
+ <netags>
+  <tag type="ne" index="i1011">I-ORG</tag>
+  <tag type="ne" index="i1012">I-ORG</tag>
+ </netags>
+ <sdrs>
+  <constituents>
+  <sub>
+  <constituent label="k0">
+  <drs type="sentence">
+   <tokens>
+    <token>The</token>
+    <token>islands</token>
+    <token>the</token>
+    <token>Australian</token>
+    <token>Government</token>
+    <token>the</token>
+    <token>surrounding</token>
+    <token>waters</token>
+   </tokens>
+   <dom>
+    <dr name="t1">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="x2">
+    <indexlist>
+    <index pos="1">i1001</index>
+    </indexlist>
+    </dr>
+    <dr name="x3">
+    <indexlist>
+    <index pos="10">i1010</index>
+    </indexlist>
+    </dr>
+    <dr name="x4">
+    <indexlist>
+    <index pos="17">i1017</index>
+    </indexlist>
+    </dr>
+    <dr name="e5">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <pred arg="t1" symbol="now" type="a" sense="1">
+    <indexlist>
+    </indexlist>
+    </pred>
+    <pred arg="x2" symbol="island" type="n" sense="0">
+    <indexlist>
+    <index pos="2">i1002</index>
+    </indexlist>
+    </pred>
+    <pred arg="x3" symbol="government" type="n" sense="0">
+    <indexlist>
+    <index pos="12">i1012</index>
+    </indexlist>
+    </pred>
+    <pred arg="x3" symbol="australian" type="a" sense="0">
+    <indexlist>
+    <index pos="11">i1011</index>
+    </indexlist>
+    </pred>
+    <pred arg="e5" symbol="surround" type="v" sense="9080000">
+    <indexlist>
+    <index pos="18">i1018</index>
+    </indexlist>
+    </pred>
+    <pred arg="x4" symbol="water" type="n" sense="0">
+    <indexlist>
+    <index pos="19">i1019</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e5" arg2="x4" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+   </con>
+  </drs>
+  </constituent>
+  <constituent label="k6">
+  <drs type="sentence">
+   <tokens>
+    <token>have</token>
+    <token>no</token>
+    <token>indigenous</token>
+    <token>economic</token>
+    <token>activity</token>
+    <token>allows</token>
+    <token>limited</token>
+    <token>fishing</token>
+    <token>in</token>
+   </tokens>
+   <dom>
+    <dr name="x7">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="e8">
+    <indexlist>
+    </indexlist>
+    </dr>
+    <dr name="t9">
+    <indexlist>
+    </indexlist>
+    </dr>
+   </dom>
+   <con>
+    <imp>
+    <indexlist>
+    </indexlist>
+     <drs type="normal">
+      <dom>
+       <dr name="x10">
+       <indexlist>
+       <index pos="4">i1004</index>
+       </indexlist>
+       </dr>
+      </dom>
+      <con>
+       <pred arg="x10" symbol="activity" type="n" sense="0">
+       <indexlist>
+       <index pos="7">i1007</index>
+       </indexlist>
+       </pred>
+       <pred arg="x10" symbol="indigenous" type="a" sense="0">
+       <indexlist>
+       <index pos="5">i1005</index>
+       </indexlist>
+       </pred>
+       <pred arg="x10" symbol="economic" type="a" sense="0">
+       <indexlist>
+       <index pos="6">i1006</index>
+       </indexlist>
+       </pred>
+      </con>
+     </drs>
+     <drs type="normal">
+      <dom>
+      </dom>
+      <con>
+       <not>
+       <indexlist>
+       </indexlist>
+        <drs type="normal">
+         <dom>
+          <dr name="e11">
+          <indexlist>
+          </indexlist>
+          </dr>
+          <dr name="t12">
+          <indexlist>
+          </indexlist>
+          </dr>
+         </dom>
+         <con>
+          <pred arg="e11" symbol="have" type="v" sense="39040100">
+          <indexlist>
+          <index pos="3">i1003</index>
+          </indexlist>
+          </pred>
+          <rel arg1="e11" arg2="x2" symbol="Agent" sense="0">
+          <indexlist>
+          </indexlist>
+          </rel>
+          <rel arg1="e11" arg2="x10" symbol="Patient" sense="0">
+          <indexlist>
+          </indexlist>
+          </rel>
+          <rel arg1="e11" arg2="t12" symbol="temp_included" sense="1">
+          <indexlist>
+          </indexlist>
+          </rel>
+          <eq arg1="t12" arg2="t1">
+          <indexlist>
+          </indexlist>
+          </eq>
+         </con>
+        </drs>
+       </not>
+      </con>
+     </drs>
+    </imp>
+    <pred arg="e8" symbol="allow" type="v" sense="65000000">
+    <indexlist>
+    <index pos="13">i1013</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="fishing" type="n" sense="0">
+    <indexlist>
+    <index pos="15">i1015</index>
+    </indexlist>
+    </pred>
+    <pred arg="x7" symbol="limited" type="a" sense="0">
+    <indexlist>
+    <index pos="14">i1014</index>
+    </indexlist>
+    </pred>
+    <rel arg1="e8" arg2="x3" symbol="Agent" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e8" arg2="x7" symbol="Theme" sense="0">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <rel arg1="e8" arg2="t9" symbol="temp_included" sense="1">
+    <indexlist>
+    </indexlist>
+    </rel>
+    <eq arg1="t9" arg2="t1">
+    <indexlist>
+    </indexlist>
+    </eq>
+    <rel arg1="e8" arg2="x4" symbol="Location" sense="0">
+    <indexlist>
+    <index pos="16">i1016</index>
+    </indexlist>
+    </rel>
+   </con>
+  </drs>
+  </constituent>
+  </sub>
+  </constituents>
+  <relations>
+  <drel arg1="k0" arg2="k6" sym="presupposition">
+  <indexlist>
+  </indexlist>
+  </drel>
+  </relations>
+ </sdrs>
+</xdrs>
+
+</xdrs-output>
