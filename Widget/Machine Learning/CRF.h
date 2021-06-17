@@ -3,7 +3,9 @@
 #include <fstream>
 #include <iostream>
 #include <map>
+#include <random>
 #include <string>
+#include <time.h>
 #include <vector>
 
 #include "../Input Processing/Tokenizer.h"
@@ -27,9 +29,17 @@ namespace MLearn
 		std::vector<std::string> features;
 		std::vector<std::string> tags;
 
-
+		//map of feature functions with their weights
+		//contains map with key value <TAG, FEATURE> with a weight as a float
+		//to get the probability of a tag
+		//iterate over each feature associated with the tag
+		//and add up the weights for those features
+		std::map<std::pair<std::string, std::string>, float> featureFunctionWeights;
 		
-		std::vector<float> weights;
+		//vector of matrices containing probabilities of current and previous tag
+		//horizontal axis is current tag
+		//vertical axis is previous tag
+		std::vector<std::vector<std::vector<float>>> probabilityMatrices;
 
 
 		void addFeature(std::string feature);
@@ -40,11 +50,11 @@ namespace MLearn
 
 		void getTagsFromFile(std::string inputFile);
 
-		void createWeights();
+		void createFeatureFunctionWeights();
 
-		std::vector<std::vector<std::vector<float>>> createProbabilityMatrices();
+		void createProbabilityMatrix(std::vector<std::pair<std::string, std::string>> &featureFunctions, int position);
 
-		std::vector<std::pair<std::string, std::string>> predictTags(std::vector<std::string> &tokens);
+		
 
 		
 

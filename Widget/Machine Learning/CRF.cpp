@@ -115,8 +115,121 @@ void MLearn::CRF::getTagsFromFile(std::string inputFile)
 	file.close();
 }
 
-std::vector<std::vector<std::vector<float>>> MLearn::CRF::createProbabilityMatrices()
+
+
+void MLearn::CRF::createFeatureFunctionWeights()
 {
+	//seed random
+	srand(time(NULL));
 	
+	//iterate over tags and features, adding them to featureFunctions map
+	for (const auto& i : tags)
+	{
+		for (const auto& j : features)
+		{
+			featureFunctionWeights[std::pair(i, j)] = 0.01f;
+		}
+	}
+
+
+	//clear features vector to save memory
+	features.clear();
 }
 
+void MLearn::CRF::createProbabilityMatrix(std::vector<std::pair<std::string, std::string>>& featureFunctions, int position)
+{
+	std::vector<std::vector<float>> matrix;
+
+	if (position != 1)
+	{
+		//get probabilities of previous tags by summing the columns in the previous probability matrix
+		std::vector<float> prevTagProbs = Custom::Matrix::sumColumns<float, Custom::Matrix::Fmatrix>(probabilityMatrices[position - 1]);
+
+
+		for (int i = 0; i < tags.size(); i++)
+		{
+			std::vector<float> temp;
+
+			for (int j = 0; j < tags.size(); j++)
+			{
+				temp.push_back(prevTagProbs[i]);
+			}
+
+			matrix.push_back(temp);
+		}
+	}
+	else
+	{
+		for (int i = 0; i < tags.size(); i++)
+		{
+			std::vector<float> temp;
+
+			for (int j = 0; j < tags.size(); j++)
+			{
+				temp.push_back(0);
+			}
+
+			matrix.push_back(temp);
+		}
+	}
+
+
+	if (position != 1)
+	{
+		//total value for normalizing the probabilities
+		//sum of probabilities of previous tag should always add up to 1
+		//so we start with that and add the new values
+		float totalValue = 1;
+
+
+		//push back weights for feature functions to get probabilities at position 1 since position 0 is always NUL tag
+		for (const auto& i : featureFunctions)
+		{
+			for (int j = 0; j < matrix.size(); j++)
+			{
+				//push back probabilities with previous tag being NUL
+				matrix[j][std::distance(tags.begin(), std::find(tags.begin(), tags.end(), i.first))] += featureFunctionWeights[i];
+				
+				//add to total value
+				totalValue += featureFunctionWeights[i];
+			}
+		}
+
+
+		//normalize probabilities
+		for (auto& i : matrix)
+		{
+			for (auto& j : i)
+			{
+				j /= totalValue;
+			}
+		}
+	}
+	else
+	{
+		//total value for normalizing the probabilities
+		float totalValue = 0;
+
+
+		//push back weights for feature functions to get probabilities at position 1 since position 0 is always NUL tag
+		for (const auto& i : featureFunctions)
+		{
+			//push back probabilities with previous tag being NUL
+			matrix[0][std::distance(tags.begin(), std::find(tags.begin(), tags.end(), i.first))] += featureFunctionWeights[i];
+
+			//add to total value
+			totalValue += featureFunctionWeights[i];
+		}
+
+
+		//normalize the probabilities
+		for (auto& i : matrix[0])
+		{
+			i /= totalValue;
+		}
+	}
+
+
+	//add matrix to probability matrices
+	probabilityMatrices.push_back(matrix);
+}
