@@ -105,7 +105,7 @@ double DecisionTree::entropy(dataTable &T, int varNum)
 		//we can use magical math laws to multiply the numerator of the probability now
 		//and divide by the denominator later to get the correct entropy
 		//since we dont yet know what the final denominator is yet
-		totalEnt += (denominator - temp) * entropy(T, varNum, it->first);
+		totalEnt += ((double)denominator - temp) * entropy(T, varNum, it->first);
 	}
 
 	//magical math laws
