@@ -65,21 +65,21 @@ std::vector<type> tokenize(std::string input)
 		{
 			token.push_back(i);
 		}
-		else if (ispunct(i)) //push back current token to tokens and delete it
+		else if (ispunct(i)) //check if current character is punctuation
 		{
-			if (std::is_same<double, type>::value)
+			if (isalnum(*(&i + 1))) //check if next character is alpha-numeric to see if the punctuation should be included in token
 			{
 				token.push_back(i);
 			}
 			else
 			{
-				if (token != "")
+				if (token != "") //check if token is not empty and append it to tokens
 				{
 					tokens.push_back(token);
 					token.erase();
 				}
 				token.push_back(i);
-				tokens.push_back(token);
+				tokens.push_back(token); //push back the punctuation mark
 				token.erase();
 			}
 		}
