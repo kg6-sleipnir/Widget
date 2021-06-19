@@ -1,5 +1,6 @@
 #pragma once
 
+#include <eh.h>
 #include <fstream>
 #include <iostream>
 #include <map>
@@ -28,8 +29,6 @@ namespace MLearn
 	{
 	public:
 
-		const std::vector<std::string> tags;
-
 		//map of feature functions with their weights
 		//contains map with key value <TAG, FEATURE> with a weight as a float
 		//to get the probability of a tag
@@ -47,9 +46,23 @@ namespace MLearn
 		//if it doesn't exist it will add it to featureFunctionWeights for future reference
 		float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
 
-		void createProbabilityMatrix(std::vector<std::string> &features, int position);
+		void createProbabilityMatrix(std::vector<std::string> &features, const std::vector<std::string>* tags, int position);
 
 		void updateWeights(std::vector<std::pair<std::string, std::string>> tokenAnswers);
 
+	};
+
+
+	//error handling object
+	struct CRF_Error : public std::exception
+	{
+		//create message
+		CRF_Error(char const* const message) : std::exception(message) {}
+
+		//get message
+		virtual char const* what() const noexcept
+		{
+			return std::exception::what();
+		}
 	};
 }

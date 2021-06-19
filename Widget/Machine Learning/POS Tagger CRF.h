@@ -10,7 +10,7 @@ namespace MLearn
 	private:
 
 		//vector of predefined tags for different types of words
-		const std::vector<std::string> tags
+		const std::vector<std::string> tags = 
 		{
 			"NUL",	//Placeholder for attemps to get non existing word
 			"CC",	//Coordinating conjunction
