@@ -18,16 +18,17 @@
 namespace MLearn
 {
 	//creates a learning structure using a conditional random field algorithm
+	//this is the base CRF without a prediction function
+	//to use the CRF create a new class with an appropriate
+	//prediction function for what you are trying to predict
+	//
+	//also create a const "std::vector<std::string> tags" variable with 
+	//tags that you want to make predictions for
 	class CRF
 	{
-#ifndef _DEBUG
-	private:
-#else
 	public:
-#endif
 
-		std::vector<std::string> features;
-		std::vector<std::string> tags;
+		const std::vector<std::string> tags;
 
 		//map of feature functions with their weights
 		//contains map with key value <TAG, FEATURE> with a weight as a float
@@ -42,21 +43,13 @@ namespace MLearn
 		std::vector<std::vector<std::vector<float>>> probabilityMatrices;
 
 
-		void addFeature(std::string feature);
+		//gets the weight of the feature function if it exists
+		//if it doesn't exist it will add it to featureFunctionWeights for future reference
+		float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
 
-		void addTag(std::string tag);
+		void createProbabilityMatrix(std::vector<std::string> &features, int position);
 
-		void getFeaturesFromFile(std::string inputFile);
-
-		void getTagsFromFile(std::string inputFile);
-
-		void createFeatureFunctionWeights();
-
-		void createProbabilityMatrix(std::vector<std::pair<std::string, std::string>> &featureFunctions, int position);
-
-		
-
-		
+		void updateWeights(std::vector<std::pair<std::string, std::string>> tokenAnswers);
 
 	};
 }
