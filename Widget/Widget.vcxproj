@@ -153,6 +153,7 @@
     <ClCompile Include="Machine Learning\Decision Tree.cpp" />
     <ClCompile Include="Machine Learning\Logistic Regression.cpp" />
     <ClCompile Include="Machine Learning\MLearn Testing.cpp" />
+    <ClCompile Include="Machine Learning\POS Tagger CRF.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +165,7 @@
     <ClInclude Include="Machine Learning\Decision Tree.h" />
     <ClInclude Include="Machine Learning\Logistic Regression.h" />
     <ClInclude Include="Machine Learning\MLearn Testing.h" />
+    <ClInclude Include="Machine Learning\POS Tagger CRF.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
