@@ -206,7 +206,7 @@ namespace Custom
 		template<typename T, typename matrixType>
 		std::vector<T> sumColumns(matrixType mat)
 		{
-			std::vector<T> returnVector(matrix[0].size, 0);
+			std::vector<T> returnVector(mat[0].size(), 0);
 
 
 			//check if matrix type is supported
