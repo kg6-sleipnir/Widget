@@ -46,7 +46,12 @@ namespace MLearn
 		//if it doesn't exist it will add it to featureFunctionWeights for future reference
 		float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
 
-		void createProbabilityMatrix(std::vector<std::string> &features, const std::vector<std::string>* tags, int position);
+		//create matrices that determine the probability that an index in a sequence is a tag
+		//use tagOverride to force the tag at a position to be a predetermined tag
+		void createProbabilityMatrix(std::vector<std::string>& features, const std::vector<std::string>* tags, int position, int tagOverride = -1);
+
+		//caclulate forward vector to get probabilities of tags for previous indexes in a sequence
+		std::vector<std::vector<float>> calculateForwardVector(int position);
 
 		void updateWeights(std::vector<std::pair<std::string, std::string>> tokenAnswers);
 
