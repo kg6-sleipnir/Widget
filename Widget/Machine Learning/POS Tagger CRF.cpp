@@ -1,12 +1,12 @@
 #include "POS Tagger CRF.h"
 
-std::vector<std::pair<std::string, std::string>> MLearn::PosTagCRF::makePrediction(std::vector<std::string> tokens)
+void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
 {
 	//vector to hold features of all tokens separately
 	std::vector<std::vector<std::string>> features;
 	
 	//push back a beginning tag for better processing in the CRF
-	features.push_back(std::vector<std::string>({ "BEGIN_TAG_" }));
+	features.push_back(std::vector<std::string>({ "START_TAG_" }));
 
 	//temporary string to hold previous word
 	//starts out with the "BEGIN_TAG_" feature
@@ -155,11 +155,13 @@ std::vector<std::pair<std::string, std::string>> MLearn::PosTagCRF::makePredicti
 	features.push_back(std::vector<std::string>({ "END_TAG_" , prevWord }));
 
 
-	for (int i = 0; i < features.size(); i++)
+	createProbabilityMatrix(features[0], &tags, 0, 48);
+
+
+	for (int i = 1; i < features.size() - 1; i++)
 	{
 		createProbabilityMatrix(features[i], &tags, i);
 	}
 
-
-	return std::vector<std::pair<std::string, std::string>>();
+	createProbabilityMatrix(features[features.size() - 1], &tags, features.size() - 1, 49);
 }

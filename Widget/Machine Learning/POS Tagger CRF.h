@@ -59,12 +59,16 @@ namespace MLearn
 			"LRB",
 			"RRB",  //same thing with brackets and parentheses i guess?
 			"AS",   //alright i swear this databank is making up tags at this point
-			"SO"    //thats what it is garanteed
+			"SO",   //thats what it is garanteed
+			"START",//start tag for extra tag before sentence starts
+			"STOP"  //stop tag for after sentence ends
 		};
 
 	public:
 
-		std::vector<std::pair<std::string, std::string>> makePrediction(std::vector<std::string> tokens);
+		//get and/or create features for tokens in a sentence and
+		//create probability matrices from them
+		void createDataset(std::vector<std::string> tokens);
 
 	};
 }
