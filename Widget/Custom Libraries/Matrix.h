@@ -139,10 +139,10 @@ namespace Custom
 
 
 		//get single element from final matrix after multiplying two matrices
-		template<typename T, typename matrixType>
-		T getMultipliedElement(matrixType mat1, matrixType mat2, int row, int column)
+		template<typename matrixType>
+		matrixType::value_type::value_type getMultipliedElement(matrixType mat1, matrixType mat2, int row, int column)
 		{
-			T returnValue = 0;
+			typename matrixType::value_type::value_type returnValue = 0;
 
 
 			//check if matrix type is supported
@@ -175,10 +175,10 @@ namespace Custom
 		}
 
 		//sum rows of matrix to 1 dimensional vector
-		template<typename T, typename matrixType>
-		std::vector<T> sumRows(matrixType mat)
+		template<typename matrixType>
+		matrixType::value_type sumRows(matrixType mat)
 		{
-			std::vector<T> returnVector;
+			typename matrixType::value_type returnVector;
 
 
 			//check if matrix type is supported
@@ -190,7 +190,7 @@ namespace Custom
 
 			for (const auto& i : mat)
 			{
-				T temp = 0;
+				typename matrixType::value_type::value_type temp = 0;
 
 				for (const auto& j : i)
 				{
@@ -203,10 +203,10 @@ namespace Custom
 			return returnVector;
 		}
 
-		template<typename T, typename matrixType>
-		std::vector<T> sumColumns(matrixType mat)
+		template<typename matrixType>
+		matrixType::value_type sumColumns(matrixType mat)
 		{
-			std::vector<T> returnVector(mat[0].size(), 0);
+			typename matrixType::value_type returnVector(mat[0].size(), 0);
 
 
 			//check if matrix type is supported
@@ -229,8 +229,9 @@ namespace Custom
 			return returnVector;
 		}
 
-		template<typename T, typename matrixType>
-		matrixType multiplyMatrixBy(matrixType mat, T value)
+		//multiply entire matrix by one number
+		template<typename matrixType>
+		matrixType multiplyMatrixBy(matrixType mat, typename matrixType::value_type::value_type value)
 		{
 			matrixType returnValue = mat;
 
@@ -253,6 +254,27 @@ namespace Custom
 			return returnValue;
 		}
 
+		template<typename matrixType>
+		matrixType transposeMatrix(matrixType mat)
+		{
+			matrixType returnValue;
+			
+
+			for (int i = 0; i < mat[0].size(); i++)
+			{
+				typename matrixType::value_type temp;
+
+				for (int j = 0; j < mat.size(); j++)
+				{
+					temp.push_back(mat[j][i]);
+				}
+
+				returnValue.push_back(temp);
+			}
+
+
+			return returnValue;
+		}
 
 		template<typename matrixType>
 		void printMatrix(matrixType mat)
