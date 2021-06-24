@@ -15,6 +15,7 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
 
+using namespace Custom;
 
 namespace MLearn
 {
@@ -25,6 +26,8 @@ namespace MLearn
 	//
 	//also create a const "std::vector<std::string> tags" variable with 
 	//tags that you want to make predictions for
+	//
+	//make sure tags[0] is a NULL tag
 	class CRF
 	{
 	public:
@@ -39,8 +42,13 @@ namespace MLearn
 		//vector of matrices containing probabilities of current and previous tag
 		//horizontal axis is current tag
 		//vertical axis is previous tag
-		std::vector<std::vector<std::vector<float>>> probabilityMatrices;
+		std::vector<Matrix::Fmatrix> probabilityMatrices;
 
+
+		//empty function that will be redefined in derived CRF objects
+		//when redefined, it should get all features from a set of input tokens
+		//and create the probability matrices for all tokens
+		virtual void createDataset(std::vector<std::string> tokens) {};
 
 		//gets the weight of the feature function if it exists
 		//if it doesn't exist it will add it to featureFunctionWeights for future reference
@@ -51,7 +59,16 @@ namespace MLearn
 		void createProbabilityMatrix(std::vector<std::string>& features, const std::vector<std::string>* tags, int position, int tagOverride = -1);
 
 		//caclulate forward vector to get probabilities of tags for previous indexes in a sequence
-		std::vector<std::vector<float>> calculateForwardVector(int position);
+		Matrix::Fmatrix calculateForwardVector(int position);
+
+		//calculate backward vector to get probabilities of tags for following indexes in a sequence
+		Matrix::Fmatrix calculateBackwardVector(int position);
+
+		//get normalization factor (Z) for calculating probability
+		float normalizeFactor(int startTagIndex, int endTagIndex);
+
+		//get pair of tags with highest probability at a position
+		std::pair<int, int> predictTag(int position, int startTag, int endTag);
 
 		void updateWeights(std::vector<std::pair<std::string, std::string>> tokenAnswers);
 
