@@ -45,10 +45,17 @@ namespace MLearn
 		std::vector<Matrix::Fmatrix> probabilityMatrices;
 
 
+
 		//empty function that will be redefined in derived CRF objects
 		//when redefined, it should get all features from a set of input tokens
 		//and create the probability matrices for all tokens
-		virtual void createDataset(std::vector<std::string> tokens) {};
+		virtual void createDataset(std::vector<std::vector<std::string>> features) {};
+
+		//empty function that will be redefined in derived CRF objects
+		//when redefined, it shoul get all features from a set of input tokens
+		virtual std::vector<std::vector<std::string>> getFeatures(std::vector<std::string> tokens) { return std::vector<std::vector<std::string>>(); };
+
+
 
 		//gets the weight of the feature function if it exists
 		//if it doesn't exist it will add it to featureFunctionWeights for future reference
@@ -70,7 +77,7 @@ namespace MLearn
 		//get pair of tags with highest probability at a position
 		std::pair<int, int> predictTag(int position, int startTag, int endTag);
 
-		void updateWeights(std::vector<std::pair<std::string, std::string>> tokenAnswers);
+		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, float learningRate);
 
 	};
 

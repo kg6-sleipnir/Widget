@@ -1,6 +1,6 @@
 #include "POS Tagger CRF.h"
 
-void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
+std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector<std::string> tokens)
 {
 	//vector to hold features of all tokens separately
 	std::vector<std::vector<std::string>> features;
@@ -155,13 +155,23 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
 	features.push_back(std::vector<std::string>({ "END_TAG_" , prevWord }));
 
 
+	return features;
+}
+
+void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> features)
+{
+	//clear previous probability matrices
+	probabilityMatrices.clear();
+	
+	//create probability matrix with starting tag
 	createProbabilityMatrix(features[0], &tags, 0, 48);
 
-
+	//create probability matrices between start and end tag
 	for (int i = 1; i < features.size() - 1; i++)
 	{
 		createProbabilityMatrix(features[i], &tags, i);
 	}
 
+	//create probability matrix with ending tag
 	createProbabilityMatrix(features[features.size() - 1], &tags, features.size() - 1, 49);
 }

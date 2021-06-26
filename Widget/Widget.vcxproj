@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Data Handling\Dual File Reader.cpp" />
     <ClCompile Include="Data Handling\Data Table.cpp" />
     <ClCompile Include="Input Processing\Sentence Processor.cpp" />
     <ClCompile Include="Machine Learning\CRF.cpp" />
@@ -157,6 +158,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Data Handling\Dual File Reader.h" />
     <ClInclude Include="Custom Libraries\Matrix.h" />
     <ClInclude Include="Data Handling\Data Table.h" />
     <ClInclude Include="Input Processing\Sentence Processor.h" />

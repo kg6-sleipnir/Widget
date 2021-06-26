@@ -7,7 +7,7 @@ namespace MLearn
 {
 	class PosTagCRF : public CRF
 	{
-	private:
+	public:
 
 		//vector of predefined tags for different types of words
 		const std::vector<std::string> tags = 
@@ -66,9 +66,11 @@ namespace MLearn
 
 	public:
 
-		//get and/or create features for tokens in a sentence and
-		//create probability matrices from them
-		void createDataset(std::vector<std::string> tokens);
+		//get features from tokens in a sentence
+		std::vector<std::vector<std::string>> getFeatures(std::vector<std::string> tokens);
+
+		//create set of probability matrices based on input features
+		void createDataset(std::vector<std::vector<std::string>> features);
 
 	};
 }
