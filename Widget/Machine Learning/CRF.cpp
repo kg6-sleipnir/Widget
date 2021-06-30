@@ -4,7 +4,7 @@ float MLearn::CRF::getFeatureWeight(std::pair<std::string, std::string> featureF
 {
 	if (!featureFunctionWeights.contains(featureFunction))
 	{
-		featureFunctionWeights[featureFunction] = (float)rand() / RAND_MAX / 1000.0f;
+		featureFunctionWeights[featureFunction] = (float)rand() / RAND_MAX;
 	}
 
 	return featureFunctionWeights[featureFunction];
@@ -16,23 +16,33 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, co
 	Matrix::Fmatrix matrix = std::vector<std::vector<float>>(tags->size(), std::vector<float>(tags->size(), 0));
 
 	
-	//make sure tagOverride is -1 or points to a valid tag
-	if (tagOverride < -1 or tagOverride >= (int)tags->size()) //apparently, for some flippity doo-daa reason, -1 is always > that the size of a vector, but not > than the size as an int
-	{
-		throw CRF_Error("CRF::createProbabilityMatrix(\"tagOverride Must be a Valid Tag Index in \"tags\" Vector or -1\")");
-	}
+	
+	
 
 	
 	//check if the current tag is not predefined
 	if (tagOverride == -1)
 	{
+		//get sum of feature weights to normalize the matrix
+		float sumOfFeatures = 0;
+
+		for (const auto& i : features)
+		{
+			for (int j = 1; j < tags->size(); j++)
+			{
+				//weight of feature function
+				sumOfFeatures += getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i));
+			}
+		}
+
+		
 		//push back weights for feature functions to get probabilities at position 1 since position 0 is always NUL tag
 		for (const auto& i : features)
 		{
 			for (int j = 1; j < tags->size(); j++)
 			{
 				//weight of feature function
-				float temp = getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i));
+				float temp = (getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i)) / sumOfFeatures);
 
 				for (int k = 1; k < tags->size(); k++)
 				{
@@ -41,6 +51,14 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, co
 				}
 			}
 		}
+	}
+	else if (tagOverride < -1 or tagOverride >= (int)tags->size()) //apparently, for some flippity doo-daa reason, -1 is always > that the size of a vector, but not > than the size as an int
+	{
+		//error checking here is more efficient since we check if tagOverride is equal to -1 in the first if statement,
+		//eliminating the need to do two additional checks for < -1 and >= tags->size() every iteration
+
+		//make sure tagOverride is -1 or points to a valid tag
+		throw CRF_Error("CRF::createProbabilityMatrix(\"tagOverride Must be a Valid Tag Index in \"tags\" Vector or -1\")");
 	}
 	else 
 	{
@@ -136,16 +154,34 @@ float MLearn::CRF::normalizeFactor(int startTagIndex, int endTagIndex)
 
 std::pair<int, int> MLearn::CRF::predictTag(int position, int startTag, int endTag)
 {
+	//I have encountered my first real
+	//"This shouldn't work but it does and I don't know why" moment.
+	//the program creates two additional matrices,
+	//one at the beginning for the start tag and one at the end for the stop tag
+	//
+	//thing is, the start tag dissapears after processing, but
+	//the first prediction always has the start tag as the previous tag
+	//AND SOMEHOW still has the correct current tag
+	//meanwhile, there are two tags at the end, 
+	//the second to last has the correct previous and current tag after processing,
+	//but the last matrix always has the previous and current tag as the end tag after processing,
+	//and if I don't create the last matrix before processing it doesn't work
+
+	
 	//temporarily set prediction matrix to probability matrix at wanted position
 	Matrix::Fmatrix prediction = probabilityMatrices[position];
 
+	
+
+
+	auto forwardMatrix = std::async(&CRF::calculateForwardVector, this, position);
+	auto backwardMatrix = std::async(&CRF::calculateBackwardVector, this, position);
+
 	//multiply forward vector by the probability matrix and then the resulting matrix by the backward vector
-	prediction = Matrix::multiplyMatrix(calculateForwardVector(position), prediction);
-	prediction = Matrix::multiplyMatrix(prediction, calculateBackwardVector(position));
+	prediction = Matrix::multiplyMatrix(forwardMatrix.get(), prediction);
+	prediction = Matrix::multiplyMatrix(prediction, backwardMatrix.get());
 
 	
-	//Matrix::printMatrix(Matrix::multiplyMatrixBy(prediction, normalizeFactor(startTag, endTag)));
-
 
 	//temp values for holding entry in prediction with highest value
 	int prevTagIndex = 0;
@@ -183,6 +219,8 @@ void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, 
 			//iterate over every tag
 			for (const auto& tag : *tags)
 			{
+				//modified perceptron algorithm to keep numbers between -1 and 1
+
 				//w{j} = w{j} + αF{j}(x, y) for the true tag
 				//w{j} = w{j} - αF{j}(x, y) for the all other tags
 
@@ -192,11 +230,14 @@ void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, 
 				//so long as we add more to the learning rate than we take away for the true tag 
 
 
-				//subtract the learning rate from the weight for all tags
-				featureFunctionWeights[std::pair(tag, feature)] -= 0.15f * learningRate;
+				//subtract the derivative of the sigmoid function to keep numbers at reasonable values
+				featureFunctionWeights[std::pair(tag, feature)] -= 0.05f * learningRate;
 			}
 
-			//add 2 times the learning rate to the feature function's weight for the true feature
+			//add the derivative of the sigmoid function
+			//I did some math and found out if you subtract the derivative of the sigmoid function 
+			//and then add the derivative of the sigmoid function of the result to the result it will be
+			//larger than what it started out as
 			featureFunctionWeights[std::pair(token.second, feature)] += 1.0f * learningRate;
 		}
 	}
