@@ -25,14 +25,15 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		//vector to hold features of current token
 		std::vector<std::string> curFeatures;
 
+		curFeatures.push_back(std::string("_WORD_").append(token));
 
 #pragma warning(disable:26451)
-		//append current token to previous tokens features with string constructor shenanigans
-		features[index - 1].push_back(std::string("NEXT_").append(token));
+		//append current token to previous tokens features with string constructor shenanigans (I use this a lot)
+		features[index - 1].insert(features[index - 1].begin() + 1, std::string("NEXT_").append(token));
 #pragma warning(default:26451)
 		
 
-		//push back previous word to features using string constructor shenanigans
+		//push back previous word to features using more string constructor shenanigans
 		curFeatures.push_back(std::string("PREVIOUS_").append(prevWord));
 
 		//change previous word to current word for next token
@@ -118,24 +119,26 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		//depending on the length of the token, as well as the token itself as a feature
 		switch (token.size())
 		{
-		default:  //get first and last 3 letters as features if word longer than 3 letters
+		default: //get first and last 4 letters if word is at least 4 letters long
 
-			curFeatures.push_back(std::string(token.begin(), token.begin() + 3));
-			curFeatures.push_back(std::string(token.end() - 3, token.end()));
+			curFeatures.push_back(std::string("_FIRST_4_").append(token.begin(), token.begin() + 4));
+			curFeatures.push_back(std::string("_LAST_4_").append(token.end() - 4, token.end()));
 
-		case 3: //get first and last 2 letters if word length is at least 3 letters long
+		case 3:  //get first and last 3 letters as features if word longer than 3 letters
 
-			curFeatures.push_back(std::string(token.begin(), token.begin() + 2));
-			curFeatures.push_back(std::string(token.end() - 2, token.end()));
+			curFeatures.push_back(std::string("_FIRST_3_").append(token.begin(), token.begin() + 3));
+			curFeatures.push_back(std::string("_LAST_3_").append(token.end() - 3, token.end()));
 
-		case 2: //get first and last letter if word length is at least 2 letters long
+		case 2: //get first and last 2 letters if word length is at least 2 letters long
 
-			curFeatures.push_back(std::string(token.begin(), token.begin() + 1));
-			curFeatures.push_back(std::string(token.end() - 1, token.end()));
+			curFeatures.push_back(std::string("_FIRST_2_").append(token.begin(), token.begin() + 2));
+			curFeatures.push_back(std::string("_LAST_2_").append(token.end() - 2, token.end()));
 
-		case 1: //get entire word if word is at least 1 letter long
+		case 1: //get first and last letter of word and entire word if length is at least 1 letters long
 
-			curFeatures.push_back(token);
+			curFeatures.push_back(std::string("_FIRST_1_").append(token.begin(), token.begin() + 1));
+			curFeatures.push_back(std::string("_LAST_1_").append(token.end() - 1, token.end()));
+			
 			break;
 			
 		case 0: //I don't think that this case would ever happen but just in case
@@ -164,14 +167,14 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> feat
 	probabilityMatrices.clear();
 	
 	//create probability matrix with starting tag
-	createProbabilityMatrix(features[0], &tags, 0, 48);
+	createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 48);
 
 	//create probability matrices between start and end tag
 	for (int i = 1; i < features.size() - 1; i++)
 	{
-		createProbabilityMatrix(features[i], &tags, i);
+		createProbabilityMatrix(features[i], &transitionMatrix, &tags, i);
 	}
 
 	//create probability matrix with ending tag
-	createProbabilityMatrix(features[features.size() - 1], &tags, features.size() - 1, 49);
+	createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, 49);
 }
