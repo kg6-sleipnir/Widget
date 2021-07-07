@@ -64,6 +64,9 @@ namespace MLearn
 			"STOP"  //stop tag for after sentence ends
 		};
 
+		//matrix to hold probabilities of transitions between tags
+		Custom::Matrix::Fmatrix transitionMatrix = Custom::Matrix::Fmatrix(50, std::vector<float>(50, 0));
+
 	public:
 
 		//get features from tokens in a sentence
