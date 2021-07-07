@@ -27,7 +27,8 @@ namespace MLearn
 	//prediction function for what you are trying to predict
 	//
 	//also create a const "std::vector<std::string> tags" variable with 
-	//tags that you want to make predictions for
+	//tags that you want to make predictions for, and a transition matrix
+	//for holding transitional probabilities of size tags.size() by tags.size()
 	//
 	//make sure tags[0] is a NULL tag
 	class CRF
@@ -65,8 +66,8 @@ namespace MLearn
 
 		//create matrices that determine the probability that an index in a sequence is a tag
 		//use tagOverride to force the tag at a position to be a predetermined tag
-		void createProbabilityMatrix(std::vector<std::string>& features, const std::vector<std::string>* tags, int position, int tagOverride = -1);
-
+		void createProbabilityMatrix(std::vector<std::string>& features, Custom::Matrix::Fmatrix* transitionMatrix, const std::vector<std::string>* tags, int position, int tagOverride = -1);
+		
 		//caclulate forward vector to get probabilities of tags for previous indexes in a sequence
 		Matrix::Fmatrix calculateForwardVector(int position);
 
@@ -79,7 +80,9 @@ namespace MLearn
 		//get pair of tags with highest probability at a position
 		std::pair<int, int> predictTag(int position, int startTag, int endTag);
 
-		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, float learningRate);
+		void updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>>& featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix& transitionMatrix, float learningRate);
+
+		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> &featureTokens, const std::vector<std::string>* tags, float learningRate);
 
 	};
 
