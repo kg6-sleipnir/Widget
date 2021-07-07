@@ -80,6 +80,30 @@ namespace Custom
 		}
 
 		template<typename matrixType>
+		void multiplyElementsInMatrices(matrixType& mat1, matrixType mat2)
+		{
+			//check if matrix type is supported
+			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
+			{
+				throw MATRIX_ERROR("Invalid Matrix Data Type");
+			}
+
+			//check if matrices are of equal size
+			if (mat1.size() != mat2[0].size())
+			{
+				throw MATRIX_ERROR("Cannot Multiply Matrices of Unequal Size");
+			}
+			
+			for (int i = 0; i < mat1.size(); i++)
+			{
+				for (int j = 0; j < mat1[0].size(); j++)
+				{
+					mat1[i][j] *= mat2[i][j];
+				}
+			}
+		}
+
+		template<typename matrixType>
 		matrixType addMatrix(matrixType mat1, matrixType mat2)
 		{
 			//check if matrix type is supported
@@ -98,7 +122,7 @@ namespace Custom
 			//add elements in mat2 to mat1
 			for (int y = 0; y < mat1.size(); y++)
 			{
-				for (int x = 0; x < mat2[0].size(); y++)
+				for (int x = 0; x < mat2[0].size(); x++)
 				{
 					mat1[y][x] += mat2[y][x];
 				}
@@ -255,10 +279,27 @@ namespace Custom
 		}
 
 		template<typename matrixType>
+		void multiplyMatrixByReferenceBy(matrixType& mat, typename matrixType::value_type::value_type value)
+		{
+			for (auto& i : mat)
+			{
+				for (auto& j : i)
+				{
+					j *= value;
+				}
+			}
+		}
+
+		template<typename matrixType>
 		matrixType transposeMatrix(matrixType mat)
 		{
 			matrixType returnValue;
 			
+			//check if matrix type is supported
+			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
+			{
+				throw MATRIX_ERROR("Invalid Matrix Data Type");
+			}
 
 			for (int i = 0; i < mat[0].size(); i++)
 			{
@@ -275,6 +316,19 @@ namespace Custom
 
 			return returnValue;
 		}
+
+		template<typename matrixType>
+		void transposeSquareMatrixByReference(matrixType& mat)
+		{
+			for (int i = 0; i < mat.size(); i++)
+			{
+				for (int j = i; j < mat[0].size(); j++)
+				{
+					std::swap(mat[i][j], mat[j][i]);
+				}
+			}
+		}
+
 
 		template<typename matrixType>
 		void printMatrix(matrixType mat)
