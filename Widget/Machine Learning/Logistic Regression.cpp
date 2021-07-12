@@ -80,7 +80,7 @@ MLearn::LogNet::LogNet(std::string fileName)
 		}
 		else
 		{
-			std::vector<double> tokens = tokenize<double>(curLine);
+			std::vector<double> tokens = tokenize<double, ' '>(curLine);
 
 			Neuron n;
 

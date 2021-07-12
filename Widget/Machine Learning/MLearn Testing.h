@@ -26,6 +26,14 @@ namespace MLearn
 	//data from the first 4
 	void LogRegTest2();
 
+	//test function for PosTagCRF object using
+	//conditional random fields to predict the 
+	//part of speech tag of a word in a sequence
+	//reads data from "./Machine Learning/Training Data/TOS data/Original Data/tags.txt"
+	//and "./Machine Learning/Training Data/TOS data/Original Data/Words.txt"
+	void CRFTest(float weightLearnRates[5], float transLearnRates[2]);
+
+
 }
 
 #endif
