@@ -52,10 +52,7 @@ namespace MLearn
 			",",	//","
 			".",	//"."
 			"$",	//"$"
-			":",	//no idea what this tag is
-			";",	// ; apparently
-			"LQU",  //quotes have their own tags, TIL
-			"RQU",  //and the begining and end quotes have different tags :P
+			"QU",  //quotes have their own tags, TIL
 			"LRB",
 			"RRB",  //same thing with brackets and parentheses i guess?
 			"AS",   //alright i swear this databank is making up tags at this point
@@ -65,7 +62,14 @@ namespace MLearn
 		};
 
 		//matrix to hold probabilities of transitions between tags
-		Custom::Matrix::Fmatrix transitionMatrix = Custom::Matrix::Fmatrix(50, std::vector<float>(50, 0));
+		Custom::Matrix::Fmatrix transitionMatrix = Custom::Matrix::Fmatrix(47, std::vector<float>(47, 0));
+
+
+		//indexes are 
+		//0 = true positive
+		//1 = false positive
+		//2 = false negative
+		std::map<std::string, std::array<int, 4>> tagF1Frequencies;
 
 	public:
 
@@ -74,6 +78,8 @@ namespace MLearn
 
 		//create set of probability matrices based on input features
 		void createDataset(std::vector<std::vector<std::string>> features);
+
+		void printF1Scores();
 
 	};
 }

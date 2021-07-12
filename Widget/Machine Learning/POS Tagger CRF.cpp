@@ -39,6 +39,41 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		//change previous word to current word for next token
 		prevWord = token;
 
+#pragma warning(disable:26819) //disable warning message for fallthrough in switch cause it annoys me
+
+		//switch statement to get first and last 1, 2, and 3 letters of each token as features
+		//depending on the length of the token, as well as the token itself as a feature
+		switch (token.size())
+		{
+		default: //get first and last 4 letters if word is at least 4 letters long
+
+			curFeatures.push_back(std::string("_LAST_4_").append(token.end() - 4, token.end()));
+			curFeatures.push_back(std::string("_FIRST_4_").append(token.begin(), token.begin() + 4));
+
+		case 3:  //get first and last 3 letters as features if word longer than 3 letters
+
+			curFeatures.insert(curFeatures.begin() + 2, std::string("_LAST_3_").append(token.end() - 3, token.end()));
+			curFeatures.push_back(std::string("_FIRST_3_").append(token.begin(), token.begin() + 3));
+
+		case 2: //get first and last 2 letters if word length is at least 2 letters long
+
+			curFeatures.insert(curFeatures.begin() + 2, std::string("_LAST_2_").append(token.end() - 2, token.end()));
+			curFeatures.push_back(std::string("_FIRST_2_").append(token.begin(), token.begin() + 2));
+
+		case 1: //get first and last letter of word and entire word if length is at least 1 letters long
+
+			curFeatures.push_back(std::string("_LAST_1_").append(token.end() - 1, token.end()));
+			curFeatures.push_back(std::string("_FIRST_1_").append(token.begin(), token.begin() + 1));
+			break;
+
+		case 0: //I don't think that this case would ever happen but just in case
+
+			//error handling with SaRcAsM
+			throw CRF_Error("Encountered Token With Length of 0 SoMeHoW IdK WhAt HaPpEnEd");
+			break;
+		}
+
+#pragma warning(default:26819) //re-enable the warning
 
 		//perform various checks inside separate scope to keep extra variables out of local scope
 		{
@@ -113,42 +148,7 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		}
 
 
-#pragma warning(disable:26819) //disable warning message for fallthrough in switch cause it annoys me
-		
-		//switch statement to get first and last 1, 2, and 3 letters of each token as features
-		//depending on the length of the token, as well as the token itself as a feature
-		switch (token.size())
-		{
-		default: //get first and last 4 letters if word is at least 4 letters long
 
-			curFeatures.push_back(std::string("_FIRST_4_").append(token.begin(), token.begin() + 4));
-			curFeatures.push_back(std::string("_LAST_4_").append(token.end() - 4, token.end()));
-
-		case 3:  //get first and last 3 letters as features if word longer than 3 letters
-
-			curFeatures.push_back(std::string("_FIRST_3_").append(token.begin(), token.begin() + 3));
-			curFeatures.push_back(std::string("_LAST_3_").append(token.end() - 3, token.end()));
-
-		case 2: //get first and last 2 letters if word length is at least 2 letters long
-
-			curFeatures.push_back(std::string("_FIRST_2_").append(token.begin(), token.begin() + 2));
-			curFeatures.push_back(std::string("_LAST_2_").append(token.end() - 2, token.end()));
-
-		case 1: //get first and last letter of word and entire word if length is at least 1 letters long
-
-			curFeatures.push_back(std::string("_FIRST_1_").append(token.begin(), token.begin() + 1));
-			curFeatures.push_back(std::string("_LAST_1_").append(token.end() - 1, token.end()));
-			
-			break;
-			
-		case 0: //I don't think that this case would ever happen but just in case
-
-			//error handling with SaRcAsM
-			throw CRF_Error("Encountered Token With Length of 0 SoMeHoW IdK WhAt HaPpEnEd");
-			break;
-		}
-
-#pragma warning(default:26819) //re-enable the warning
 
 
 		features.push_back(curFeatures);
@@ -167,7 +167,7 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> feat
 	probabilityMatrices.clear();
 	
 	//create probability matrix with starting tag
-	createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 48);
+	createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 45);
 
 	//create probability matrices between start and end tag
 	for (int i = 1; i < features.size() - 1; i++)
@@ -176,5 +176,41 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> feat
 	}
 
 	//create probability matrix with ending tag
-	createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, 49);
+	createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, 46);
+}
+
+void MLearn::PosTagCRF::printF1Scores()
+{
+	int totalTruePositive = 0;
+	int totalFalsePositive = 0;
+	int totalFalseNegative = 0;
+	int TotalTagCount = 0;
+
+	for (const auto& i : tagF1Frequencies)
+	{
+
+#define TruePositive i.second[0]
+#define FalsePositive i.second[1]
+#define FalseNegative i.second[2]
+#define TagCount i.second[0] + i.second[1] + i.second[3]
+
+
+		totalTruePositive += TruePositive;
+		totalFalsePositive += FalsePositive;
+		totalFalseNegative += FalseNegative;
+		TotalTagCount += TagCount;
+
+
+		float precision = (float)TruePositive / (TruePositive + FalsePositive);
+		float recall = (float)TruePositive / (TruePositive + FalseNegative);
+
+		std::cout << i.first << ": " << precision << ",   " << recall << ",   " << 2 * ((precision * recall) / (precision + recall)) << ",   " << TagCount << "\n";
+	}
+
+	float totalPrecision = (float)totalTruePositive / (totalTruePositive + totalFalsePositive);
+	float totalRecall = (float)totalTruePositive / (totalTruePositive + totalFalseNegative);
+	//        ^ thats a good movie
+
+
+	std::cout << "Total scores: " << totalPrecision << ",   " << totalRecall << ",   " << 2 * ((totalPrecision * totalRecall) / (totalPrecision + totalRecall)) << ",   " << TotalTagCount << "\n\n";
 }
