@@ -19,6 +19,8 @@
 
 //rewrote the whole thing for a second time :(
 
+//and now a third time cause I'm an idiot for not just using delimiters
+//now I'm going to have to go back and update everything that uses the tokenizer
 
 //error object for tokenizer
 struct Tokenizer_Error : public std::exception
@@ -36,13 +38,15 @@ struct Tokenizer_Error : public std::exception
 
 //turns a string into a set of tokens of a specified type
 //valid return types are [ INT, DOUBLE, CHAR, STD::STRING ]
-template<class type> 
+template<class type, char ...delimiters> 
 std::vector<type> tokenize(std::string input)
 {
 	//temporary values to store current and created tokens
 	std::vector<std::string> tokens;
 	std::string token;
 
+	std::vector<wchar_t> delims = { { delimiters... } };
+	
 
 	//return vector of wanted datatype
 	std::any finTokens;
@@ -57,40 +61,19 @@ std::vector<type> tokenize(std::string input)
 	//itterates over input string with i being the current character
 	for (const auto& i : input)
 	{
-		if (i > 255 or i < 0)
-		{
-			throw Tokenizer_Error("Unknown Character");
-		}
-		if (isalnum(i) or i == '-') //push back character to current token if alphanumeric or '-'
+		if (std::find(delims.begin(), delims.end(), i) == delims.end())
 		{
 			token.push_back(i);
 		}
-		else if (ispunct(i)) //check if current character is punctuation
-		{
-			if (isalnum(*(&i + 1))) //check if next character is alpha-numeric to see if the punctuation should be included in token
-			{
-				token.push_back(i);
-			}
-			else
-			{
-				if (token != "") //check if token is not empty and append it to tokens
-				{
-					tokens.push_back(token);
-					token.erase();
-				}
-				token.push_back(i);
-				tokens.push_back(token); //push back the punctuation mark
-				token.erase();
-			}
-		}
-		else if (isspace(i)) //push back current token to tokens if it exists if current character is whitespace
+		else
 		{
 			if (token != "")
 			{
 				tokens.push_back(token);
-				token.erase();
 			}
+			token.clear();
 		}
+
 		if (&i == &input.back()) //push back current token to tokens if current character is last in string
 		{
 			if (token != "")
