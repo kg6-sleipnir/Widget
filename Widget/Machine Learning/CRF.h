@@ -80,9 +80,9 @@ namespace MLearn
 		//get pair of tags with highest probability at a position
 		std::pair<int, int> predictTag(int position, int startTag, int endTag);
 
-		void updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>>& featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix& transitionMatrix, float learningRate);
+		void updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>>& featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix& transitionMatrix, std::array<float, 2> learnrates);
 
-		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> &featureTokens, const std::vector<std::string>* tags, float learningRate);
+		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, std::array<float, 7> learnRates);
 
 	};
 

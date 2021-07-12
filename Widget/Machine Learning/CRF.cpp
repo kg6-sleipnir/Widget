@@ -4,7 +4,7 @@ float MLearn::CRF::getFeatureWeight(std::pair<std::string, std::string> featureF
 {
 	if (!featureFunctionWeights.contains(featureFunction))
 	{
-		featureFunctionWeights[featureFunction] = 0.01f;
+		featureFunctionWeights[featureFunction] = 0.1f;
 	}
 
 	return featureFunctionWeights[featureFunction];
@@ -20,16 +20,17 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, Cu
 	if (tagOverride == -1)
 	{
 		//get sum of feature weights to normalize the matrix
-		float sumOfFeatures = 0;
+		
+		//float sumOfFeatures = 0;
 
-		for (const auto& i : features)
-		{
-			for (int j = 1; j < tags->size(); j++)
-			{
-				//weight of feature function
-				sumOfFeatures += getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i));
-			}
-		}
+		//for (const auto& i : features)
+		//{
+		//	for (int j = 1; j < tags->size(); j++)
+		//	{
+		//		//weight of feature function
+		//		sumOfFeatures += getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i));
+		//	}
+		//}
 
 		std::vector<float> tempVector(tags->size(), 0);
 
@@ -39,7 +40,7 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, Cu
 			for (int j = 1; j < tags->size(); j++)
 			{
 				//weight of feature function
-				float temp = (getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i)) / sumOfFeatures);
+				float temp = (getFeatureWeight(std::pair<std::string, std::string>(tags->at(j), i)) );
 
 				tempVector[j] += temp;
 			}
@@ -52,10 +53,13 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, Cu
 		}
 
 
+		if (position > 1)
+		{
+			matrix = Matrix::addMatrix(matrix, Matrix::multiplyMatrixBy(Matrix::transposeMatrix(probabilityMatrices[position - 1]), 1.0f));
+		}
 
 
-
-		matrix = Custom::Matrix::multiplyMatrix(*transitionMatrix, matrix);
+		matrix = Custom::Matrix::addMatrix(*transitionMatrix, matrix);
 
 		long double normalize = 0;
 
@@ -63,25 +67,30 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string>& features, Cu
 		{
 			for (int j = 1; j < matrix[1].size(); j++)
 			{
-				normalize += matrix[i][j];
+				normalize += abs(matrix[i][j]);
 			}
 		}
 
 		//apparently, and int divided by 0 is an error, but a float divided by 0 is -nan(inf), weird
 		if (normalize != 0)
 		{
-			Custom::Matrix::multiplyMatrixByReferenceBy(matrix, 1.0f / normalize);
+			Custom::Matrix::multiplyMatrixByReferenceBy(matrix, 0.5f / normalize);
 		}
 
 		//I don't know why but this increases the accuracy significantly
 		//and prevents most sequences from defaulting to the NUL tag
+		
 		for (int i = 1; i < matrix.size(); i++)
 		{
 			for (int j = 1; j < matrix[1].size(); j++)
 			{
-				matrix[i][j] += 0.1f;
+				matrix[i][j] += 0.1f * ((matrix[i][j] + 1.0f) / (abs(matrix[i][j] + 1.0f)));
 			}
 		}
+
+
+		
+
 
 	}
 	else if (tagOverride < -1 or tagOverride >= (int)tags->size()) //apparently, for some flippity doo-daa reason, -1 is always > that the size of a vector, but not > than the size as an int
@@ -212,11 +221,17 @@ std::pair<int, int> MLearn::CRF::predictTag(int position, int startTag, int endT
 	//calculate the forward and backward vectors with multithreading
 	auto forwardMatrix = std::async(&CRF::calculateForwardVector, this, position);
 	auto backwardMatrix = std::async(&CRF::calculateBackwardVector, this, position);
+	//auto normalFactor = std::async(&CRF::normalizeFactor, this, startTag, endTag);
+
 
 	//multiply forward vector by the probability matrix and then the resulting matrix by the backward vector
 	prediction = Matrix::multiplyMatrix(forwardMatrix.get(), prediction);
 	prediction = Matrix::multiplyMatrix(prediction, backwardMatrix.get());
 
+
+	//Matrix::multiplyMatrixByReferenceBy(prediction, 1.0f / normalFactor.get());
+
+	
 
 	//temp values for holding entry in prediction with highest value
 	int prevTagIndex = 0;
@@ -240,10 +255,14 @@ std::pair<int, int> MLearn::CRF::predictTag(int position, int startTag, int endT
 	return std::pair<int, int>(prevTagIndex, tagIndex);
 }
 
-void MLearn::CRF::updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>>& featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix &transitionMatrix, float learningRate)
+void MLearn::CRF::updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>> &featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix &transitionMatrix, std::array<float, 2> learnRates)
 {
+#define UnlearnRate learnRates[0]
+#define LearnRate learnRates[1]
+	
 	//iterate over all tokens that are not the NUL or STOP tag because they will never come before a token in a sentence
-	for (int i = 1; i < 48; i++)
+	
+	for (int i = 1; i <= 46; i++)
 	{
 		//iterate over all tags except the NUL tag for the same reason except it will come after
 		for (int j = 1; j < tags->size(); j++)
@@ -251,7 +270,7 @@ void MLearn::CRF::updateTransitionMatrix(std::vector<std::pair<std::vector<std::
 			//decrease the transitional weight of all tags using the derivative of the sigmoid function
 			//later we will increment the transitional weight of a true transition between tags by more than what we decrement
 			//in order to skip O(n^2) comparisons (where n is the number of tags) for checking if it's a true transitional sequence
-			transitionMatrix[i][j] -= 1.0f * (1.0f / (1.0f + exp(transitionMatrix[i][j]))) * (1.0f - (1.0f / (1.0f + exp(transitionMatrix[i][j]))));
+			transitionMatrix[i][j] -= UnlearnRate * (1.0f / (1.0f + exp(transitionMatrix[i][j]))) * (1.0f - (1.0f / (1.0f + exp(transitionMatrix[i][j]))));
 		}
 	}
 	
@@ -262,15 +281,24 @@ void MLearn::CRF::updateTransitionMatrix(std::vector<std::pair<std::vector<std::
 		auto prevTagIndex = std::find(tags->begin(), tags->end(), featureTokens[i - 1].second);
 		auto curTagIndex = std::find(tags->begin(), tags->end(), featureTokens[i].second);
 
+
 		//update the transitional sequence's weight by more than what we decremented earlier
-		transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()] += 2.0f * (1.0f / (1.0f + exp(transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()]))) * (1.0f - (1.0f / (1.0f + exp(transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()]))));
+		transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()] += LearnRate * (1.0f / (1.0f + exp(transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()]))) * (1.0f - (1.0f / (1.0f + exp(transitionMatrix[prevTagIndex - tags->begin()][curTagIndex - tags->begin()]))));
 	}
 }
 
 
 
-void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> &featureTokens, const std::vector<std::string>* tags, float learningRate)
+void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, std::array<float, 7> learnRates)
 {
+#define WordLearnRate learnRates[0]
+#define NextLearnRate learnRates[1]
+#define PreviousLearnRate learnRates[2]
+#define LastTwoLearnRate learnRates[3]
+#define LastThreeLearnRate learnRates[4]
+#define UnlearnRate learnRates[5]
+#define NormalLearnRate learnRates[6]
+	
 	//erase the first and last feature vectors in the sequence's feature vectors since they are the START and STOP tag
 	//and dont need to be updated due to them always being correct
 	featureTokens.erase(featureTokens.begin());
@@ -279,15 +307,18 @@ void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, 
 	//iterate through tokens
 	for (const auto& token : featureTokens)
 	{
-		//update the _WORD_, NEXT_, and PREVIOUS_ feature function weights respectively
+		//update the _WORD_, NEXT_, PREVIOUS_, and LAST_x letters feature function weights respectively
 		//since these features influence the tag prediction more than the others, we can increase them more than other features
 		//to get more accurate results
-		featureFunctionWeights[std::pair(token.second, token.first.front())] += 4.6f * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[0])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[0])]))));
-		featureFunctionWeights[std::pair(token.second, token.first[1])] += 4.4f * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[1])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[1])]))));
-		featureFunctionWeights[std::pair(token.second, token.first[2])] += 4.4f * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[2])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[2])]))));
+
+		featureFunctionWeights[std::pair(token.second, token.first.front())] += WordLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[0])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[0])]))));
+		featureFunctionWeights[std::pair(token.second, token.first[1])] += NextLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[1])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[1])]))));
+		featureFunctionWeights[std::pair(token.second, token.first[2])] += PreviousLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[2])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[2])]))));
+		featureFunctionWeights[std::pair(token.second, token.first[3])] += LastTwoLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[3])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[3])]))));
+		featureFunctionWeights[std::pair(token.second, token.first[4])] += LastThreeLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[4])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[4])]))));
 
 		//iterate through the features 
-		for (int i = 3; i < token.first.size(); i++)
+		for (int i = 0; i < token.first.size(); i++)
 		{
 			//iterate over every tag
 			for (int j = 1; j < tags->size(); j++)
@@ -306,11 +337,13 @@ void MLearn::CRF::updateWeights(std::vector<std::pair<std::vector<std::string>, 
 				//subtract the derivative of a modified sigmoid function to keep numbers at reasonable values
 				//this modified sigmoid function will keep all values positive, with a decreasing second derivative the closer it gets to 0
 				//basically, it decrements the value with smaller decrements the closer it gets to 0 while making sure it never reaches 0 or a negative number
-				featureFunctionWeights[std::pair(tags->at(j), token.first[i])] -= 0.5f - ((4.0f * exp((featureFunctionWeights[std::pair(tags->at(j), token.first[i])] / 2.0f))) / pow((exp((featureFunctionWeights[std::pair(tags->at(j), token.first[i])] / 2.0f)) + 1.0f), 2.0f));
+				
+				//featureFunctionWeights[std::pair(tags->at(j), token.first[i])] -= 0.5f - ((learnRates[5] * exp((featureFunctionWeights[std::pair(tags->at(j), token.first[i])] / 2.0f))) / pow((exp((featureFunctionWeights[std::pair(tags->at(j), token.first[i])] / 2.0f)) + 1.0f), 2.0f));
+				featureFunctionWeights[std::pair(tags->at(j), token.first[i])] -= UnlearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(tags->at(j), token.first[i])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(tags->at(j), token.first[i])]))));
 			}
 
 			//add the derivative of the sigmoid function with a slightly increased rate of growth for all feature functions containing the true tag
-			featureFunctionWeights[std::pair(token.second, token.first[i])] += 4.0f * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[i])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[i])]))));
+			featureFunctionWeights[std::pair(token.second, token.first[i])] += NormalLearnRate * (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[i])]))) * (1.0f - (1.0f / (1.0f + exp(featureFunctionWeights[std::pair(token.second, token.first[i])]))));
 		}
 	}
 }
