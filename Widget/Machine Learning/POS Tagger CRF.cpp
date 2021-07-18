@@ -78,7 +78,7 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		//perform various checks inside separate scope to keep extra variables out of local scope
 		{
 			//check if word is capitalized
-			if (isupper(token[0]))
+			if (token[0] <= 90 and token[0] >= 65)
 			{
 				curFeatures.push_back("CAPITALIZED_");
 			}
@@ -88,46 +88,55 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 			bool hyphen = false;
 			bool period = false;
 
-			//check if token contains a hyphen or period and if entire word is uppercase
-			for (const auto& c : token)
+			
+			//check if token contains a digit
+			if (token[0] > 48 and token[0] < 57)
 			{
-				if (!isupper(c)) //check if not uppercase
+				curFeatures.push_back("IS_NUMBER_");
+			}
+			else //if token is a digit then it does not need to know if it contains uppercase characters, thus increasing the speed by 1 comparison for numbers
+			{
+				//check if token contains a hyphen or period and if entire word is uppercase
+				for (const auto& c : token)
 				{
-					if (c == '-') //check for hyphen
+					if (c > 90 or c < 65) //check if not uppercase
 					{
-						hyphen = true;
-
-						if (isUpper == false) //if word is not uppercase and contains a hyphen, it will almost never if not never contain a period
+						if (c == '-') //check for hyphen
 						{
-							break;
+							hyphen = true;
+
+							if (isUpper == false) //if word is not uppercase and contains a hyphen, it will almost never if not never contain a period
+							{
+								break;
+							}
+						}
+						else if (c == '.') //check for period inside word
+						{
+							period = true;
+						}
+						else
+						{
+							isUpper = false;
 						}
 					}
-					else if (c == '.') //check for period inside word
-					{
-						period = true;
-					}
-					else
-					{
-						isUpper = false;
-					}
+				}
+
+
+				if (isUpper == true)
+				{
+					curFeatures.push_back("ALL_UPPERCASE_");
+				}
+
+				if (hyphen == true)
+				{
+					curFeatures.push_back("HYPHEN_");
+				}
+
+				if (period == true)
+				{
+					curFeatures.push_back("PERIOD_");
 				}
 			}
-
-			if (isUpper == true)
-			{
-				curFeatures.push_back("ALL_UPPERCASE_");
-			}
-			
-			if (hyphen == true)
-			{
-				curFeatures.push_back("HYPHEN_");
-			}
-
-			if (period == true)
-			{
-				curFeatures.push_back("PERIOD_");
-			}
-
 
 			//push back features signifying first and last token
 			if (&token == &tokens.front())
@@ -138,17 +147,7 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 			{
 				curFeatures.push_back("IS_LAST_");
 			}
-
-
-			//check if token contains a digit
-			if (isdigit(token[0]))
-			{
-				curFeatures.push_back("IS_NUMBER_");
-			}
 		}
-
-
-
 
 
 		features.push_back(curFeatures);
