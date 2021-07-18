@@ -151,7 +151,7 @@ namespace Custom
 			//add elements in mat2 to mat1
 			for (int y = 0; y < mat1.size(); y++)
 			{
-				for (int x = 0; x < mat2[0].size(); y++)
+				for (int x = 0; x < mat2[0].size(); x++)
 				{
 					mat1[y][x] -= mat2[y][x];
 				}
@@ -329,6 +329,28 @@ namespace Custom
 			}
 		}
 
+		
+
+		//yes I know this is not a real matrix algebra function but I need it
+		//for the CRF
+
+		//get a matrix where every individual element is the exp() of the
+		//corresponding element from the original matrix
+		template<typename matrixType>
+		matrixType expElementsInMatrix(matrixType mat)
+		{
+			matrixType returnValue = mat;
+
+			for (int i = 0; i < returnValue.size(); i++)
+			{
+				for (int j = 0; j < returnValue[0].size(); j++)
+				{
+					returnValue[i][j] = exp(returnValue[i][j]);
+				}
+			}
+
+			return returnValue;
+		}
 
 		template<typename matrixType>
 		void printMatrix(matrixType mat)
