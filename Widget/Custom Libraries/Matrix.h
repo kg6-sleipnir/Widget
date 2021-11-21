@@ -42,7 +42,7 @@ namespace Custom
 			}
 
 			//check if matrices are of equal size
-			if (mat1.size() != mat2[0].size())
+			if (mat1[0].size() != mat2.size())
 			{
 				throw MATRIX_ERROR("Cannot Multiply Matrices of Unequal Size");
 			}
@@ -80,8 +80,10 @@ namespace Custom
 		}
 
 		template<typename matrixType>
-		void multiplyElementsInMatrices(matrixType& mat1, matrixType mat2)
+		matrixType multiplyElementsInMatrices(matrixType mat1, matrixType mat2)
 		{
+			matrixType mat = mat1;
+			
 			//check if matrix type is supported
 			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
 			{
@@ -94,6 +96,32 @@ namespace Custom
 				throw MATRIX_ERROR("Cannot Multiply Matrices of Unequal Size");
 			}
 			
+			for (int i = 0; i < mat.size(); i++)
+			{
+				for (int j = 0; j < mat[0].size(); j++)
+				{
+					mat[i][j] *= mat2[i][j];
+				}
+			}
+
+			return mat;
+		}
+
+		template<typename matrixType>
+		void multiplyElementsInMatricesByReference(matrixType& mat1, matrixType mat2)
+		{
+			//check if matrix type is supported
+			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
+			{
+				throw MATRIX_ERROR("Invalid Matrix Data Type");
+			}
+
+			//check if matrices are of equal size
+			if (mat1.size() != mat2[0].size())
+			{
+				throw MATRIX_ERROR("Cannot Multiply Matrices of Unequal Size");
+			}
+
 			for (int i = 0; i < mat1.size(); i++)
 			{
 				for (int j = 0; j < mat1[0].size(); j++)
