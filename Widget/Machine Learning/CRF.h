@@ -35,6 +35,8 @@ namespace MLearn
 	{
 	public:
 
+		int tagAmount;
+
 		//map of feature functions with their weights
 		//contains map with key value <TAG, FEATURE> with a weight as a float
 		//to get the probability of a tag
@@ -47,7 +49,7 @@ namespace MLearn
 		//vertical axis is previous tag
 		std::vector<Matrix::Fmatrix> probabilityMatrices;
 
-
+		Matrix::Fmatrix tMatrix;
 
 		//empty function that will be redefined in derived CRF objects
 		//when redefined, it should get all features from a set of input tokens
@@ -62,17 +64,17 @@ namespace MLearn
 
 		//gets the weight of the feature function if it exists
 		//if it doesn't exist it will add it to featureFunctionWeights for future reference
-		float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
+		virtual float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
 
 		//create matrices that determine the probability that an index in a sequence is a tag
 		//use tagOverride to force the tag at a position to be a predetermined tag
-		void createProbabilityMatrix(std::vector<std::string>& features, Custom::Matrix::Fmatrix* transitionMatrix, const std::vector<std::string>* tags, int position, int tagOverride = -1);
+		void createProbabilityMatrix(std::vector<std::string>& features, Custom::Matrix::Fmatrix* transitionMatrix, const std::vector<std::string>* tags, int position, int startTag, int tagOverride = -1);
 		
 		//caclulate forward vector to get probabilities of tags for previous indexes in a sequence
-		Matrix::Fmatrix calculateForwardVector(int position);
+		Matrix::Fmatrix calculateForwardVector(int position, int startTag);
 
 		//calculate backward vector to get probabilities of tags for following indexes in a sequence
-		Matrix::Fmatrix calculateBackwardVector(int position);
+		Matrix::Fmatrix calculateBackwardVector(int position, int endTag);
 
 		//get normalization factor (Z) for calculating probability
 		float normalizeFactor(int startTagIndex, int endTagIndex);
@@ -83,6 +85,14 @@ namespace MLearn
 		void updateTransitionMatrix(std::vector<std::pair<std::vector<std::string>, std::string>>& featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix& transitionMatrix, std::array<float, 2> learnrates);
 
 		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, std::array<float, 7> learnRates);
+		
+		void updateWeightsCLL(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, float learnRate, int startTag, int endTag);
+
+		void updatetransitionMatrixCLL(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, const std::vector<std::string>* tags, Custom::Matrix::Fmatrix& transitionMatrix, float learnRate, int startTag, int endTag);
+
+		std::vector<float> getTagProbs(int position, int startTag, int endTag);
+		
+		std::vector<float> getPrevTagProbs(int position, int startTag, int endTag);
 
 	};
 
