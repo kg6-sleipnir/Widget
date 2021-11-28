@@ -200,9 +200,6 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 	std::vector<double> biasInput(input);
 	biasInput.push_back(1);
 
-	//total error of system
-	double learnRate = learningRate;
-
 	
 	//check if size of correct answers is equal to number of output neurons
 	if (correctAns.size() != neurons[neurons.size() - 1].size())
@@ -232,7 +229,7 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 			
 			
 			//update the last layers weights
-			neurons[neurons.size() - 1][j].weights[curWeight] -= ErrNet * neurons[neurons.size() - 2][curWeight].getSigValue() * learnRate;
+			neurons[neurons.size() - 1][j].weights[curWeight] -= ErrNet * neurons[neurons.size() - 2][curWeight].getSigValue() * learningRate;
 //			---------update current neuron's weights---------   DerrDnet  ---------previous neuron's sigmoid output-------  learning rate
 		}
 	}
@@ -263,7 +260,7 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 //						pd net output of previous neruon
 //						over sigmoid output of current neuron
 
-
+			 
 			//iterate through weights in neuron
 			for (int curWeight = 0; curWeight < neurons[i][j].weights.size(); curWeight++)
 			{
@@ -272,7 +269,7 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 
 
 				//update current weight
-				neurons[i][j].weights[curWeight] -= ErrNet * neurons[i - 1][curWeight].getSigValue() * learnRate;
+				neurons[i][j].weights[curWeight] -= ErrNet * neurons[i - 1][curWeight].getSigValue() * learningRate;
 
 			}
 			
@@ -293,7 +290,7 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 		for (int curWeight = 0; curWeight < neurons[0][j].weights.size(); curWeight++)
 		{
 			//update current weight
-			neurons[0][j].weights[curWeight] -= ErrNet * biasInput[curWeight] * learnRate;
+			neurons[0][j].weights[curWeight] -= ErrNet * biasInput[curWeight] * learningRate;
 
 		}
 		
