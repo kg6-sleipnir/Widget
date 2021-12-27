@@ -143,7 +143,7 @@ namespace Custom
 			//check if matrices are correct size
 			if (mat1.size() != mat2.size() or mat1[0].size() != mat2[0].size())
 			{
-				throw MATRIX_ERROR("Cannot Add Matrices of Unequal Size");
+				throw MATRIX_ERROR("Cannot Add Matrices Of Unequal Size");
 			}
 
 
@@ -158,6 +158,42 @@ namespace Custom
 
 
 			return mat1;
+		}
+
+		template<typename matrixType>
+		matrixType addOuterMatrix(matrixType mat1, matrixType mat2)
+		{
+			//check if matrix type is supported
+			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
+			{
+				throw MATRIX_ERROR("Invalid Matrix Data Type");
+			}
+
+			if (mat1.size() != 1 or mat2.size() != 1)
+			{
+				throw MATRIX_ERROR("Matrices Must Be 1 Dimensional");
+			}
+
+
+			matrixType outMatrix(mat1[0].size(), matrixType::value_type(mat2[0].size(), 0));
+
+
+			//add each element in mat1 with each element in mat2, creating a new matrix
+			for (int i = 0; i < mat1[0].size(); i++)
+			{
+
+				for (int j = 0; j < mat2[0].size(); j++)
+				{
+
+					outMatrix[i][j] = mat1[0][i] + mat2[0][j];
+
+				}
+
+			}
+
+
+			return outMatrix;
+
 		}
 
 		template<typename matrixType>
@@ -307,6 +343,30 @@ namespace Custom
 		}
 
 		template<typename matrixType>
+		matrixType addMatrixWith(matrixType mat, typename matrixType::value_type::value_type value)
+		{
+			matrixType returnValue = mat;
+
+			//check if matrix type is supported
+			if (typeid(matrixType) != typeid(Imatrix) and typeid(matrixType) != typeid(Dmatrix) and typeid(matrixType) != typeid(Fmatrix))
+			{
+				throw MATRIX_ERROR("Invalid Matrix Data Type");
+			}
+
+
+			for (auto& i : returnValue)
+			{
+				for (auto& j : i)
+				{
+					j += value;
+				}
+			}
+
+
+			return returnValue;
+		}
+
+		template<typename matrixType>
 		void multiplyMatrixByReferenceBy(matrixType& mat, typename matrixType::value_type::value_type value)
 		{
 			for (auto& i : mat)
@@ -399,6 +459,16 @@ namespace Custom
 				std::cout << "\n";
 			}
 		}
+
+		template<typename matrixType>
+		matrixType convertToMatrix(std::vector<typename matrixType::value_type::value_type> vector)
+		{
+			
+			return matrixType(1, vector);
+
+		}
+	
+
 	}
 }
 
