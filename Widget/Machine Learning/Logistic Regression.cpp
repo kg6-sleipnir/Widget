@@ -47,7 +47,7 @@ LogNet::LogNet(int numInputs, std::vector<int> layers, int numOutputs)
 	for (int j = 0; j < numOutputs; j++)
 	{
 		//set temporary neuron
-		Neuron n(neurons[neurons.size() - 1].size());
+		Neuron n(neurons.back().size());
 
 		//push back neuron to temporary layer
 		temp.push_back(n);
@@ -103,7 +103,7 @@ double LogNet::totalError(std::vector<double> correctOut)
 
 
 	//check if size of correctOut is equal to number of neurons
-	if (correctOut.size() != neurons[neurons.size() - 1].size())
+	if (correctOut.size() != neurons.back().size())
 	{
 		throw LogNetError("Output Size Not Equal To Number of Output Neurons");
 	}
@@ -112,7 +112,7 @@ double LogNet::totalError(std::vector<double> correctOut)
 	//calculate sum of square error in each output neuron
 	for (int i = 0; i < correctOut.size(); i++)
 	{
-		temp += pow(correctOut[i] - neurons[neurons.size() - 1][i].getSigValue(), 2);
+		temp += pow(correctOut[i] - neurons.back()[i].getSigValue(), 2);
 	}
 
 
@@ -140,7 +140,7 @@ void LogNet::calculateOutput(std::vector<double> input)
 		//iterate over each neuron in layer and calculate output
 		for (int j = 0; j < neurons[i].size() - 1; j++)
 		{
-			neurons[i][j].sigmoidOutput(neurons[i][j].calcNetOutput(input));
+			neurons[i][j].sigmoidOutput(input);
 		}
 		
 		//clear current input
@@ -154,9 +154,9 @@ void LogNet::calculateOutput(std::vector<double> input)
 	}
 
 	//calculate output of output layer
-	for (int j = 0; j < neurons[neurons.size() - 1].size(); j++)
+	for (int j = 0; j < neurons.back().size(); j++)
 	{
-		neurons[neurons.size() - 1][j].sigmoidOutput(neurons[neurons.size() - 1][j].calcNetOutput(input));
+		neurons.back()[j].sigmoidOutput(input);
 	}
 }
 
@@ -202,7 +202,7 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 
 	
 	//check if size of correct answers is equal to number of output neurons
-	if (correctAns.size() != neurons[neurons.size() - 1].size())
+	if (correctAns.size() != neurons.back().size())
 	{
 		throw LogNetError("Output Size Not Equal To Number of Output Neurons");
 	}
@@ -216,20 +216,20 @@ void LogNet::updateWeights(std::vector<double> input, std::vector<double> correc
 
 
 	//iterate through neurons in last layer to update their weights
-	for (int j = 0; j < neurons[neurons.size() - 1].size(); j++)
+	for (int j = 0; j < neurons.back().size(); j++)
 	{
 		//partial derivative of error over net output
 		double ErrNet = DErrDNet(neurons.size() - 1, j, correctAns[j]);
 
 
 		//iterate through weights in neuron
-		for (int curWeight = 0; curWeight < neurons[neurons.size() - 1][j].weights.size() - 1; curWeight++)
+		for (int curWeight = 0; curWeight < neurons.back()[j].weights.size() - 1; curWeight++)
 		{
-			sumErrWeight[curWeight] += ErrNet * neurons[neurons.size() - 1][j].weights[curWeight];
+			sumErrWeight[curWeight] += ErrNet * neurons.back()[j].weights[curWeight];
 			
 			
 			//update the last layers weights
-			neurons[neurons.size() - 1][j].weights[curWeight] -= ErrNet * neurons[neurons.size() - 2][curWeight].getSigValue() * learningRate;
+			neurons.back()[j].weights[curWeight] -= ErrNet * neurons[neurons.size() - 2][curWeight].getSigValue() * learningRate;
 //			---------update current neuron's weights---------   DerrDnet  ---------previous neuron's sigmoid output-------  learning rate
 		}
 	}
@@ -372,6 +372,22 @@ double LogNet::Neuron::calcNetOutput(std::vector<double> input)
 
 
 	netOutput = temp;
+	return temp;
+}
+
+double MLearn::LogNet::Neuron::sigmoidOutput(std::vector<double> input)
+{
+	//sigmoid function
+	/*
+			1
+		---------
+			  (-netOutput)
+		1 - e
+	*/
+
+	double temp = 1 / (1 + exp(-1 * calcNetOutput(input)));
+
+	sigOutput = temp;
 	return temp;
 }
 

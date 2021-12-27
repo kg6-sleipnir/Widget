@@ -4,7 +4,13 @@ MLearn::PosTagCRF::PosTagCRF()
 {
 
 	tagAmount = tags.size();
+
+	startTag = tags.size() - 2;
+	endTag = tags.size() - 1;
+
 	tMatrix = transitionMatrix;
+
+	tagList = &tags;
 
 }
 
@@ -38,71 +44,71 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		std::vector<std::string> curFeatures;
 
 
-		curFeatures.push_back("BIAS_");
+		//curFeatures.push_back("BIAS_");
 
 
 		//perform various checks inside separate scope to keep extra variables out of local scope
 		{
 			//check if word is capitalized
-			if (token[0] <= 90 and token[0] >= 65)
+			if (65 <= token[0] and token[0] <= 90)
 			{
-				//curFeatures.push_back("CAPITALIZED_");
+				curFeatures.push_back("CAPITALIZED_");
 			}
 
-
+			bool isAlNum = true;
 			bool isUpper = true;
 			bool hyphen = false;
 			bool period = false;
+			
 
-
-			//check if token contains a digit
-			if (48 <= token[0] and token[0] <= 57)
+			//check if token contains a hyphen or period and if entire word is uppercase
+			for (const auto& c : token)
 			{
-				curFeatures.push_back("IS_NUMBER_");
+
+				if (97 < c or c < 122) //check if char is not uppercase - ASCII 97-122 is lowercase letters
+				{
+					isUpper = false;
+				}
+				else if (48 <= c and c <= 57) //check if char is number - ASCII 48-57 is numbers
+				{
+					curFeatures.push_back("CONTAINS_NUMBER_");
+				}
+				else if (c < 65 or 90 < c) //check if char is not uppercase, lowercase, or number - ASCII 65-90 is uppercase letters
+				{
+					isAlNum = false;
+				}
+
 			}
-			else //if token is a digit then it does not need to know if it contains uppercase characters, thus increasing the speed by 1 comparison for numbers
+
+			if (isAlNum == true)
 			{
-				//check if token contains a hyphen or period and if entire word is uppercase
-				for (const auto& c : token)
-				{
-					if (c > 90 or c < 65) //check if not uppercase
-					{
-						if (c == '-') //check for hyphen
-						{
-							hyphen = true;
-						}
-						else if (c == '.') //check for period inside word
-						{
-							period = true;
-						}
-					}
-					else
-					{
-						isUpper = false;
-					}
-				}
-
-
-				if (isUpper == true)
-				{
-					curFeatures.push_back("ALL_UPPERCASE_");
-				}
-
-				if (hyphen == true)
-				{
-					curFeatures.push_back("HYPHEN_");
-				}
-
-				if (period == true)
-				{
-					curFeatures.push_back("PERIOD_");
-				}
+				curFeatures.push_back("IS_ALNUM");
 			}
+			else
+			{
+				curFeatures.push_back("HAS_SYMBOL");
+			}
+
+			if (isUpper == true)
+			{
+				curFeatures.push_back("ALL_UPPERCASE_");
+			}
+
+			if (hyphen == true)
+			{
+				curFeatures.push_back("HYPHEN_");
+			}
+
+			if (period == true)
+			{
+				curFeatures.push_back("PERIOD_");
+			}
+			
 
 			//push back features signifying first and last token
 			if (&token == &tokens.front())
 			{
-				//curFeatures.push_back("IS_FIRST_");
+				curFeatures.push_back("IS_FIRST_");
 			}
 			else if (&token == &tokens.back())
 			{
@@ -172,8 +178,20 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 #pragma warning(default:26819) //re-enable the warning
 
 		
+		
+
 		index++;
+
+
+		
+
+		
+
 		features.push_back(curFeatures);
+
+		
+
+
 	}
 
 	features.back().push_back(std::string("NEXT_END_TAG_"));
@@ -191,16 +209,16 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> feat
 	probabilityMatrices.clear();
 	
 	//create probability matrix with starting tag
-	//createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 45);
+	//createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 23);
 
 	//create probability matrices between start and end tag
-	for (int i = 0; i < features.size() - 1; i++)
+	for (int i = 0; i < features.size(); i++)
 	{
-		createProbabilityMatrix(features[i], &transitionMatrix, &tags, i, 45);
+		createProbabilityMatrix(features[i], i);
 	}
 
 	//create probability matrix with ending tag
-	createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, 45, 46);
+	//createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, endTag);
 }
 
 void MLearn::PosTagCRF::printF1Scores()

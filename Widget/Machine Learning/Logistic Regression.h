@@ -45,6 +45,8 @@ namespace MLearn
 
 			double calcNetOutput(std::vector<double> input);
 
+			double sigmoidOutput(std::vector<double> input);
+
 			double sigmoidOutput(double netOutput);
 
 			double getSigValue();
