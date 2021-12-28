@@ -84,7 +84,7 @@ namespace MLearn
 
 		//update the weights of the entire model
 		//this function calls calculateOutput() so no need to call it before this
-		void updateWeights(std::vector<double> input, std::vector<double> correctAns, float learningRate);
+		void updateCurWeights(std::vector<double> input, std::vector<double> correctAns, float learningRate);
 
 		//creates string from weights in each layer for either output or saving to file
 		std::string weightText();

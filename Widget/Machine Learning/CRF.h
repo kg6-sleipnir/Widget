@@ -33,82 +33,91 @@ namespace MLearn
 	//make sure tags[0] is a NULL tag
 	class CRF
 	{
-	public:
-
-
-		const std::vector<std::string>* tagList;
+	protected:
 
 		int tagAmount;
-
-		//map of feature functions with their weights
-		//contains map with key value <TAG, FEATURE> with a weight as a float
-		//to get the probability of a tag
-		//iterate over each feature associated with the tag
-		//and add up the weights for those features
-		std::map<std::pair<std::string, std::string>, float> featureFunctionWeights;
-		
-		
-		//weights for features of current token and probability of previous tag
-		std::map<std::pair<std::string, std::string>, float> featureFunctionPrimeWeights;
-
-
-		
-		//vector of matrices containing probabilities of current and previous tag
-		//horizontal axis is current tag
-		//vertical axis is previous tag
-		std::vector<Matrix::Fmatrix> probabilityMatrices;
-
-		Matrix::Fmatrix tMatrix;
 
 		int startTag;
 
 		int endTag;
 
-		//empty function that will be redefined in derived CRF objects
-		//when redefined, it should get all features from a set of input tokens
-		//and create the probability matrices for all tokens
-		virtual void createDataset(std::vector<std::vector<std::string>> features) {};
 
-		//empty function that will be redefined in derived CRF objects
-		//when redefined, it shoul get all features from a set of input tokens
-		virtual std::vector<std::vector<std::string>> getFeatures(std::vector<std::string> tokens) { return std::vector<std::vector<std::string>>(); };
+		//set of current features for updating weights
+		std::vector<std::vector<std::string>> features;
 
 
+		//vector of matrices containing probabilities of current and previous tag
+		//horizontal axis is current tag
+		//vertical axis is previous tag
+		std::vector<Matrix::Fmatrix> probabilityMatrices;
 
-		//gets the weight of the feature function if it exists
-		//if it doesn't exist it will add it to featureFunctionWeights for future reference
-		virtual float getFeatureWeight(std::pair<std::string, std::string> featureFunction);
 
 
-		virtual float getFeaturePrimeWeight(std::pair<std::string, std::string> featureFunction);
-
-		//create matrices that determine the probability that an index in a sequence is a tag
+		//create matrices that determine the probability that a token in a sequence is a tag
 		//use tagOverride to force the tag at a position to be a predetermined tag
-		void createProbabilityMatrix(std::vector<std::string>& features, int position, int tagOverride = -1);
-		
-		//caclulate forward vector to get probabilities of tags for previous indexes in a sequence
+		void createProbabilityMatrix(std::vector<std::string> features);
+	
+	private: 
+
+		//list of feature functions with their weights
+		//indexing is in pair of <TAG, FEATURE>
+		std::map<std::pair<std::string, std::string>, float> featureFunctionWeights;
+
+
+		//weights for features of current token associated with probability of previous tag
+		//indexing is in pair of <TAG, FEATURE>
+		std::map<std::pair<std::string, std::string>, float> featureFunctionPrimeWeights;
+
+
+
+		//get normalised probabilities of current tag using variant of forward backward algorithm from HMMs
+		std::vector<float> getTagProbs(int position, float normalizeFactor);
+
+		//get normalised probabilities of previous tag using variant of forward backward algorithm from HMMs
+		std::vector<float> getPrevTagProbs(int position, float normalizeFactor);
+
+		//gets or create the weight of the feature function associated with current token
+		float getFeatureWeight(std::string tag, std::string feature);
+
+		//gets or create the weight of the feature function associated with previous token
+		float getFeaturePrimeWeight(std::string tag, std::string feature);
+
+		//caclulate forward vector to get probabilities of previous tag
 		Matrix::Fmatrix calculateForwardVector(int position);
 
-		//calculate backward vector to get probabilities of tags for following indexes in a sequence
+		//calculate backward vector to get probabilities of current tag
 		Matrix::Fmatrix calculateBackwardVector(int position);
 
+		//get logsumexp of 1 dimensional matrix
+		float logsumexp(std::vector<float> arr);
 
 
 
+		//update the weights of current features related to current token
+		//current features is already known from when the dataset was created
+		void updateCurWeights(std::vector<std::string> correctTags, float learnRate);
 
+
+		//update the weights of current features related to previous token
+		//current features is already known from when the dataset was created
+		void updatePrimeWeights(std::vector<std::string> correctTags, float learnRate);
+
+
+
+	public:
+
+		//list of tags to be defined in inherited cobject
+		const std::vector<std::string>* tagList;
+
+
+
+		//get set of predictions on current data based on Viterbi algorithm
 		std::vector<std::pair<int, int>> viterbi();
 
 
-		float logsumexp(Custom::Matrix::Fmatrix arr);
-
-		
-		void updateWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, float learnRate);
-
-		void updatePrimeWeights(std::vector<std::pair<std::vector<std::string>, std::string>> featureTokens, float learnRate);
-
-		std::vector<float> getTagProbs(int position, float normalizeFactor);
-		
-		std::vector<float> getPrevTagProbs(int position, float normalizeFactor);
+		//update the weights for current features for current iteration
+		//current features is already known from when current dataset was created
+		void iterateWeights(std::vector<std::string> correctTags, float learnRate);
 
 	};
 

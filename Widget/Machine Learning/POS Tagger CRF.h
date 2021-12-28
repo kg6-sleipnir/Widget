@@ -9,9 +9,10 @@
 namespace MLearn
 {
 
+	//Conditional Random Field for predicting parts of speech for words in a sentence
 	class PosTagCRF : public CRF
 	{
-	public:
+	private:
 
 		//vector of predefined tags for different types of words
 		const std::vector<std::string> tags = 
@@ -36,9 +37,6 @@ namespace MLearn
 			"STOP"  // 17 stop tag for after sentence ends
 		};
 
-		//matrix to hold probabilities of transitions between tags
-		Custom::Matrix::Fmatrix transitionMatrix = Custom::Matrix::Fmatrix(tags.size(), std::vector<float>(tags.size(), 1.0f / tags.size()));
-
 
 		//indexes are 
 		//0 = true positive
@@ -47,17 +45,25 @@ namespace MLearn
 		//3 = amount of times tag has bean seen
 		std::map<std::string, std::array<int, 4>> tagF1Frequencies;
 
+		//get features from tokens in a sentence
+		std::vector<std::vector<std::string>> createFeatures(std::vector<std::string> tokens);
+		
 	public:
 
 		PosTagCRF();
 
-		//get features from tokens in a sentence
-		std::vector<std::vector<std::string>> getFeatures(std::vector<std::string> tokens);
 
-		//create set of probability matrices based on input features
-		void createDataset(std::vector<std::vector<std::string>> features);
+		//create dataset based on set of tokens
+		void createDataset(std::vector<std::string> tokens);
 
+		//print stored f1 scores
 		void printF1Scores();
+
+		//clear stored f1 scores
+		void clearF1Scores();
+
+		//increment f1 scores for tag
+		void addToF1Scores(std::string correctTag, std::string predictedTag);
 
 	};
 }

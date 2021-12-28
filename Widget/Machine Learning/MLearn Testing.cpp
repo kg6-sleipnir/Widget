@@ -111,7 +111,7 @@ void MLearn::LogRegTest()
 		std::cout << test.neurons[test.neurons.size() - 1][0].getSigValue() << "\t";
 
 		//update the weights
-		test.updateWeights(input, output, 15);
+		test.updateCurWeights(input, output, 15);
 
 
 		//it is optional but you can call calculateOutput here
@@ -266,7 +266,7 @@ void MLearn::LogRegTest2()
 			test.calculateOutput(input);
 
 			//update the weights using the input, expected output, and the learning rate
-			test.updateWeights(input, output, ME * learningRate);
+			test.updateCurWeights(input, output, ME * learningRate);
 
 			//calculate the output so we can get current error 
 			test.calculateOutput(input);

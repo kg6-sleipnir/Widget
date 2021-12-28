@@ -8,27 +8,17 @@ MLearn::PosTagCRF::PosTagCRF()
 	startTag = tags.size() - 2;
 	endTag = tags.size() - 1;
 
-	tMatrix = transitionMatrix;
-
 	tagList = &tags;
 
 }
 
-std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector<std::string> tokens)
+std::vector<std::vector<std::string>> MLearn::PosTagCRF::createFeatures(std::vector<std::string> tokens)
 {
 	//vector to hold features of all tokens separately
 	std::vector<std::vector<std::string>> features;
 	
-	//push back a beginning tag for better processing in the CRF
-	//features.push_back(std::vector<std::string>({ "START_TAG_" }));
-
-	//temporary string to hold previous word
-	//starts out with the "START_TAG_" feature
-	//that was just created
-	//std::string prevWord = "START_TAG_";
-	
+	//string that stores current word for next iteration's previous word
 	std::string prevWord = "";
-
 
 	//index number of current token
 	int index = 0;
@@ -36,114 +26,104 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 	//iterate over tokens
 	for (auto& token : tokens)
 	{
-		
-		
-		//index++;
 
 		//vector to hold features of current token
 		std::vector<std::string> curFeatures;
 
 
-		//curFeatures.push_back("BIAS_");
-
-
-		//perform various checks inside separate scope to keep extra variables out of local scope
+		
+		//check if word is capitalized
+		if (65 <= token[0] and token[0] <= 90)
 		{
-			//check if word is capitalized
-			if (65 <= token[0] and token[0] <= 90)
-			{
-				curFeatures.push_back("CAPITALIZED_");
-			}
-
-			bool isAlNum = true;
-			bool isUpper = true;
-			bool hyphen = false;
-			bool period = false;
-			
-
-			//check if token contains a hyphen or period and if entire word is uppercase
-			for (const auto& c : token)
-			{
-
-				if (97 < c or c < 122) //check if char is not uppercase - ASCII 97-122 is lowercase letters
-				{
-					isUpper = false;
-				}
-				else if (48 <= c and c <= 57) //check if char is number - ASCII 48-57 is numbers
-				{
-					curFeatures.push_back("CONTAINS_NUMBER_");
-				}
-				else if (c < 65 or 90 < c) //check if char is not uppercase, lowercase, or number - ASCII 65-90 is uppercase letters
-				{
-					isAlNum = false;
-				}
-
-			}
-
-			if (isAlNum == true)
-			{
-				curFeatures.push_back("IS_ALNUM");
-			}
-			else
-			{
-				curFeatures.push_back("HAS_SYMBOL");
-			}
-
-			if (isUpper == true)
-			{
-				curFeatures.push_back("ALL_UPPERCASE_");
-			}
-
-			if (hyphen == true)
-			{
-				curFeatures.push_back("HYPHEN_");
-			}
-
-			if (period == true)
-			{
-				curFeatures.push_back("PERIOD_");
-			}
-			
-
-			//push back features signifying first and last token
-			if (&token == &tokens.front())
-			{
-				curFeatures.push_back("IS_FIRST_");
-			}
-			else if (&token == &tokens.back())
-			{
-				curFeatures.push_back("IS_LAST_");
-			}
+			curFeatures.push_back("CAPITALIZED_");
 		}
 
+		bool isAlNum = true;
+		bool isUpper = true;
+		bool hyphen = false;
+		bool period = false;
+			
 
+		//check if token contains a hyphen or period and if entire word is uppercase
+		for (const auto& c : token)
+		{
 
+			if (97 < c or c < 122) //check if char is not uppercase - ASCII 97-122 is lowercase letters
+			{
+				isUpper = false;
+			}
+			else if (48 <= c and c <= 57) //check if char is number - ASCII 48-57 is numbers
+			{
+				curFeatures.push_back("CONTAINS_NUMBER_");
+			}
+			else if (c < 65 or 90 < c) //check if char is not uppercase, lowercase, or number - ASCII 65-90 is uppercase letters
+			{
+				isAlNum = false;
+			}
+
+		}
+
+		//add features based on types of characters in token
+		if (isAlNum == true)
+		{
+			curFeatures.push_back("IS_ALNUM");
+		}
+		else
+		{
+			curFeatures.push_back("HAS_SYMBOL");
+		}
+
+		if (isUpper == true)
+		{
+			curFeatures.push_back("ALL_UPPERCASE_");
+		}
+
+		if (hyphen == true)
+		{
+			curFeatures.push_back("HYPHEN_");
+		}
+
+		if (period == true)
+		{
+			curFeatures.push_back("PERIOD_");
+		}
+			
+
+		//push back features signifying first and last token
+		if (&token == &tokens.front())
+		{
+			curFeatures.push_back("IS_FIRST_");
+		}
+		else if (&token == &tokens.back())
+		{
+			curFeatures.push_back("IS_LAST_");
+		}
+		
+
+		//transform token to lowercase
 		std::transform(token.begin(), token.end(), token.begin(), ::tolower);
 
+		//push back token as feature
+		curFeatures.push_back(std::string("WORD_").append(token));
 
 
-		curFeatures.push_back(std::string("_WORD_").append(token));
-
-
+		//add full tokens as features to previous and current feature sets
 		if (index != 0)
 		{
-#pragma warning(disable:26451)
-			//append current token to previous tokens features with string constructor shenanigans (I use this a lot)
-			features[index - 1].insert(features[index - 1].begin() + 1, std::string("NEXT_").append(token));
-#pragma warning(default:26451)
 
+			//append current token to previous token's feature set as next word feature
+			features[index - 1].insert(features[index - 1].begin() + 1, std::string("NEXT_").append(token));
+
+			//push back previous token to current token's feature set as previous word feature
 			curFeatures.push_back(std::string("PREVIOUS_").append(prevWord));
 
 		}
 
-		//push back previous word to features using more string constructor shenanigans
-
-		//change previous word to current word for next token
+		//set previous token as current token
 		prevWord = token;
 
-#pragma warning(disable:26819) //disable warning message for fallthrough in switch cause it annoys me
 
-		//switch statement to get first and last 1, 2, and 3 letters of each token as features
+		//switch statement to get first and last 1, 2, 3, and 4 letters of each token as features
 		//depending on the length of the token, as well as the token itself as a feature
 		switch (token.size())
 		{
@@ -154,12 +134,12 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 
 		case 3:  //get first and last 3 letters as features if word longer than 3 letters
 
-			curFeatures.insert(curFeatures.begin() + 1, std::string("_LAST_3_").append(token.end() - 3, token.end()));
+			curFeatures.push_back(std::string("_LAST_3_").append(token.end() - 3, token.end()));
 			curFeatures.push_back(std::string("_FIRST_3_").append(token.begin(), token.begin() + 3));
 
 		case 2: //get first and last 2 letters if word length is at least 2 letters long
 
-			curFeatures.insert(curFeatures.begin() + 1, std::string("_LAST_2_").append(token.end() - 2, token.end()));
+			curFeatures.push_back(std::string("_LAST_2_").append(token.end() - 2, token.end()));
 			curFeatures.push_back(std::string("_FIRST_2_").append(token.begin(), token.begin() + 2));
 
 		case 1: //get first and last letter of word and entire word if length is at least 1 letters long
@@ -171,29 +151,20 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 		case 0: //I don't think that this case would ever happen but just in case
 
 			//error handling with SaRcAsM
-			throw CRF_Error("Encountered Token With Length of 0 SoMeHoW IdK WhAt HaPpEnEd");
+			throw CRF_Error("Encountered Null Token When Getting First/Last letter features");
 			break;
 		}
 
-#pragma warning(default:26819) //re-enable the warning
-
-		
-		
-
+		//increment index of current token
 		index++;
 
 
-		
-
-		
-
+		//push back the current features of current token
 		features.push_back(curFeatures);
-
-		
-
 
 	}
 
+	//push back feature indicating there is no next token to last token
 	features.back().push_back(std::string("NEXT_END_TAG_"));
 
 	//push back an ending tag for better processing in the CRF
@@ -203,22 +174,24 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::getFeatures(std::vector
 	return features;
 }
 
-void MLearn::PosTagCRF::createDataset(std::vector<std::vector<std::string>> features)
+void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
 {
+	
 	//clear previous probability matrices
 	probabilityMatrices.clear();
-	
-	//create probability matrix with starting tag
-	//createProbabilityMatrix(features[0], &transitionMatrix, &tags, 0, 23);
 
-	//create probability matrices between start and end tag
-	for (int i = 0; i < features.size(); i++)
+
+	//create current set of features for predictions of updating weights
+	//defined in CRF.h
+	features = createFeatures(tokens);
+
+
+	//create probability matrices based on features
+	for (const auto feature : features)
 	{
-		createProbabilityMatrix(features[i], i);
+		createProbabilityMatrix(feature);
 	}
 
-	//create probability matrix with ending tag
-	//createProbabilityMatrix(features[features.size() - 1], &transitionMatrix, &tags, features.size() - 1, endTag);
 }
 
 void MLearn::PosTagCRF::printF1Scores()
@@ -234,7 +207,7 @@ void MLearn::PosTagCRF::printF1Scores()
 #define TruePositive i.second[0]
 #define FalsePositive i.second[1]
 #define FalseNegative i.second[2]
-#define TagCount i.second[0] + i.second[1] + i.second[3]
+#define TagCount i.second[3]
 
 
 		totalTruePositive += TruePositive;
@@ -251,8 +224,31 @@ void MLearn::PosTagCRF::printF1Scores()
 
 	float totalPrecision = (float)totalTruePositive / (totalTruePositive + totalFalsePositive);
 	float totalRecall = (float)totalTruePositive / (totalTruePositive + totalFalseNegative);
-	//        ^ thats a good movie
 
 
 	std::cout << "Total scores: " << totalPrecision << ",   " << totalRecall << ",   " << 2 * ((totalPrecision * totalRecall) / (totalPrecision + totalRecall)) << ",   " << TotalTagCount << "\n\n";
+}
+
+void MLearn::PosTagCRF::clearF1Scores()
+{
+	tagF1Frequencies.clear();
+}
+
+void MLearn::PosTagCRF::addToF1Scores(std::string correctTag, std::string predictedTag)
+{
+
+	if (correctTag == predictedTag) //check if predicted tag is the correct tag
+	{
+		tagF1Frequencies[correctTag][0]++; //correct tag true positive
+		tagF1Frequencies[correctTag][3]++; //correct tag amount of times seen
+	}
+	else //check if predicted tag is not the correct tag
+	{
+		tagF1Frequencies[predictedTag][1]++; //predicted tag false positive
+		tagF1Frequencies[predictedTag][3]++; //predicted tag amount of time seen
+
+		tagF1Frequencies[correctTag][2]++; //correct tag false negative
+		tagF1Frequencies[correctTag][3]++; //correct tag amount of times seen
+	}
+
 }

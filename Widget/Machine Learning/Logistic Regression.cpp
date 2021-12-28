@@ -192,7 +192,7 @@ double LogNet::DErrDNet(int layer, int neuronNum, double correctOut)
 	return dETdSig * dSigdNet;
 }
 
-void LogNet::updateWeights(std::vector<double> input, std::vector<double> correctAns, float learningRate)
+void LogNet::updateCurWeights(std::vector<double> input, std::vector<double> correctAns, float learningRate)
 {
 	
 	
