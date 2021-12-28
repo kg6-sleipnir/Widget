@@ -468,7 +468,30 @@ namespace Custom
 
 		}
 	
+		template<typename matrixType>
+		std::vector<typename matrixType::value_type::value_type> convertToVector(matrixType mat)
+		{
+			
+			if (mat.size() != 1 and mat[0].size() != 1)
+			{
+				throw MATRIX_ERROR("Matrix Must Be One Dimensional When Converting To Vector");
+			}
+
+
+			if (mat[0].size() == 1) //return a vector when matrix is vertical
+			{
+
+				return transposeMatrix(mat)[0];
+
+			}
+			else //return a vector when matrix is horisontal
+			{
+				return mat[0];
+			}
+
+		}
 
 	}
+
 }
 
