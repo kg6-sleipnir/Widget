@@ -95,7 +95,6 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string> features)
 
 }
 
-
 std::vector<float> MLearn::CRF::calculateForwardVector(int position)
 {
 	/*
@@ -159,8 +158,6 @@ std::vector<float> MLearn::CRF::calculateForwardVector(int position)
 
 }
 
-
-
 std::vector<float> MLearn::CRF::calculateBackwardVector(int position)
 {
 	
@@ -220,8 +217,6 @@ std::vector<float> MLearn::CRF::calculateBackwardVector(int position)
 	return tempMatrix;
 
 }
-
-
 
 std::vector<std::pair<int, int>> MLearn::CRF::viterbi()
 {

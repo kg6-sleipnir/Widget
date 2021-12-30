@@ -24,6 +24,9 @@
 #define WORD_FILE "./Machine Learning/Training Data/TOS data/Original Data/Words.txt"
 
 
+
+using namespace Mat;
+
 using namespace MLearn;
 
 int main()
@@ -45,6 +48,8 @@ int main()
 	//learn over dataset multiple times to become more accurate
 	for (int k = 0; k < 5; k++)
 	{
+
+		test.unfreezeWeights();
 
 		//load the file containing tags and file containing words to predict
 		Data::File::DualFileRead file(TAG_FILE, WORD_FILE);
@@ -198,6 +203,7 @@ int main()
 			//print current f1 scores
 			test.printF1Scores();
 
+
 			//iterate the weights during training period but not testing period
 			if (i < 4000)
 			{
@@ -210,11 +216,17 @@ int main()
 			else if (i == 4000) //clear f1 scores going into testing period
 			{
 				test.clearF1Scores();
+				test.removeWeights(-0.2f, 0.2f);
+				test.saveWeights("output.sav");
+				test.freezeWeights();
 			}
 
 
 			std::cout << "\n\n";
 
+			
+
 		}
 	}
 }
+
