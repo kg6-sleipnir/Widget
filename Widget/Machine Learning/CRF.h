@@ -67,6 +67,11 @@ namespace MLearn
 		std::map<std::pair<std::string, std::string>, float> featureFunctionPrimeWeights;
 
 
+		Mat::V2f forwardVectors;
+
+		Mat::V2f backwardVectors;
+
+
 		//true when weights are frozen
 		bool frozen = false;
 
@@ -88,10 +93,10 @@ namespace MLearn
 		void modifyFeaturePrimeWeight(std::string tag, std::string feature, float amount);
 
 		//caclulate forward vector to get probabilities of previous tag
-		std::vector<float> calculateForwardVector(int position);
+		void calculateForwardVectors();
 
 		//calculate backward vector to get probabilities of current tag
-		std::vector<float> calculateBackwardVector(int position);
+		void calculateBackwardVectors();
 
 		//get logsumexp of 1 dimensional matrix
 		float logsumexp(std::vector<float> arr);
