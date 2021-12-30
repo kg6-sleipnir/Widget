@@ -17,10 +17,8 @@ Mat::V2f::V2f(int height, int width)
 
 Mat::V2f::V2f(std::vector<std::vector<float>> construct)
 {
-	if (construct.size() != h)
-	{
-		throw MATRIX_ERROR("Error constructing V2f, constructor size not equal to matrix size");
-	}
+	h = construct.size();
+	w = construct[0].size();
 
 	matrix = construct;
 }
@@ -239,10 +237,8 @@ Mat::V2i::V2i(int height, int width)
 
 Mat::V2i::V2i(std::vector<std::vector<int>> construct)
 {
-	if (construct.size() != h)
-	{
-		throw MATRIX_ERROR("Error constructing V2i, constructor size not equal to matrix size");
-	}
+	h = construct.size();
+	w = construct[0].size();
 
 	matrix = construct;
 }
@@ -460,10 +456,8 @@ Mat::V2d::V2d(int height, int width)
 
 Mat::V2d::V2d(std::vector<std::vector<double>> construct)
 {
-	if (construct.size() != h)
-	{
-		throw MATRIX_ERROR("Error constructing V2d, constructor size not equal to matrix size");
-	}
+	h = construct.size();
+	w = construct[0].size();
 
 	matrix = construct;
 }
