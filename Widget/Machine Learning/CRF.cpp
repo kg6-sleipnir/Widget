@@ -5,13 +5,25 @@ float MLearn::CRF::getFeatureWeight(std::string tag, std::string feature)
 
 	std::pair<std::string, std::string> featureFunction(tag, feature);
 
-	if (!featureFunctionWeights.contains(featureFunction))
+	if (!featureFunctionWeights.contains(featureFunction) and frozen == false)
 	{
 		featureFunctionWeights[featureFunction] = (float)rand() / RAND_MAX / 10;
+	}
+	else if (!featureFunctionWeights.contains(featureFunction) and frozen == true)
+	{
+		return 0.0f;
 	}
 
 	return featureFunctionWeights[featureFunction];
 
+}
+
+void MLearn::CRF::modifyFeatureWeight(std::string tag, std::string feature, float amount)
+{
+	if (frozen == false)
+	{
+		featureFunctionWeights[std::pair(tag, feature)] += amount;
+	}
 }
 
 float MLearn::CRF::getFeaturePrimeWeight(std::string tag, std::string feature)
@@ -20,13 +32,25 @@ float MLearn::CRF::getFeaturePrimeWeight(std::string tag, std::string feature)
 	std::pair<std::string, std::string> featureFunction(tag, feature);
 
 
-	if (!featureFunctionPrimeWeights.contains(featureFunction))
+	if (!featureFunctionPrimeWeights.contains(featureFunction) and frozen == false)
 	{
 		featureFunctionPrimeWeights[featureFunction] = (float)rand() / RAND_MAX / 10;
+	}
+	else if (!featureFunctionWeights.contains(featureFunction) and frozen == true)
+	{
+		return 0.0f;
 	}
 
 	return featureFunctionPrimeWeights[featureFunction];
 
+}
+
+void MLearn::CRF::modifyFeaturePrimeWeight(std::string tag, std::string feature, float amount)
+{
+	if (frozen == false)
+	{
+		featureFunctionPrimeWeights[std::pair(tag, feature)] += amount;
+	}
 }
 
 void MLearn::CRF::createProbabilityMatrix(std::vector<std::string> features)
@@ -40,11 +64,11 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string> features)
 	}
 
 
-	Matrix::Fmatrix matrix(1, std::vector<float>(tagAmount, 1.0f / tagAmount)); //matrix to add to probability matrices, starting with vector of 0s on first row
+	Mat::V2f matrix; //matrix to add to probability matrices
 
-	Matrix::Fmatrix tagProbs(1, std::vector<float>(tagAmount, 0.0f)); //sum of feature weights associated with current tags
+	std::vector<float> tagProbs(tagAmount, 0.0f); //sum of feature weights associated with current tags
 
-	Matrix::Fmatrix tagProbsPrime(1, std::vector<float>(tagAmount, 0.0f)); //sum of feature weights assosiated with previous tags
+	std::vector<float> tagProbsPrime(tagAmount, 0.0f); //sum of feature weights assosiated with previous tags
 
 
 	//add feature weights for current tag
@@ -52,7 +76,7 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string> features)
 	{
 		for (int j = 0; j < features.size(); j++)
 		{
-			tagProbs[0][i] += getFeatureWeight(tagList->at(i), features.at(j)); //make matrix with each index in diagonal the sum of observed features for that tag
+			tagProbs[i] += getFeatureWeight(tagList->at(i), features.at(j)); //make matrix with each index in diagonal the sum of observed features for that tag
 		}
 	}
 
@@ -61,18 +85,18 @@ void MLearn::CRF::createProbabilityMatrix(std::vector<std::string> features)
 	{
 		for (int j = 0; j < features.size(); j++)
 		{
-			tagProbsPrime[0][i] += getFeaturePrimeWeight(tagList->at(i), features.at(j));
+			tagProbsPrime[i] += getFeaturePrimeWeight(tagList->at(i), features.at(j));
 		}
 	}
 
-	matrix = Matrix::addOuterMatrix(tagProbsPrime, tagProbs);
+	matrix = Mat::addOuterf(tagProbsPrime, tagProbs);
 
 	probabilityMatrices.push_back(matrix);
 
 }
 
 
-Matrix::Fmatrix MLearn::CRF::calculateForwardVector(int position)
+std::vector<float> MLearn::CRF::calculateForwardVector(int position)
 {
 	/*
 	
@@ -88,13 +112,13 @@ Matrix::Fmatrix MLearn::CRF::calculateForwardVector(int position)
 	
 	*/
 	
-	if (position >= probabilityMatrices.size() or position < 0)
+	if (position > probabilityMatrices.size() or position < 0)
 	{
 		throw CRF_Error("calculateForwardVector(), Position Out Of Bounds For Current Set");
 	}
 	
 	//current iteration's probabilities
-	Custom::Matrix::Fmatrix tempMatrix = Custom::Matrix::Fmatrix(1, std::vector<float>(tagAmount, 0.0f));
+	std::vector<float> tempMatrix(tagAmount, 0.0f);
 
 
 	//iterate over probability matrices up to current position - 1
@@ -102,27 +126,30 @@ Matrix::Fmatrix MLearn::CRF::calculateForwardVector(int position)
 	{
 		
 		//matrix to hold α(t-1)
-		Matrix::Fmatrix tempMatrix2 = tempMatrix;
+		std::vector<float> tempMatrix2 = tempMatrix;
 
 		//iterate over tags y
 		for (int y = 0; y < tagAmount; y++)
 		{
 
 			//matrix to hold f(t,y)
-			Matrix::Fmatrix prob = Matrix::Fmatrix(1, std::vector<float>(tagAmount, 0.0f));
+			std::vector<float> prob(tagAmount, 0.0f);
 			
 
 			//create f(t,y)
 			for (int k = 0; k < tagAmount; k++)
 			{
-				prob[0][k] = probabilityMatrices[i][k][y];
+				prob[k] = probabilityMatrices[i][k][y];
 			}
 
 			//add α(t-1) and f(t,y)
-			prob = Matrix::addMatrix(tempMatrix2, prob);
+			for (int k = 0; k < tagAmount; k++)
+			{
+				prob[k] = tempMatrix2[k] + prob[k];
+			}
 
 			//logsumexp result
-			tempMatrix[0][y] = logsumexp(Matrix::convertToVector(prob));
+			tempMatrix[y] = logsumexp(prob);
 
 		}
 
@@ -134,7 +161,7 @@ Matrix::Fmatrix MLearn::CRF::calculateForwardVector(int position)
 
 
 
-Matrix::Fmatrix MLearn::CRF::calculateBackwardVector(int position)
+std::vector<float> MLearn::CRF::calculateBackwardVector(int position)
 {
 	
 	/*
@@ -157,7 +184,7 @@ Matrix::Fmatrix MLearn::CRF::calculateBackwardVector(int position)
 	}
 
 	//current iteration's probabilities
-	Custom::Matrix::Fmatrix tempMatrix = Custom::Matrix::Fmatrix(1, std::vector<float>(tagAmount, 1.0f));
+	std::vector<float> tempMatrix(tagAmount, 1.0f);
 
 
 	//iterate to position (t+1)
@@ -165,20 +192,23 @@ Matrix::Fmatrix MLearn::CRF::calculateBackwardVector(int position)
 	{
 		
 		//vector for β(n+1)
-		Matrix::Fmatrix tempMatrix2 = tempMatrix;
+		std::vector<float> tempMatrix2 = tempMatrix;
 
 		//iterate over previous tags yp
 		for (int yp = 0; yp < tagAmount; yp++)
 		{
 
 			//matrix holding f(t,yp)
-			Matrix::Fmatrix prob = Matrix::Fmatrix(1, probabilityMatrices[i][yp]);
+			std::vector<float> prob =  probabilityMatrices[i][yp];
 
 			//add β(t+1) and f(t,yp)
-			prob = Matrix::addMatrix(prob, tempMatrix2);
+			for (int k = 0; k < tagAmount; k++)
+			{
+				prob[k] = tempMatrix2[k] + prob[k];
+			}
 
 			//logsumexp the result
-			tempMatrix[0][yp] = logsumexp(Matrix::convertToVector(prob));
+			tempMatrix[yp] = logsumexp(prob);
 
 		}
 
@@ -212,7 +242,7 @@ std::vector<std::pair<int, int>> MLearn::CRF::viterbi()
 	
 	
 	//matrix holding I(t,y)
-	Matrix::Imatrix tagIndices = Matrix::Imatrix(probabilityMatrices.size(), std::vector<int>(tagAmount, 0));
+	Mat::V2i tagIndices(probabilityMatrices.size(), tagAmount);
 
 	//matrix holding l(t-1,yp)
 	std::vector<float> prevProbs = std::vector<float>(tagAmount, 0.0f);
@@ -245,7 +275,6 @@ std::vector<std::pair<int, int>> MLearn::CRF::viterbi()
 			
 			//get max( l(t-1,y) + f(t-1,y) )
 			auto argmax = std::max_element(tempProbs.begin(), tempProbs.end());
-
 			tagIndices[i][y] = std::distance(tempProbs.begin(), argmax);
 
 			//assign the most likely previous tag index to current tag index
@@ -312,6 +341,108 @@ void MLearn::CRF::iterateWeights(std::vector<std::string> correctTags, float lea
 	t1.join();
 	t2.join();
 
+}
+
+void MLearn::CRF::removeWeights(float low, float high)
+{
+
+	for (auto it = featureFunctionWeights.begin(); it != featureFunctionWeights.end();)
+	{
+		if (low <= it->second and it->second <= high)
+		{
+			it = featureFunctionWeights.erase(it);
+		}
+		else
+		{
+			it++;
+		}
+	}
+
+	for (auto it = featureFunctionPrimeWeights.begin(); it != featureFunctionPrimeWeights.end();)
+	{
+		if (low <= it->second and it->second <= high)
+		{
+			it = featureFunctionPrimeWeights.erase(it);
+		}
+		else
+		{
+			it++;
+		}
+	}
+}
+
+void MLearn::CRF::saveWeights(std::string outputFile)
+{
+	//open and initialize file
+	std::fstream file;
+	file.open(outputFile, std::ios::out);
+
+	//output weights
+	for (const auto [element, value] : featureFunctionWeights)
+	{
+		file << element.first << " " << element.second << " " << value << "\n";
+	}
+
+	//separate weights from prime weights
+	file << ";\n";
+
+	//output prime weights
+	for (const auto [element, value] : featureFunctionPrimeWeights)
+	{
+		file << element.first << " " << element.second << " " << value << "\n";
+	}
+}
+
+void MLearn::CRF::loadWeights(std::string inFile)
+{
+
+	std::fstream file;
+	file.open(inFile, std::ios::in);
+
+	std::string curLine;
+	std::vector<std::string> curTokens;
+
+	while (std::getline(file, curLine))
+	{
+
+		curTokens = tokenize<std::string, ' '>(curLine);
+
+		if (curTokens[0] == ";")
+		{
+			break;
+		}
+		else
+		{
+			
+			std::pair<std::string, std::string> element = std::pair(curTokens[0], curTokens[1]);
+			float value = std::stof(curTokens[2]);
+
+			featureFunctionWeights[element] = value;
+
+		}
+	}
+
+	while (std::getline(file, curLine))
+	{
+		curTokens = tokenize<std::string, ' '>(curLine);
+
+		std::pair<std::string, std::string> element = std::pair(curTokens[0], curTokens[1]);
+		float value = std::stof(curTokens[2]);
+
+		featureFunctionPrimeWeights[element] = value;
+
+	}
+
+}
+
+void MLearn::CRF::freezeWeights()
+{
+	frozen = true;
+}
+
+void MLearn::CRF::unfreezeWeights()
+{
+	frozen = false;
 }
 
 float MLearn::CRF::logsumexp(std::vector<float> arr)
@@ -388,7 +519,7 @@ std::vector<float> MLearn::CRF::getTagProbs(int position, float normalizeFactor)
 	}
 
 	//get probability matrix p(y|yp;t)
-	Matrix::Fmatrix prediction = probabilityMatrices[position];
+	Mat::V2f prediction = probabilityMatrices[position];
 
 
 	//calculate the forward and backward vectors, α(t-1) and β(t+1) respectively
@@ -397,18 +528,18 @@ std::vector<float> MLearn::CRF::getTagProbs(int position, float normalizeFactor)
 
 
 	//get outer product of α(t-1) and β(t+1) to get FW(t)
-	Matrix::Fmatrix FBMatrix = Matrix::addOuterMatrix(forwardMatrix.get(), backwardMatrix.get());
+	Mat::V2f FBMatrix = Mat::addOuterf(forwardMatrix.get(), backwardMatrix.get());
 
 
 	//get PFW(t)
-	prediction = Matrix::addMatrix(prediction, FBMatrix);
-	prediction = Matrix::addMatrixWith(prediction, -1 * normalizeFactor);
-	prediction = Matrix::expElementsInMatrix(prediction);
+	prediction = prediction + FBMatrix;
+	prediction = prediction - normalizeFactor;
+	prediction.ex();
 
 
 	
 	//get p(t,y) without Euler's number
-	std::vector<float> temp = Custom::Matrix::sumColumns(prediction);
+	std::vector<float> temp = prediction.sumCols();
 
 	//divide each probability by Euler's number to normalize probabilities between 0 and 1
 	for (int i = 0; i < temp.size(); i++)
@@ -466,7 +597,7 @@ std::vector<float> MLearn::CRF::getPrevTagProbs(int position, float normalizeFac
 	}
 	
 	//get probability matrix p(y|yp;t)
-	Matrix::Fmatrix prediction = probabilityMatrices[position];
+	Mat::V2f prediction = probabilityMatrices[position];
 
 
 	//calculate the forward and backward vectors, α(t-1) and β(t+1) respectively
@@ -474,21 +605,17 @@ std::vector<float> MLearn::CRF::getPrevTagProbs(int position, float normalizeFac
 	auto backwardMatrix = std::async(&CRF::calculateBackwardVector, this, position);
 
 	//get outer product of α(t-1) and β(t+1)
-	Matrix::Fmatrix FBMatrix = Matrix::addOuterMatrix(forwardMatrix.get(), backwardMatrix.get());
+	Mat::V2f FBMatrix = Mat::addOuterf(forwardMatrix.get(), backwardMatrix.get());
 
 
-	//add the two matricies
-	prediction = Matrix::addMatrix(prediction, FBMatrix);
-
-	//subtract the normalization factor from each element in the prediction matrix
-	prediction = Matrix::addMatrixWith(prediction, -1 * normalizeFactor);
-
-	//exponentiate the matrix to get PWF(t)
-	prediction = Matrix::expElementsInMatrix(prediction);
+	//get PFW(t)
+	prediction = prediction + FBMatrix;
+	prediction = prediction - normalizeFactor;
+	prediction.ex();
 
 
 	//get p(t,yp) without Euler's number
-	std::vector<float> temp = Custom::Matrix::sumRows(prediction);
+	std::vector<float> temp = prediction.sumRows();
 
 	//divide by Euler's number to normalize probabilities between 0 and 1
 	for (int i = 0; i < temp.size(); i++)
@@ -506,7 +633,7 @@ void MLearn::CRF::updateCurWeights(std::vector<std::string> correctTags, float l
 {
 	
 	//get the normalization factor for current set
-	float logz = logsumexp(Matrix::convertToVector(calculateForwardVector(probabilityMatrices.size())));
+	float logz = logsumexp(calculateForwardVector(probabilityMatrices.size()));
 
 
 	//update weights for each feature
@@ -532,14 +659,14 @@ void MLearn::CRF::updateCurWeights(std::vector<std::string> correctTags, float l
 				//subtract current probability with learn rate from weights for all tags' features
 				for (int j = 0; j < tagList->size(); j++)
 				{
-					featureFunctionWeights[std::pair(tagList->at(j), feature)] -= tagProbs[j] * learnRate;
+					modifyFeatureWeight(tagList->at(j), feature, -tagProbs[j] * learnRate);
 				}
 
 				//add the same amount subtracted to weights for the correct tag's features to get net zero loss
-				featureFunctionWeights[std::pair(correctTags[i], feature)] += tagProbs[probIndex] * learnRate;
+				modifyFeatureWeight(correctTags[i], feature, tagProbs[probIndex] * learnRate);
 
 				//increase the weights for the correct tag's feature
-				featureFunctionWeights[std::pair(correctTags[i], feature)] += inverseProb * learnRate;
+				modifyFeatureWeight(correctTags[i], feature, inverseProb * learnRate);
 
 			}
 		}
@@ -550,7 +677,7 @@ void MLearn::CRF::updatePrimeWeights(std::vector<std::string> correctTags, float
 {
 	
 	//get the normalization factor for current set
-	float logz = logsumexp(Matrix::convertToVector(calculateForwardVector(probabilityMatrices.size())));
+	float logz = logsumexp(calculateForwardVector(probabilityMatrices.size()));
 	
 	//update weights for each feature
 	for (int i = 1; i < features.size(); i++)
@@ -576,14 +703,14 @@ void MLearn::CRF::updatePrimeWeights(std::vector<std::string> correctTags, float
 				//subtract current probability with learn rate from weights for all tags' features
 				for (int j = 0; j < tagAmount; j++)
 				{
-					featureFunctionPrimeWeights[std::pair(tagList->at(j), feature)] -= tagProbs[j] * learnRate;
+					modifyFeaturePrimeWeight(tagList->at(j), feature, -tagProbs[j] * learnRate);
 				}
 
 				//add the same amount subtracted to weights for the correct tag's features to get net zero loss
-				featureFunctionPrimeWeights[std::pair(correctTags[i - 1], feature)] += tagProbs[probIndex] * learnRate;
+				modifyFeaturePrimeWeight(correctTags[i - 1], feature, tagProbs[probIndex] * learnRate);
 
 				//increase the weights for the correct tag's feature
-				featureFunctionPrimeWeights[std::pair(correctTags[i - 1], feature)] += inverseProb * learnRate;
+				modifyFeaturePrimeWeight(correctTags[i - 1], feature, inverseProb * learnRate);
 
 			}
 		}

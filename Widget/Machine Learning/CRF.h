@@ -12,12 +12,10 @@
 #include <vector>
 
 #include "../Input Processing/Tokenizer.h"
-#include "../Custom Libraries/Matrix.h"
+#include "../Custom Libraries/Mat.h"
 
 #define _USE_MATH_DEFINES
 #include <cmath>
-
-using namespace Custom;
 
 namespace MLearn
 {
@@ -49,7 +47,7 @@ namespace MLearn
 		//vector of matrices containing probabilities of current and previous tag
 		//horizontal axis is current tag
 		//vertical axis is previous tag
-		std::vector<Matrix::Fmatrix> probabilityMatrices;
+		std::vector<Mat::V2f> probabilityMatrices;
 
 
 
@@ -69,6 +67,9 @@ namespace MLearn
 		std::map<std::pair<std::string, std::string>, float> featureFunctionPrimeWeights;
 
 
+		//true when weights are frozen
+		bool frozen = false;
+
 
 		//get normalised probabilities of current tag using variant of forward backward algorithm from HMMs
 		std::vector<float> getTagProbs(int position, float normalizeFactor);
@@ -79,14 +80,18 @@ namespace MLearn
 		//gets or create the weight of the feature function associated with current token
 		float getFeatureWeight(std::string tag, std::string feature);
 
+		void modifyFeatureWeight(std::string tag, std::string feature, float amount);
+
 		//gets or create the weight of the feature function associated with previous token
 		float getFeaturePrimeWeight(std::string tag, std::string feature);
 
+		void modifyFeaturePrimeWeight(std::string tag, std::string feature, float amount);
+
 		//caclulate forward vector to get probabilities of previous tag
-		Matrix::Fmatrix calculateForwardVector(int position);
+		std::vector<float> calculateForwardVector(int position);
 
 		//calculate backward vector to get probabilities of current tag
-		Matrix::Fmatrix calculateBackwardVector(int position);
+		std::vector<float> calculateBackwardVector(int position);
 
 		//get logsumexp of 1 dimensional matrix
 		float logsumexp(std::vector<float> arr);
@@ -114,10 +119,24 @@ namespace MLearn
 		//get set of predictions on current data based on Viterbi algorithm
 		std::vector<std::pair<int, int>> viterbi();
 
-
 		//update the weights for current features for current iteration
 		//current features is already known from when current dataset was created
 		void iterateWeights(std::vector<std::string> correctTags, float learnRate);
+
+		//remove weights with values between a low and high number
+		void removeWeights(float low, float high);
+
+		//save weights to a file
+		void saveWeights(std::string outputFile);
+
+		//load weights from file
+		void loadWeights(std::string inFile);
+
+		//freeze weights to avoid updates or creation
+		void freezeWeights();
+
+		//unfreeze weights to allow for updates or creation
+		void unfreezeWeights();
 
 	};
 
