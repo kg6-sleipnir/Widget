@@ -197,7 +197,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[j] += matrix[i][j];
+					returnVector[i] += matrix[i][j];
 				}
 			}
 
@@ -212,7 +212,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[i] += matrix[i][j];
+					returnVector[j] += matrix[i][j];
 				}
 			}
 
@@ -429,7 +429,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[j] += matrix[i][j];
+					returnVector[i] += matrix[i][j];
 				}
 			}
 
@@ -444,7 +444,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[i] += matrix[i][j];
+					returnVector[j] += matrix[i][j];
 				}
 			}
 
@@ -661,7 +661,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[j] += matrix[i][j];
+					returnVector[i] += matrix[i][j];
 				}
 			}
 
@@ -676,7 +676,7 @@ namespace Mat
 			{
 				for (int j = 0; j < this->width(); j++)
 				{
-					returnVector[i] += matrix[i][j];
+					returnVector[j] += matrix[i][j];
 				}
 			}
 
