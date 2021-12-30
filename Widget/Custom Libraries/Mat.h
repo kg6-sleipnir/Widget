@@ -28,230 +28,46 @@ namespace Mat
 
 		std::vector<std::vector<float>> matrix;
 
-		size_t h;
+		int h;
 
-		size_t w;
+		int w;
 
 	public:
 
-		V2f() { h = 0; w = 0; };
+		V2f();
 
-		V2f(int height, int width)
-		{
+		V2f(int height, int width);
 
-			h = height;
-			w = width;
+		V2f(std::vector<std::vector<float>> construct);
 
-			matrix = std::vector<std::vector<float>>(height, std::vector<float>(width, 0.0f));
-		}
+		std::vector<float>& operator[](int pos);
 
-		V2f(std::vector<std::vector<float>> construct)
-		{
-			if (construct.size() != h)
-			{
-				throw MATRIX_ERROR("Error constructing V2f, constructor size not equal to matrix size");
-			}
+		V2f operator+(V2f mat2);
+		
+		V2f operator+(float val);
 
-			matrix = construct;
-		}
+		V2f operator-(V2f mat2);
 
-		std::vector<float>& operator[](size_t pos)
-		{
-			return matrix[pos];
-		}
+		V2f operator-(float val);
+		
+		V2f operator*(V2f mat2);
 
-		V2f operator+(V2f mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error adding matrices, sizes are unequal");
-			}
+		V2f operator*(float val);
 
+		V2f transpose();
 
-			V2f returnMatrix(this->height(), this->width());
+		std::vector<float> sumRows();
 
+		std::vector<float> sumCols();
 
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + mat2[i][j];
-				}
-			}
+		void ex();
 
-			return returnMatrix;
-		}
-
-
-		V2f operator+(float val)
-		{
-			V2f returnMatrix(this->height(), this->width());
-
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2f operator-(V2f mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error subtracting matrices, sizes are unequal");
-			}
-
-
-			V2f returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - mat2[i][j];
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2f operator-(float val)
-		{
-			V2f returnMatrix(this->height(), this->width());
-
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2f operator*(V2f mat2)
-		{
-			if (this->width() != mat2.height())
-			{
-				throw MATRIX_ERROR("Error multiplying matrices, width of first must equal height of second");
-			}
-
-			V2f returnMatrix(this->height(), mat2.width());
-
-			for (int y1 = 0; y1 < this->height(); y1++)
-			{
-				for (int x2 = 0; x2 < mat2.width(); x2++)
-				{
-					for (int i = 0; i < this->width(); i++)
-					{
-						returnMatrix[y1][x2] += matrix[y1][i] * mat2[i][x2];
-					}
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2f operator*(float val)
-		{
-			V2f returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] * val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2f transpose()
-		{
-			V2f tempMatrix(this->width(), this->height());
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					tempMatrix[j][i] = matrix[i][j];
-				}
-			}
-
-			return tempMatrix;
-		}
-
-		std::vector<float> sumRows()
-		{
-			std::vector<float> returnVector(this->width(), 0.0f);
-			
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[i] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		std::vector<float> sumCols()
-		{
-			std::vector<float> returnVector(this->height(), 0.0f);
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[j] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		void ex()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					matrix[i][j] = exp(matrix[i][j]);
-				}
-			}
-		}
-
-		void printMatrix()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					std::cout << matrix[i][j] << " ";
-				}
-				std::cout << "\n";
-			}
-		}
-
-		size_t height()
-		{
-			return h;
-		}
-
-		size_t width()
-		{
-			return w;
-		}
-
+		void printMatrix();
+		
+		int height();
+		
+		int width();
+		
 	};
 
 	class V2i
@@ -260,229 +76,46 @@ namespace Mat
 
 		std::vector<std::vector<int>> matrix;
 
-		size_t h;
+		int h;
 
-		size_t w;
+		int w;
 
 	public:
 
-		V2i() { h = 0; w = 0; };
+		V2i();
 
-		V2i(int height, int width)
-		{
+		V2i(int height, int width);
 
-			h = height;
-			w = width;
+		V2i(std::vector<std::vector<int>> construct);
+		
 
-			matrix = std::vector<std::vector<int>>(height, std::vector<int>(width, 0.0f));
-		}
+		std::vector<int>& operator[](int pos);
 
-		V2i(std::vector<std::vector<int>> construct)
-		{
-			if (construct.size() != h)
-			{
-				throw MATRIX_ERROR("Error constructing V2i, constructor size not equal to matrix size");
-			}
+		V2i operator+(V2i mat2);
 
-			matrix = construct;
-		}
+		V2i operator+(int val);
 
-		std::vector<int>& operator[](size_t pos)
-		{
-			return matrix[pos];
-		}
+		V2i operator-(V2i mat2);
 
-		V2i operator+(V2i mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error adding matrices, sizes are unequal");
-			}
+		V2i operator-(int val);
 
+		V2i operator*(V2i mat2);
 
-			V2i returnMatrix(this->height(), this->width());
+		V2i operator*(int val);
 
+		V2i transpose();
 
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + mat2[i][j];
-				}
-			}
+		std::vector<int> sumRows();
 
-			return returnMatrix;
-		}
+		std::vector<int> sumCols();
 
+		void ex();
 
-		V2i operator+(int val)
-		{
-			V2i returnMatrix(this->height(), this->width());
+		void printMatrix();
 
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + val;
-				}
-			}
+		int height();
 
-			return returnMatrix;
-		}
-
-		V2i operator-(V2i mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error subtracting matrices, sizes are unequal");
-			}
-
-
-			V2i returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - mat2[i][j];
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2i operator-(int val)
-		{
-			V2i returnMatrix(this->height(), this->width());
-
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2i operator*(V2i mat2)
-		{
-			if (this->width() != mat2.height())
-			{
-				throw MATRIX_ERROR("Error multiplying matrices, width of first must equal height of second");
-			}
-
-			V2i returnMatrix(this->height(), mat2.width());
-
-			for (int y1 = 0; y1 < this->height(); y1++)
-			{
-				for (int x2 = 0; x2 < mat2.width(); x2++)
-				{
-					for (int i = 0; i < this->width(); i++)
-					{
-						returnMatrix[y1][x2] += matrix[y1][i] * mat2[i][x2];
-					}
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2i operator*(int val)
-		{
-			V2i returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] * val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2i transpose()
-		{
-			V2i tempMatrix(this->width(), this->height());
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					tempMatrix[j][i] = matrix[i][j];
-				}
-			}
-
-			return tempMatrix;
-		}
-
-		std::vector<int> sumRows()
-		{
-			std::vector<int> returnVector(this->width(), 0.0f);
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[i] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		std::vector<int> sumCols()
-		{
-			std::vector<int> returnVector(this->height(), 0.0f);
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[j] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		void ex()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					matrix[i][j] = exp(matrix[i][j]);
-				}
-			}
-		}
-
-		void printMatrix()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					std::cout << matrix[i][j] << " ";
-				}
-				std::cout << "\n";
-			}
-		}
-
-		size_t height()
-		{
-			return h;
-		}
-
-		size_t width()
-		{
-			return w;
-		}
+		int width();
 
 	};
 
@@ -492,229 +125,45 @@ namespace Mat
 
 		std::vector<std::vector<double>> matrix;
 
-		size_t h;
+		int h;
 
-		size_t w;
+		int w;
 
 	public:
 
-		V2d() { h = 0; w = 0; };
+		V2d();
 
-		V2d(int height, int width)
-		{
+		V2d(int height, int width);
 
-			h = height;
-			w = width;
+		V2d(std::vector<std::vector<double>> construct);
 
-			matrix = std::vector<std::vector<double>>(height, std::vector<double>(width, 0.0f));
-		}
+		std::vector<double>& operator[](int pos);
 
-		V2d(std::vector<std::vector<double>> construct)
-		{
-			if (construct.size() != h)
-			{
-				throw MATRIX_ERROR("Error constructing V2d, constructor size not equal to matrix size");
-			}
+		V2d operator+(V2d mat2);
 
-			matrix = construct;
-		}
+		V2d operator+(double val);
 
-		std::vector<double>& operator[](size_t pos)
-		{
-			return matrix[pos];
-		}
+		V2d operator-(V2d mat2);
 
-		V2d operator+(V2d mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error adding matrices, sizes are unequal");
-			}
+		V2d operator-(double val);
 
+		V2d operator*(V2d mat2);
 
-			V2d returnMatrix(this->height(), this->width());
+		V2d operator*(double val);
 
+		V2d transpose();
 
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + mat2[i][j];
-				}
-			}
+		std::vector<double> sumRows();
 
-			return returnMatrix;
-		}
+		std::vector<double> sumCols();
 
+		void ex();
 
-		V2d operator+(double val)
-		{
-			V2d returnMatrix(this->height(), this->width());
+		void printMatrix();
 
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] + val;
-				}
-			}
+		int height();
 
-			return returnMatrix;
-		}
-
-		V2d operator-(V2d mat2)
-		{
-			if (mat2.height() != this->height() or mat2.width() != this->width())
-			{
-				throw MATRIX_ERROR("Error subtracting matrices, sizes are unequal");
-			}
-
-
-			V2d returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - mat2[i][j];
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2d operator-(double val)
-		{
-			V2d returnMatrix(this->height(), this->width());
-
-			for (int i = 0; i < returnMatrix.height(); i++)
-			{
-				for (int j = 0; j < returnMatrix.width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] - val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2d operator*(V2d mat2)
-		{
-			if (this->width() != mat2.height())
-			{
-				throw MATRIX_ERROR("Error multiplying matrices, width of first must equal height of second");
-			}
-
-			V2d returnMatrix(this->height(), mat2.width());
-
-			for (int y1 = 0; y1 < this->height(); y1++)
-			{
-				for (int x2 = 0; x2 < mat2.width(); x2++)
-				{
-					for (int i = 0; i < this->width(); i++)
-					{
-						returnMatrix[y1][x2] += matrix[y1][i] * mat2[i][x2];
-					}
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2d operator*(double val)
-		{
-			V2d returnMatrix(this->height(), this->width());
-
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnMatrix[i][j] = matrix[i][j] * val;
-				}
-			}
-
-			return returnMatrix;
-		}
-
-		V2d transpose()
-		{
-			V2d tempMatrix(this->width(), this->height());
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					tempMatrix[j][i] = matrix[i][j];
-				}
-			}
-
-			return tempMatrix;
-		}
-
-		std::vector<double> sumRows()
-		{
-			std::vector<double> returnVector(this->width(), 0.0f);
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[i] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		std::vector<double> sumCols()
-		{
-			std::vector<double> returnVector(this->height(), 0.0f);
-
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					returnVector[j] += matrix[i][j];
-				}
-			}
-
-			return returnVector;
-		}
-
-		void ex()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					matrix[i][j] = exp(matrix[i][j]);
-				}
-			}
-		}
-
-		void printMatrix()
-		{
-			for (int i = 0; i < this->height(); i++)
-			{
-				for (int j = 0; j < this->width(); j++)
-				{
-					std::cout << matrix[i][j] << " ";
-				}
-				std::cout << "\n";
-			}
-		}
-
-		size_t height()
-		{
-			return h;
-		}
-
-		size_t width()
-		{
-			return w;
-		}
+		int width();
 
 	};
 
