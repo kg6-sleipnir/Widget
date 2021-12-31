@@ -36,7 +36,7 @@ float MLearn::CRF::getFeaturePrimeWeight(std::string tag, std::string feature)
 	{
 		featureFunctionPrimeWeights[featureFunction] = (float)rand() / RAND_MAX / 10;
 	}
-	else if (!featureFunctionWeights.contains(featureFunction) and frozen == true)
+	else if (!featureFunctionPrimeWeights.contains(featureFunction) and frozen == true)
 	{
 		return 0.0f;
 	}
@@ -378,6 +378,9 @@ void MLearn::CRF::saveWeights(std::string outputFile)
 	{
 		file << element.first << " " << element.second << " " << value << "\n";
 	}
+
+	file.close();
+
 }
 
 void MLearn::CRF::loadWeights(std::string inFile)
@@ -419,6 +422,8 @@ void MLearn::CRF::loadWeights(std::string inFile)
 		featureFunctionPrimeWeights[element] = value;
 
 	}
+
+	file.close();
 
 }
 
