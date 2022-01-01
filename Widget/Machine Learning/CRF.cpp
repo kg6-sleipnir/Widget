@@ -310,6 +310,13 @@ std::vector<std::pair<int, int>> MLearn::CRF::viterbi()
 
 void MLearn::CRF::iterateWeights(std::vector<std::string> correctTags, float learnRate)
 {
+	
+	//dont update weights if they are frozen
+	if (frozen == true)
+	{
+		return;
+	}
+	
 	//calculate forward and backward vectors
 	std::thread FV(&CRF::calculateForwardVectors, this);
 	std::thread BV(&CRF::calculateBackwardVectors, this);
