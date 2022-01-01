@@ -5,7 +5,9 @@
 #include <string>
 
 #include "Decision Tree.h"
+#include "../Data Handling/Dual File Reader.h"
 #include "Logistic Regression.h"
+#include "POS Tagger CRF.h"
 
 
 namespace MLearn
@@ -31,7 +33,7 @@ namespace MLearn
 	//part of speech tag of a word in a sequence
 	//reads data from "./Machine Learning/Training Data/TOS data/Original Data/tags.txt"
 	//and "./Machine Learning/Training Data/TOS data/Original Data/Words.txt"
-	void CRFTest(float weightLearnRates[5], float transLearnRates[2]);
+	void CRFTest();
 
 
 }
