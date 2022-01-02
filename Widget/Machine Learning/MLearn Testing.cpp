@@ -45,7 +45,7 @@ void MLearn::DTreeTest(std::string learnFile, std::string predictFile, int targe
 			while (getline(file, line))
 			{
 				//tokenize line into variables
-				std::vector<int> V = tokenize<int, ' '>(line);
+				std::vector<int> V = tokenize<int>(line);
 				
 				//make prediction
 				int answer = tree.query(V);
@@ -227,7 +227,7 @@ void MLearn::LogRegTest2()
 		for (int j = 0; std::getline(file, curLine); j++)
 		{
 			//get input vector by tokenizing the current line
-			std::vector<double> input = tokenize<double, ' '>(curLine);
+			std::vector<double> input = tokenize<double>(curLine);
 			
 			//get the last element in the line as an answer variable
 			double ans = input.back();
@@ -320,7 +320,7 @@ void MLearn::LogRegTest2()
 		while (std::getline(file, curLine))
 		{
 			//tokenize the current line to get inputs and output
-			std::vector<double> input = tokenize<double, ' '>(curLine);
+			std::vector<double> input = tokenize<double>(curLine);
 
 			//get expected output from 5th element
 			double ans = input.back();

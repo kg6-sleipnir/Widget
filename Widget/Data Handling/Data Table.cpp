@@ -31,7 +31,7 @@ dataTable::dataTable(std::string dataFile, int target)
 	while (std::getline(file, curLine))
 	{
 		//tokenize line into readable data
-		curData = tokenize<int, ' '>(curLine);
+		curData = tokenize<int>(curLine);
 
 		//temporary map to hold current variables
 		std::map<int, int> temp;

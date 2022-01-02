@@ -40,7 +40,7 @@ void File::DualFileRead::nextLine()
 	//check for errors while tokenizing
 	try
 	{
-		tokens1 = tokenize<std::string, ' '>(curLine1);
+		tokens1 = tokenize<std::string>(curLine1);
 	}
 	catch (Tokenizer_Error& e)
 	{
@@ -50,7 +50,7 @@ void File::DualFileRead::nextLine()
 	//check for more errors while tokenizing
 	try
 	{
-		tokens2 = tokenize<std::string, ' '>(curLine2);
+		tokens2 = tokenize<std::string>(curLine2);
 	}
 	catch (Tokenizer_Error& e)
 	{
@@ -102,7 +102,7 @@ std::vector<int> Data::File::DualFileRead::checkFiles()
 		//check for errors while tokenizing
 		try
 		{
-			tempTokens1 = tokenize<std::string, ' '>(tempLine1);
+			tempTokens1 = tokenize<std::string>(tempLine1);
 		}
 		catch (Tokenizer_Error& e)
 		{
@@ -113,7 +113,7 @@ std::vector<int> Data::File::DualFileRead::checkFiles()
 		//check for more errors while tokenizing
 		try
 		{
-			tempTokens2 = tokenize<std::string, ' '>(tempLine2);
+			tempTokens2 = tokenize<std::string>(tempLine2);
 		}
 		catch (Tokenizer_Error& e)
 		{

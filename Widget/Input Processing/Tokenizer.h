@@ -3,6 +3,7 @@
 #include <any>
 #include <eh.h>
 #include <iostream>
+#include <stdarg.h>
 #include <string>
 #include <typeinfo>
 #include <vector>
@@ -38,15 +39,19 @@ struct Tokenizer_Error : public std::exception
 
 //turns a string into a set of tokens of a specified type
 //valid return types are [ INT, DOUBLE, CHAR, STD::STRING ]
-template<class type, char ...delimiters> 
-std::vector<type> tokenize(std::string input)
+template<class type, class ... d> 
+std::vector<type> tokenize(std::string input, d... delimiters)
 {
 	//temporary values to store current and created tokens
 	std::vector<std::string> tokens;
 	std::string token;
 
-	std::vector<wchar_t> delims = { { delimiters... } };
+	std::vector<wchar_t> delims{ static_cast<wchar_t>(delimiters)... };
 	
+	if (delims.size() == 0)
+	{
+		delims.push_back(' ');
+	}
 
 	//return vector of wanted datatype
 	std::any finTokens;

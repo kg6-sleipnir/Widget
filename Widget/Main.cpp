@@ -44,7 +44,7 @@ int main()
 	
 		std::vector<std::string> tokens;
 
-		tokens = tokenize<std::string, ' '>(in);
+		tokens = tokenize<std::string>(in);
 
 		test.createDataset(tokens);
 
@@ -57,4 +57,5 @@ int main()
 
 		}
 	}
+
 }

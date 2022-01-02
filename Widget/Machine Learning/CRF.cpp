@@ -402,7 +402,7 @@ void MLearn::CRF::loadWeights(std::string inFile)
 	while (std::getline(file, curLine))
 	{
 
-		curTokens = tokenize<std::string, ' '>(curLine);
+		curTokens = tokenize<std::string>(curLine);
 
 		if (curTokens[0] == ";")
 		{
@@ -421,7 +421,7 @@ void MLearn::CRF::loadWeights(std::string inFile)
 
 	while (std::getline(file, curLine))
 	{
-		curTokens = tokenize<std::string, ' '>(curLine);
+		curTokens = tokenize<std::string>(curLine);
 
 		std::pair<std::string, std::string> element = std::pair(curTokens[0], curTokens[1]);
 		float value = std::stof(curTokens[2]);
