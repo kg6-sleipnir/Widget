@@ -363,8 +363,8 @@ void MLearn::LogRegTest2()
 void MLearn::CRFTest()
 {
 
-#define TAG_FILE "./Machine Learning/Training Data/TOS data/Original Data/tags.txt"
-#define WORD_FILE "./Machine Learning/Training Data/TOS data/Original Data/Words.txt"
+#define TAG_FILE "./Machine Learning/Training Data/POS data/Original Data/tags.txt"
+#define WORD_FILE "./Machine Learning/Training Data/POS data/Original Data/Words.txt"
 
 	srand(5);
 
