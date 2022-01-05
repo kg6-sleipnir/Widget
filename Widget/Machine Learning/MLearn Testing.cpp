@@ -550,7 +550,7 @@ void MLearn::CRFTest()
 			else if (i == 4000) //clear f1 scores going into testing period
 			{
 				test.clearF1Scores();
-				test.removeWeights(-0.15f, 0.15f);
+				test.removeWeights(-0.13f, 0.13f);
 				test.saveWeights("./CRFtestOutput.sav");
 				test.freezeWeights();
 			}

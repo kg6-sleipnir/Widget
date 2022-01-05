@@ -18,23 +18,23 @@ namespace MLearn
 		const std::vector<std::string> tags = 
 		{
 			"NUL",	// 0 Placeholder for attemps to get non existing word
-			"CC",	// 1 Coordinating conjunction
-			"CD",	// 2 Cardinal number
-			"DT",	// 3 Determiner / Article
-			"FW",	// 4 Foreign word
-			"IN",	// 5 Preposition or subordinating conjunction
-			"JJ",	// 6 Adjective
-			"MD",	// 7 Modal
-			"NN",	// 8 Noun, singular or mass
-			"POS",	// 9 Possessive ending
-			"PRP",	// 10 Personal pronoun
-			"RB",	// 11 Adverb
+			"CCONJ",// 1 Conjuctions
+			"NUM",	// 2 Cardinal number
+			"DET",	// 3 Determiner / Article
+			"X",	// 4 Extra words
+			"ADP",	// 5 Adpositions
+			"ADJ",	// 6 Adjective
+			"NOUN",	// 7 Noun
+			"PROPN",// 8 Proper noun
+			"PRON", // 9 Pronoun
+			"PART",	// 10 Particle
+			"ADV",	// 11 Adverbs
 			"SYM",	// 12 Symbol
-			"VB",	// 13 Verb, base form
-			",",	// 14 ","
-			".",	// 15 "."
-			"START",// 16 start tag for extra tag before sentence starts
-			"STOP"  // 17 stop tag for after sentence ends
+			"VERB",	// 13 Verb
+			"PUNCT",// 14 punctuation
+			".",	// 15 Period
+			"START",// 16 start tag
+			"STOP"  // 17 stop tag
 		};
 
 

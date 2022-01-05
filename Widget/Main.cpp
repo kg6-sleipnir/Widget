@@ -32,30 +32,6 @@ using namespace MLearn;
 int main()
 {
 	
-	PosTagCRF test;
-
-	test.loadWeights("./Machine Learning/Saved Weights/POS Weights/PosCRFweights.sav");
-
-	while (true)
-	{
-
-		std::string in;
-		std::getline(std::cin, in);
 	
-		std::vector<std::string> tokens;
-
-		tokens = tokenize<std::string>(in);
-
-		test.createDataset(tokens);
-
-		std::vector<std::pair<int, int>> predictions = test.viterbi();
-
-		for (int i = 0; i < tokens.size(); i++)
-		{
-
-			std::cout << predictions.at(i).second << " " << test.tagList->at(predictions.at(i).second) << " " << tokens.at(i) << "\n";
-
-		}
-	}
 
 }
