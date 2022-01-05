@@ -150,6 +150,7 @@
     <ClCompile Include="Custom Libraries\Mat.cpp" />
     <ClCompile Include="Data Handling\Dual File Reader.cpp" />
     <ClCompile Include="Data Handling\Data Table.cpp" />
+    <ClCompile Include="Input Processing\Lemmatizer\Lemmatizer.cpp" />
     <ClCompile Include="Machine Learning\CRF.cpp" />
     <ClCompile Include="Machine Learning\Decision Tree.cpp" />
     <ClCompile Include="Machine Learning\Logistic Regression.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Custom Libraries\Mat.h" />
     <ClInclude Include="Data Handling\Dual File Reader.h" />
     <ClInclude Include="Data Handling\Data Table.h" />
+    <ClInclude Include="Input Processing\Lemmatizer\Lemmatizer.h" />
     <ClInclude Include="Input Processing\Tokenizer.h" />
     <ClInclude Include="Machine Learning\CRF.h" />
     <ClInclude Include="Machine Learning\Decision Tree.h" />
