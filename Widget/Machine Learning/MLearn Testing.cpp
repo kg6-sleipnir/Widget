@@ -363,8 +363,8 @@ void MLearn::LogRegTest2()
 void MLearn::CRFTest()
 {
 
-#define TAG_FILE "./Conditional Random Field/POS data/Tags.txt"
-#define WORD_FILE "./Conditional Random Field/POS data/Words.txt"
+#define TAG_FILE "../Sentence Processing/POS data/Tags.txt"
+#define WORD_FILE "../Sentence Processing/POS data/Words.txt"
 
 	srand(5);
 
