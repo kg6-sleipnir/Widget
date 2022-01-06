@@ -221,7 +221,7 @@ void MLearn::LogRegTest2()
 	for (int k = 0; k < 1; k++)
 	{
 		//open the file
-		file.open("./Machine Learning/Training Data/Power Plant Data TRAIN.txt", std::ios::in);
+		file.open("./Logistic Regression/Power Plant Tables/Power Plant Data TRAIN.txt", std::ios::in);
 
 		//iterate over the lines in the file and get line as a string
 		for (int j = 0; std::getline(file, curLine); j++)
@@ -302,7 +302,7 @@ void MLearn::LogRegTest2()
 	
 	//make predictions on prediction file
 	{
-		file.open("./Machine Learning/Training Data/Power Plant Data PREDICT.txt", std::ios::in);
+		file.open("./Logistic Regression/Power Plant Tables/Power Plant Data PREDICT.txt", std::ios::in);
 
 
 		//create empty space in console to separate learning and predictions
@@ -363,8 +363,8 @@ void MLearn::LogRegTest2()
 void MLearn::CRFTest()
 {
 
-#define TAG_FILE "./Machine Learning/Training Data/POS data/Original Data/tags.txt"
-#define WORD_FILE "./Machine Learning/Training Data/POS data/Original Data/Words.txt"
+#define TAG_FILE "./Conditional Random Field/POS data/Tags.txt"
+#define WORD_FILE "./Conditional Random Field/POS data/Words.txt"
 
 	srand(5);
 

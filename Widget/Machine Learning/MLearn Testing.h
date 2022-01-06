@@ -4,10 +4,10 @@
 #include <iostream>
 #include <string>
 
-#include "Decision Tree.h"
+#include "./Desicion Trees/Decision Tree.h"
 #include "../Data Handling/Dual File Reader.h"
-#include "Logistic Regression.h"
-#include "POS Tagger CRF.h"
+#include "./Logistic Regression/Logistic Regression.h"
+#include "./Conditional Random Field/POS Tagger CRF.h"
 
 
 namespace MLearn

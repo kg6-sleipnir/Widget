@@ -11,8 +11,8 @@
 #include <time.h>
 #include <vector>
 
-#include "../Input Processing/Tokenizer.h"
-#include "../Custom Libraries/Mat.h"
+#include "../../Input Processing/Tokenizer.h"
+#include "../../Custom Libraries/Mat.h"
 
 #define _USE_MATH_DEFINES
 #include <cmath>
