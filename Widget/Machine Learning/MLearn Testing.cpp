@@ -368,7 +368,7 @@ void MLearn::CRFTest()
 
 	srand(5);
 
-	PosTagCRF test;
+	SenProc::PosTagCRF test;
 
 	//vector to hold accuracy of each iteration over past 100 iterations
 	std::vector<float> averageAccuracy(100, 0);

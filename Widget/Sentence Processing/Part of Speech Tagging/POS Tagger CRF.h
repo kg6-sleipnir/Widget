@@ -6,11 +6,11 @@
 
 
 
-namespace MLearn
+namespace SenProc
 {
 
 	//Conditional Random Field for predicting parts of speech for words in a sentence
-	class PosTagCRF : public CRF
+	class PosTagCRF : public MLearn::CRF
 	{
 	private:
 
