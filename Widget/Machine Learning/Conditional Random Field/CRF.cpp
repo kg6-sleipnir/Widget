@@ -371,6 +371,11 @@ void MLearn::CRF::saveWeights(std::string outputFile)
 	std::fstream file;
 	file.open(outputFile, std::ios::out);
 
+	if (!file)
+	{
+		throw CRF_Error("Could not save file");
+	}
+
 	//output weights
 	for (const auto [element, value] : featureFunctionWeights)
 	{
@@ -395,6 +400,11 @@ void MLearn::CRF::loadWeights(std::string inFile)
 
 	std::fstream file;
 	file.open(inFile, std::ios::in);
+
+	if (!file)
+	{
+		throw CRF_Error("Could not open file");
+	}
 
 	std::string curLine;
 	std::vector<std::string> curTokens;
