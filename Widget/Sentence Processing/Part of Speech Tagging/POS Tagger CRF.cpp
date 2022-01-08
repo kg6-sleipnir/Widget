@@ -1,6 +1,6 @@
 #include "POS Tagger CRF.h"
 
-MLearn::PosTagCRF::PosTagCRF()
+SenProc::PosTagCRF::PosTagCRF()
 {
 
 	tagAmount = tags.size();
@@ -12,7 +12,7 @@ MLearn::PosTagCRF::PosTagCRF()
 
 }
 
-std::vector<std::vector<std::string>> MLearn::PosTagCRF::createFeatures(std::vector<std::string> tokens)
+std::vector<std::vector<std::string>> SenProc::PosTagCRF::createFeatures(std::vector<std::string> tokens)
 {
 	//vector to hold features of all tokens separately
 	std::vector<std::vector<std::string>> features;
@@ -151,7 +151,7 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::createFeatures(std::vec
 		case 0: //I don't think that this case would ever happen but just in case
 
 			//error handling with SaRcAsM
-			throw CRF_Error("Encountered Null Token When Getting First/Last letter features");
+			throw MLearn::CRF_Error("Encountered Null Token When Getting First/Last letter features");
 			break;
 		}
 
@@ -174,7 +174,7 @@ std::vector<std::vector<std::string>> MLearn::PosTagCRF::createFeatures(std::vec
 	return features;
 }
 
-void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
+void SenProc::PosTagCRF::createDataset(std::vector<std::string> tokens)
 {
 	
 	//clear previous probability matrices
@@ -194,7 +194,7 @@ void MLearn::PosTagCRF::createDataset(std::vector<std::string> tokens)
 
 }
 
-void MLearn::PosTagCRF::printF1Scores()
+void SenProc::PosTagCRF::printF1Scores()
 {
 	int totalTruePositive = 0;
 	int totalFalsePositive = 0;
@@ -229,12 +229,12 @@ void MLearn::PosTagCRF::printF1Scores()
 	std::cout << "Total scores: " << totalPrecision << ",   " << totalRecall << ",   " << 2 * ((totalPrecision * totalRecall) / (totalPrecision + totalRecall)) << ",   " << TotalTagCount << "\n\n";
 }
 
-void MLearn::PosTagCRF::clearF1Scores()
+void SenProc::PosTagCRF::clearF1Scores()
 {
 	tagF1Frequencies.clear();
 }
 
-void MLearn::PosTagCRF::addToF1Scores(std::string correctTag, std::string predictedTag)
+void SenProc::PosTagCRF::addToF1Scores(std::string correctTag, std::string predictedTag)
 {
 
 	if (correctTag == predictedTag) //check if predicted tag is the correct tag
