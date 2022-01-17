@@ -3,44 +3,23 @@
 #include <any>
 #include <eh.h>
 #include <iostream>
+#include <map>
 #include <stdarg.h>
 #include <string>
 #include <typeinfo>
 #include <vector>
 
+#include "../Custom Libraries/Switch Type.h"
+#include "../Custom Libraries/Vector Converter.h"
 
-//"the root of all evil is the tokenizer" -me
-//"and periods" -also me
-
-
-//I swear if this code breaks again I will go crazy
-//im going crazy, can you guess why?
-//i think its finally done now... maybe... hopefully...
-//nope, i had to fix it many... MANY more times
-
-//rewrote the whole thing for a second time :(
-
-//and now a third time cause I'm an idiot for not just using delimiters
-//now I'm going to have to go back and update everything that uses the tokenizer
-
-//error object for tokenizer
-struct Tokenizer_Error : public std::exception
-{
-	//construct an error with a message
-	Tokenizer_Error(char const* const message) : std::exception(message) {}
-
-	//get error message
-	virtual char const* what() const noexcept
-	{
-		return std::exception::what();
-	}
-};
-
-
-//turns a string into a set of tokens of a specified type
-//valid return types are [ INT, DOUBLE, CHAR, STD::STRING ]
-template<class type, class ... d> 
-std::vector<type> tokenize(std::string input, d... delimiters)
+/// <summary>
+/// turns a string into a set of tokens of a specified type
+/// </summary>
+/// <param name="input">- input string</param>
+/// <param name="...delimiters">- list of delimiter characters</param>
+/// <returns>returns vector of an expected variable type - valid return types are [ INT, DOUBLE, CHAR, FLOAT, STD::STRING ]</returns>
+template<class type, class ... delim> 
+std::vector<type> tokenize(std::string input, delim... delimiters)
 {
 	//temporary values to store current and created tokens
 	std::vector<std::string> tokens;
@@ -88,77 +67,37 @@ std::vector<type> tokenize(std::string input, d... delimiters)
 		}
 	}
 
-	
-	if (!std::is_same<std::string, type>::value) //check if wanted datatype is not a string
+
+	switch (switchType[typeid(type).name()])
 	{
-		if (std::is_same<int, type>::value) //wanted datatype is int
-		{
-			std::vector<int> iTokens;
-
-			try
-			{
-				for (const auto& i : tokens) //convert string tokens to int
-				{
-					iTokens.push_back(std::stoi(i));
-				}
-			}
-			catch (...)
-			{
-				throw Tokenizer_Error("Type: \"std::string\" could not be converted to type: \"int\")");
-			}
-
-			finTokens = iTokens; //set return value
-		}
-		else if (std::is_same<double, type>::value) //wanted datatype is double
-		{
-			std::vector<double> dTokens;
-
-			try
-			{
-				for (const auto& i : tokens) //convert string tokens to double
-				{
-					dTokens.push_back(std::stod(i));
-				}
-			}
-			catch (...)
-			{
-				throw Tokenizer_Error("Type: \"std::string\" could not be converted to type: \"double\")");
-			}
-
-			finTokens = dTokens; //set return value
-		}
-		else if (std::is_same<char, type>::value) //wanted datatype is char
-		{
-			std::vector<char> cTokens;
-
-				
-			for (int i = 0; i < tokens.size(); i++) //convert string tokens to char
-			{
-				cTokens.push_back(tokens[i][0]);
-
-				if (tokens[i][1]) //check if tokens contain more than one character
-				{
-					throw Tokenizer_Error("Type: \"std::string\" could not be converted to type: \"char\")");
-				}
-			}
-				
-
-			finTokens = cTokens; //set return value
-		}
-		else
-		{
-			finTokens = "";
-
-
-			//throw error if wanted datatype is not supported with some string trickery
-			throw Tokenizer_Error("Invalid Tokenizer Data Type");
-		}
-	}
-	else //if wanted datatype is string set return value with string tokens
-	{
+	case str:
+		
 		finTokens = tokens;
-	}
+		break;
+
+	case i:
+
+		finTokens = convertToInt(tokens);
+		break;
+
+	case d:
+
+		finTokens = convertToDouble(tokens);
+		break;
+
+	case f:
 	
+		finTokens = convertToFloat(tokens);
+		break;
+
+	case c:
+
+		finTokens = convertToChar(tokens);
+		break;
+
+	default:
+		throw Tokenizer_Error("Invalid return type in tokenizer");
+	}
 
 	return std::any_cast<std::vector<type>>(finTokens);;
 }
