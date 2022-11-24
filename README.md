@@ -1,5 +1,5 @@
 # Widget
 
-Just a journy I have embarked on to try to create a chat bot program using only the standard c++ library before I graduate college.
+The goal of this project was to create a chatbot that uses natural language processing to process a sentence as input and generate a new sentence as a responce.
 
-It has been a rough journey so far but I am learning a lot.
+It has been awhile since I have even touched this project, and it might never even get completed. However, I am still glad I have accomplished this much as it was a great learning experience.
